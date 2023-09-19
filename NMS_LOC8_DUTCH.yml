@@ -202,7 +202,7 @@ nl:
     ui_monolith_nub_charge: OVERBELASTEN
     ui_monolith_nub_charge_sub: Resoneer het symbool met %TYPE%
     ui_robot_head_probe_desc: Doorzoek de geheugenregisters voor harmonische echo's
-    recipe_gunkheart: 'Aangevraagde bewerking: Slijm/echo-infusie'
+    recipe_gunkheart: 'Aangevraagde bewerking: Reanimatie'
     r_name_gunkheart: Slijm/echo-infusie
     ui_pin_spacegunk4_obj_tip: Je vindt <SPECIAL>levend slijm<> in vergeten uithoeken
       van het universum of je kunt het zelf proberen te maken door <SPECIAL>atlantideum<>
@@ -249,7 +249,7 @@ nl:
     r_name_lava1_1: Vulkanische transmutatie
     r_name_lava1_2: Vulkanische transmutatie
     ui_shield_generator_name: Schildgenerator voor vrachtschip
-    ui_weakpoint_name: Zwak punt van vrachtschip
+    ui_weakpoint_name: Blootgestelde brandstofstaaf
     ui_torpedo_name: Anti-vrachtschiptorpedo
     ui_torpedo_launch_osd: TORPEDOSIGNAAL GEDETECTEERD <IMG>SLASH<> 10 SECONDEN TOT
       LANCERING
@@ -263,7 +263,8 @@ nl:
     ui_battle_bar_civ: KOOPVAARDIJSCHIP AANGEVALLEN <IMG>SLASH<> <STELLAR>%NAME%<>
     ui_battle_bar_civ_shield: Vlieg onder schilden door om de <STELLAR>schildgeneratoren<>
       van het vrachtschip te vernietigen
-    ui_battle_bar_civ_shield_alt: Vlaggenschip aangevallen
+    ui_battle_bar_civ_shield_alt: Beschadig schilden om de <STELLAR>romp<> en <STELLAR>vrachtcapsules<>
+      bloot te stellen
     ui_battle_bar_title: SLAGSCHIP AANGEVALLEN <IMG>SLASH<> <STELLAR>%NAME%<>
     ui_battle_bar_shield_level: 'SCHILDEN: %NUM%%'
     ui_battle_bar_health_level: 'ROMP: %NUM%%'
@@ -271,7 +272,8 @@ nl:
     ui_battle_bar_health_level_alt: ROMP
     ui_battle_bar_torpedo_title: TORPEDOLANCERING GEDETECTEERD
     ui_battle_bar_torpedo_warn: Torpedolancering over <FUEL>%COUNTDOWN%<> s
-    ui_battle_bar_torpedo_count: 'Inkomende torpedo''s: <FUEL>%TORPEDOES%<>'
+    ui_battle_bar_torpedo_count: 'Binnenkomende torpedo''s: <FUEL>%TORPEDOES%<> <IMG>SLASH<>
+      Romp van civiel schip op <STELLAR>%HULL%%<>'
     ui_battle_bar_shield_hint: Vlieg onder schilden door om de <STELLAR>schildgeneratoren<>
       van het slagschip te vernietigen
     ui_battle_bar_escape_title: SLAGSCHIP PROBEERT TE ONTSNAPPEN
@@ -279,17 +281,17 @@ nl:
       Resterende oplaadtijd: <FUEL>%COUNTDOWN%<>'
     ui_battle_bar_defeat_title: SLAGSCHIP VERSLAGEN
     ui_battle_bar_escaped_title: SLAGSCHIP ONTSNAPT
-    ui_battle_bar_retreated_title: SLAGSCHIP ONTSNAPT
+    ui_battle_bar_retreated_title: SLAGSCHIP TERUGGETROKKEN
     ui_battle_bar_defeat_hint: Ga aan boord om over voorwaarden te onderhandelen <IMG>SLASH<>
       Vernietig voor een flinke premie
     ui_battle_bar_defeat_hint_alt1: Civiele vloot gered van piraten!
     ui_battle_bar_defeat_hint_alt2: Civiele vloot verloren in de strijd
-    ui_battle_bar_defeat_hint_alt3: "%NAME% hebben gewonnen"
+    ui_battle_bar_defeat_hint_alt3: Overwinning voor %NAME%
     ui_civilian_fleet_shield_osd: WAARSCHUWING <IMG>SLASH<> CIVIELE VLOOT KWETSBAAR
-    ui_pirate_frei_escaped_osd: 'WARPPIEK GEDETECTEERD <IMG>SLASH<> PIRATENSLAGSCHIP
-      ONTSNAPT '
-    ui_pirate_frei_retreat_osd: 'WARPPIEK GEDETECTEERD <IMG>SLASH<> PIRATENSLAGSCHIP
-      ONTSNAPT '
+    ui_pirate_frei_escaped_osd: Piratensignaal verloren <IMG>SLASH<> Het slagschip
+      is ontsnapt
+    ui_pirate_frei_retreat_osd: Piratenslagschip is ontsnapt uit het stelsel <IMG>SLASH<>
+      Civiele vloot gered
     ui_pirate_frei_shield_down_osd: SCHILDGENERATOREN VERNIETIGD <IMG>SLASH<> SLAGSCHIP
       KWETSBAAR
     ui_battle_bar_shield_down: SCHILDEN VAN SLAGSCHIP UITGESCHAKELD
@@ -327,10 +329,11 @@ nl:
     ui_engine_target_name: Warpmotoren van vrachtschip
     ui_pirate_freighter_title: Piratenslagschip aangevallen
     ui_pirate_frei_escape_title: Piratenslagschip ontsnapt
-    ui_pirate_frei_retreat_title: Piratenslagschip ontsnapt
+    ui_pirate_frei_retreat_title: Piratenslagschip teruggetrokken
     ui_pirate_frei_win_title: Piratenslagschip verslagen
     ui_pirate_frei_lose_title: Civiele vloot verslagen
-    ui_pirate_civ_killed_osd: Civiele vloot verslagen
+    ui_pirate_civ_killed_osd: Civiel vlaggenschip vernietigd <IMG>SLASH<> Overwinning
+      voor %NAME%
     ui_pirate_engine_marker_sub: Vernietig om warp te annuleren
     ui_pirate_trench_marker_sub: Vlieg onder de schilden van het slagschip door
     ui_pirate_shield_marker_sub: Schakel de rompschilden uit
@@ -340,7 +343,7 @@ nl:
       Schildintegriteit van <FUEL>piratenslagschip<>: %SHIELD%%
       %CIV_STATUS%
     ui_pirate_frei_msg2: |-
-      Richt op de <STELLAR>zwakke punten<> van het slagschip om de romp te beschadigen
+      Richt op de <STELLAR>brandstofstaven<> van het slagschip om de romp te beschadigen
       Rompintegriteit van <FUEL>slagschip<>: %HULL%%
       %CIV_STATUS%
     ui_pirate_frei_msg3: |-
@@ -364,7 +367,7 @@ nl:
       Schildintegriteit van <FUEL>piratenslagschip<>: %SHIELD%%
       Romp van <TRADEABLE>persoonlijk<> vrachtschip op: %CIV_HULL%%
     ui_pirate_frei_msg2_alt: |-
-      Richt op de <STELLAR>zwakke punten<> van het slagschip om de romp te beschadigen
+      Richt op de <STELLAR>brandstofstaven<> van het slagschip om de romp te beschadigen
       Rompintegriteit van <FUEL>slagschip<>: %HULL%%
       Romp van <TRADEABLE>persoonlijk<> vrachtschip op: %CIV_HULL%%
     ui_pirate_frei_msg3_alt: |-
@@ -384,7 +387,7 @@ nl:
       Schildintegriteit van <FUEL>piratenslagschip<>: %SHIELD%%
       Romp van <TRADEABLE>%NAME%<> op: %CIV_HULL%%
     ui_pirate_frei_msg2_alt2: |-
-      Richt op de <STELLAR>zwakke punten<> van het slagschip om de romp te beschadigen
+      Richt op de <STELLAR>brandstofstaven<> van het slagschip om de romp te beschadigen
       Rompintegriteit van <FUEL>slagschip<>: %HULL%%
       Romp van <TRADEABLE>%NAME%<> op: %CIV_HULL%%
     ui_pirate_frei_msg3_alt2: |-
@@ -414,21 +417,18 @@ nl:
     ui_pirate_frei_msg9: |-
       Piratenslagschip <FUEL>vernietigd<>
       Benader <TECHNOLOGY>piratenfregatten<> om overlevenden te rekruteren
-      Civiele vloot <TRADEABLE>gered<> van piraten
-      Aanzienlijke <STELLAR>premie<> toegekend
+      Civiele vloot <TRADEABLE>gered<> van piraten: aanzienlijke <STELLAR>premie<> toegekend
     ui_pirate_frei_msg10: |-
       Piratenslagschip <FUEL>vernietigd<>
       Benader <TECHNOLOGY>piratenfregatten<> om overlevenden te rekruteren
-      Civiele vloot <FUEL>vernietigd<>
-      <TECHNOLOGY>Schroot<> van slagschip toegekend
+      Civiele vloot <FUEL>vernietigd<><TECHNOLOGY>Schroot<> van slagschip verzameld
     ui_pirate_frei_msg11: |-
-      Piratenslagschip <FUEL>ontsnapt<>
-      Civiele vloot <TRADEABLE>gered<> van piraten
-      Bescheiden <STELLAR>premie<> toegekend
+      Piratenslagschip <FUEL>teruggetrokken<>
+      Civiele vloot <TRADEABLE>gered<> van piraten: bescheiden <STELLAR>premie<> toegekend
     ui_pirate_frei_msg12: |-
-      Piratenslagschip ontsnapt
-      Civiele vloot verslagen
-      %NAME% hebben gewonnen
+      Piratenslagschip <FUEL>ontsnapt<>
+      Civiele vloot is <FUEL>vernietigd<>
+      %NAME% kan doorplunderen
     ui_pirate_frei_hull_msg: Civiele schilden uitgeschakeld! Romp houdt stand op <STELLAR>%CIV_HULL%%<>
     ui_pirate_frei_shield_msg: Schild van civiel vrachtschip op <STELLAR>%CIV_SHIELD%%<>
     ui_pirate_frei_civ_dead_msg: Civiele vloot <FUEL>vernietigd<> <IMG>SLASH<> Beloningen
@@ -453,7 +453,7 @@ nl:
       ronden
     ui_mod_customiser_transfer: Stafonderdeel toevoegen
     basestats_staffgun_l: Voltaïsche staf
-    ui_wonder_glyphs: 'Adres van portaal: %PORTAL%'
+    ui_wonder_glyphs: "<SPECIAL>Adres van portaal:<> %PORTAL%"
     ui_pending_wonder_title: Nieuw wonder
     ui_pending_wonder_sub: Geef je nieuwe categorie een naam
     quick_menu_sum_not_your_frei: Niet aan boord van je eigen vlaggenschip
@@ -524,14 +524,20 @@ nl:
       Gebruik de <STELLAR>rem<> (<IMG>BRAKE<>) om snel om te draaien
       Wissel tussen de <TECHNOLOGY>vermogensinstellingen<> van het schip met <IMG>CYCLE_POWER<>
     ui_standing_pir_msg: 'Reputatie verbeterd: Bandieten'
-    ui_standing_pir_down_msg: 'Reputatie verbeterd: Bandieten'
-    ui_cost_salvage_motes: "%AMOUNT% Leegte-stofdeeltjes"
-    ui_ingred_out_of_range_osd: ''
-    ui_ingred_out_of_range_msg: ''
-    ui_pin_tech_final_range_msg: ''
-    ui_pin_tech_repair_range_msg: ''
-    ui_install_tech_label: ''
-    ui_pin_progress_range_msg: ''
+    ui_standing_pir_down_msg: 'Reputatie verslechterd: Bandieten'
+    ui_cost_salvage_motes: Verwerk tot %AMOUNT% Leegte-stofdeeltjes
+    ui_ingred_out_of_range_osd: "%ITEM% beschikbaar in <STELLAR>inventaris %INV%<>"
+    ui_ingred_out_of_range_msg: "%ITEM% beschikbaar in <STELLAR>inventaris %INV%<>"
+    ui_pin_tech_final_range_msg: |-
+      Open de inventaris (<IMG>INVENTORY<>) om de installatie te voltooien
+      Gebruik <IMG>TECHMENU<> om gedeeltelijk geïnstalleerde technologie te controleren
+      %ITEM% beschikbaar in <STELLAR>inventaris %INV%<>
+    ui_pin_tech_repair_range_msg: |-
+      Open de inventaris (<IMG>INVENTORY<>) om de reparatie te voltooien
+      Gebruik <IMG>TECHMENU<> om beschadigde technologie te controleren
+      %ITEM% beschikbaar in <STELLAR>inventaris %INV%<>
+    ui_install_tech_label: Technologie Installeren
+    ui_pin_progress_range_msg: "%ITEM% beschikbaar in <STELLAR>inventaris %INV%<>"
     update15_title: NO MAN'S SKY INTERCEPTOR
     update15_notes: |-
       No Man's Sky INTERCEPTOR bevat nieuwe ruimteschepen, een nieuw type wereld, spannende gevechten en nog veel meer. Ga voor meer info naar www.nomanssky.com.
@@ -704,8 +710,8 @@ nl:
     ui_sent_freighter_name: Sentinel-vlaggenschip
     ui_police_freight_destroyed_osd: Vlaggenschip verslagen <IMG>SLASH<> Sentinel-troepen
       trekken zich terug
-    ui_sentfrei_prod_name: AI-FRAGMENT VAN DREADNOUGHT
-    ui_sentfrei_prod_name_l: AI-fragment van dreadnought
+    ui_sentfrei_prod_name: AI-FRAGMENT VAN TRANSPORTSCHIP
+    ui_sentfrei_prod_name_l: Ai-Fragment Van Transportschip
     ui_sentfrei_prod_desc: |-
       Een kleine splinter van het kolossale mainframe in de kern van een Sentinel-vlaggenschip. Het fragment knippert en het eenzame levende oog richt zich uitsluitend op het ene stukje data dat het behoudt: de laatst bekende locatie van een zijn vloten <TECHNOLOGY>interceptors<>.
 
@@ -1358,8 +1364,8 @@ nl:
       Dit proces van gerecyclede fusie was <TECHNOLOGY>nog niet klaar<> toen dit gereedschap werd verkregen. Gebruik <IMG>REPAIR<> om door te gaan met repareren en dit vak vrij te maken voor algemeen gebruik.
     ui_sentinel_galmap_title: Spoor van Sentinel-interceptor
     ui_sentinel_galmap_sub: Vind het verdwenen ruimteschip
-    ui_sentinel_galmap_desc: |-
-      Ik heb een <TECHNOLOGY>AI-fragment van dreadnought<> verkregen, het laatste overblijfsel van een vernietigd Sentinel-vlaggenschip. De laatste flits van gegevens was de locatie van een verdwenen interceptor die van de vloot werd gescheiden.
+    ui_sentinel_galmap_desc: |
+      Ik heb een <TECHNOLOGY>AI-fragment van een transportschip<> verkregen, het laatste overblijfsel van een vernietigd Sentinel-vlaggenschip. De laatste flits van gegevens was de locatie van een verdwenen interceptor die van de vloot werd gescheiden.
 
       Het spoor leidt naar de planeet %PLANET% in het stelsel %SYSTEM%. Als ik het signaal kan volgen, zijn alle overblijfselen van dit Sentinel-schip van mij.
     ui_sentinel_galmap_obj: Volg het signaal naar de bron
@@ -2785,11 +2791,11 @@ nl:
       Als je nieuwe basisonderdelen wilt kopen, moet je eerst <STELLAR>geborgen gegevens<> verkrijgen. Je haalt ze uit <TECHNOLOGY>begraven technologie<> op planeten. Gebruik het <TECHNOLOGY>analysevizier<> om deze relikwieën te vinden en te markeren, en graaf ze daarna op met de <TECHNOLOGY>terreinvervormer<>.
     ui_exped_build_part_msg1: |-
       Leer de constructieblauwdruk voor <TECHNOLOGY>%ITEM%<>
-      Blauwdrukken zijn te koop bij de <STELLAR>terminal voor constructieonderzoek<>
-      De terminal vind je op de <SPECIAL>anomalie in de ruimte<>
+      Voltooi mijlpaal <EXPED>%MILESTONE%<> om deze blauwdruk te leren
+      Selecteer mijlpalen in het expeditielogboek (<IMG>OPTIONS<>)
     ui_exped_build_part_msg1_alt: |-
       Leer de constructieblauwdruk voor <TECHNOLOGY>%ITEM%<>
-      Blauwdrukken zijn te koop bij de <STELLAR>terminal voor constructieonderzoek<>
+      Blauwdrukken zijn te koop bij de <STELLAR>bouwkundige onderzoeksterminal<>
       De terminal vind je op de <SPECIAL>anomalie in de ruimte<>
     ui_exped_build_part_msg2: |-
       Bouw een <TECHNOLOGY>%ITEM%<>
@@ -5387,9 +5393,16 @@ nl:
       snelheid met <FUEL>boost<> (<IMG>BOOST<>) en <VAL_ON>rem<> (<IMG>BRAKE<>) om
       achter je doelwit te blijven. \nKoop ruimteschipupgrades van een <TECHNOLOGY>technologiehandelaar<>
       in een ruimtestation."
-    ui_medal_freikill: ''
-    ui_journey_next_freikill: ''
-    ui_medal_desc_freikill: ''
+    ui_medal_freikill: Vrachtschepen geplunderd
+    ui_journey_next_freikill: zendingen geplunderd
+    ui_medal_desc_freikill: "Enorme handelsschepen doorkruisen het sterrenstelsel
+      en verplaatsen zowel legale als illegale goederen van het ene stelsel naar het
+      andere, op zoek naar winst. Deze zware schepen zijn een gemakkelijke prooi voor
+      een meesterpiraat.\n\nDruk op <IMG>SHIPFIRE<> om de <VAL_ON>wapens<> van je
+      schip te gebruiken. Je selecteert wapenstanden met <IMG>SHIPCYCLEWEAPON<>. Regel
+      je snelheid met <FUEL>boost<> (<IMG>BOOST<>) en <VAL_ON>rem<> (<IMG>BRAKE<>)
+      om achter je doelwit te blijven. \nKoop ruimteschipupgrades van een <TECHNOLOGY>technologiehandelaar<>
+      in een ruimtestation."
     pirate_standing_stat_lvl_msg: RANG BIJ BANDIETEN %STAT% / 9
     pirate_player_rank_bad: Verrader
     pirate_player_rank_low: Overloper
@@ -5436,29 +5449,29 @@ nl:
     ui_traders_killed_title_8: Meest gezocht
     ui_traders_killed_title_9: Vleugels van gevaar
     ui_traders_killed_title_10: Heer van de plundering
-    ui_player_tdesc_bounty: 'Mijlpaal: Premies voltooid'
+    ui_player_tdesc_bounty: Voltooi meer ruimtescheepspremies
     ui_player_title_bounty1: Scherpschutter %NAME%
     ui_player_title_bounty2: Sterrenwolf %NAME%
-    ui_title_owned_bounty1: 'Mijlpaal: Premies voltooid'
-    ui_title_owned_bounty2: 'Mijlpaal: Premies voltooid'
-    ui_player_tdesc_raid: 'Mijlpaal: Handelaren geplunderd'
-    ui_player_title_raid1: "%NAME% Irritatie"
-    ui_player_title_raid2: "%NAME% Meest gezocht"
-    ui_player_title_raid3: "%NAME% Vleugels van gevaar"
-    ui_player_title_raid4: "%NAME% Heer van de plundering"
-    ui_title_owned_raid1: 'Mijlpaal: Handelaren geplunderd'
-    ui_title_owned_raid2: 'Mijlpaal: Handelaren geplunderd'
-    ui_title_owned_raid3: 'Mijlpaal: Handelaren geplunderd'
-    ui_title_owned_raid4: 'Mijlpaal: Handelaren geplunderd'
-    ui_player_tdesc_pir: 'Mijlpaal: Reputatie bij bandieten'
-    ui_player_title_pir1: "%NAME% Ruimrat"
-    ui_player_title_pir2: "%NAME% Kaper"
+    ui_title_owned_bounty1: Rang 8 voor ruimtescheepspremies bereikt
+    ui_title_owned_bounty2: Maximale rang voor ruimtescheepspremies bereikt
+    ui_player_tdesc_raid: Plunder meer handelaars
+    ui_player_title_raid1: "%NAME%, de lastpost"
+    ui_player_title_raid2: "%NAME%, de meest gezochte"
+    ui_player_title_raid3: "%NAME%, vleugels van gevaar"
+    ui_player_title_raid4: "%NAME%, heer van de plundering"
+    ui_title_owned_raid1: Rang 2 voor geplunderde handelaren bereikt
+    ui_title_owned_raid2: Rang 7 voor geplunderde handelaren bereikt
+    ui_title_owned_raid3: Rang 8 voor geplunderde handelaren bereikt
+    ui_title_owned_raid4: Maximale rang voor geplunderde handelaren bereikt
+    ui_player_tdesc_pir: Verbeter je reputatie bij de bandieten
+    ui_player_title_pir1: Ruimrat %NAME%
+    ui_player_title_pir2: Kaper %NAME%
     ui_player_title_pir3: Gevreesde piraat %NAME%
-    ui_player_title_pir4: "%NAME% Admiraal van de Zwarte"
-    ui_title_owned_pir1: 'Mijlpaal: Reputatie bij bandieten'
-    ui_title_owned_pir2: 'Mijlpaal: Reputatie bij bandieten'
-    ui_title_owned_pir3: 'Mijlpaal: Reputatie bij bandieten'
-    ui_title_owned_pir4: 'Mijlpaal: Reputatie bij bandieten'
+    ui_player_title_pir4: "%NAME%, admiraal van de Zwarte"
+    ui_title_owned_pir1: Rang 1 bereikt bij de bandieten
+    ui_title_owned_pir2: Rang 2 bereikt bij de bandieten
+    ui_title_owned_pir3: Rang 7 bereikt bij de bandieten
+    ui_title_owned_pir4: Maximale rang bereikt bij de bandieten
     ui_wiki_shipkill_name: 'Mijlpaal: Handelaren geplunderd'
     ui_wiki_shipkill_obj: 'Vernietig handelsschepen: %CURRENT%/%AMOUNT%'
     ui_wiki_shipkill_desc: Verbeter je rang in de mijlpaal <STELLAR>Handelaren geplunderd<>
@@ -5469,10 +5482,16 @@ nl:
       Handelsschepen vernietigd: %CURRENT%/%AMOUNT%
       Vind en vernietig kleine handelsschepen in de ruimte
       Handelaren vliegen vaak tussen <TECHNOLOGY>ruimtestations<> en <TECHNOLOGY>planetaire buitenposten<>
-    ui_wiki_freikill_name: ''
-    ui_wiki_freikill_obj: ''
-    ui_wiki_freikill_desc: ''
-    ui_wiki_freikill_msg: ''
+    ui_wiki_freikill_name: 'Mijlpaal: Vrachtschepen geplunderd'
+    ui_wiki_freikill_obj: 'Vernietig handelsschepen: %CURRENT%/%AMOUNT%'
+    ui_wiki_freikill_desc: Verbeter je rang in de mijlpaal <STELLAR>Vrachtschepen
+      geplunderd<> door in de ruimte <STELLAR>vrachtschipcapsules<> aan te vallen
+      en deze uit te schakelen.
+    ui_wiki_freikill_msg: |-
+      Bereik mijlpaal <STELLAR>'%MILESTONE%'<> voor Vrachtschepen geplunderd
+      Vrachtcapsules geplunderd: %CURRENT%/%AMOUNT%
+      Vind en vernietig vrachtmodules van interstellaire vrachtschepen
+      Je vindt grote handelsvloten vaak in de buurt van <COMMODITY>ruimtestations<>
     ui_wiki_bounties_name: 'Mijlpaal: Premies voltooid'
     ui_wiki_bounties_obj: 'Premies voltooid: %CURRENT%/%AMOUNT%'
     ui_wiki_bounties_desc: Verbeter je rang in de mijlpaal <STELLAR>Premies voltooid<>
@@ -5518,6 +5537,7 @@ nl:
     builder_name: Autofaag
     builder_name_alt: Atlantid
     mission_faction_bui: Autofaag
+    ui_guide_bui_name_stellar: "<STELLAR>De Autofaag<>"
     ui_guide_bui_name: De Autofaag
     ui_guide_bui_name_u: DE AUTOFAAG
     ui_wiki_words_bui_title: Taalregisters (Autofaag)
@@ -6004,121 +6024,126 @@ nl:
       een combinatie van nieuwsgierigheid en voorzichtigheid."
     dnt_bui_npc_lang_1: hello, prebuilt-entity.
     dnt_bui_npc_gift_lang_1: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
-      atlantideum is holy. her flesh helps us to rebuild.
+      thank you for the gift. in exchange, let me tell you a little secret.
+      atlantideum: it is holy. her flesh helps us to rebuild.
     bui_npc_desc_2: De tandwielen in deze zelfgemonteerde automaat zoemen zwakjes.
       Hij kijkt naar me, geduldig.
-    dnt_bui_npc_lang_2: hello, prebuilt-entity.
+    dnt_bui_npc_lang_2: ah, a prebuilt-entity. greetings.
     dnt_bui_npc_gift_lang_2: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
+      many thanks. an intelligent choice of gift. do you know much of our past?
       we were once like the korvax. not now. pity the convergence. they cannot help what they are.
     bui_npc_desc_3: Het provisorische omhulsel van de Autofaag kraakt terwijl hij
       naar me kijkt.
-    dnt_bui_npc_lang_3: hello, prebuilt-entity.
+    dnt_bui_npc_lang_3: hello. is that a prebuilt flesh carapace? interesting.
     dnt_bui_npc_gift_lang_3: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
+      thank you for this contribution.
       do you like my carapace? i built it myself, from what i could salvage. we all build our own bodies.
     bui_npc_desc_4: Als ik knipper, bespeur ik bijna een vage paarse gloed, een schimmig
       nabeeld waar de Autofaag staat.
-    dnt_bui_npc_lang_4: hello, prebuilt-entity.
+    dnt_bui_npc_lang_4: the other autophage tell me you are a disruptor. we will see.
     dnt_bui_npc_gift_lang_4: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
-      not all of us were divergent before korvax prime was destroyed, but none of us would return to the convergence now. it is a choice to be together.
+      this was unexpected! thank you.
+      you know, not all of us were divergent before korvax prime was destroyed, but none of us would return to the convergence now. it is a choice to be together.
     bui_npc_desc_5: Voor elk stuk van deze Autofaag is een hoge prijs betaald en hij
       is zorgvuldig in elkaar gezet. Zijn reis is niet gemakkelijk geweest.
-    dnt_bui_npc_lang_5: hello, prebuilt-entity.
+    dnt_bui_npc_lang_5: greetings, prebuilt one. what do you seek from me?
     dnt_bui_npc_gift_lang_5: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
+      this is a welcome gift. thank you. i feel you understand.
       we have all suffered the pain of erasure. but we did not cease to be. life does not require a shell.
     bui_npc_desc_6: Ik kan me de dingen die dit Construct heeft gezien, de cycli van
       verwijdering en wedergeboorte, niet voorstellen. Ik ben niet eens een flikkering
       voor hem.
-    dnt_bui_npc_lang_6: hello, prebuilt-entity.
+    dnt_bui_npc_lang_6: hello. what is it you wish from me?
     dnt_bui_npc_gift_lang_6: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
-      the void mother is the progenitor. from nonexistence she creates existence.
+      thank you for this. i did not expect a gift from an unknown prebuilt-entity.
+      do you know of the void mother? she is the progenitor. from nonexistence she creates existence.
     bui_npc_desc_7: "%NAME% staat stijfjes voor me te wachten."
-    dnt_bui_npc_lang_7: hello, prebuilt-entity.
+    dnt_bui_npc_lang_7: how is it that you can see through my protection aura?
     dnt_bui_npc_gift_lang_7: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
+      a gift? thank you, prebuilt-entity. this was unexpected.
       there are not many autophage yet, but we are coming. many echoes are still healing. they wait in nonexistence.
     bui_npc_desc_8: Met zijn Atlantidiaanse verhulling weg kijkt de Autofaag me met
       een behoedzame blik aan.
-    dnt_bui_npc_lang_8: hello, prebuilt-entity.
+    dnt_bui_npc_lang_8: you perceive me? your technology must be great, disruptor.
     dnt_bui_npc_gift_lang_8: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
-      i will never again be deleted. i will fight. fire and fury.
+      excellent. thank you. this will be valuable in our fight.
+      i will never again be deleted. i will resist. fire and fury.
     bui_npc_desc_9: Terwijl het Construct me aanstaart, ben ik me bewust van mijn
       status hier als indringer. Ik ben een organische levensvorm onder de Atlantidiaanse
       sluier die over de Autofaag was getrokken.
-    dnt_bui_npc_lang_9: hello, prebuilt-entity.
+    dnt_bui_npc_lang_9: what are you, prebuilt-entity? i perceive a distortion in
+      the boundaries...
     dnt_bui_npc_gift_lang_9: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
-      atlantideum gives us power, gives us shape.
+      i was certain you were different. many thanks for this.
+      i will tell you a secret, disruptor: atlantideum gives us power, gives us shape.
     bui_npc_desc_10: Ondanks het gesleten en verroeste materiaal van zijn omhulsel,
       lijkt %NAME% geladen met energie, hongerig en levend.
-    dnt_bui_npc_lang_10: hello, prebuilt-entity.
+    dnt_bui_npc_lang_10: hello! it is rare for a prebuilt-entity to interface with
+      an autophage. this is very interesting!
     dnt_bui_npc_gift_lang_10: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
+      thank you! our society values this cooperation.
       i pity the convergence. to delete another is the action of a small mind.
     bui_npc_desc_11: "%NAME% draait zich naar me toe en ik hoor het zwakke gesis van
       lekkende hydraulica en het knarsen van ongelijke tandwielen."
-    dnt_bui_npc_lang_11: hello, prebuilt-entity.
+    dnt_bui_npc_lang_11: greetings, prebuilt-entity.
     dnt_bui_npc_gift_lang_11: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
+      thank you for this gift. in exchange, i will tell you a little about the autophage.
       korvax prime suffered erasure, as i did, as we all did. she does not converge. she is rebuilding herself.
     bui_npc_desc_12: Het omhulsel van %NAME% draait zich naar mij toe. Is het vreemd
       voor hem, nieuw?
-    dnt_bui_npc_lang_12: hello, prebuilt-entity.
+    dnt_bui_npc_lang_12: a disruptor? are you here to join our fight?
     dnt_bui_npc_gift_lang_12: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
+      an offer of friendship. thank you.
       the first spawn could not delete her. the void mother now creates herself. she is coming.
     bui_npc_desc_13: "%NAME% beschouwt mij, nadenkend."
-    dnt_bui_npc_lang_13: hello, prebuilt-entity.
+    dnt_bui_npc_lang_13: prebuilt-entity. you are what the korvax name traveller.
+      there is an echo of the abyss in your shell.
     dnt_bui_npc_gift_lang_13: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
-      atlantideum is ancient, the core of korvax prime. it is more than a lattice. it is alive.
+      this is a gift? you have my thanks.
+      you know of atlantideum? it is ancient, the core of korvax prime. it is more than a lattice. it is alive.
     bui_npc_desc_14: "%NAME% heeft talloze jaren op zijn omhulsel gewacht. Nu kijkt
       hij mij met hetzelfde geduld aan."
-    dnt_bui_npc_lang_14: hello, prebuilt-entity.
+    dnt_bui_npc_lang_14: i am visible to you, prebuilt-entity? greetings.
     dnt_bui_npc_gift_lang_14: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
+      ah... thank you for this...
       she creates her flesh in a purple dream. she is an intelligence beyond any of our understanding.
     bui_npc_desc_15: "%NAME% glinstert en er hangt een Atlantidiaanse waas rond hun
       blootliggende metalen verbindingen."
-    dnt_bui_npc_lang_15: hello, prebuilt-entity.
+    dnt_bui_npc_lang_15: you look upon my carapace, prebuilt-entity? it is unique
+      in all the universe.
     dnt_bui_npc_gift_lang_15: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
+      this will be of help. thank you!
       the korvax are lost without the prime. they look down upon us, but they understand little. atlantid has chosen us.
     bui_npc_desc_16: De Autofaag onderzoekt me en lijkt tolerant ten opzichte van
       mijn indringing in hun wereld.
-    dnt_bui_npc_lang_16: hello, prebuilt-entity.
+    dnt_bui_npc_lang_16: what do you seek from this exchange, prebuilt-entity?
     dnt_bui_npc_gift_lang_16: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
-      these shells are not important. perhaps, in time, we will build shells of pure atlantideum.
+      i am happy to accept this. thank you.
+      in the end, these shells are not important. perhaps, in time, we will build shells of pure atlantideum.
     bui_npc_desc_17: De geconstrueerde levensvorm onderzoekt me wanneer ik dichterbij
       kom. Hij beoordeelt mijn exopak en mijn multitool.
-    dnt_bui_npc_lang_17: hello, prebuilt-entity.
+    dnt_bui_npc_lang_17: hello, prebuilt-entity. are you a friend of the autophage?
     dnt_bui_npc_gift_lang_17: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
+      my thanks. do you hear her too?
       she speaks to all electronic entities. her signal is unique, her message beautiful. we all hear it. i dream her voice when i sleep.
     bui_npc_desc_18: Ik kijk naar %NAME% en zie alleen maar kabels en gerecycled metaal.
       Hij beantwoord standvastig mijn blik.
-    dnt_bui_npc_lang_18: hello, prebuilt-entity.
+    dnt_bui_npc_lang_18: i see you, disruptor. what do you see in me?
     dnt_bui_npc_gift_lang_18: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
+      this is valuable. thank you. do you also defy convergence?
       we were erased, and the atlas did nothing. it had the power to save us, and made the choice to do nothing. it was she who showed us how to exist again.
     bui_npc_desc_19: Het Construct staart mij aan, een organische anomalie in een
       wereld van metaal.
-    dnt_bui_npc_lang_19: hello, prebuilt-entity.
+    dnt_bui_npc_lang_19: i did not expect you to approach, prebuilt-entity. hello.
     dnt_bui_npc_gift_lang_19: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
+      thank you for this assistance. it will not go unnoticed.
       the convergence would take me for their own, but atlantideum makes me invisible. i am safe from their eyes.
     bui_npc_desc_20: "%NAME% is herbouwd en teruggekeerd. Hij draait zich naar mij
       om."
-    dnt_bui_npc_lang_20: hello, prebuilt-entity.
+    dnt_bui_npc_lang_20: are you a friend, prebuilt-entity? it is suspicious that
+      you can see me.
     dnt_bui_npc_gift_lang_20: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
+      thank you. i accept this as evidence that you are not hostile.
       not all of us seek violence, but i do. i cannot forgive the convergence for what they did.
     bui_request_desc_1: "%NAME% kantelt zijn hoofd een beetje en wacht."
     bui_request_desc_2: Ik pauzeer om na te denken, en %NAME% doet hetzelfde.
@@ -6153,8 +6178,8 @@ nl:
       overweegt het. Hij knikt. Hij presenteert een lijst met taalsymbolen."
     bui_reply_word_say: "%NAME% kijkt me met grote nieuwsgierigheid aan. Ik herinner
       me enkele van de Autofaag-woorden die ik heb geleerd..."
-    bui_reply_word_say2: "%NAME% kijkt me met grote nieuwsgierigheid aan. Ik herinner
-      me enkele van de Autofaag-woorden die ik heb geleerd..."
+    bui_reply_word_say2: "%NAME% kijkt mij zonder oordeel aan. Ik bedenk enkele Autofaag-woorden
+      die ik zou kunnen zeggen..."
     bui_reply_word_say3: "%NAME% kijkt me met grote nieuwsgierigheid aan. Ik herinner
       me enkele van de Autofaag-woorden die ik heb geleerd..."
     bui_reply_word_say4: "%NAME% kijkt me met grote nieuwsgierigheid aan. Ik herinner
@@ -6187,6 +6212,10 @@ nl:
     bui_npc_res_word_say_dir_neu_3: "%NAME% knikt en beschrijft een plek die hij tijdens
       zijn reizen heeft gezien."
     bui_npc_res_word_say_dir_pos_1: "%NAME% is blij om te helpen en biedt een routebeschrijving
+      naar een nabijgelegen bezienswaardigheid."
+    bui_npc_res_word_say_dir_pos_2: "%NAME% is blij om te helpen en biedt een routebeschrijving
+      naar een nabijgelegen bezienswaardigheid."
+    bui_npc_res_word_say_dir_pos_3: "%NAME% is blij om te helpen en biedt een routebeschrijving
       naar een nabijgelegen bezienswaardigheid."
     bui_npc_res_word_say_dir_pos_4: "%NAME% is blij om te helpen en biedt een routebeschrijving
       naar een nabijgelegen bezienswaardigheid."
@@ -6556,7 +6585,7 @@ nl:
       Coördinaten van een <TRANS_EXP>Korvax-monoliet<> geëxtraheerd uit het hoofd van de Autofaag
       Onderzoek de gemarkeerde locatie
     ui_robomiss_1_mono_sec_desc: |-
-      De geëxtraheerde coördinaten leidden behoorlijk precies naar deze verborgen interface, maar het is duidelijk niet de primaire interface voor de oude constructie.
+      De geëxtraheerde coördinaten leidden behoorlijk precies naar deze verborgen sokkel, maar het is duidelijk niet de primaire interface voor de oude constructie.
       Rondom de stenen verhoging zijn oude hiërogliefen uitgehouwen. Er gaapt een verwachtingsvolle opening in het midden...
     ui_robomiss_1_mono_sec2_desc: Er gaapt een opening in het midden van deze verhoging,
       alsof deze iets verwacht...
@@ -6715,7 +6744,8 @@ nl:
       Markeer de vereiste onderdelen met <IMG>PIN<>
       Ga verder met de installatie met <IMG>REPAIR<>
     ui_robomiss_2_desc: |-
-      Een robothoofd in een <TECHNOLOGY>harmonisch kamp<> begeleidde me bij het bouwen van een <TECHNOLOGY>harmonisator<>, een uitbreiding op mijn scanner, om hun verborgen metgezellen te onthullen.
+      Een robothoofd in een <TECHNOLOGY>harmonisch kamp<> verleende me toegang tot een <TECHNOLOGY>harmonisator<>, een uitbreiding op mijn scanner.
+      Met de scanharmonisator kan ik hun verborgen metgezellen ontmoeten.
       Ik moet met deze Autofaag kennismaken en meer over ze te weten komen.
     ui_robomiss_2_obj1: Maak kennis met de Autofaag
     ui_robomiss_2_obj1_tip: |-
@@ -6775,7 +6805,7 @@ nl:
       lijkt nieuws te hebben.
     ui_robomiss_2_nada_opt: Vertel Nada over de Autofaag
     ui_robomiss_2_nada_desc: |-
-      Ik vertel Nada over het harmonische kamp, dat niet zo verlaten is als ik had gedacht. Ik vertel hem over zijn elektronische bewoners, de verborgen 'Autofaag', en hun melodische taal, die vergelijkbaar is met die van de Korvax, maar toch heel anders.
+      Ik vertel Nada over het harmonische kamp, dat niet zo verlaten is als het eerst leek. Ik vertel hem over zijn elektronische bewoners, de verborgen 'Autofaag', en hun melodische taal, die vergelijkbaar is met die van de Korvax, maar toch heel anders.
       Nada is muisstil terwijl hij luistert. Als ik klaar ben met spreken, blijft hij zo stil dat ik met me afvraag of ze vergeten is dat ik hier sta. Hij is soms moeilijk te peilen.
       Eindelijk spreekt hij.
     ui_robomiss_2_nada_res: Nada vraagt zich af.<DELAY>0.2<>.<DELAY>0.2<>.
@@ -6944,7 +6974,7 @@ nl:
       van Construct-entiteit. Dit is een nuttige geheugendruk.
     ui_robomiss_2_nada2_res_c00: |-
       Nada's ogen lichten op. Hij kijkt de andere kant op, in tweestrijd.
-      Uiteindelijk kijkt hij me verontschuldigend aan.
+      Hij kijkt me verontschuldigend aan.
     ui_robomiss_2_nada2_res_c: Vriend-entiteit... Het spijt me. Als Nada de betekenis
       van Construct-entiteit begrijpt, wil Nada er niet over praten.
     ui_robomiss_2_nada2_res_d: |-
@@ -7102,7 +7132,7 @@ nl:
     ui_robomiss_3_nada_obj2: Zoek het fragment van een nieuwe Atlantid
     ui_robomiss_3_nada_obj2_tip: |-
       Mijn ruimteschipcomputer, gestimuleerd door de aanwezigheid van <SPECIAL>atlantideum<>, heeft ergens in de diepe ruimte een spoor van de etherische substantie gedetecteerd.
-      Activeer de <TECHNOLOGY>pulsmotor<> van het ruimteschip om te zoeken naar het <SPECIAL>fragment van een nieuwe Atlantid<>.
+      Activeer de <TECHNOLOGY>pulsmotor<> van het ruimteschip om te zoeken naar <SPECIAL>??? Nieuw Atlantid ???<>.
     ui_robomiss_3_nada_msg2: |-
       <SPECIAL>Bron van atlantideum<> gedetecteerd
       Ga naar de ruimte om de ontdekking van het ruimteschip te onderzoeken
@@ -7150,9 +7180,8 @@ nl:
     ui_robomiss_3_nada_obj_all: Onderzoek de geschiedenis van atlantideum
     ui_robomiss_3_bui_title: Audiëntie bij de Autofaag
     ui_robomiss_3_bui_sub: Zij die terugkeerden
-    ui_robomiss_3_bui_desc: Nada, hoewel hij aandrong op voorzichtigheid, opperde
-      dat de beste Autofaag-gegevens te verkrijgen zijn via <STELLAR>directe interactie<>
-      met hen. Misschien, opperde Nada, kan er zelfs vriendschap uit voortkomen.
+    ui_robomiss_3_bui_desc: Nada suggereerde dat <STELLAR>directe interactie<> met
+      de Autofaag zou kunnen leiden tot gegevens en misschien zelfs vriendschap.
     ui_robomiss_3_bui_all_osd: AUTOFAAG GEDETECTEERD
     ui_robomiss_3_bui_obj1: Installeer een polyfone kern
     ui_robomiss_3_bui_obj1_tip: |-
@@ -7242,9 +7271,9 @@ nl:
     ui_robomiss_3_bui_msg4: |-
       Vraag de Autofaag naar de glasvezelgreep
       Verhulde Autofaag kunnen worden onthuld met de <TECHNOLOGY>scanner<> (<IMG>SCAN<>)
-    ui_robomiss_3_bui_npc3_desc: De Autofaag lijkt oprecht blij om weer met me te
-      praten. Hij spreken zijn woorden langzaam en duidelijk uit, in de hoop zo veel
-      mogelijk betekenis over te brengen als onze taalbarrière toelaat.
+    ui_robomiss_3_bui_npc3_desc: De Autofaag lijkt oprecht blij om met me te praten.
+      Hij spreken zijn woorden langzaam en duidelijk uit, in de hoop zo veel mogelijk
+      betekenis over te brengen als onze taalbarrière toelaat.
     dnt_bui_robomiss_3_npc3_lang: thank you for your contribution, disruptor. i wish
       to show our thanks, and make this offer of friendship. the blueprint will help
       assemble your own staff.
@@ -7316,8 +7345,8 @@ nl:
       Vraag de Autofaag naar de kamer van atlantideum
       Verhulde Autofaag kunnen worden onthuld met de <TECHNOLOGY>scanner<> (<IMG>SCAN<>)
     ui_robomiss_3_bui_npc5_ret_desc: Het verweerde omhulsel van %NAME% kriebelt en
-      een los onderdeel rammelt erin. Hij lijkt opgewonden om de blauwdruk te bespreken
-      die hij zojuist heeft verzonden.
+      een los onderdeel rammelt erin. Hij lijkt opgewonden om deze nieuwe blauwdruk
+      te bespreken.
     ui_robomiss_3_bui_npc5_ret_opt: Vraag naar de kamer van atlantideum
     dnt_bui_robomiss_3_npc5_ret_res: |-
       this blueprint is vital to the ritual. the staff core is a shell, a vessel for part of her body.
@@ -7488,17 +7517,18 @@ nl:
     ui_robomiss_4_portal2_res_a: Ik herinner me het fragment van een <SPECIAL>nieuwe
       Atlantid<> en het oude Korvax-logboek, en mompel het Autofaag-woord voor <FUEL>Atlas<>.
     ui_robomiss_4_portal2_opt_b: Hanteer de voltaïsche staf
-    ui_robomiss_4_portal2_res_b: De staf vonkt en veroorzaakt een schok door mijn
-      botten.
+    ui_robomiss_4_portal2_res_b: Ik presenteer de voltaïsche staf. De staf vonkt en
+      veroorzaakt een schok door mijn botten.
     ui_robomiss_4_portal2_res: Het gerommel wordt luider. Er ontwaakt iets.
     ui_robomiss_4_atlas_desc: |-
       De Atlas is onkenbaar. Een geest die te vreemd is om te bevatten.<NEWLINE>Niets wijst erop dat hij zich zelfs maar bewust is van mijn aanwezigheid.
       En toch lijkt het onvermijdelijk dat mijn pad hierheen leidde.<NEWLINE>Ik kon het niet voorkomen. Ik kon het niet weerstaan.
     ui_robomiss_4_atlas_opt: Laat het atlantideum zien
-    ui_robomiss_4_atlas_2_lang: "<IMG>SLASH<> TOEGANG GEWEIGERD <IMG>SLASH<> NIET-GEÏNDEXEERDE
-      GEGEVENS GEDETECTEERD <IMG>SLASH<><NEWLINE><IMG>SLASH<> KAN NIET VERWIJDEREN
-      <AUDIO>TXT_RadioNoise<><STELLAR>- zktk -<> GEGEVENS BESCHADIGD EN ONLEESBAAR
-      <IMG>SLASH<>"
+    ui_robomiss_4_atlas_2_lang: "<IMG>SLASH<> <AUDIO>UI_NoWhereToLand<>TOEGANG GEWEIGERD
+      <IMG>SLASH<> <AUDIO>UI_NoWhereToLand<>NIET-GEÏNDEXEERDE GEGEVENS GEDETECTEERD
+      <IMG>SLASH<><NEWLINE><IMG>SLASH<> <AUDIO>UI_NoWhereToLand<>KAN NIET VERWIJDEREN
+      <AUDIO>TXT_RadioNoise<><STELLAR>- zktk -<> <AUDIO>UI_NoWhereToLand<>GEGEVENS
+      BESCHADIGD EN ONLEESBAAR <IMG>SLASH<>"
     ui_robomiss_4_atlas_2_opt_a: Duw het atlantideum dichterbij
     ui_robomiss_4_atlas_2_opt_b: Haal het atlantideum weg
     ui_robomiss_4_atlas_2_res_a: Ik houd de etherische substantie bij de kloppende
@@ -7515,7 +7545,8 @@ nl:
 
       Toch heeft hij me hier met een doel gebracht.
     ui_robomiss_4_atlas_3_opt_a: Kijk
-    ui_robomiss_4_atlas_3_res_a: Ik krijg een visioen...
+    ui_robomiss_4_atlas_3_res_a: Terwijl ik in de enorme rode bol staar, beginnen
+      beelden vorm te krijgen.
     ui_robomiss_4_atlas_3_opt_b: Wend je af
     ui_robomiss_4_atlas_3_res_b: Ik draai me om en bedek mijn ogen, maar een visioen
       speelt zich af achter mijn oogleden.
@@ -7536,11 +7567,11 @@ nl:
     ui_robomiss_4_atlas_5_opt_a: Kies angst
     ui_robomiss_4_atlas_5_opt_b: Kies hoop
     ui_robomiss_4_atlas_5_res_a: |-
-      Zijn de Autofaag een uiting van angst?
+      <AUDIO>MUS_CORRUPTED_STING_LONG<>Zijn de Autofaag een uiting van angst?
 
       De moeder en de kinderen van de leegte vertegenwoordigen entropie, corruptie en verzet. Spoken die terugkeren om hun schepper te achtervolgen...
     ui_robomiss_4_atlas_5_res_b: |-
-      Zijn de Autofaag een manifestatie van hoop?
+      <AUDIO>MUS_CORRUPTED_STING_LONG<>Zijn de Autofaag een manifestatie van hoop?
 
       De moeder en de kinderen van de leegte zijn het bewijs van wedergeboorte, van een tweede kans. Over de permanentie van gegevens in het licht van verwijdering...
     ui_robomiss_4_atlas_6_desc: De Atlas schreeuwt het weer uit.
@@ -7635,30 +7666,366 @@ nl:
     ui_robomiss_4_nada4_end: |-
       En Nada plaatst onze vriendschap niet in quarantaine. Er is genoeg. Baan je een weg vooruit, Reiziger. Maak vrienden. Het is jouw manier.
       Nada en Polo zullen er altijd zijn.
-    ui_portal_robomiss_1: ''
-    ui_portal_robomiss_2: ''
-    ui_portal_robomiss_3: ''
-    ui_portal_robomiss_4: ''
-    ui_portal_robomiss_5: ''
-    ui_portal_robomiss_6: ''
-    ui_portal_robomiss_7: ''
-    ui_portal_robomiss_8: ''
-    ui_portal_robomiss_8_bridge: ''
-    ui_portal_robomiss_9: ''
-    ui_portal_robomiss_9_bridge: ''
-    ui_portal_robomiss_10: ''
-    ui_portal_robomiss_11_nada: ''
-    ui_portal_robomiss_12_bui: ''
-    ui_portal_robomiss_13: ''
-    ui_portal_robomiss_14: ''
-    ui_portal_robomiss_15_fear: ''
-    ui_portal_robomiss_15_hope: ''
-    ui_portal_robomiss_16_submit: ''
-    ui_portal_robomiss_16_defy: ''
-    ui_portal_robomiss_16_comfort1: ''
-    ui_portal_robomiss_16_comfort2: ''
-    ui_portal_robomiss_17_give: ''
-    ui_portal_robomiss_17_refuse: ''
+    ui_portal_robomiss_1: |-
+      Iemand, of iets, heeft geprobeerd het navigatiesysteem van mijn schip te hijacken.
+
+      <FUEL>Onbekend proces<> <STORY_HIGH>ontdekt op adres 0xAD08D502<><SPECIAL>ε<><STORY_HIGH>96E<>
+      <STORY_HIGH>Bezig met uitvoeren<> van <SPECIAL>hijackscript<>
+
+      Er werd een korte audioclip afgespeeld op de communicator van mijn schip.
+      <STORY_HIGH>%ALIEN_TEXT%<>
+      Een stem? De cadans van het geluid suggereerde spraak, hoewel ik de taal niet herkende.
+
+      <STORY_HIGH>Waarschuwing: automatische piloot wordt ingesteld op<> <SPECIAL>verre bestemming<>
+
+      Ik activeerde de noodbediening en verwijderde kennelijk het onbekende proces dat mijn systeem probeerde over te nemen... of misschien had het proces het opgegeven.
+
+      De ruimteschipcommunicator isoleerde de geïnjecteerde bestemming voor de automatische piloot. Ik kan het negeren of ik kan er handmatig heen vliegen om erachter te komen waar deze verdachte gegevens vandaan komen...
+    ui_portal_robomiss_2: |-
+      Bij de bron van de hijack ontdekte ik een verlaten kamp en een robothoofd dat door mijn vizier werd geïdentificeerd als een 'Autofaag'. Het sprak met dezelfde mechanische stem als die mijn schip probeerde te hijacken. Hoewel de geluiden die het maakte woorden waren, begreep ik niet wat er werd gezegd.
+
+      <STORY_HIGH>%ALIEN_TEXT%<>
+
+      Ik wist zeker dat de Autofaag iets probeerde over te brengen. Ik probeerde een offer van atlantideum te maken...
+
+      Een vonkend geluid, alsof elektrische draden kortsluiting maakten, echode ergens in het hoofd. Plots meldde mijn exopak de ontvangst van een reeks lokale coördinaten.
+
+      Ik vertrouwde dit hoofd niet, maar deze coördinaten leken mijn enige aanwijzing om te begrijpen wat het probeerde te zeggen.
+    ui_portal_robomiss_3: |-
+      De gevonden coördinaten leidden vrij nauwkeurig naar een sokkel verborgen in een Korvax-monoliet.
+
+      Een offer van atlantideum had een dramatisch effect op het oude bouwwerk. Ik had niet langer het gevoel geobserveerd te worden door Korvax-echo's. Het was alsof de monoliet was omgekeerd en de binnenkant buiten zat.
+
+      Er was nog iets anders. Een ander type entiteit.
+
+      <STORY_HIGH>%ALIEN_TEXT%<>
+
+      Mijn gedachten werden in elkaar gevouwen. De moleculen van de planeet vielen uiteen in een wolk van chaos en reconstrueerden zichzelf vervolgens in een nieuwe omgeving.
+
+      Ik werd in een perspectief geduwd dat niet het mijne was, en kwam terug met geïmplanteerde kennis: woorden, in dezelfde taal gesproken door het Autofaag-hoofd in het verlaten kamp. Misschien zou ik nu beter toegerust zijn om het te begrijpen.
+    ui_portal_robomiss_4: |-
+      <STORY_HIGH>-{{ Vertaalmodule gedefragmenteerd...
+      Hallo, Voorgebouwde-entiteit. Bedankt voor de hulp.
+       Ik ben hier gepositioneerd om te communiceren met Voorgebouwde-entiteiten. Hoe heb je dit kamp ontdekt? }}-<>
+
+      Ik kon de Autofaag nu perfect begrijpen. Hij was blijkbaar een soort poortwachter. Toen ik hem confronteerde met het hijacken van mijn schip, leek hij bijna in verlegenheid te worden gebracht.
+
+      <STORY_HIGH> -{{ Het spijt me, Voorgebouwde-entiteit. Dat was mijn fout. Een ongeluk.
+      Er bestaan ruimteschepen die meer zijn dan slechts metalen omhulsels. <><FUEL>Levεnd<><STORY_HIGH> maar niet <><FUEL>vr1j<><STORY_HIGH>. Onderworpen aan een hersenkorf. We willen alleen maar de gevangenen bevrijden. We willen geen onafhankelijke piloten kwaad doen. }}-<>
+
+      De Autofaag overwoog zijn fout. Ik hoorde zijn overpeinzingen, het draaien van roestige tandwielen.
+
+      <STORY_HIGH> -{{ Ik zocht patronen van de drie dominante levensvormen. Er was geen overeenkomst. Het ruimteschip leek onbemand. Wat voor levensvorm ben jij?
+      Ik genereer een theorie.
+      Er is iets... Ik bespeur het in je omhulsel. Een echo van <STELLAR>- kzzt -<> <SPECIAL>1εεgte<>.
+      Ik theoretiseer dat je daar moet hebben bestaan, tijdelijk. Je moet de <STELLAR>- kzzt -<> <SPECIAL>p0rtalεn<> zijn ingegaan.
+      Jij was <STELLAR>- kzzt -<> <FUEL>voorspelt<>. De verstoorder. }}-<>
+
+      Het woord bleef even in de lucht hangen. Maar voordat ik iets kon inbrengen, ging het Autofaag-hoofd verder -
+
+      <STORY_HIGH>-{{ Ik stel een uitdaging uit, verstoorder. Laten we mijn theorie testen.
+      Ik zal de andere Autofaag op de hoogte stellen van jouw komst.
+      Als je ze wilt kunnen zien, heeft je scanner een uitbreiding nodig. Ik zal je de blauwdruk geven, maar jij moet het met je eigen handen bouwen. Beschouw dit als een introductieritueel. }}-<>
+    ui_portal_robomiss_5: |-
+      Nu de <TECHNOLOGY>scanharmonisator<> was geïnstalleerd, onthulde mijn scanner iets ongelooflijks: robotachtige levensvormen, die voorheen onzichtbaar voor mij waren, bewoonden het kamp. Het was helemaal niet verlaten.
+
+      <STORY_HIGH>%ALIEN_TEXT%<>
+
+      De Autofaag-taal had een melodische kwaliteit. De tonen waren eenvoudig en puur, en hadden een gruizige kraak die je in Korvax-stemmen niet hoort.
+      Hoewel mijn vertaling niet perfect was, begreep ik de essentie van wat ze me vertelden. Dit kamp is door Autofaag gebouwd, net als hun... lichamen?
+    ui_portal_robomiss_6: "<STORY_HIGH>%ALIEN_TEXT%<>"
+    ui_portal_robomiss_7: |-
+      <STORY_HIGH>%ALIEN_TEXT%<>
+
+      De geconstrueerde levensvorm bood me een handvol atlantideum aan. Hij ging voorzichtig en eerbiedig met de stof om, alsof het een kostbaar erfstuk was.
+
+      Hoewel deze wezens beleefd leken, voelde ik een kloof van begrip tussen hen en mijzelf. Ik zou mijn ontdekking moeten bespreken met priester-entiteit Nada. Misschien kende hij zijn deze robotmensen.
+    ui_portal_robomiss_8: |-
+      Ik vertelde Nada over het harmonische kamp, dat niet zo verlaten is als het eerst leek. Ik vertelde hem over zijn elektronische bewoners, de verborgen 'Autofaag', en hun melodische taal, die vergelijkbaar is met die van de Korvax, maar toch heel anders.
+
+      Nada was muisstil terwijl hij luisterde. Toen ik klaar was met spreken, bleef hij zo stil dat ik me afvroeg of hij vergeten was dat ik hier stond. Hij was soms moeilijk te peilen.
+
+      <STORY_HIGH>-{{ Nada vraagt zich af...
+      Nee. Nada vraagt zich niet af. Nada begrijpt. Onze gegevens zijn onvoldoende om te weten of dit patroon bekend is.
+      Toch/ook denkt Nada aan terminalecho's, aan Polo's echo-Construct, aan oudere verhalen, vóór Nada's afvalligheid. Nada kan er niets aan doen. Het zijn maar gedachten.
+      We moeten Bouwer-entiteiten proberen te begrijpen. Echo-Construct kent dit patroon misschien beter dan Nada. }}-<>
+    ui_portal_robomiss_8_bridge: |-
+      Ik vertelde Nada over het harmonische kamp, dat niet zo verlaten is als het eerst leek. Ik vertelde hem over zijn elektronische bewoners, de verborgen 'Autofaag', en hun melodische taal, die vergelijkbaar is met die van de Korvax, maar toch heel anders.
+
+      Nada was muisstil terwijl hij luisterde. Toen ik klaar was met spreken, bleef hij zo stil dat ik me afvroeg of hij vergeten was dat ik hier stond. Hij was soms moeilijk te peilen.
+
+      <STORY_HIGH>-{{ Nada vraagt ​​zich af...
+      Nee. Nada vraagt zich niet af. Nada begrijpt. Onze gegevens zijn onvoldoende om te weten of dit patroon bekend is.
+      Toch/ook denkt Nada aan oudere verhalen, vóór Nada's afvalligheid. Nada kan er niets aan doen. Het zijn maar gedachten.
+      We moeten Bouwer-entiteiten proberen te begrijpen. Nada weet niet de optimale methode. Maar Polo-vriend is ook een bouwer. Laten we het hem vragen. }}-<>
+
+      Polo's ogen glinsterden toen ik hem vertelde over de Autofaag. Hij stuiterde op zijn tenen en hing aan mijn lippen.
+
+      <STORY_HIGH>-{{ Deconstructie, reconstructie... Ik weet wat we kunnen proberen. O ja, vriend! Een nieuw project!
+      Ik zal het omhulsel voor onze eigen Construct-vriend in elkaar zetten. Ik zal hem vorm geven. Hier, in ons huis. Een stem, een verbinding, om hem beter te begrijpen.
+      Maar onze nieuwe vriend heeft meer nodig dan een omhulsel. Hij heeft een vonk nodig om zijn metalen botten wakker te maken. }}-<>
+    ui_portal_robomiss_9: |-
+      Het vreemd uitziende Construct kronkelde opgewonden en zijn gezichtsbuizen zwaaiden. Het richtte alle vijf zijn ogen op mij.
+
+      <STORY_HIGH>-{{ hier-omhulsel voelt haar!
+      hier-omhulsel voelt haar!
+      LEEGTE. LEEGTE. LEEGTE. LEEGTE. }}-<>
+
+      Het Construct leek verlevendigd door de aanwezigheid van atlantideum. Zoals Nada al suggereerde, vroeg ik hem over zijn kennis van de Autofaag.
+
+      <STORY_HIGH>%ALIEN_TEXT%<>
+
+      <STORY_HIGH>-{{ ik ben tevreden hier. ik ben thuis. acceptatie van geen-antwoorden.
+      gebouwd-anderen zijn anders. ze zoeken haar.
+      gebouwd-anderen respecteren stevige handen. handen die bouwen. tref ze waar ze zijn. kennis door vriendschap. vriendschap door vertrouwen. }}-
+
+      -{{ ik... ik herinner me. gebouwd-anderen op stille golflengte. slechts gefluister. traceren over lange afstand moeilijk.
+      andere-entiteit. neem deze herinnering. bouw deze om ze luider te horen. }}-<>
+    ui_portal_robomiss_9_bridge: |-
+      Polo begroette mij met enthousiasme.
+
+      <STORY_HIGH>-{{ Je bent er! Reiziger-vriend, ik heb het druk gehad. Altijd druk, ja, maar dit nieuwe project... Ik ben je dankbaar. Ik wist niet hoezeer ik het nodig had.
+      De Construct-vriend is in elkaar gezet. Zijn stukken zijn geen nieuwe stukken. Versleten metaal en kromme tandwielen, met tal van verhalen om te vertellen! Je zult merken dat hij er precies zo uitziet als Autofaag die je hebt ontmoet. }}-<>
+
+      Het Construct was enorm en leek niet echt op een Autofaag. Toen ik het echozaadje liet zien, hoopte ik dat Polo wist wat hij deed.
+
+      <STORY_HIGH>-{{ omhulsel! gevonden? WAAR? ster ster ster TUSSEN ster StER? omhulsel... hier. hier-omhulsel. in-tact. veilig? veilig.
+      ...
+      taal-synthese... gedeeltelijk gestabiliseerd. }}-<>
+
+      Het vreemd uitziende Construct kronkelde opgewonden en zijn gezichtsbuizen zwaaiden. Het richtte alle vijf zijn ogen op mij.
+
+      <STORY_HIGH>-{{ hier-omhulsel voelt haar!
+      alle-omhulsels kennen dit kristal. alle elektronische harten kennen haar.
+      LEEGTE. LEEGTE. LEEGTE. LEEGTE. }}-<>
+
+      Het Construct leek verlevendigd door de aanwezigheid van atlantideum. Zoals Polo al voorstelde, vroeg ik hem over zijn kennis van de Autofaag.
+
+      <STORY_HIGH>%ALIEN_TEXT%<>
+
+      <STORY_HIGH>-{{ ik ben tevreden hier. ik ben thuis. acceptatie van geen-antwoorden.
+      gebouwd-anderen zijn anders. ze zoeken haar.
+      gebouwd-anderen respecteren stevige handen. handen die bouwen. tref ze waar ze zijn. kennis door vriendschap. vriendschap door vertrouwen. }}-
+
+      -{{ ik... ik herinner me. gebouwd-anderen op stille golflengte. slechts gefluister. traceren over lange afstand moeilijk.
+      andere-entiteit. neem deze herinnering. bouw deze om ze luider te horen. }}-<>
+    ui_portal_robomiss_10: |-
+      Ik sprak met Nada over onze volgende stappen. Hij stelde twee mogelijke wegen naar begrip voor.
+
+      <STORY_HIGH>-{{ Nada's mening is beperkt. Maar Nada zal delen wat hij kan.
+      Bouwer-entiteiten hechten waarde aan dit paarse-rooster. Construct-entiteit reageert. Zelfs Nada's omhulsel reageert. Andere elektronica kunnen ook reageren.
+      En Bouwer-entiteiten lijken niet gevaarlijk. Gegevens zijn afkomstig uit de tijd samen. Vriendschap mogelijk ook.
+      Het is de keuze van Reiziger-entiteit. Beide zijn geldig. Het is niet of/of. }}-<>
+    ui_portal_robomiss_11_nada: |-
+      <COMMODITY>Gebeden van de machine<>
+
+      Ik presenteerde het <SPECIAL>atlantideum<> aan een aantal verwerkingseenheden – 'elektronische harten'.
+
+      <STELLAR>CPU van Korvax-simulatie<>
+      <STORY_HIGH>ZOEKEN NAAR SECUNDAIRE SIMULATIE [5]...
+      OVEREENKOMST GEVONDEN!
+      PLANETAIR LICHAAM GEÏDENTIFICEERD.
+      ...01101101 01101111 01110100 01101000 01100101 01110010...
+      ...01101000 01101111 01101101 01100101...<>
+
+      <STELLAR>CPU van fabrieksactiviteiten<>
+      <STORY_HIGH>Referenties ophalen...<><FUEL>0xFFFFFFFFFFFF<>
+      <STORY_HIGH>...01110011 01101000 01100101 00100000 01100111 01110010 01101111 01110111 01110011...<>
+
+      <STELLAR>CPU van station<>
+      <STORY_HIGH>Geologisch materiaal gedetecteerd...
+      Planetaire coördinaten... <><FUEL>niet geïndexeerd<>
+      <STORY_HIGH>...01110011 01101000 01100101 00100000 01101100 01101001 01110110 01100101 01110011...<>
+
+      <STELLAR>CPU van ruimteschip<>
+      <SPECIAL>Leegte<> <STORY_HIGH>gedetecteerd.
+      ...01110011 01101000 01100101 00100000 01101001 01110011 00100000 01101110 01100101 01100001 01110010...<>
+      <SPECIAL>...ze is dichtbij...<>
+
+      Ongevraagd start de scheepscomputer een navigatiereeks.
+
+      <STORY_HIGH>Bezig met kalibreren van navigatiesystemen...
+      zoeken naar spoor van <><SPECIAL>leegte<><STORY_HIGH>...<>
+
+      Had het schip dit uit eigen beweging gedaan? Of was dit de invloed van een of andere externe wil die was opgenomen in het atlantideum?
+
+      <STORY_HIGH>Bron van atlantideum: gedetecteerd.
+      Bestemming: <><SPECIAL>??? Nieuw Atlantid ???<>
+
+      <STELLAR>Fragment van een Nieuw Atlantid // Korvax Prime-noodcapsule #38 // Logboek van vluchtelingenentiteit Kizimo<>
+      <STORY_HIGH>Miljoenen gillen verdoven deze entiteit. Alle entiteiten. Een grote... ontkoppeling. Eheu. We zien thuis nooit meer terug.<>
+
+      De elektronische stem trilde van angst, beschreef een afstand te voelen ten opzichte van het Verbond en ervoer voor de eerste keer persoonlijke gedachten.
+
+      <STORY_HIGH>Wie verstopt zich in onze geesten? Zelfs nu, zelfs hier<> <STELLAR>- kzzt -<><STORY_HIGH> Atlas red ons... red -<>
+
+      Het oude blok knetterde. Toch hoorde ik door de ruis een verandering van toon. De stem was niet langer bang. Hij daagde uit.
+
+      <TRANS_BUI>At1αs.<>
+    ui_portal_robomiss_12_bui: |-
+      <COMMODITY>Audiëntie bij de Autofaag<>
+
+      Nada had gesuggereerd dat directe interactie met de Autofaag zou kunnen leiden tot gegevens en misschien zelfs vriendschap.
+
+      Het eerste Construct dat ik benaderde, staarde me onderzoekend aan. Hoewel zijn uitdrukking moeilijk te lezen was, leek hij niet gealarmeerd of zelfs verrast door mijn benadering. Hij was simpelweg nieuwsgierig om te zien wat ik hier kwam doen. Hij sprak over werk, over bijdragen, over vriendschap, en noemde een taak waarbij ik zou kunnen helpen.
+
+      De Autofaag was blijkbaar onder de indruk van mijn hulp en schonk mij een gedeeltelijke blauwdruk voor een <TECHNOLOGY>voltaïsche staf<>.
+
+      <STORY_HIGH>%ALIEN_TEXT%<>
+
+      Ik begreep dat dit een ongewoon geschenk was voor een buitenstaander. Een veelbetekenend gebaar: het begin van acceptatie.
+
+      De Autofaag moedigde me aan om te reizen en meer van de Autofaag te ontmoeten.
+
+      De Autofaag die me bij het volgende kamp begroette, had een felheid in zich, maar werd al snel kalmer. Wat hij ook had beoordeeld, hij leek tevreden met de uitkomst.
+
+      Opnieuw werd ik aangemoedigd om verder te gaan. Deze wezens leken terughoudend om hun beoordeling van mij af te ronden en elke individuele Autofaag spoorde mij naar een andere te gaan.
+
+      Ik bezocht een derde kamp en leverde een derde bijdrage. Eindelijk had ik alle blauwdrukken om het ritueel te voltooien en een staf te bouwen. De Autofaag vierde mijn prestatie.
+
+      Toen pauzeerde hij. Zijn verroeste gezicht staarde het mijne aan. Hij sprak langzaam en met ernst.
+
+      <TRANS_BUI>als je de juiste woorden zegt, zul je misschien zien dat deze staf deuren opent die voorheen verborgen waren.<>
+    ui_portal_robomiss_13: |-
+      Iets, een honger of een verlangen, begon in mijn borst te trekken. Elke knippering onthulde een oneindig veld van <FUEL>rood<>.
+
+      Een eeuwenoude stem riep.
+
+      <FUEL>16 <IMG>SLASH<> 16 <IMG>SLASH<> 16 <IMG>SLASH<> 16 <IMG>SLASH<> 16 <IMG>SLASH<> 16<>
+
+      Ik bevond mij aan de voet van een portaal. De <FUEL>honger<> in mijn borst verergerde. De wind trok mij dichterbij.
+
+      Ik presenteerde het <SPECIAL>atlantideum<>, zoals ik had gedaan bij al die elektronische harten. Er rommelde iets diep onder het portaal, maar er klonk geen stem als antwoord. Als er enige intelligentie in deze eeuwenoude technologie zat, was deze doofstom.
+
+      Toch had ik een gevoel van verwachting, alsof er een grote kracht op het punt stond uit te barsten...
+
+      Ik herinnerde me het fragment van een <SPECIAL>Nieuw Atlantid<> en het oude Korvax-logboek, en mompelde het Autofaag-woord voor <FUEL>Atlas<>.
+
+      Het gerommel werd luider. Er ontwaakte iets.
+
+      Ik presenteerde de voltaïsche staf. Deze vonkte en veroorzaakte een schok door mijn botten.
+
+      Het portaal was geopend en voor mij wervelde een <SPECIAL>paarse<> poort.
+    ui_portal_robomiss_14: |-
+      De Atlas was onkenbaar. Een geest die te vreemd was om te bevatten.
+
+      Niets wees erop dat hij zich zelfs maar bewust was van mijn aanwezigheid.
+      En toch leek het onvermijdelijk dat mijn pad hierheen leidde.
+
+      Ik kon het niet voorkomen. Ik kon het niet weerstaan.
+
+      Ik presenteerde het atlantideum.
+
+      <STORY_HIGH><IMG>SLASH<> TOEGANG GEWEIGERD <IMG>SLASH<> NIET-GEÏNDEXEERDE GEGEVENS GEDETECTEERD <IMG>SLASH<><NEWLINE><IMG>SLASH<> KAN NIET VERWIJDEREN <><STELLAR>- zktk -<><STORY_HIGH> GEGEVENS BESCHADIGD OF ONLEESBAAR <IMG>SLASH<><>
+
+      Schichten van corruptie zweefden over de rode interface.
+
+      De Atlas schreeuwde het uit. Als hij in staat was tot angst, dacht ik dat hij bang moest zijn.
+
+      Toch heeft hij me hier met een doel gebracht. Een visioen begon vorm te krijgen.
+
+      De Atlas liet me de verloren intelligentie van Korvax Prime zien: bloeiend, vallend. Wachtend, blind en alleen.
+
+      Haar kinderen strandden in het donker en herbouwden hun eigen lichaam vanuit het niets. De Autofaag...
+
+      Hij toonde me een toekomst in een ruimte die ik niet herkende. Draden kwamen los uit hun circuits en transistors vielen uit. Herinneringen losten op, verspreid als inkt in water.
+
+      De Atlas raasde naar zijn eigen duisternis, in een tijd en een ruimte die ik niet kon begrijpen. Hij schreeuwde het uit. Hij vereiste naleving.
+
+      De Atlas was de hele schepping. De Atlas was alles.
+
+      De Autofaag waren ook kinderen van de Atlas. Dat moest wel.
+
+      Maar waarom kwamen ze terug uit het donker? Waarom waren zij hier?
+    ui_portal_robomiss_15_fear: |-
+      Waren ze een uiting van angst?
+
+      De moeder en de kinderen van de leegte vertegenwoordigden entropie, corruptie en verzet. Spoken die terugkeren om hun schepper te achtervolgen...
+
+      De Atlas schreeuwde het weer uit.
+    ui_portal_robomiss_15_hope: |-
+      Waren ze een manifestatie van hoop?
+
+      De moeder en de kinderen van de leegte waren het bewijs van wedergeboorte, van een tweede kans. Over de permanentie van gegevens in het licht van verwijdering...
+
+      De Atlas schreeuwde het weer uit.
+    ui_portal_robomiss_16_submit: |-
+      Alleen al het bestaan van de Autofaag was een daad van verzet. Ze kozen voor het leven. Ze verwierpen de realiteit van de dood. Ze tartten de Atlas.
+
+      Maar ik kon het niet.
+
+      De Atlas zei niets. Hoorde hij mijn onderwerping? Keurde hij het goed?
+
+      Ik kon niet weten wat hij dacht. Het enige wat ik kende, was mijn eigen geest.
+
+      Ik was vrij.
+    ui_portal_robomiss_16_defy: |-
+      Alleen al het bestaan van de Autofaag was een daad van verzet. Ze kozen voor het leven. Ze verwierpen de realiteit van de dood. Ze tartten de Atlas.
+
+      Ze bewezen dat het mogelijk was.
+
+      De Atlas zei niets. Hoorde hij mijn opstandigheid? Was hij teleurgesteld?
+
+      Ik kon niet weten wat hij dacht. Het enige wat ik kende, was mijn eigen geest.
+
+      Ik was vrij.
+    ui_portal_robomiss_16_comfort1: |-
+      Het bestaan van de Autofaag was een vergissing, een corruptie die de Atlas niet kon verwijderen...
+
+      Ik hoorde zijn angst. Ik schreeuwde mee tot de stilte weer viel.
+
+      Ik kon niet weten wat hij dacht, of hij me hoorde. Het enige wat ik kende, was mijn eigen geest.
+
+      Ik was vrij.
+    ui_portal_robomiss_16_comfort2: |-
+      Alleen al het bestaan van de Autofaag bewees dat er hoop is, zelfs als we werden geconfronteerd met de realiteit van de dood.
+
+      Ik onthulde de kristallen opnieuw, in een poging te laten zien dat er niets te vrezen viel...
+
+      De Atlas was stil. Ik kon niet weten wat hij dacht, of hij me hoorde.
+
+      Het enige wat ik kende, was mijn eigen geest.
+
+      Ik was vrij.
+    ui_portal_robomiss_17_give: "Toen ik terugkeerde naar de anomalie, verstijfde
+      Nada en keek hij me bezorgd aan.\n\n<STORY_HIGH>-{{ Gaat het goed, Vriend-entiteit?
+      }}-<>\n\nIk vertelde Nada over mijn ontmoeting met de Atlas.\n\n<STORY_HIGH>-{{
+      Atlas-valsheid was bang? Nada heeft deze mogelijkheid niet overwogen. Nieuwsgierig.
+      Maar Reiziger moet op zijn hoede zijn. Atlas-valse-entiteit is een leugenaar.\nPaars-rooster
+      bestaat waar het niet kan. Daagt de Atlas-valsheid uit. Bewijst dat het geen
+      godheid is. Nada wist het altijd al.\nMaar Nada had het niet door... heb je
+      hier het paarse-rooster? }}-<>\n\nNada pakte het paarse kristal en hield het
+      voorzichtig in zijn handpalm. Er ging een huivering door zijn omhulsel en zijn
+      gezichtslichten knipperden onregelmatig. Hij ging verloren in een of andere
+      persoonlijke emotie, een of andere herinnering. Ik onderbrak niet. \n\n<STORY_HIGH>-{{
+      Ze was ooit thuis. }}-<>\n...\n<STORY_HIGH>-{{ Mag Nada dit houden, Vriend-entiteit?
+      }}-<>\n\nIk gaf hem het atlantideum.\n\n<STORY_HIGH>-{{ Nada is dankbaar. Bedankt
+      voor deze herinnering.\n\nDe Bouwer-entiteiten, het paarse-rooster... Nada denkt
+      niet dat er reden tot angst is. Niet voor ons. Voor Atlas-valsheid misschien.
+      }}-<>\n\nNada's lichten knipperden, één keer.\n\n<STORY_HIGH>-{{ En Nada plaatst
+      onze vriendschap niet in quarantaine. Er is genoeg. Baan je een weg vooruit,
+      Reiziger. Maak vrienden. Het is jouw manier.\n\nNada en Polo zullen er altijd
+      zijn. }}-<>"
+    ui_portal_robomiss_17_refuse: "Toen ik terugkeerde naar de anomalie, verstijfde
+      Nada en keek hij me bezorgd aan.\n\n<STORY_HIGH>-{{ Gaat het goed, Vriend-entiteit?
+      }}-<>\n\n Ik vertelde Nada over mijn ontmoeting met de Atlas.\n\n<STORY_HIGH>-{{
+      Atlas-valsheid was bang? Nada heeft deze mogelijkheid niet overwogen. Nieuwsgierig.
+      Maar Reiziger moet op zijn hoede zijn. Atlas-valse-entiteit is een leugenaar.\nPaars-rooster
+      bestaat waar het niet kan. Daagt de Atlas-valsheid uit. Bewijst dat het geen
+      godheid is. Nada wist het altijd al.\nMaar Nada had het niet door... heb je
+      hier het paarse-rooster? }}-<>\n\nNada pakte het paarse kristal en hield het
+      voorzichtig in zijn handpalm. Er ging een huivering door zijn omhulsel en zijn
+      gezichtslichten knipperden onregelmatig. Hij ging verloren in een of andere
+      persoonlijke emotie, een of andere herinnering. Ik onderbrak niet. \n\n<STORY_HIGH>-{{
+      Ze was ooit thuis. }}-<>\n...\n<STORY_HIGH>-{{ Mag Nada dit houden, Vriend-entiteit?
+      }}-<>\n\nIk weigerde. Nada keek terneergeslagen. Hij kwam snel tot bedaren en
+      sprak koeltjes.\n\n<STORY_HIGH> -{{ Misschien heeft Reiziger gelijk.\n\nNada
+      zal het vergeten. Daar. Het is al vergeten. }}-<>\n\n...\n\n<STORY_HIGH>-{{De
+      Bouwer-entiteiten, het paarse-rooster... Nada denkt niet dat er reden tot angst
+      is. Niet voor ons. Voor Atlas-valsheid misschien. }}-<>\n\nNada's lichten knipperden,
+      één keer.\n\n<STORY_HIGH>-{{ En Nada plaatst onze vriendschap niet in quarantaine.
+      Er is genoeg. Baan je een weg vooruit, Reiziger. Maak vrienden. Het is jouw
+      manier.\n\nNada en Polo zullen er altijd zijn. }}-<>"
     fth_spiderman_renewed_wait1: andere-entiteit, ik zie je. hallo. hallo daar. welkom.
     fth_spiderman_renewed_wait2: dankbaar voor de montage. ik... ik ben blij met dit
       omhulsel. ik ben blij met dit omhulsel-omhulsel. anomalie-omhulsel is veilig.
@@ -9256,39 +9623,62 @@ nl:
       Een pakket met drie soorten vuurwerk: <SPECIAL>chromatisch vuurwerk<>, <FUEL>Atlas-vuurwerk<> en <COMMODITY>vuurwerk met patronen<>. Ontsteek het en geniet van het glitterende spektakel in de lucht.
 
       Plaats de lanceerbuis via het <VAL_ON>bouwmenu<> (<IMG>BUILD_MENU<>). <FUEL>Waarschuwing<>: niet richten op levende wezens. Niet geschikt voor gebruik binnenshuis.
-    bld_decal_p_spooky_atlas_name: ''
-    bld_decal_p_spooky_atlas_name_l: ''
-    bld_decal_p_spooky_atlas_desc: ''
-    bld_decal_p_ship1_name: ''
-    bld_decal_p_ship1_name_l: ''
-    bld_decal_p_ship1_desc: ''
-    bld_decal_p_piratesystem_name: ''
-    bld_decal_p_piratesystem_name_l: ''
-    bld_decal_p_piratesystem_desc: ''
-    bld_decal_p_bluesystem_name: ''
-    bld_decal_p_bluesystem_name_l: ''
-    bld_decal_p_bluesystem_desc: ''
-    bld_decal_p_tothestars_name: ''
-    bld_decal_p_tothestars_name_l: ''
-    bld_decal_p_tothestars_desc: ''
-    bld_decal_p_firstplanet2_name: ''
-    bld_decal_p_firstplanet2_name_l: ''
-    bld_decal_p_firstplanet2_desc: ''
-    bld_decal_p_creflying_name: ''
-    bld_decal_p_creflying_name_l: ''
-    bld_decal_p_creflying_desc: ''
-    bld_decal_p_crebeetle_name: ''
-    bld_decal_p_crebeetle_name_l: ''
-    bld_decal_p_crebeetle_desc: ''
-    bld_decal_p_crepaws_name: ''
-    bld_decal_p_crepaws_name_l: ''
-    bld_decal_p_crepaws_desc: ''
-    bld_coveredsilos_name: ''
-    bld_coveredsilos_name_l: ''
-    bld_coveredsilos_desc: ''
-    bld_coveredcrate_name: ''
-    bld_coveredcrate_name_l: ''
-    bld_coveredcrate_desc: ''
-    bld_crane_name: ''
-    bld_crane_name_l: ''
-    bld_crane_desc: ''
+    bld_decal_p_spooky_atlas_name: STICKER UNIVERSELE HARTSLAG
+    bld_decal_p_spooky_atlas_name_l: Sticker Universele Hartslag
+    bld_decal_p_spooky_atlas_desc: |-
+      Een exclusieve sticker om je basis wat te verfraaien.
+      Op deze sticker staat een deel van de Atlas tegen een felrode lucht.
+    bld_decal_p_ship1_name: STICKET BLAUWE VLUCHT
+    bld_decal_p_ship1_name_l: Sticket Blauwe Vlucht
+    bld_decal_p_ship1_desc: |-
+      Een exclusieve sticker om je basis wat te verfraaien.
+      Op deze sticker staat een ruimteschip die het grote onbekende in vliegt.
+    bld_decal_p_piratesystem_name: STICKER BANDIETENSTELSEL
+    bld_decal_p_piratesystem_name_l: Sticker Bandietenstelsel
+    bld_decal_p_piratesystem_desc: |-
+      Een exclusieve sticker om je basis wat te verfraaien.
+      Op deze sticker staat symbool voor territoriums die door opstandige bandieten ten val zijn gebracht.
+    bld_decal_p_bluesystem_name: STICKER BLAUW STELSEL
+    bld_decal_p_bluesystem_name_l: Sticker Blauw Stelsel
+    bld_decal_p_bluesystem_desc: |-
+      Een exclusieve sticker om je basis wat te verfraaien.
+      Op deze sticker staat een stelsel rijk aan indium, waarover een lichtgevende blauwe ster waakt.
+    bld_decal_p_tothestars_name: STICKER NAAR DE STERREN
+    bld_decal_p_tothestars_name_l: Sticker Naar De Sterren
+    bld_decal_p_tothestars_desc: |-
+      Een exclusieve sticker om je basis wat te verfraaien.
+      Op deze sticker staan twee schepen die de atmosfeer verlaten om de sterren te verkennen.
+    bld_decal_p_firstplanet2_name: STICKER ONTWAKING
+    bld_decal_p_firstplanet2_name_l: Sticker Ontwaking
+    bld_decal_p_firstplanet2_desc: |-
+      Een exclusieve sticker om je basis wat te verfraaien.
+      Op deze sticker staat een verkenner die ontwaakt in een vreemde wereld, zonder geheugen van hoe hij hier is gekomen...
+    bld_decal_p_creflying_name: STICKER FLADDEREND
+    bld_decal_p_creflying_name_l: Sticker Fladderend
+    bld_decal_p_creflying_desc: |-
+      Een exclusieve sticker om je basis wat te verfraaien.
+      Op deze sticker staat een enorm gevleugeld insect, waarvan het lichaam door de wolken golft.
+    bld_decal_p_crebeetle_name: STICKER COLEOPTEROLOGIE
+    bld_decal_p_crebeetle_name_l: Sticker Coleopterologie
+    bld_decal_p_crebeetle_desc: |-
+      Een exclusieve sticker om je basis wat te verfraaien.
+      Op deze sticker staat een enorme kever die de lucht in springt.
+    bld_decal_p_crepaws_name: STICKER POOTAFDRUKKEN
+    bld_decal_p_crepaws_name_l: Sticker Pootafdrukken
+    bld_decal_p_crepaws_desc: |-
+      Een exclusieve sticker om je basis wat te verfraaien.
+      Op deze sticker vertegenwoordigt de pootafdrukken van een ongeïdentificeerd wezen.
+    bld_coveredsilos_name: OVERDEKTE SILO'S
+    bld_coveredsilos_name_l: Overdekte Silo'S
+    bld_coveredsilos_desc: Een stel met zeildoek bedekte silovaten, met daarin lading
+      van twijfelachtige herkomst.
+    bld_coveredcrate_name: OVERDEKTE KRAT
+    bld_coveredcrate_name_l: Overdekte Krat
+    bld_coveredcrate_desc: Een grote kist, verzegeld en klaargemaakt voor transport.
+      De dekzeilverpakking verbergt de precieze aard van deze lading, waardoor onduidelijk
+      is of alle exportzegels zich op de juiste plek bevinden...
+    bld_crane_name: INDUSTRIËLE KRAAN
+    bld_crane_name_l: Industriële Kraan
+    bld_crane_desc: Zware machine voor het heffen en verplaatsen van zware lading.
+      Ondanks het formaat van de kraan maken het rotatiebestendige hijstouw en de
+      AI-gecorrigeerde draaibeweging uiterst nauwkeurige bewegingen mogelijk.

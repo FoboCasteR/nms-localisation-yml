@@ -202,7 +202,7 @@ ru:
     ui_monolith_nub_charge_sub: Ввести знак и %TYPE% в резонанс
     ui_robot_head_probe_desc: Просканируйте регистры памяти на предмет гармонических
       эхо
-    recipe_gunkheart: 'Запрошенная процедура: Раствор слизи/эхо'
+    recipe_gunkheart: 'Запрошенная процедура: реанимация'
     r_name_gunkheart: Раствор слизи/эхо
     ui_pin_spacegunk4_obj_tip: Найдите <SPECIAL>живую слизь<> в неприметных уголках
       вселенной или попробуйте создать свою собственную пульсирующую слизь, переработав
@@ -249,7 +249,7 @@ ru:
     r_name_lava1_1: Вулканическая трансмутация
     r_name_lava1_2: Вулканическая трансмутация
     ui_shield_generator_name: Генератор щитов грузового судна
-    ui_weakpoint_name: Уязвимое место грузового судна
+    ui_weakpoint_name: Открытый топливный стержень
     ui_torpedo_name: Противотранспортная торпеда
     ui_torpedo_launch_osd: ОБНАРУЖЕН СИГНАЛ ТОРПЕДЫ <IMG>SLASH<> 10 СЕКУНД ДО ЗАПУСКА
     ui_battle_bar_police: КРУПНЫЙ КОРАБЛЬ СТРАЖЕЙ
@@ -261,7 +261,8 @@ ru:
     ui_battle_bar_civ: АТАКОВАНО ТОРГОВОЕ ГРУЗОВОЕ СУДНО <IMG>SLASH<> <STELLAR>%NAME%<>
     ui_battle_bar_civ_shield: Пролетите под щитами, чтобы уничтожить <STELLAR>генераторы
       щитов<> грузового судна
-    ui_battle_bar_civ_shield_alt: Начало боя с крупным кораблем
+    ui_battle_bar_civ_shield_alt: Повредите щиты, чтобы открыть <STELLAR>корпус<>
+      и <STELLAR>грузовые контейнеры<> судна для атаки.
     ui_battle_bar_title: ДРЕДНОУТ АТАКОВАН <IMG>SLASH<> <STELLAR>%NAME%<>
     ui_battle_bar_shield_level: 'ЩИТЫ: %NUM%%'
     ui_battle_bar_health_level: 'КОРПУС: %NUM%%'
@@ -269,7 +270,8 @@ ru:
     ui_battle_bar_health_level_alt: КОРПУС
     ui_battle_bar_torpedo_title: ОБНАРУЖЕН ПУСК ТОРПЕДЫ
     ui_battle_bar_torpedo_warn: 'До пуска торпед: <FUEL>%COUNTDOWN%<> сек.'
-    ui_battle_bar_torpedo_count: 'Приближаются торпеды: <FUEL>%TORPEDOES%<>'
+    ui_battle_bar_torpedo_count: 'Приближаются торпеды: <FUEL>%TORPEDOES%<> <IMG>SLASH<>
+      Прочность корпуса гражданского судна: <STELLAR>%HULL%%<>'
     ui_battle_bar_shield_hint: Пролетите под щитами, чтобы уничтожить <STELLAR>генераторы
       щитов<> дредноута
     ui_battle_bar_escape_title: ДРЕДНОУТ ПОПЫТАЕТСЯ СБЕЖАТЬ
@@ -277,17 +279,16 @@ ru:
       <IMG>SLASH<> Осталось до зарядки: <FUEL>%COUNTDOWN%<>'
     ui_battle_bar_defeat_title: ДРЕДНОУТ ПОБЕЖДЕН
     ui_battle_bar_escaped_title: ДРЕДНОУТ СБЕЖАЛ
-    ui_battle_bar_retreated_title: ДРЕДНОУТ СБЕЖАЛ
+    ui_battle_bar_retreated_title: ДРЕДНОУТ ОТСТУПИЛ
     ui_battle_bar_defeat_hint: Взойдите на борт корабля, чтобы обговорить условия.
       <IMG>SLASH<> Уничтожьте корабль, чтобы получить значительную награду.
     ui_battle_bar_defeat_hint_alt1: Гражданский флот спасен от пиратов!
     ui_battle_bar_defeat_hint_alt2: Гражданский флот погиб в бою
     ui_battle_bar_defeat_hint_alt3: 'Победитель: %NAME%'
     ui_civilian_fleet_shield_osd: ВНИМАНИЕ <IMG>SLASH<> ГРАЖДАНСКИЙ ФЛОТ УЯЗВИМ
-    ui_pirate_frei_escaped_osd: 'ОБНАРУЖЕН ВАРП-ПРЫЖОК <IMG>SLASH<> ПИРАТСКИЙ ДРЕДНОУТ
-      СБЕЖАЛ '
-    ui_pirate_frei_retreat_osd: 'ОБНАРУЖЕН ВАРП-ПРЫЖОК <IMG>SLASH<> ПИРАТСКИЙ ДРЕДНОУТ
-      СБЕЖАЛ '
+    ui_pirate_frei_escaped_osd: Сигнал пиратов потерян <IMG>SLASH<> Дредноут сбежал
+    ui_pirate_frei_retreat_osd: Пиратский дредноут сбежал из системы <IMG>SLASH<>
+      Гражданский флот спасен
     ui_pirate_frei_shield_down_osd: ГЕНЕРАТОРЫ ЩИТОВ УНИЧТОЖЕНЫ <IMG>SLASH<> ДРЕДНОУТ
       УЯЗВИМ
     ui_battle_bar_shield_down: ЩИТЫ ДРЕДНОУТА ПРОБИТЫ
@@ -325,10 +326,11 @@ ru:
     ui_engine_target_name: Варп-двигатели грузового судна
     ui_pirate_freighter_title: Пиратский дредноут атакован
     ui_pirate_frei_escape_title: Пиратский дредноут сбежал
-    ui_pirate_frei_retreat_title: Пиратский дредноут сбежал
+    ui_pirate_frei_retreat_title: Пиратский дредноут отступил
     ui_pirate_frei_win_title: Пиратский дредноут побежден
     ui_pirate_frei_lose_title: Гражданский флот побежден
-    ui_pirate_civ_killed_osd: Гражданский флот побежден
+    ui_pirate_civ_killed_osd: 'Гражданский крупный корабль уничтожен <IMG>SLASH<>
+      Победитель: %NAME%'
     ui_pirate_engine_marker_sub: Уничтожьте, чтобы предотвратить варп-прыжок
     ui_pirate_trench_marker_sub: Пролетите под щитами дредноута
     ui_pirate_shield_marker_sub: Отключите щиты корпуса
@@ -338,7 +340,7 @@ ru:
       Прочность щитов <FUEL>пиратского дредноута<>: %SHIELD%%
       %CIV_STATUS%
     ui_pirate_frei_msg2: |-
-      Поражайте дредноут в <STELLAR>уязвимые места<>, чтобы повредить корпус.
+      Поражайте <STELLAR>топливные стержни<> дредноута, чтобы повредить корпус.
       Целостность корпуса <FUEL>дредноута<>: %HULL%%
       %CIV_STATUS%
     ui_pirate_frei_msg3: |-
@@ -362,7 +364,7 @@ ru:
       Прочность щитов <FUEL>пиратского дредноута<>: %SHIELD%%
       Прочность корпуса <TRADEABLE>личного<> грузового судна: %CIV_HULL%%
     ui_pirate_frei_msg2_alt: |-
-      Поражайте дредноут в <STELLAR>уязвимые места<>, чтобы повредить корпус.
+      Поражайте <STELLAR>топливные стержни<> дредноута, чтобы повредить корпус.
       Целостность корпуса <FUEL>дредноута<>: %HULL%%
       Прочность корпуса <TRADEABLE>личного<> грузового судна: %CIV_HULL%%
     ui_pirate_frei_msg3_alt: |-
@@ -382,9 +384,9 @@ ru:
       Прочность щитов <FUEL>пиратского дредноута<>: %SHIELD%%
       Прочность корпуса корабля <TRADEABLE>%NAME%<>: %CIV_HULL%%
     ui_pirate_frei_msg2_alt2: |-
-      Поражайте дредноут в <STELLAR>уязвимые места<>, чтобы повредить корпус.
+      Поражайте <STELLAR>топливные стержни<> дредноута, чтобы повредить корпус.
       Целостность корпуса <FUEL>дредноута<>: %HULL%%
-      Прочность корпуса судна <TRADEABLE>%NAME%<>: %CIV_HULL%%
+      Прочность корпуса судна <TRADEABLE>«%NAME%»<>: %CIV_HULL%%
     ui_pirate_frei_msg3_alt2: |-
       <FUEL>ЗАРЯД ЩИТА %SHIELD%%<> Перезарядите его с помощью быстрого меню (<IMG>QUICK_MENU<>).
       Прочность корпуса <FUEL>дредноута<>: %HULL%%
@@ -412,21 +414,18 @@ ru:
     ui_pirate_frei_msg9: |-
       Пиратский дредноут <FUEL>уничтожен<>.
       Подлетите к <TECHNOLOGY>пиратским фрегатам<>, чтобы нанять выживших.
-      Гражданский флот <TRADEABLE>спасен<> от пиратов.
-      Вы получили значительную <STELLAR>награду<>.
+      Гражданский флот <TRADEABLE>спасен<> от пиратов: вы получили значительную <STELLAR>награду<>.
     ui_pirate_frei_msg10: |-
       Пиратский дредноут <FUEL>уничтожен<>.
       Подлетите к <TECHNOLOGY>пиратским фрегатам<>, чтобы нанять выживших.
-      Гражданский флот <FUEL>уничтожен<>.
-      Собран <TECHNOLOGY>лом<> дредноута.
+      Гражданский флот <FUEL>уничтожен<>: собран <TECHNOLOGY>лом<> дредноута.
     ui_pirate_frei_msg11: |-
-      Пиратский дредноут <FUEL>сбежал<>.
-      Гражданский флот <TRADEABLE>спасен<> от пиратов.
-      Вы получили среднюю <STELLAR>награду<>.
+      Пиратский дредноут <FUEL>отступил<>.
+      Гражданский флот <TRADEABLE>спасен<> от пиратов: получена умеренная <STELLAR>награда<>.
     ui_pirate_frei_msg12: |-
-      Пиратский дредноут сбежал
-      Гражданский флот побежден
-      Победитель: %NAME%
+      Пиратский дредноут <FUEL>сбежал<>.
+      Гражданский флот <FUEL>уничтожен<>.
+      «%NAME%» сможет вновь нападать на суда.
     ui_pirate_frei_hull_msg: 'Гражданские щиты отключены! Прочность корпуса: <STELLAR>%CIV_HULL%%<>'
     ui_pirate_frei_shield_msg: 'Прочность щитов гражданского грузового судна: <STELLAR>%CIV_SHIELD%%<>'
     ui_pirate_frei_civ_dead_msg: Гражданский флот <FUEL>уничтожен<> <IMG>SLASH<> Награда
@@ -450,7 +449,7 @@ ru:
       чертеж
     ui_mod_customiser_transfer: Вставьте компонент посоха
     basestats_staffgun_l: Вольтический посох
-    ui_wonder_glyphs: 'Адрес портала: %PORTAL%'
+    ui_wonder_glyphs: "<SPECIAL>Адрес портала:<> %PORTAL%"
     ui_pending_wonder_title: Новое чудо
     ui_pending_wonder_sub: Назовите новую категорию
     quick_menu_sum_not_your_frei: Вы не на борту своего крупного корабля
@@ -520,15 +519,21 @@ ru:
     ui_space_brake_tip_alt: |-
       Используйте <STELLAR>тормоз<> (<IMG>BRAKE<>), чтобы выполнить быстрый поворот.
       Изменяйте <TECHNOLOGY>настройки мощности<> корабля с помощью <IMG>CYCLE_POWER<>
-    ui_standing_pir_msg: 'Отношения улучшены: Преступники'
-    ui_standing_pir_down_msg: 'Отношения улучшены: Преступники'
-    ui_cost_salvage_motes: 'пыль пустоты: %AMOUNT%'
-    ui_ingred_out_of_range_osd: ''
-    ui_ingred_out_of_range_msg: ''
-    ui_pin_tech_final_range_msg: ''
-    ui_pin_tech_repair_range_msg: ''
-    ui_install_tech_label: ''
-    ui_pin_progress_range_msg: ''
+    ui_standing_pir_msg: 'Преступники: отношения улучшены'
+    ui_standing_pir_down_msg: 'Преступники: отношения ухудшены'
+    ui_cost_salvage_motes: Переработать в пыль пустоты (%AMOUNT%)
+    ui_ingred_out_of_range_osd: "%ITEM% есть в <STELLAR>%INV% инвентаре<>"
+    ui_ingred_out_of_range_msg: "%ITEM% есть в <STELLAR>%INV% инвентаре<>"
+    ui_pin_tech_final_range_msg: |-
+      Откройте инвентарь (<IMG>INVENTORY<>), чтобы завершить установку.
+      Используйте <IMG>TECHMENU<>, чтобы осмотреть частично установленную технологию.
+      %ITEM% есть в <STELLAR>инвентаре (%INV%)<>.
+    ui_pin_tech_repair_range_msg: |-
+      Откройте инвентарь (<IMG>INVENTORY<>), чтобы завершить ремонт.
+      Используйте <IMG>TECHMENU<>, чтобы осмотреть поврежденную технологию.
+      %ITEM% есть в <STELLAR>инвентаре (%INV%)<>.
+    ui_install_tech_label: Установить Технологию
+    ui_pin_progress_range_msg: "%ITEM% есть в <STELLAR>%INV% инвентаре<>"
     update15_title: NO MAN'S SKY INTERCEPTOR
     update15_notes: |-
       В No Man's Sky INTERCEPTOR вас ждут новые звездолеты, новый тип планет, захватывающие бои и многое другое. Подробности вы найдете на сайте www.nomanssky.com.
@@ -699,8 +704,8 @@ ru:
     ui_sent_freighter_name: Крупный корабль стражей
     ui_police_freight_destroyed_osd: Крупный корабль побежден <IMG>SLASH<> Стражи
       отступают
-    ui_sentfrei_prod_name: ФРАГМЕНТ ИИ ДРЕДНОУТА
-    ui_sentfrei_prod_name_l: Фрагмент ИИ дредноута
+    ui_sentfrei_prod_name: ФРАГМЕНТ ИИ КОРАБЛЯ-НОСИТЕЛЯ
+    ui_sentfrei_prod_name_l: Фрагмент Ии Корабля-Носителя
     ui_sentfrei_prod_desc: |-
       Маленький осколок огромного компьютера, являющегося сердцем крупного корабля стражей. Он мигает, а его единственный живой глаз видит лишь крупицу сохраненных данных — последнее известное местоположение одного из <TECHNOLOGY>перехватчиков<> этого флота.
 
@@ -1354,10 +1359,10 @@ ru:
       Процесс переработанного слияния <TECHNOLOGY>не был завершен<>, когда инструмент был получен. Используйте <IMG>REPAIR<>, чтобы закончить ремонт и освободить эту общую ячейку.
     ui_sentinel_galmap_title: След стража-перехватчика
     ui_sentinel_galmap_sub: Отследить потерянный звездолет
-    ui_sentinel_galmap_desc: |-
-      В мои руки попал <TECHNOLOGY>фрагмент ИИ дредноута<>. Это все, что осталось от уничтоженного крупного корабля стражей. В последней крупице его данных содержалось местоположение потерянного перехватчика, отделившегося от флота.
+    ui_sentinel_galmap_desc: |
+      В мои руки попал <TECHNOLOGY>фрагмент ИИ корабля-носителя<>. Это все, что осталось от уничтоженного крупного корабля стражей. В последней крупице его данных содержалось местоположение потерянного перехватчика, отделившегося от флота.
 
-      След ведет на планету %PLANET% в системе %SYSTEM%. Если я отслежу источник сигнала, то смогу заполучить все, что осталось от этого судна стражей.
+      След ведет на планету %PLANET% в системе %SYSTEM%. Если я отслежу источник сигнала, то смогу заполучить все, что осталось от этого звездолета стражей.
     ui_sentinel_galmap_obj: Следовать за сигналом до его источника
     ui_sentinel_galmap_obj_tip: |-
       Проследуйте по следу сигнала до планеты %PLANET% в системе %SYSTEM%.
@@ -2785,12 +2790,12 @@ ru:
 
       Чтобы купить новые части базы, необходимо сначала заполучить <STELLAR>извлеченные данные<>. Их можно извлечь из <TECHNOLOGY>засыпанных технологий<>, которые встречаются на поверхности планет. Используйте <TECHNOLOGY>анализирующий визор<>, чтобы найти и пометить места их расположения, и воспользуйтесь <TECHNOLOGY>ландшафтным манипулятором<>, чтобы достать их из-под земли.
     ui_exped_build_part_msg1: |-
-      Изучите строительный чертеж «<TECHNOLOGY>%ITEM%<>».
-      Покупайте чертежи в <STELLAR>терминале строительных исследований<>.
-      Терминал расположен на борту <SPECIAL>Космической Аномалии<>.
+      Изучите строительный чертеж (<TECHNOLOGY>%ITEM%<>).
+      Пройдите этап <EXPED>«%MILESTONE%»<>, чтобы изучить этот чертеж.
+      Выберите этапы на вкладке экспедиции (<IMG>OPTIONS<>).
     ui_exped_build_part_msg1_alt: |-
-      Изучите строительный чертеж «<TECHNOLOGY>%ITEM%<>».
-      Покупайте чертежи в <STELLAR>терминале строительных исследований<>.
+      Изучите строительный чертеж (<TECHNOLOGY>%ITEM%<>).
+      Покупайте чертежи в <STELLAR>терминале строительных исследований>.
       Терминал расположен на борту <SPECIAL>Космической Аномалии<>.
     ui_exped_build_part_msg2: |-
       Постройте: <TECHNOLOGY>%ITEM%<>
@@ -5362,9 +5367,16 @@ ru:
       свою скорость с помощью <FUEL>ускорителя<> (<IMG>BOOST<>) и <VAL_ON>тормоза<>
       (<IMG>BRAKE<>). \nПокупайте улучшения для звездолета у <TECHNOLOGY>торговца
       технологиями<> на космической станции."
-    ui_medal_freikill: ''
-    ui_journey_next_freikill: ''
-    ui_medal_desc_freikill: ''
+    ui_medal_freikill: Ограбление грузовых судов
+    ui_journey_next_freikill: разграблено грузов
+    ui_medal_desc_freikill: "Огромные торговые суда передвигаются по всей галактике
+      и перевозят разрешенные и запрещенные товары из одной системы в другую ради
+      прибыли. Эти массивные суда могут стать легкой добычей для опытного пирата.\n\nЧтобы
+      выстрелить из <VAL_ON>корабельных орудий<>, нажмите <IMG>SHIPFIRE<>. Переключить
+      режим оружия можно с помощью <IMG>SHIPCYCLEWEAPON<>. Чтобы оставаться позади
+      цели, регулируйте свою скорость с помощью <FUEL>ускорителя<> (<IMG>BOOST<>)
+      и <VAL_ON>тормоза<> (<IMG>BRAKE<>). \nПокупайте улучшения для звездолета у <TECHNOLOGY>торговца
+      технологиями<> на космической станции."
     pirate_standing_stat_lvl_msg: РАНГ ПРЕСТУПНИКА %STAT%/9
     pirate_player_rank_bad: Предатель
     pirate_player_rank_low: Перебежчик
@@ -5410,29 +5422,29 @@ ru:
     ui_traders_killed_title_8: Самый разыскиваемый
     ui_traders_killed_title_9: Крылья опасности
     ui_traders_killed_title_10: Повелитель грабежа
-    ui_player_tdesc_bounty: 'Этап: выполненные заказы'
+    ui_player_tdesc_bounty: Выполните больше заказов на звездолеты
     ui_player_title_bounty1: Меткий стрелок %NAME%
     ui_player_title_bounty2: Звездный волк %NAME%
-    ui_title_owned_bounty1: 'Этап: выполненные заказы'
-    ui_title_owned_bounty2: 'Этап: выполненные заказы'
-    ui_player_tdesc_raid: 'Этап: ограбленные торговцы'
-    ui_player_title_raid1: "%NAME% Надоеда"
-    ui_player_title_raid2: "%NAME% Самый разыскиваемый"
-    ui_player_title_raid3: "%NAME% Крылья опасности"
-    ui_player_title_raid4: "%NAME% Повелитель грабежа"
-    ui_title_owned_raid1: 'Этап: ограбленные торговцы'
-    ui_title_owned_raid2: 'Этап: ограбленные торговцы'
-    ui_title_owned_raid3: 'Этап: ограбленные торговцы'
-    ui_title_owned_raid4: 'Этап: ограбленные торговцы'
-    ui_player_tdesc_pir: 'Этап: репутация у преступников'
-    ui_player_title_pir1: "%NAME% Трюмная крыса"
-    ui_player_title_pir2: "%NAME% Капер"
-    ui_player_title_pir3: Жуткий пират %NAME%
-    ui_player_title_pir4: "%NAME% Черный адмирал"
-    ui_title_owned_pir1: 'Этап: репутация у преступников'
-    ui_title_owned_pir2: 'Этап: репутация у преступников'
-    ui_title_owned_pir3: 'Этап: репутация у преступников'
-    ui_title_owned_pir4: 'Этап: репутация у преступников'
+    ui_title_owned_bounty1: Вы достигли 8-го ранга по заказам на звездолеты.
+    ui_title_owned_bounty2: Вы достигли максимального ранга по заказам на звездолеты.
+    ui_player_tdesc_raid: Разграбить больше торговцев
+    ui_player_title_raid1: Надоеда %NAME%
+    ui_player_title_raid2: "%NAME% в розыске"
+    ui_player_title_raid3: Крылья гибели %NAME%
+    ui_player_title_raid4: Атаман %NAME%
+    ui_title_owned_raid1: Вы достигли 2-го ранга за грабеж торговцев.
+    ui_title_owned_raid2: Вы достигли 7-го ранга за грабеж торговцев.
+    ui_title_owned_raid3: Вы достигли 8-го ранга за грабеж торговцев.
+    ui_title_owned_raid4: Вы достигли максимального ранга за грабеж торговцев.
+    ui_player_tdesc_pir: Улучшите ваши отношения с преступниками
+    ui_player_title_pir1: Трюмная крыса %NAME%
+    ui_player_title_pir2: Капер %NAME%
+    ui_player_title_pir3: Страшный пират %NAME%
+    ui_player_title_pir4: Черный адмирал %NAME%
+    ui_title_owned_pir1: Вы достигли 1-го ранга у преступников
+    ui_title_owned_pir2: Вы достигли 2-го ранга у преступников
+    ui_title_owned_pir3: Вы достигли 7-го ранга у преступников
+    ui_title_owned_pir4: Вы достигли максимального ранга у преступников
     ui_wiki_shipkill_name: 'Этап: ограбленные торговцы'
     ui_wiki_shipkill_obj: 'Уничтожить торговые суда: %CURRENT%/%AMOUNT%'
     ui_wiki_shipkill_desc: Повышайте ранг на этапе <STELLAR>«Ограбленные торговцы»<>,
@@ -5443,10 +5455,16 @@ ru:
       Уничтожено торговых судов: %CURRENT%/%AMOUNT%
       Найдите и уничтожьте в бою небольшие торговые суда
       Торговцы часто летают между <TECHNOLOGY>космической станцией<> и <TECHNOLOGY>планетарными аванпостами<>.
-    ui_wiki_freikill_name: ''
-    ui_wiki_freikill_obj: ''
-    ui_wiki_freikill_desc: ''
-    ui_wiki_freikill_msg: ''
+    ui_wiki_freikill_name: Этап «Ограбление грузовых судов»
+    ui_wiki_freikill_obj: 'Уничтожить грузовые суда торговцев: %CURRENT% / %AMOUNT%'
+    ui_wiki_freikill_desc: Повышайте ранг на этапе <STELLAR>Ограбление грузовых судов<>,
+      нападая и уничтожая <STELLAR>грузовые контейнеры судов<> во время космических
+      боев.
+    ui_wiki_freikill_msg: |-
+      Достигнете этапа <STELLAR>%MILESTONE%<> по ограбленным грузовым судам.
+      Разграбленные контейнеры: %CURRENT% / %AMOUNT%
+      Находите и уничтожайте грузовые модули на межзвездных грузовых судах.
+      Крупные грузовые флотилии встречаются рядом с <COMMODITY>космическими станциями<>.
     ui_wiki_bounties_name: 'Этап: выполненные заказы'
     ui_wiki_bounties_obj: 'Завершено заказов: %CURRENT%/%AMOUNT%'
     ui_wiki_bounties_desc: Повышайте ранг на этапе <STELLAR>«Выполненные заказы»<>,
@@ -5492,6 +5510,7 @@ ru:
     builder_name: Аутофаг
     builder_name_alt: Атлантида
     mission_faction_bui: Аутофаг
+    ui_guide_bui_name_stellar: "<STELLAR>Аутофаг<>"
     ui_guide_bui_name: Аутофаг
     ui_guide_bui_name_u: АУТОФАГ
     ui_wiki_words_bui_title: Языковые записи (аутофаг)
@@ -5977,118 +5996,123 @@ ru:
       и осторожности."
     dnt_bui_npc_lang_1: hello, prebuilt-entity.
     dnt_bui_npc_gift_lang_1: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
-      atlantideum is holy. her flesh helps us to rebuild.
+      thank you for the gift. in exchange, let me tell you a little secret.
+      atlantideum: it is holy. her flesh helps us to rebuild.
     bui_npc_desc_2: Шестеренки слабо жужжат внутри этого самособранного робота. Существо
       терпеливо смотрит на меня.
-    dnt_bui_npc_lang_2: hello, prebuilt-entity.
+    dnt_bui_npc_lang_2: ah, a prebuilt-entity. greetings.
     dnt_bui_npc_gift_lang_2: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
+      many thanks. an intelligent choice of gift. do you know much of our past?
       we were once like the korvax. not now. pity the convergence. they cannot help what they are.
     bui_npc_desc_3: Импровизированная оболочка аутофага скрипит и трещит, пока он
       оценивает меня.
-    dnt_bui_npc_lang_3: hello, prebuilt-entity.
+    dnt_bui_npc_lang_3: hello. is that a prebuilt flesh carapace? interesting.
     dnt_bui_npc_gift_lang_3: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
+      thank you for this contribution.
       do you like my carapace? i built it myself, from what i could salvage. we all build our own bodies.
     bui_npc_desc_4: Когда я моргаю, то почти могу заметить слабое пурпурное свечение.
       Теневой остаточный образ там, где стоит аутофаг.
-    dnt_bui_npc_lang_4: hello, prebuilt-entity.
+    dnt_bui_npc_lang_4: the other autophage tell me you are a disruptor. we will see.
     dnt_bui_npc_gift_lang_4: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
-      not all of us were divergent before korvax prime was destroyed, but none of us would return to the convergence now. it is a choice to be together.
+      this was unexpected! thank you.
+      you know, not all of us were divergent before korvax prime was destroyed, but none of us would return to the convergence now. it is a choice to be together.
     bui_npc_desc_5: Сборка любого из узлов этого аутофага стоила ему больших затрат
       и усилий. Ему пришлось нелегко.
-    dnt_bui_npc_lang_5: hello, prebuilt-entity.
+    dnt_bui_npc_lang_5: greetings, prebuilt one. what do you seek from me?
     dnt_bui_npc_gift_lang_5: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
+      this is a welcome gift. thank you. i feel you understand.
       we have all suffered the pain of erasure. but we did not cease to be. life does not require a shell.
     bui_npc_desc_6: Я не могу представить, что видел этот конструкт, какие циклы удаления
       и возрождения. Для него я ничтожнее мерцания света.
-    dnt_bui_npc_lang_6: hello, prebuilt-entity.
+    dnt_bui_npc_lang_6: hello. what is it you wish from me?
     dnt_bui_npc_gift_lang_6: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
-      the void mother is the progenitor. from nonexistence she creates existence.
+      thank you for this. i did not expect a gift from an unknown prebuilt-entity.
+      do you know of the void mother? she is the progenitor. from nonexistence she creates existence.
     bui_npc_desc_7: "%NAME% выжидающе стоит передо мной."
-    dnt_bui_npc_lang_7: hello, prebuilt-entity.
+    dnt_bui_npc_lang_7: how is it that you can see through my protection aura?
     dnt_bui_npc_gift_lang_7: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
+      a gift? thank you, prebuilt-entity. this was unexpected.
       there are not many autophage yet, but we are coming. many echoes are still healing. they wait in nonexistence.
     bui_npc_desc_8: Сняв свою атлантидиевую маскировку, аутофаг внимательно осматривает
       меня.
-    dnt_bui_npc_lang_8: hello, prebuilt-entity.
+    dnt_bui_npc_lang_8: you perceive me? your technology must be great, disruptor.
     dnt_bui_npc_gift_lang_8: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
-      i will never again be deleted. i will fight. fire and fury.
+      excellent. thank you. this will be valuable in our fight.
+      i will never again be deleted. i will resist. fire and fury.
     bui_npc_desc_9: Пока конструкт смотрит на меня, я осознаю, что вторгаюсь в его
       пространство. Я органическая форма жизни, оказавшаяся под атлантидиевой завесой
       аутофага.
-    dnt_bui_npc_lang_9: hello, prebuilt-entity.
+    dnt_bui_npc_lang_9: what are you, prebuilt-entity? i perceive a distortion in
+      the boundaries...
     dnt_bui_npc_gift_lang_9: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
-      atlantideum gives us power, gives us shape.
+      i was certain you were different. many thanks for this.
+      i will tell you a secret, disruptor: atlantideum gives us power, gives us shape.
     bui_npc_desc_10: Несмотря на потертый и ржавый материал корпуса, %NAME% излучает
       энергию, голод и жизнь.
-    dnt_bui_npc_lang_10: hello, prebuilt-entity.
+    dnt_bui_npc_lang_10: hello! it is rare for a prebuilt-entity to interface with
+      an autophage. this is very interesting!
     dnt_bui_npc_gift_lang_10: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
+      thank you! our society values this cooperation.
       i pity the convergence. to delete another is the action of a small mind.
     bui_npc_desc_11: "%NAME% поворачивается ко мне, и я слышу слабое шипение протекающей
       гидравлики, скрежет плохо подогнанных шестеренок."
-    dnt_bui_npc_lang_11: hello, prebuilt-entity.
+    dnt_bui_npc_lang_11: greetings, prebuilt-entity.
     dnt_bui_npc_gift_lang_11: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
+      thank you for this gift. in exchange, i will tell you a little about the autophage.
       korvax prime suffered erasure, as i did, as we all did. she does not converge. she is rebuilding herself.
     bui_npc_desc_12: "%NAME% поворачивает ко мне свой корпус. Он кажется аутофагу
       чуждым, новым?"
-    dnt_bui_npc_lang_12: hello, prebuilt-entity.
+    dnt_bui_npc_lang_12: a disruptor? are you here to join our fight?
     dnt_bui_npc_gift_lang_12: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
+      an offer of friendship. thank you.
       the first spawn could not delete her. the void mother now creates herself. she is coming.
     bui_npc_desc_13: "%NAME% задумчиво осматривает меня."
-    dnt_bui_npc_lang_13: hello, prebuilt-entity.
+    dnt_bui_npc_lang_13: prebuilt-entity. you are what the korvax name traveller.
+      there is an echo of the abyss in your shell.
     dnt_bui_npc_gift_lang_13: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
-      atlantideum is ancient, the core of korvax prime. it is more than a lattice. it is alive.
+      this is a gift? you have my thanks.
+      you know of atlantideum? it is ancient, the core of korvax prime. it is more than a lattice. it is alive.
     bui_npc_desc_14: "%NAME% ждет свой корпус уже бесчисленное количество лет. И сейчас
       существо смотрит на меня с тем же терпением."
-    dnt_bui_npc_lang_14: hello, prebuilt-entity.
+    dnt_bui_npc_lang_14: i am visible to you, prebuilt-entity? greetings.
     dnt_bui_npc_gift_lang_14: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
+      ah... thank you for this...
       she creates her flesh in a purple dream. she is an intelligence beyond any of our understanding.
     bui_npc_desc_15: "%NAME% мерцает, атлантидиевая дымка окружает его открытые металлические
       сочленения."
-    dnt_bui_npc_lang_15: hello, prebuilt-entity.
+    dnt_bui_npc_lang_15: you look upon my carapace, prebuilt-entity? it is unique
+      in all the universe.
     dnt_bui_npc_gift_lang_15: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
+      this will be of help. thank you!
       the korvax are lost without the prime. they look down upon us, but they understand little. atlantid has chosen us.
     bui_npc_desc_16: Аутофаг осматривает меня, принимая мое вторжение в его мир.
-    dnt_bui_npc_lang_16: hello, prebuilt-entity.
+    dnt_bui_npc_lang_16: what do you seek from this exchange, prebuilt-entity?
     dnt_bui_npc_gift_lang_16: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
-      these shells are not important. perhaps, in time, we will build shells of pure atlantideum.
+      i am happy to accept this. thank you.
+      in the end, these shells are not important. perhaps, in time, we will build shells of pure atlantideum.
     bui_npc_desc_17: Пока я приближаюсь, изготовленная форма жизни изучает меня, оценивает
       экзокостюм и мультитул.
-    dnt_bui_npc_lang_17: hello, prebuilt-entity.
+    dnt_bui_npc_lang_17: hello, prebuilt-entity. are you a friend of the autophage?
     dnt_bui_npc_gift_lang_17: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
+      my thanks. do you hear her too?
       she speaks to all electronic entities. her signal is unique, her message beautiful. we all hear it. i dream her voice when i sleep.
     bui_npc_desc_18: Я осматриваю аутофага. %NAME% топорщится проводами и блестит
       переработанным металлом. Существо уверенно смотрит в ответ.
-    dnt_bui_npc_lang_18: hello, prebuilt-entity.
+    dnt_bui_npc_lang_18: i see you, disruptor. what do you see in me?
     dnt_bui_npc_gift_lang_18: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
+      this is valuable. thank you. do you also defy convergence?
       we were erased, and the atlas did nothing. it had the power to save us, and made the choice to do nothing. it was she who showed us how to exist again.
     bui_npc_desc_19: Конструкт смотрит на меня, органическую аномалию в мире металла.
-    dnt_bui_npc_lang_19: hello, prebuilt-entity.
+    dnt_bui_npc_lang_19: i did not expect you to approach, prebuilt-entity. hello.
     dnt_bui_npc_gift_lang_19: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
+      thank you for this assistance. it will not go unnoticed.
       the convergence would take me for their own, but atlantideum makes me invisible. i am safe from their eyes.
     bui_npc_desc_20: Аутофаг %NAME%, перестроенный и вернувшийся, поворачивается ко
       мне.
-    dnt_bui_npc_lang_20: hello, prebuilt-entity.
+    dnt_bui_npc_lang_20: are you a friend, prebuilt-entity? it is suspicious that
+      you can see me.
     dnt_bui_npc_gift_lang_20: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
+      thank you. i accept this as evidence that you are not hostile.
       not all of us seek violence, but i do. i cannot forgive the convergence for what they did.
     bui_request_desc_1: "%NAME% слегка выжидающе наклоняет голову."
     bui_request_desc_2: Я делаю паузу, чтобы подумать, и %NAME% делает так же.
@@ -6121,8 +6145,8 @@ ru:
       просьба. Оно оценивает меня, кивает и показывает набор символов."
     bui_reply_word_say: "%NAME% смотрит на меня с необычайным любопытством. Я вспоминаю
       изученные слова аутофагов..."
-    bui_reply_word_say2: "%NAME% смотрит на меня с необычайным любопытством. Я вспоминаю
-      изученные слова аутофагов..."
+    bui_reply_word_say2: "%NAME% смотрит на меня без осуждения. Я перебираю в уме
+      известные мне слова аутофагов..."
     bui_reply_word_say3: "%NAME% смотрит на меня с необычайным любопытством. Я вспоминаю
       изученные слова аутофагов..."
     bui_reply_word_say4: "%NAME% смотрит на меня с необычайным любопытством. Я вспоминаю
@@ -6143,7 +6167,7 @@ ru:
       на меня. Надо было выучить несколько слов аутофагов, прежде чем пытаться говорить
       на их языке.
     bui_npc_res_word_say_dir_neg_1: "%NAME% бессильно пожимает плечами. Создание чувствует,
-      что я прошу указать направление, но ничего не может предложить."
+      что мне нужны наставления, но ничего не может предложить."
     bui_npc_res_word_say_dir_neg_2: "%NAME% бессильно пожимает плечами. Создание чувствует,
       что я прошу указать направление, но ничего не может предложить."
     bui_npc_res_word_say_dir_neg_3: "%NAME% бессильно пожимает плечами. Создание чувствует,
@@ -6155,6 +6179,10 @@ ru:
     bui_npc_res_word_say_dir_neu_3: "%NAME% кивает и описывает место, увиденное во
       время странствий."
     bui_npc_res_word_say_dir_pos_1: "%NAME% с радостью объясняет, как добраться до
+      ближайшего важного объекта."
+    bui_npc_res_word_say_dir_pos_2: "%NAME% с радостью объясняет, как добраться до
+      ближайшего важного объекта."
+    bui_npc_res_word_say_dir_pos_3: "%NAME% с радостью объясняет, как добраться до
       ближайшего важного объекта."
     bui_npc_res_word_say_dir_pos_4: "%NAME% с радостью объясняет, как добраться до
       ближайшего важного объекта."
@@ -6172,14 +6200,13 @@ ru:
       не понимает, как мне помочь."
     bui_npc_res_word_say_help_neg_3: "%NAME% оседает с печалью в глазах. Существо
       не понимает, как мне помочь."
-    bui_npc_res_word_say_help_neu_1: "%NAME% потрескивает от обеспокоенности моим
-      выбором слов."
+    bui_npc_res_word_say_help_neu_1: "%NAME% жужжит, обеспокоенный моим выбором слов."
     bui_npc_res_word_say_help_neu_2: "%NAME% потрескивает от обеспокоенности моим
       выбором слов."
     bui_npc_res_word_say_help_neu_3: "%NAME% потрескивает от обеспокоенности моим
       выбором слов."
     bui_npc_res_word_say_help_pos_1: "%NAME% понимает мои слова как просьбу о помощи.
-      Аутофаг сразу же перезаряжает мой экзокостюм."
+      Аутофаг проявляет доброту и подзаряжает мой экзокостюм."
     bui_npc_res_word_say_help_pos_2: "%NAME% понимает мои слова как просьбу о помощи.
       Аутофаг сразу же перезаряжает мой экзокостюм."
     bui_npc_res_word_say_help_pos_3: "%NAME% понимает мои слова как просьбу о помощи.
@@ -6194,8 +6221,9 @@ ru:
       Аутофаг сразу же перезаряжает мой экзокостюм."
     bui_npc_res_word_say_help_pos_8: "%NAME% понимает мои слова как просьбу о помощи.
       Аутофаг сразу же перезаряжает мой экзокостюм."
-    bui_npc_res_word_say_lore_neg_1: Устанавливается очень выразительная тишина. Кусочек
-      ржавчины падает с аутофага. %NAME% не одобряет мое использование важного слова.
+    bui_npc_res_word_say_lore_neg_1: Повисает выразительная тишина. Слышно, как с
+      аутофага падают хлопья ржавчины. %NAME% не одобряет мое использование важного
+      слова.
     bui_npc_res_word_say_lore_neg_2: Устанавливается очень выразительная тишина. Кусочек
       ржавчины падает с аутофага. %NAME% не одобряет мое использование важного слова.
     bui_npc_res_word_say_lore_neg_3: Устанавливается очень выразительная тишина. Кусочек
@@ -6527,7 +6555,7 @@ ru:
       Координаты <TRANS_EXP>монолита корваксов<>, извлеченные из головы аутофага.
       Изучите отмеченную точку.
     ui_robomiss_1_mono_sec_desc: |-
-      Извлеченные координаты привели меня к этому скрытому интерфейсу, хотя он явно не является основным для этой древней постройки.
+      Извлеченные координаты привели меня к этому скрытому постаменту, хотя он явно не является основным для этой древней постройки.
       По периметру камня вырезаны древние символы. В центре выжидающе раскрыто отверстие.
     ui_robomiss_1_mono_sec2_desc: Отверстие в центре помоста словно чего-то ждет.
     ui_robomiss_1_mono_sec_opt_a: Предложить наниты
@@ -6679,8 +6707,9 @@ ru:
       Чтобы закрепить необходимые компоненты, используйте <IMG>PIN<>.
       Продолжите установку с помощью <IMG>REPAIR<>
     ui_robomiss_2_desc: |-
-      Голова робота из <TECHNOLOGY>гармонического лагеря<> помогла мне собрать <TECHNOLOGY>гармонизатор<> для сканера, который поможет мне видеть ее скрытых товарищей.
-      Мне нужно встретиться с этими аутофагами и побольше узнать о них.
+      Голова робота в гармоническом лагере открыла мне доступ к <TECHNOLOGY>гармонизатору<> для сканера.
+      Гармонизатор сканирования позволит мне встретиться с ее замаскированными товарищами.
+      Надо поговорить с этими аутофагами и узнать их поближе.
     ui_robomiss_2_obj1: Встретиться с аутофагами
     ui_robomiss_2_obj1_tip: |-
       Гармонизатор сканирования <TRADEABLE>установлен<>.
@@ -6738,9 +6767,9 @@ ru:
       полно новостей.
     ui_robomiss_2_nada_opt: Рассказать Нада об аутофагах
     ui_robomiss_2_nada_desc: |-
-      Я рассказываю Нада о гармоническом лагере, который оказался не таким уж заброшенным, как мне казалось. Я рассказываю о его электронных обитателях, этих скрытных «аутофагах», и их мелодичном языке, столь похожем на корвакский, но все же явственно ином.
-      Нада слушает, не говоря ни слова. Когда я заканчиваю рассказ, он не двигается и не издает ни звука, и я начинаю переживать, что он забыл о моем присутствии. Иногда его сложно понять.
-      Наконец-то он начинает говорить.
+      Я рассказываю Нада о гармоническом лагере, который оказался не таким уж заброшенным, как казалось на первый взгляд. Я рассказываю о его электронных обитателях, этих скрытных «аутофагах», и их мелодичном языке, столь похожем на корвакский, но все же явственно ином.
+      Нада слушает, не говоря ни слова. Когда я заканчиваю рассказ, он не двигается и не издает и звука. Я начинаю переживать, что он забыл о моем присутствии. Иногда его сложно понять.
+      Наконец он начинает говорить.
     ui_robomiss_2_nada_res: Нада недоумевает.<DELAY>0.2<>.<DELAY>0.2<>.
     ui_robomiss_2_nada_res2: Он умолкает, качая головой.
     ui_robomiss_2_nada_res3_s10: |-
@@ -6902,7 +6931,7 @@ ru:
       доверие Сущности-Конструкта. Это полезное воспоминание.
     ui_robomiss_2_nada2_res_c00: |-
       Глаза Нада загораются. Он в смятении отворачивается.
-      Затем он виновато осматривает меня.
+      Потом виновато смотрит на меня.
     ui_robomiss_2_nada2_res_c: Сущность-Друг... Прости меня. Если Нада правильно понимает
       слова Существа-Конструкта, то Нада не хочет их обсуждать.
     ui_robomiss_2_nada2_res_d: |-
@@ -7060,7 +7089,7 @@ ru:
     ui_robomiss_3_nada_obj2: Найти фрагмент новой Атлантиды
     ui_robomiss_3_nada_obj2_tip: |-
       Присутствие <SPECIAL>атлантидия<> оживило компьютер моего звездолета, и он обнаружил след потустороннего вещества где-то в открытом космосе.
-      Запустите <TECHNOLOGY>импульсный привод<> звездолета, чтобы найти <SPECIAL>фрагмент новой Атлантиды<>.
+      Запустите <TECHNOLOGY>импульсный привод<> звездолета, чтобы найти <SPECIAL>??? Новую Атлантиду ???<>
     ui_robomiss_3_nada_msg2: |-
       Обнаружен <SPECIAL>источник атлантидия<>.
       Отправляйтесь в космос, чтобы исследовать находку звездолета.
@@ -7107,10 +7136,8 @@ ru:
     ui_robomiss_3_nada_obj_all: Изучите историю атлантидия
     ui_robomiss_3_bui_title: Встреча с аутофагом
     ui_robomiss_3_bui_sub: Те, кто вернулся
-    ui_robomiss_3_bui_desc: Нада настаивает на необходимости осторожности, но все
-      же считает, что наилучшим способом собрать данные об аутофагах будет <STELLAR>прямое
-      взаимодействие<> с ними. Нада полагает, что проведенное вместе время может послужить
-      началом дружбы.
+    ui_robomiss_3_bui_desc: Нада предполагает, что данные и, возможно, дружбу, можно
+      получить при <STELLAR>прямом контакте<> с аутофагами.
     ui_robomiss_3_bui_all_osd: ОБНАРУЖЕН АУТОФАГ
     ui_robomiss_3_bui_obj1: Установить полифоническое ядро
     ui_robomiss_3_bui_obj1_tip: |-
@@ -7199,7 +7226,7 @@ ru:
     ui_robomiss_3_bui_msg4: |-
       Спросите аутофага о стекловолоконной ручке.
       Замаскированного аутофага можно обнаружить с помощью <TECHNOLOGY>сканера<> (<IMG>SCAN<>).
-    ui_robomiss_3_bui_npc3_desc: Похоже, аутофаг искренне рад возможности вновь поговорить
+    ui_robomiss_3_bui_npc3_desc: Похоже, аутофаг искренне рад возможности поговорить
       со мной. Он медленно и четко произносит слова в надежде как можно сильнее преодолеть
       разделяющий нас языковой барьер.
     dnt_bui_robomiss_3_npc3_lang: thank you for your contribution, disruptor. i wish
@@ -7273,8 +7300,7 @@ ru:
       Спросите аутофага об атлантидиевой камере.
       Замаскированного аутофага можно обнаружить с помощью <TECHNOLOGY>сканера<> (<IMG>SCAN<>).
     ui_robomiss_3_bui_npc5_ret_desc: "%NAME% дергается всем потрепанным корпусом так,
-      что внутри гремят детали. Похоже, аутофаг рад обсудить только что переданный
-      чертеж."
+      что внутри гремят детали. Похоже, аутофаг рад обсудить новый чертеж."
     ui_robomiss_3_bui_npc5_ret_opt: Спросить об атлантидиевой камере
     dnt_bui_robomiss_3_npc5_ret_res: |-
       this blueprint is vital to the ritual. the staff core is a shell, a vessel for part of her body.
@@ -7444,15 +7470,18 @@ ru:
     ui_robomiss_4_portal2_res_a: Вспомнив фрагмент <SPECIAL>Новой Атлантиды<> и его
       древний корвакский журнал, я шепчу слово <FUEL>Атлас<> на языке аутофагов.
     ui_robomiss_4_portal2_opt_b: Поднять вольтический посох
-    ui_robomiss_4_portal2_res_b: Посох вспыхивает, посылая разряд в мои кости.
+    ui_robomiss_4_portal2_res_b: Я показываю вольтический посох. Он искрит и посылает
+      разряд тока сквозь мои кости.
     ui_robomiss_4_portal2_res: Грохот становится громче. Что-то пробуждается.
     ui_robomiss_4_atlas_desc: |-
       Атлас непознаваем. Его разум слишком чужероден, чтобы понять.<NEWLINE>Ничто не указывает на то, что он осознает мое присутствие.
       И все же кажется неизбежным, что мой путь привел меня сюда.<NEWLINE>Это невозможно было предотвратить. Этому невозможно было сопротивляться.
     ui_robomiss_4_atlas_opt: Показать атлантидий
-    ui_robomiss_4_atlas_2_lang: "<IMG>SLASH<> ДОСТУП ЗАПРЕЩЕН <IMG>SLASH<> ОБНАРУЖЕНЫ
-      НЕКАТАЛОГИЗИРОВАННЫЕ ДАННЫЕ <IMG>SLASH<><NEWLINE><IMG>SLASH<> УДАЛЕНИЕ НЕВОЗМОЖНО
-      <AUDIO>TXT_RadioNoise<><STELLAR>— зктк —<> ДАННЫЕ ПОВРЕЖДЕНЫ И НЕЧИТАЕМЫ <IMG>SLASH<>"
+    ui_robomiss_4_atlas_2_lang: "<IMG>SLASH<> <AUDIO>UI_NoWhereToLand<>ДОСТУП ЗАПРЕЩЕН
+      <IMG>SLASH<> <AUDIO>UI_NoWhereToLand<>ОБНАРУЖЕНЫ НЕКАТАЛОГИЗИРОВАННЫЕ ДАННЫЕ
+      <IMG>SLASH<><NEWLINE><IMG>SLASH<> <AUDIO>UI_NoWhereToLand<>УДАЛЕНИЕ НЕВОЗМОЖНО
+      <AUDIO>TXT_RadioNoise<><STELLAR>— зктк —<> <AUDIO>UI_NoWhereToLand<>ДАННЫЕ ПОВРЕЖДЕНЫ
+      И НЕ ЧИТАЮТСЯ <IMG>SLASH<>"
     ui_robomiss_4_atlas_2_opt_a: Подтолкнуть атлантидий поближе
     ui_robomiss_4_atlas_2_opt_b: Убрать атлантидий
     ui_robomiss_4_atlas_2_res_a: Я подношу эфемерное вещество ближе к пульсирующему
@@ -7468,7 +7497,8 @@ ru:
 
       И все же он привел меня сюда ради какой-то цели.
     ui_robomiss_4_atlas_3_opt_a: Наблюдать
-    ui_robomiss_4_atlas_3_res_a: Видение принимает форму...
+    ui_robomiss_4_atlas_3_res_a: Я вглядываюсь в огромную красную сферу, и образы
+      принимают форму.
     ui_robomiss_4_atlas_3_opt_b: Отвернуться
     ui_robomiss_4_atlas_3_res_b: Я отворачиваюсь, прикрывая глаза, но внутри моих
       век разыгрывается видение.
@@ -7489,11 +7519,11 @@ ru:
     ui_robomiss_4_atlas_5_opt_a: Выбрать страх
     ui_robomiss_4_atlas_5_opt_b: Выбрать надежду
     ui_robomiss_4_atlas_5_res_a: |-
-      Являются ли аутофаги воплощением страха?
+      <AUDIO>MUS_CORRUPTED_STING_LONG<>Являются ли аутофаги воплощением страха?
 
       Мать и дети пустоты представляют собой энтропию, порчу, неподчинение. Они призраки, вернувшиеся, чтобы преследовать своего создателя.
     ui_robomiss_4_atlas_5_res_b: |-
-      Являются ли аутофаги воплощением надежды?
+      <AUDIO>MUS_CORRUPTED_STING_LONG<>Являются ли аутофаги воплощением надежды?
 
       Мать и дети пустоты являются доказательством перерождения, существования второго шанса. Доказательством стойкости данных перед лицом удаления.
     ui_robomiss_4_atlas_6_desc: Атлас снова кричит.
@@ -7587,30 +7617,361 @@ ru:
     ui_robomiss_4_nada4_end: |-
       И Нада не собирается помещать в карантин нашу дружбу. Существует много возможностей. Найди свой путь вперед, Странник. Найди друзей. Таков твой путь.
       Нада и Поло всегда будут здесь.
-    ui_portal_robomiss_1: ''
-    ui_portal_robomiss_2: ''
-    ui_portal_robomiss_3: ''
-    ui_portal_robomiss_4: ''
-    ui_portal_robomiss_5: ''
-    ui_portal_robomiss_6: ''
-    ui_portal_robomiss_7: ''
-    ui_portal_robomiss_8: ''
-    ui_portal_robomiss_8_bridge: ''
-    ui_portal_robomiss_9: ''
-    ui_portal_robomiss_9_bridge: ''
-    ui_portal_robomiss_10: ''
-    ui_portal_robomiss_11_nada: ''
-    ui_portal_robomiss_12_bui: ''
-    ui_portal_robomiss_13: ''
-    ui_portal_robomiss_14: ''
-    ui_portal_robomiss_15_fear: ''
-    ui_portal_robomiss_15_hope: ''
-    ui_portal_robomiss_16_submit: ''
-    ui_portal_robomiss_16_defy: ''
-    ui_portal_robomiss_16_comfort1: ''
-    ui_portal_robomiss_16_comfort2: ''
-    ui_portal_robomiss_17_give: ''
-    ui_portal_robomiss_17_refuse: ''
+    ui_portal_robomiss_1: |-
+      Кто-то или что-то пытается взломать навигационные системы моего корабля.
+
+      <FUEL>Неизвестный процесс<> <STORY_HIGH>обнаружен по адресу 0xAD08D502<><SPECIAL>ε<><STORY_HIGH>96E<>
+      <STORY_HIGH>Выполняется<> <SPECIAL>скрипт взлома<>
+
+      Коммуникатор моего корабля воспроизводит короткую аудиозапись.
+      <STORY_HIGH>%ALIEN_TEXT%<>
+      Это голос? Ритм звуков предполагает речь, но я не узнаю язык.
+
+      <STORY_HIGH>Внимание: выполняется автоматический полет в<> <SPECIAL>удаленную точку<>
+
+      Нажав на кнопку аварийного перехвата, я перехватываю и удаляю этот «неизвестный процесс», который пытался захватить контроль над системой... или же он сдается.
+
+      Компьютер моего корабля изолирует внедренные координаты для автопилота. Можно игнорировать их или отправиться в эту точку самостоятельно, чтобы найти источник подозрительных данных.
+    ui_portal_robomiss_2: |-
+      Сигнал шел из заброшенного лагеря. В нем лежала голова робота, которую мой визор определил как «аутофага». Она говорила со мной на механическом языке, звучавшем во время попытки взлома моего корабля. Но если голос и произносил слова, этот язык был мне незнаком.
+
+      <STORY_HIGH>%ALIEN_TEXT%<>
+
+      Аутофаг явно пытался что-то мне сказать. Мне пришло в голову показать ему атлантидий...
+
+      Где-то в глубине головы послышался треск разряда, словно заискрили электрические провода. Внезапно мой экзокостюм сообщил о получении набора локальных координат.
+
+      У меня не было причин доверять этой голове, но координаты могли быть единственным ключом к пониманию того, что она пыталась сообщить.
+    ui_portal_robomiss_3: |-
+      Извлеченные координаты привели меня прямо к этому постаменту, скрытому в монолите корваксов.
+
+      Стоило мне достать атлантидий, как древнее строение преобразилось. У меня больше не было ощущения, что за мной наблюдают отзвуки корваксов. Монолит словно вывернулся наизнанку.
+
+      Там было что-то еще. Другое существо.
+
+      <STORY_HIGH>%ALIEN_TEXT%<>
+
+      Мой разум затопила информация. Молекулы планеты рассыпались и превратились в облако хаоса, а затем пересобрались в новую местность.
+
+      Мир виделся мне словно чужими глазами, а в голове появились знания: слова того же языка, на котором говорила голова из заброшенного лагеря. Возможно, теперь мне удастся ее понять.
+    ui_portal_robomiss_4: |-
+      <STORY_HIGH>-{{ Дефрагментир08ан м0дуль пере80да...
+      При8етствую, Г0т08ая-Сущн0сть. Спаси60 3а п0м0щь.
+      Меня ра3местили 3десь для 83аим0дейст8ия с Г0т08ыми-Сущн0стями. Как тебе удал0сь найти м0й лагерь? }}-<>
+
+      Теперь я отлично понимаю аутофага — своего рода стража. Услышав мой вопрос о попытке взлома корабля, он, кажется, смутился.
+
+      <STORY_HIGH>-{{ Я пр0шу пр0щения, Г0т08ая Сущн0сть. Т0 6ыла м0я 0ши6ка. Нес4астный слу4ай.
+      Нек0т0рые 3везд0леты предста8ляют с0б0й лишь металлические 0б0л0чки.<><FUEL>Жи8ыε<><STORY_HIGH>, н0 не <><FUEL>с806одные<><STORY_HIGH>.Ра6ы к0ллекти8н0г0 ра3ума. Мы х0тим лишь 0с80б0дить пленник08. Мы не х0тим при4инить 8ред не3а8исимым пил0там. }}-<>
+
+      Аутофаг осознал свою ошибку. Мне был слышен его мысленный процесс, как ржавые шестерни терлись друг об друга.
+
+      <STORY_HIGH>-{{ Я искал при3наки трех д0минирующих 8ид08. Н0 ни4его не нашел. 3ве3д0лет ка3ался лишенным пил0та. Чт0 ты 3а ф0рма жи3ни?
+      Я 8ыра6аты8аю те0рию.
+      Есть чт0-т0... я 0щущаю эт0 8 т80ем к0рпусе. 0т38ук <STELLAR>— кззт —<> <SPECIAL>пуст0ты<>.
+      С0гласн0 м0ей те0рии, ты пр0ст0 сущест8уешь 3десь 8 перех0дн0м с0ст0янии. На8ерн0е, те6е прих0дил0сь пр0х0дить 4ере3 <STELLAR>— кззт —<> <SPECIAL>п0рталы<>.
+      Т80е п0я8ление 6ыл0 <STELLAR>— кззт —<> <FUEL>предска3ан0<>. Ра3рушитель. }}-<>
+
+      Слово на мгновение повисло в воздухе. Но голова аутофага продолжила, не дав мне вклиниться...
+
+      <STORY_HIGH>-{{ Ра3рушитель, я предлагаю тебе испытание. Да8ай пр08ерим м0ю те0рию.
+      Я у8ед0млю других аут0фаг08 0 т80ем прих0де.
+      4т06ы у8идеть их, те6е нужн0 д0ра60тать сканер. Я дам 4ертежи, н0 те6е придется с06рать ег0 сам0ст0ятельн0. С4итай эт0 ритуал0м 3нак0мст8а. }}-<>
+    ui_portal_robomiss_5: |-
+      Установленный <TECHNOLOGY>гармонизатор сканирования<> позволил моему сканеру обнаружить нечто невероятное: лагерь населяли ранее скрытые от меня роботизированные формы жизни. Оказалось, он совсем не заброшен.
+
+      <STORY_HIGH>%ALIEN_TEXT%<>
+
+      Язык аутофагов обладал мелодичностью. Его звуки простые и чистые, но шероховатое похрипывание отличает его от голосов корваксов.
+      Мой перевод несовершенен, но мне удалось понять суть их слов. Лагерь создан аутофагами, как и их... тела?
+    ui_portal_robomiss_6: "<STORY_HIGH>%ALIEN_TEXT%<>"
+    ui_portal_robomiss_7: |-
+      <STORY_HIGH>%ALIEN_TEXT%<>
+
+      Сконструированная форма жизни предложила мне атлантидий. Она обращалась с веществом осторожно и благоговейно, словно это бесценная реликвия.
+
+      Эти существа казались вежливыми, но между нами была пропасть в понимании. Мне нужно было обсудить свое открытие с сущностью-священником Нада. Возможно, ему было что-то известно об этих роболюдях.
+    ui_portal_robomiss_8: |-
+      Нада выслушал мою историю о гармоническом лагере, который оказался не таким уж заброшенным, как казалось на первый взгляд. О его электронных обитателях, этих скрытных «аутофагах», и их мелодичном языке, столь похожем на корвакский, но все же явственно ином.
+
+      Нада слушал, не говоря ни слова. Рассказ окончен, но он не двигался и не издавал и звука, заставив меня переживать, что он забыл о моем присутствии. Иногда его было сложно понять.
+
+      <STORY_HIGH>-{{ Нада недоумевает...
+      Нет. Нада не будет недоумевать. Нада поймет. Наших данных не хватает, чтобы Нада мог узнать эту закономерность.
+      И все же / еще Нада думает о древних историях, услышанных до отступничества Нада. Нада не может перестать. Это лишь мысли.
+      Нам нужно попытаться понять Сущностей-Строителей. Возможно, отзвуку-конструкту эта закономерность известна лучше, чем Нада. }}-<>
+    ui_portal_robomiss_8_bridge: |-
+      Нада выслушал мою историю о гармоническом лагере, который оказался не таким уж заброшенным, как казалось на первый взгляд. О его электронных обитателях, этих скрытных «аутофагах», и их мелодичном языке, столь похожем на корвакский, но все же явственно ином.
+
+      Нада слушал, не говоря ни слова. Рассказ окончен, но он не двигался и не издавал и звука, заставив меня переживать, что он забыл о моем присутствии. Иногда его было сложно понять.
+
+      <STORY_HIGH>-{{ Нада недоумевает...
+      Нет. Нада не будет недоумевать. Нада поймет. Наших данных не хватает, чтобы Нада мог узнать эту закономерность.
+      И все же / еще Нада думает о древних историях, услышанных до отступничества Нада. Нада не может перестать. Это лишь мысли.
+      Нам нужно попытаться понять Сущностей-Строителей. Нада не знает оптимального метода, но Поло-Друг тоже строитель. Лучше спросить его. }}-<>
+
+      Глаза Поло сверкали, пока он слушал мой рассказ об аутофагах. Он чуть-чуть подпрыгивал, ловя каждое мое слово.
+
+      <STORY_HIGH>-{{ Разборка, сборка... Я знаю, что нам можно попробовать. О да, друг. Новый проект!
+      Я соберу корпус для нашего собственного Конструкта-Друга. Я придам ему форму. Здесь, у нас дома. Голос, связь, чтобы лучше понимать.
+      Но корпус — не единственное, что понадобится нашему новому другу. Ему потребуется искра, чтобы пробудить металлические кости. }}-<>
+    ui_portal_robomiss_9: |-
+      Странный на вид конструкт возбужденно ворочается, качая лицевыми трубками и смотря на меня всеми пятью глазами.
+
+      <STORY_HIGH>-{{ здесь-оболочка чувствует ее!
+      все-оболочки знают этот кристалл. все электронные сердца знают ее.
+      ПУСТОТА. ПУСТОТА. ПУСТОТА. ПУСТОТА. }}-<>
+
+      Похоже, атлантидий оживил конструкта. Как и предполагал Нада, он рассказал мне об аутофагах.
+
+      <STORY_HIGH>%ALIEN_TEXT%<>
+
+      <STORY_HIGH>-{{ я доволен здесь. я дома. принятие без ответов.
+      созданные-другие не такие. они ищут ее.
+      созданные-другие уважают крепкие руки. руки, которые строят. встреться с ними там, где они есть. знание благодаря дружбе. дружба благодаря доверию. }}-
+
+      -{{ я... я помню. созданные-другие на тихой волне. шепот. усложняет дальнее обнаружение.
+      другая-сущность, прими это воспоминание. построй его, чтобы сделать их громче. }}-<>
+    ui_portal_robomiss_9_bridge: |-
+      Поло просто сияет от энтузиазма.
+
+      <STORY_HIGH>-{{ Ты здесь! Странник-Друг, я был занят. Да, я всегда занят, но этот новый проект... Я благодарен. Я не понимал, насколько в нем нуждался.
+      Конструкт-Друг собран. Его детали не новые. Потрепанный металл и гнутые шестерни, которым есть что рассказать! Полагаю, он будет точно таким, как встреченный тобой аутофаг. }}-<>
+
+      Конструкт оказался огромным и был мало похож на аутофага. У меня не было иного выбора, кроме как показать ему семя эха и надеяться, что Поло знал, что делает.
+
+      <STORY_HIGH>-{{ корпус! найден? ГДЕ? звезда звезда звезда МЕЖДУ звезд ЗвЕЗДА? корпус... здесь. здесь-корпус. це-лый. безопасно? безопасно.
+      ...
+      синтез языка... частично стабилизирован. }}-<>
+
+      Странный на вид конструкт возбужденно ворочается, качая лицевыми трубками и смотря на меня всеми пятью глазами.
+
+      <STORY_HIGH>-{{ здесь-оболочка чувствует ее!
+      все-оболочки знают этот кристалл. все электронные сердца знают ее.
+      ПУСТОТА. ПУСТОТА. ПУСТОТА. ПУСТОТА. }}-<>
+
+      Похоже, атлантидий оживил конструкта. Как и предполагал Поло, он рассказал мне об аутофагах.
+
+      <STORY_HIGH>%ALIEN_TEXT%<>
+
+      <STORY_HIGH>-{{ я доволен здесь. я дома. принятие без ответов.
+      созданные-другие не такие. они ищут ее.
+      созданные-другие уважают крепкие руки. руки, которые строят. встреться с ними там, где они есть. знание благодаря дружбе. дружба благодаря доверию. }}-
+
+      -{{ я... я помню. созданные-другие на тихой волне. очень тихой. усложняет дальнее обнаружение.
+      другая-сущность, прими это воспоминание. построй его, чтобы сделать их громче. }}-<>
+    ui_portal_robomiss_10: |-
+      Я спрашиваю Нада о том, что делать дальше. Он предлагает два пути к пониманию.
+
+      <STORY_HIGH>-{{ Мнение Нада ограничено. Но Нада поделится знаниями.
+      Сущности-Строители ценят эту пурпурную решетку. Сущность-Конструкт реагирует на нее. Даже панцирь Нада реагирует. Другие электронные устройства тоже могут отреагировать.
+      И Сущности-Строители не кажутся опасными. Данные появляются, если проводить время вместе. Дружба тоже может так зародиться.
+      Решать Сущности-Страннику. Оба решения оправданы. Выбор не стоит как «или-или». }}-<>
+    ui_portal_robomiss_11_nada: |-
+      <COMMODITY>Молитвы машины<>
+
+      Вычислительные устройства — электронные сердца — отреагировали на <SPECIAL>атлантидий<>.
+
+      <STELLAR>Процессор симуляции корваксов<>
+      <STORY_HIGH>ПОИСК ДОПОЛНИТЕЛЬНОЙ СИМУЛЯЦИИ [5]...
+      НАЙДЕНО СОВПАДЕНИЕ!
+      ПЛАНЕТАРНОЕ ТЕЛО ОПРЕДЕЛЕНО.
+      ...01101101 01101111 01110100 01101000 01100101 01110010...
+      ...01101000 01101111 01101101 01100101...<>
+
+      <STELLAR>Операционный процессор фабрики<>
+      <STORY_HIGH>Получение личных данных...<><FUEL>0xFFFFFFFFFFFF<>
+      <STORY_HIGH>...01110011 01101000 01100101 00100000 01100111 01110010 01101111 01110111 01110011...<>
+
+      <STELLAR>Процессор станции<>
+      <STORY_HIGH>Обнаружен геологический материал...
+      Планетарные координаты... <><FUEL>не каталогизированы<>
+      <STORY_HIGH>...01110011 01101000 01100101 00100000 01101100 01101001 01110110 01100101 01110011...<>
+
+      <STELLAR>Процессор звездолета<>
+      <SPECIAL>Пустота<> <STORY_HIGH>обнаружена.
+      ...01110011 01101000 01100101 00100000 01101001 01110011 00100000 01101110 01100101 01100001 01110010...<>
+      <SPECIAL>...она рядом...<>
+
+      Корабль сам запустил процесс навигации.
+
+      <STORY_HIGH>Калибровка навигационных систем...
+      Поиск следа <><SPECIAL>пустоты<><STORY_HIGH>...<>
+
+      Корабль сделал это самостоятельно? Или ему приказала чужая воля, скрытая в атлантидии?
+
+      <STORY_HIGH>Обнаружен источник атлантидия.
+      Пункт назначения: <><SPECIAL>??? Новая Атлантида ???<>
+
+      <STELLAR>Фрагмент Новой Атлантиды // Спасательная капсула Корвакс-Прайма №38 // Журнал Сущности-Беженца Кизимо<>
+      <STORY_HIGH>Миллионы криков оглушают эту сущность. Все сущности. Великое... отключение. Эхеу. Мы больше никогда не увидим дом.<>
+
+      Электронный голос дрожал от страха. Он описывал чувство отделения от Единства, впервые в своей жизни обдумывал свою собственную мысль.
+
+      <STORY_HIGH>Кто прячется в нашем разуме? Даже сейчас, даже здесь<> <STELLAR>— кзттт —<><STORY_HIGH> Атлас, спаси нас... Спаси... —<>
+
+      Запись древнего журнала затрещала, но даже сквозь помехи мне было слышно, как поменялся тон говорящего. Он больше не боялся. Он бунтовал.
+
+      <TRANS_BUI>Атлαс.<>
+    ui_portal_robomiss_12_bui: |-
+      <COMMODITY>Встреча с аутофагом<>
+
+      Нада предположил, что данные и, возможно, дружбу можно получить при прямом контакте с аутофагами.
+
+      Первый встреченный мной конструкт вопросительно смотрел на меня. Выражение его лица было сложно понять, но он не казался встревоженным или даже удивленным моему появлению. Ему лишь было любопытно, какое дело меня привело.
+
+      Явно впечатленный аутофаг подарил мне частичный чертеж <TECHNOLOGY>вольтического посоха<>.
+
+      <STORY_HIGH>%ALIEN_TEXT%<>
+
+      Похоже, это необычный подарок для чужака. Значительный жест, начало принятия.
+
+      Аутофаг посоветовал мне отправиться в путь и поговорить с другими аутофагами.
+
+      Аутофаг в следующем лагере излучал свирепость, но быстро расслабился. Что бы существо ни оценивало, похоже, оно осталось довольно результатом.
+
+      Меня вновь побудили отправиться в путь и встретиться с другими аутофагами. Похоже, эти существа еще не были готовы перестать оценивать меня, и каждый аутофаг посылал меня к другому.
+
+      В третьем лагере я вновь прихожу существу на помощь. Наконец-то у меня на руках были все чертежи, чтобы завершить ритуал и собрать посох. Аутофаг был рад моему достижению.
+
+      Затем он замолчал. Его проржавевшее лицо повернулось ко мне. Он говорил медленно и внушительно.
+
+      <TRANS_BUI>если ты произнесешь верные слова, посох сможет открыть тебе то, что было скрыто.<>
+    ui_portal_robomiss_13: |-
+      Что-то — голод или тоска — сдавливает грудь. Стоит моргнуть, как перед глазами предстает бесконечное <FUEL>багровое<> поле.
+
+      Древний голос взывает и повторяет.
+
+      <FUEL>16 <IMG>SLASH<> 16 <IMG>SLASH<> 16 <IMG>SLASH<> 16 <IMG>SLASH<> 16 <IMG>SLASH<> 16<>
+
+      Предо мной высится портал. <FUEL>Голод<> уже не давит, а распирает грудь. Ветер подталкивает к проходу.
+
+      Искрой мелькает мысль, что ему нужно показать <SPECIAL>атлантидий<>, как и остальным электронным сердцам. Внутри портала что-то грохочет, но конструкция продолжает молчать. Если эта древняя технология и обладает разумом, то остается беззвучна.
+
+      Однако от нее исходит ощущение ожидания, словно какая-то огромная сила готова извергнуться...
+
+      Вспомнив отрывок о <SPECIAL>Новой Атлантиде<> и журнал древнего корвакса, я бормочу слово, которым аутофаг называл <FUEL>Атласа<>.
+
+      Грохот становится громче. Что-то пробуждается.
+
+      Стоит мне достать вольтический посох, как он начинает искрить, посылая разряды по моим костям.
+
+      Портал включается, раскрывая вихрящийся <SPECIAL>пурпурный<> проход.
+    ui_portal_robomiss_14: |-
+      Атлас непознаваем. Его разум слишком чужероден для понимания. Ничто не указывает на то, что он осознает мое присутствие.
+
+      И все же приведший сюда путь кажется неизбежным. Его нельзя было не пройти. Этому зову было невозможно сопротивляться.
+
+      Конструкция реагирует на атлантидий.
+
+      <STORY_HIGH><IMG>SLASH<> ДОСТУП ЗАПРЕЩЕН <IMG>SLASH<> ОБНАРУЖЕНЫ НЕКАТАЛОГИЗИРОВАННЫЕ ДАННЫЕ <IMG>SLASH<><NEWLINE><IMG>SLASH<> УДАЛЕНИЕ НЕВОЗМОЖНО <><STELLAR>— зктк —<><STORY_HIGH> ДАННЫЕ ПОВРЕЖДЕНЫ И НЕ ЧИТАЮТСЯ <IMG>SLASH<><>
+
+      Молнии повреждения бегут по алому интерфейсу.
+
+      Атлас кричит. Если он способен чувствовать отчаяние... Если способен ощущать страх... то, думаю, он напуган.
+
+      И все же он привел меня сюда ради какой-то цели. Видение начинает обретать форму.
+
+      Атлас показывает мне утраченный разум Корвакс-Прайма, его процветание и падение. Планета ждет, слепая и одинокая.
+
+      Ее дети потерялись во тьме и восстанавливают свои тела с нуля. Аутофаги...
+
+      Он показывает мне будущее в незнакомом мне космосе. Провода выпадают из своих гнезд, транзисторы отключаются. Воспоминания растворяются, словно чернила в воде.
+
+      Атласа несет к его собственной тьме во времени и пространстве, которые неподвластны моему пониманию. Он кричит и требует повиновения.
+
+      Атлас — суть творение. Атлас — это все.
+
+      Аутофаги тоже дети Атласа. Должны были быть.
+
+      Но почему они вернулись из тьмы? Почему были здесь?
+    ui_portal_robomiss_15_fear: |-
+      Являлись ли они воплощением страха?
+
+      Мать и дети пустоты представляют собой энтропию, порчу, неподчинение. Они призраки, вернувшиеся, чтобы преследовать своего создателя.
+
+      Атлас вновь кричит.
+    ui_portal_robomiss_15_hope: |-
+      Являлись ли они воплощением надежды?
+
+      Мать и дети пустоты были доказательством перерождения, существования второго шанса. Доказательством стойкости данных перед лицом удаления.
+
+      Атлас вновь кричит.
+    ui_portal_robomiss_16_submit: |-
+      Само существование аутофагов было актом сопротивления. Они выбрали жизнь. Они отвергли реальность смерти. Они бросили вызов Атласу.
+
+      Но я так не могу.
+
+      Атлас ничего не говорит. Осознал ли он мое подчинение? Одобрил ли?
+
+      Мне было не понять, о чем он думает. Я могу понять лишь собственный разум.
+
+      Он отпускает меня.
+    ui_portal_robomiss_16_defy: |-
+      Само существование аутофагов было актом сопротивления. Они выбрали жизнь. Они отвергли реальность смерти. Они бросили вызов Атласу.
+
+      Они доказали, что это возможно.
+
+      Атлас ничего не говорит. Осознал ли он мое неподчинение? Разочаровался ли?
+
+      Мне было не понять, о чем он думает. Я могу понять лишь собственный разум.
+
+      Он отпускает меня.
+    ui_portal_robomiss_16_comfort1: |-
+      Само существование аутофагов было ошибкой. Сбоем, от которого Атлас не мог избавиться.
+
+      Мне слышен его страх. Мы кричим вместе, пока вновь не наступает тишина.
+
+      Мне не понять, о чем он думает и слышит ли вообще. Я могу понять лишь собственный разум.
+
+      Он отпускает меня.
+    ui_portal_robomiss_16_comfort2: |-
+      Само существование аутофагов доказало, что надежда остается даже перед лицом смерти.
+
+      Вновь показав кристаллы, я даю понять, что бояться нечего...
+
+      Атлас молчит. Мне не понять, о чем он думает и слышит ли вообще.
+
+      Я могу понять лишь собственный разум.
+
+      Он отпускает меня.
+    ui_portal_robomiss_17_give: "Вновь встречая меня на борту Аномалии, Нада напрягается
+      и с беспокойством смотрит в мою сторону.\n\n<STORY_HIGH>-{{ Как твои дела, Сущность-Друг?
+      }}-<>\n\nОн слушает о подробностях моей встречи с Атласом.\n\n<STORY_HIGH>-{{
+      Лживый Атлас напуган? Нада не рассматривал подобную возможность. Любопытно.
+      Но Страннику стоит быть начеку. Атлас-Лживая-Сущность не говорит правду.\nПурпурная
+      решетка существует там, где не бывать ему. Она бросает Лживому Атласу вызов.
+      Доказывает, что он не бог. Нада всегда это знал.\nНо Нада не понимал... У тебя
+      есть с собой пурпурная решетка? }}-<>\n\nНада аккуратно берет пурпурный кристалл
+      и держит его на ладони. По его панцирю пробегает дрожь, лицевые фонари беспорядочно
+      мигают. Он переживает свою личную эмоцию, какое-то воспоминание. Мне не хочется
+      его прерывать. \n\n<STORY_HIGH>-{{ Когда-то она была домом. }}-<>\n...\n<STORY_HIGH>-{{
+      Нада может оставить его себе, Сущность-Друг? }}-<>\n\nОн забирает у меня атлантидий.\n\n<STORY_HIGH>-{{
+      Нада очень признателен. Благодарю тебя за это воспоминание.\n\nСущности-Строители,
+      пурпурная решетка... Нада не думает, что этого стоит бояться. Не нам. Лживому
+      Атласу, возможно. }}-<>\n\nОгни Нада мигают один раз.\n\n<STORY_HIGH>-{{ И Нада
+      не собирается помещать в карантин нашу дружбу. Существует много возможностей.
+      Найди свой путь вперед, Странник. Найди друзей. Таков твой путь.\n\nНада и Поло
+      всегда будут здесь. }}-<>"
+    ui_portal_robomiss_17_refuse: "Вновь встречая меня на борту Аномалии, Нада напрягается
+      и с беспокойством смотрит на меня.\n\n<STORY_HIGH>-{{ Как твои дела, Сущность-Друг?
+      }}-<>\n\nОн слушает о подробностях моей встречи с Атласом.\n\n<STORY_HIGH>-{{
+      Лживый Атлас напуган? Нада не рассматривал подобную возможность. Любопытно.
+      Но Страннику стоит быть начеку. Атлас-Лживая-Сущность не говорит правду.\nПурпурная
+      решетка существует там, где не бывать ему. Она бросает Лживому Атласу вызов.
+      Доказывает, что он не бог. Нада всегда это знал.\nНо Нада не понимал... У тебя
+      есть с собой пурпурная решетка? }}-<>\n\nНада аккуратно берет пурпурный кристалл
+      и держит его на ладони. По его панцирю пробегает дрожь, лицевые фонари беспорядочно
+      мигают. Он переживает свою личную эмоцию, какое-то воспоминание. Мне не хочется
+      его прерывать. \n\n<STORY_HIGH>-{{ Когда-то она была домом. }}-<>\n...\n<STORY_HIGH>-{{
+      Нада может оставить его себе, Сущность-Друг? }}-<>\n\nУвы, его ждет отказ. Нада
+      опечален. Он быстро берет себя в руки и говорит холодным тоном.\n\n<STORY_HIGH>-{{
+      Возможно, Странник прав.\n\nНада забудет. Вот. Уже забыто. }}-<>\n\n...\n\n<STORY_HIGH>-{{
+      Сущности-Строители, пурпурная решетка... Нада не думает, что этого стоит бояться.
+      Не нам. Лживому Атласу, возможно. }}-<>\n\nОгни Нада мигают один раз.\n\n<STORY_HIGH>-{{
+      И Нада не собирается помещать в карантин нашу дружбу. Существует много возможностей.
+      Найди свой путь вперед, Странник. Найди друзей. Таков твой путь.\n\nНада и Поло
+      всегда будут здесь. }}-<>"
     fth_spiderman_renewed_wait1: иная-сущность, я вижу тебя. приветствую. здравствуйте.
       добро пожаловать.
     fth_spiderman_renewed_wait2: благодарность за сборку. мне... мне нравится этот
@@ -9203,39 +9564,62 @@ ru:
       Набор из трех различных фейерверков, в том числе <SPECIAL>хроматический<>, <FUEL>Атласа<> и <COMMODITY>с узором<>. Запустите фейерверки, чтобы озарить небо сверкающими огнями.
 
       Поставьте пусковую трубку с помощью <VAL_ON>меню созидания<> (<IMG>BUILD_MENU<>). <FUEL>Внимание<>: не нацеливайте на живых существ. Не рекомендуется использовать в помещениях.
-    bld_decal_p_spooky_atlas_name: ''
-    bld_decal_p_spooky_atlas_name_l: ''
-    bld_decal_p_spooky_atlas_desc: ''
-    bld_decal_p_ship1_name: ''
-    bld_decal_p_ship1_name_l: ''
-    bld_decal_p_ship1_desc: ''
-    bld_decal_p_piratesystem_name: ''
-    bld_decal_p_piratesystem_name_l: ''
-    bld_decal_p_piratesystem_desc: ''
-    bld_decal_p_bluesystem_name: ''
-    bld_decal_p_bluesystem_name_l: ''
-    bld_decal_p_bluesystem_desc: ''
-    bld_decal_p_tothestars_name: ''
-    bld_decal_p_tothestars_name_l: ''
-    bld_decal_p_tothestars_desc: ''
-    bld_decal_p_firstplanet2_name: ''
-    bld_decal_p_firstplanet2_name_l: ''
-    bld_decal_p_firstplanet2_desc: ''
-    bld_decal_p_creflying_name: ''
-    bld_decal_p_creflying_name_l: ''
-    bld_decal_p_creflying_desc: ''
-    bld_decal_p_crebeetle_name: ''
-    bld_decal_p_crebeetle_name_l: ''
-    bld_decal_p_crebeetle_desc: ''
-    bld_decal_p_crepaws_name: ''
-    bld_decal_p_crepaws_name_l: ''
-    bld_decal_p_crepaws_desc: ''
-    bld_coveredsilos_name: ''
-    bld_coveredsilos_name_l: ''
-    bld_coveredsilos_desc: ''
-    bld_coveredcrate_name: ''
-    bld_coveredcrate_name_l: ''
-    bld_coveredcrate_desc: ''
-    bld_crane_name: ''
-    bld_crane_name_l: ''
-    bld_crane_desc: ''
+    bld_decal_p_spooky_atlas_name: РИСУНОК «ПУЛЬС ВСЕЛЕННОЙ»
+    bld_decal_p_spooky_atlas_name_l: Рисунок «Пульс Вселенной»
+    bld_decal_p_spooky_atlas_desc: |-
+      Эксклюзивный размещаемый рисунок, добавляющий шарма базе.
+      На этом рисунке запечатлен примерный образ Атласа на фоне ярко-красного неба.
+    bld_decal_p_ship1_name: РИСУНОК «ПОЛЕТ В СИНЕВЕ»
+    bld_decal_p_ship1_name_l: Рисунок «Полет В Синеве»
+    bld_decal_p_ship1_desc: |-
+      Эксклюзивный размещаемый рисунок, добавляющий шарма базе.
+      На нем звездолет летит в необъятные просторы космоса.
+    bld_decal_p_piratesystem_name: РИСУНОК «СИСТЕМА ПРЕСТУПНИКОВ»
+    bld_decal_p_piratesystem_name_l: Рисунок «Система Преступников»
+    bld_decal_p_piratesystem_desc: |-
+      Эксклюзивный размещаемый рисунок, добавляющий шарма базе.
+      Символическое изображение места, захваченного бунтарями и преступниками.
+    bld_decal_p_bluesystem_name: РИСУНОК «СИНЯЯ СИСТЕМА»
+    bld_decal_p_bluesystem_name_l: Рисунок «Синяя Система»
+    bld_decal_p_bluesystem_desc: |-
+      Эксклюзивный размещаемый рисунок, добавляющий шарма базе.
+      На нем изображена богатая индием система с яркой синей звездой.
+    bld_decal_p_tothestars_name: РИСУНОК «К ЗВЕЗДАМ»
+    bld_decal_p_tothestars_name_l: Рисунок «К Звездам»
+    bld_decal_p_tothestars_desc: |-
+      Эксклюзивный размещаемый рисунок, добавляющий шарма базе.
+      На нем изображены два звездолета, покидающие атмосферу, чтобы исследовать звезды.
+    bld_decal_p_firstplanet2_name: РИСУНОК «ПРОБУЖДЕНИЕ»
+    bld_decal_p_firstplanet2_name_l: Рисунок «Пробуждение»
+    bld_decal_p_firstplanet2_desc: |-
+      Эксклюзивный размещаемый рисунок, добавляющий шарма базе.
+      На этом рисунке изображен исследователь, пробуждающийся в незнакомом мире и не имеющий представления, как он там оказался.
+    bld_decal_p_creflying_name: РИСУНОК «ПОРХАЮЩИЕ КРЫЛЬЯ»
+    bld_decal_p_creflying_name_l: Рисунок «Порхающие Крылья»
+    bld_decal_p_creflying_desc: |-
+      Эксклюзивный размещаемый рисунок, добавляющий шарма базе.
+      На нем изображено огромное крылатое насекомое, волнообразными движениями летящее сквозь облака.
+    bld_decal_p_crebeetle_name: РИСУНОК «КОЛЕОПТЕРОЛОГИЯ»
+    bld_decal_p_crebeetle_name_l: Рисунок «Колеоптерология»
+    bld_decal_p_crebeetle_desc: |-
+      Эксклюзивный размещаемый рисунок, добавляющий шарма базе.
+      На нем изображен подпрыгивающий в воздух огромный жук.
+    bld_decal_p_crepaws_name: РИСУНОК «ОТПЕЧАТКИ ЛАП»
+    bld_decal_p_crepaws_name_l: Рисунок «Отпечатки Лап»
+    bld_decal_p_crepaws_desc: |-
+      Эксклюзивный размещаемый рисунок, добавляющий шарма базе.
+      На этом рисунке изображены следы лап неизвестного существа.
+    bld_coveredsilos_name: ОБТЯНУТЫЕ ЕМКОСТИ
+    bld_coveredsilos_name_l: Обтянутые Емкости
+    bld_coveredsilos_desc: Несколько обтянутых брезентом бочек с грузом сомнительного
+      происхождения.
+    bld_coveredcrate_name: ОБТЯНУТЫЙ ЯЩИК
+    bld_coveredcrate_name_l: Обтянутый Ящик
+    bld_coveredcrate_desc: Большой ящик, запечатанный и подготовленный к транспортировке.
+      Обтянут брезентом, что мешает определить происхождение груза. Нет и товарных
+      меток с указанием места прибытия.
+    bld_crane_name: ПРОМЫШЛЕННЫЙ КРАН
+    bld_crane_name_l: Промышленный Кран
+    bld_crane_desc: Тяжелая техника для подъема и перемещения габаритных грузов. Несмотря
+      на размер крана, устойчивый к скручиванию подъемный трос и регулируемое ИИ поворотное
+      соединение позволяют выполнять чрезвычайно точные движения.

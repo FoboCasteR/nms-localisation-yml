@@ -441,14 +441,14 @@ ja:
     ui_special_shop_help_res_alt: 水銀ミッションは毎日ネクサスから実行可能。ミッションの最大ストック量は3です。<SPECIAL>週末イベント<>では<STELLAR>膨大<>な量の水銀が追加で発生します。
     ui_network_rate_label: ネットワーク抽出レート%RATE%
     ui_repair_tech_desc: |-
-      <TECHNOLOGY>%TECH%<>ステータス：<FUEL>重大な損傷<>。機能を復元するには、各サブコンポーネントを修復する必要があります。
+      <TECHNOLOGY>%TECH%<>ステータス：<FUEL>重大な損傷<>。機能を復元するには各サブコンポーネントを修復する必要があります。
 
-      このサブコンポーネントを<TECHNOLOGY>%NUM% x %ITEM%<>で修理してください。<IMG>TECHMENU<>で必要なアイテムの入手先を含む詳細な<STELLAR>修復の指示<>をミッションログに<STELLAR>ブックマーク<>してください。
+      このサブコンポーネントを<TECHNOLOGY>%NUM% x %ITEM%<>で修理してください。<IMG>FE_TRANSFER<>で必要なアイテムの入手先を含む詳細な<STELLAR>修復の指示<>をミッションログに<STELLAR>ブックマーク<>してください。
     ui_repair_tech_sub: 破損したサブコンポーネント
     ui_install_tech_desc: |-
       <TECHNOLOGY>%TECH%<>サブコンポーネントのステータス：<FUEL>アンインストールされました<>。インストールを完了させるにはすべてのサブコンポーネントを挿入してください。
 
-      <TECHNOLOGY>%NUM% x %ITEM%<>でこのサブコンポーネントを完了してください。<IMG>TECHMENU<>で必要なアイテムの入手先を含む詳細な<STELLAR>インストールの指示<>をミッションログに<STELLAR>ブックマーク<>してください。
+      <TECHNOLOGY>%NUM% x %ITEM%<>でこのサブコンポーネントを完了してください。<IMG>FE_TRANSFER<>で必要なアイテムの入手先を含む詳細な<STELLAR>インストールの指示<>をミッションログに<STELLAR>ブックマーク<>してください。
     ui_install_tech_name: "%TECH%パーツ"
     ui_install_tech_sub: 必要なサブコンポーネント
     ui_repaired_tech_desc: |-
@@ -6918,7 +6918,7 @@ ja:
     ui_exped_visit_planet_desc: 上陸する
     ui_exped_visit_planet_desc_d: 惑星を調査した
     ui_exped_visit_planet_obj: 惑星に着陸する
-    ui_exped_visit_planet_obj_tip: 宇宙船の航行中には、<IMG>SCAN<>で宇宙から惑星をスキャンできる。スキャンを実行すると、その惑星についての重要な詳細情報が判明する。
+    ui_exped_visit_planet_obj_tip: 宇宙船の航行中には、宇宙から惑星を<IMG>SHIPSCAN<>でスキャンできる。スキャンを実行すると、その惑星についての重要な詳細情報が判明する。
     ui_exped_visit_planet_msg1: |-
       惑星に足を踏み入れる
       <TECHNOLOGY>宇宙船<>に乗船して調査を始めよう
@@ -6927,7 +6927,7 @@ ja:
       <IMG>THRUST<>長押しで発進
     ui_exped_visit_planet_msg3: |-
       惑星に足を踏み入れる
-      <IMG>SCAN<>で惑星をスキャンすると、適切な着陸地点が見つかる
+      <IMG>SHIPSCAN<>で惑星をスキャンすると、適切な着陸地点が見つかる
     ui_warp_freighter_name: エンジンを始動する
     ui_warp_freighter_name_u: エンジンを始動する
     ui_warp_freighter_desc: 主力艦でワープする

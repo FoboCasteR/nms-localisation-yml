@@ -470,12 +470,12 @@ it:
     ui_repair_tech_desc: |-
       Stato <TECHNOLOGY>%TECH%<>: <FUEL>danni critici<>. Ogni componente secondario deve essere riparato per ripristinare la funzionalità.
 
-      Ripara questo componente secondario con <TECHNOLOGY>%NUM% x %ITEM%<>. Usa <IMG>TECHMENU<> per <STELLAR>mettere in evidenza<> sul tuo registro missioni <STELLAR>istruzioni dettagliate per la riparazione<>, comprese le informazioni su dove trovare gli oggetti richiesti.
+      Ripara questo componente secondario con <TECHNOLOGY>%NUM% x %ITEM%<>. Usa <IMG>FE_TRANSFER<> per <STELLAR>mettere in evidenza<> sul tuo registro missioni <STELLAR>istruzioni dettagliate per la riparazione<>, comprese le informazioni su dove trovare gli oggetti richiesti.
     ui_repair_tech_sub: Componente secondario danneggiato
     ui_install_tech_desc: |-
       Stato componente secondario <TECHNOLOGY>%TECH%<>: <FUEL>non installato<>. Inserisci tutti i componenti secondari per finalizzare l'installazione.
 
-      Completa questo componente secondario con <TECHNOLOGY>%NUM% x %ITEM%<>. Usa <IMG>TECHMENU<> per <STELLAR>mettere in evidenza<> sul tuo registro missioni <STELLAR>istruzioni dettagliate per l'installazione<>, comprese le informazioni su dove trovare gli oggetti richiesti.
+      Completa questo componente secondario con <TECHNOLOGY>%NUM% x %ITEM%<>. Usa <IMG>FE_TRANSFER<> per <STELLAR>mettere in evidenza<> sul tuo registro missioni <STELLAR>istruzioni dettagliate per la riparazione<>, comprese le informazioni su dove trovare gli oggetti richiesti.
     ui_install_tech_name: PARTE DI %TECH%
     ui_install_tech_sub: Componente secondario richiesto
     ui_repaired_tech_desc: |-
@@ -7338,8 +7338,8 @@ it:
     ui_exped_visit_planet_desc_d: Hai analizzato un pianeta
     ui_exped_visit_planet_obj: Atterra su un pianeta
     ui_exped_visit_planet_obj_tip: Mentre piloti l'astronave, scansiona i pianeti
-      dallo spazio con <IMG>SCAN<>. La scansione rivelerà importanti dettagli sul
-      pianeta.
+      dallo spazio con <IMG>SHIPSCAN<>. La scansione rivelerà importanti dettagli
+      sul pianeta.
     ui_exped_visit_planet_msg1: |-
       Atterra su un pianeta
       Entra nella tua <TECHNOLOGY>astronave<> per cominciare la ricerca
@@ -7348,7 +7348,7 @@ it:
       Tieni premuto <IMG>THRUST<> per decollare
     ui_exped_visit_planet_msg3: |-
       Atterra su un pianeta
-      Scansiona i pianeti con <IMG>SCAN<> per individuare un luogo di atterraggio adatto
+      Scansiona i pianeti con <IMG>SHIPSCAN<> per individuare un luogo di atterraggio adatto
     ui_warp_freighter_name: Avvia i motori
     ui_warp_freighter_name_u: AVVIA I MOTORI
     ui_warp_freighter_desc: Effettua una curvatura usando la tua ammiraglia

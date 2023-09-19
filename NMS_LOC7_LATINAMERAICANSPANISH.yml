@@ -470,14 +470,14 @@ es-419:
       una cantidad considerable<> adicional de mercurio.
     ui_network_rate_label: Tasa de extracción de la red %RATE%
     ui_repair_tech_desc: |-
-      <TECHNOLOGY>%TECH%<>estado: <FUEL>daño crítico<>. Se debe reparar cada subcomponente para restablecer la funcionalidad.
+      <TECHNOLOGY>%TECH%<> estado: <FUEL>daño crítico<>. Cada subcomponente debe repararse para restablecer la funcionalidad.
 
-      Repara este subcomponente con <TECHNOLOGY>%NUM% x %ITEM%<>. Usa <IMG>TECHMENU<> para <STELLAR>fijar<> las <STELLAR>instrucciones de reparación<> detalladas en tu registro de misión, incluyendo información sobre dónde encontrar los elementos necesarios.
+      Repara este subcomponente con <TECHNOLOGY>%NUM% x %ITEM%<>. Usa <IMG>FE_TRANSFER<> para <STELLAR>pin<> <STELLAR>las instrucciones de reparación<> detalladas a tu registro de misión, incluyendo información sobre dónde encontrar objetos necesarios.
     ui_repair_tech_sub: Subcomponente dañado
     ui_install_tech_desc: |-
-      <TECHNOLOGY>%TECH%<> estado del subcomponente: <FUEL>desinstalado<>. Inserta todos los subcomponentes para finalizar la instalación.
+      <TECHNOLOGY>%TECH%<> estado: <FUEL>desinstalado<>. Coloca cada subcomponente para finalizar la instalación.
 
-      Completa este subcomponente con <TECHNOLOGY>%NUM% x %ITEM%<>. Usa <IMG>TECHMENU<> para <STELLAR>fijar<> las <STELLAR>instrucciones de reparación<> detalladas en tu registro de misión, incluyendo información sobre dónde encontrar los elementos necesarios.
+      Complete este subcomponente con <TECHNOLOGY>%NUM% x %ITEM%<>. Usa <IMG>FE_TRANSFER<> para <STELLAR>pin<> <STELLAR>las instrucciones de reparación<> detalladas a tu registro de misión, incluyendo información sobre dónde encontrar objetos necesarios.
     ui_install_tech_name: PIEZA DE %TECH%
     ui_install_tech_sub: Subcomponente requerido
     ui_repaired_tech_desc: |-
@@ -7325,8 +7325,9 @@ es-419:
     ui_exped_visit_planet_desc: Poner pie en tierra
     ui_exped_visit_planet_desc_d: Explora un planeta
     ui_exped_visit_planet_obj: Aterriza en un planeta
-    ui_exped_visit_planet_obj_tip: Mientras vuelas tu nave, escanea mundos desde el
-      espacio con <IMG>SCAN<>. El escaneo revelará detalles importantes sobre el planeta.
+    ui_exped_visit_planet_obj_tip: Mientras vuelas tu nave, escanea planetas desde
+      el espacio con <IMG>SHIPSCAN<>. Escanear revelará detalles importantes sobre
+      el planeta.
     ui_exped_visit_planet_msg1: |-
       Pon un pie en un planeta
       Entra a tu <TECHNOLOGY>nave<> para comenzar la búsqueda
@@ -7335,7 +7336,7 @@ es-419:
       Mantén pulsado <IMG>THRUST<> para despegar
     ui_exped_visit_planet_msg3: |-
       Pon un pie en un planeta
-      Escanea planetas con <IMG>SCAN<> para encontrar un sitio de aterrizaje adecuado
+      Escanea planetas con <IMG>SHIPSCAN<> para encontrar un lugar de aterrizaje adecuado
     ui_warp_freighter_name: Enciende los motores
     ui_warp_freighter_name_u: ENCIENDE LOS MOTORES
     ui_warp_freighter_desc: Transposiciona con tu nave principal

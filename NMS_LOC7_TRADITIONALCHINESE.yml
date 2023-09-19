@@ -441,14 +441,14 @@ zh-TW:
     ui_special_shop_help_res_alt: 核心每日都會提供新的水銀任務，最多可累積 3 項任務。<SPECIAL>週末活動<>會產生<STELLAR>大量<>額外水銀。
     ui_network_rate_label: 網路抽取速度 %RATE%
     ui_repair_tech_desc: |-
-      <TECHNOLOGY>%TECH%<>狀態：<FUEL>嚴重受損<>。每個子元件都必須修復才能後恢復功能
+      <TECHNOLOGY>%TECH%<>狀態：<FUEL>嚴重受損<>。每個子元件都必須經過修復才能恢復功能。
 
-      以<TECHNOLOGY>%NUM% 個%ITEM%<>來修復此子元件。使用 <IMG>TECHMENU<> 來將詳細的<STELLAR>維修說明<><STELLAR>釘選<>到你的任務日誌，包括在何處尋找所需物品的資訊。
+      使用 <TECHNOLOGY>%NUM% 個%ITEM%<>修復此子元件。使用 <IMG>FE_TRANSFER<> 將詳細的<STELLAR>維修說明<><STELLAR>釘選<>到你的任務日誌，包括在何處可找到所需物品的資訊。
     ui_repair_tech_sub: 受損子元件
     ui_install_tech_desc: |-
       <TECHNOLOGY>%TECH%<>子元件狀態：<FUEL>未安裝<>。放入每個子元件以完成安裝。
 
-      以<TECHNOLOGY>%NUM% 個 %ITEM%<>來完成此子元件。使用 <IMG>TECHMENU<> 來將詳細的<STELLAR>維修說明<><STELLAR>釘選<>到你的任務日誌，包括在何處尋找所需物品的資訊。
+      使用 <TECHNOLOGY>%NUM% 個%ITEM%<>完成此子元件的安裝。使用 <IMG>FE_TRANSFER<> 將詳細的<STELLAR>維修說明<><STELLAR>釘選<>到你的任務日誌，包括在何處可找到所需物品的資訊。
     ui_install_tech_name: "%TECH% 零件"
     ui_install_tech_sub: 需要子元件
     ui_repaired_tech_desc: |-
@@ -6888,7 +6888,7 @@ zh-TW:
     ui_exped_visit_planet_desc: 踏上陸地
     ui_exped_visit_planet_desc_d: 已調查星球
     ui_exped_visit_planet_obj: 登陸星球
-    ui_exped_visit_planet_obj_tip: 在駕駛太空船時，使用 <IMG>SCAN<> 從太空掃描世界。掃描會顯示出有關星球的重要細節。
+    ui_exped_visit_planet_obj_tip: 在駕駛太空船時，使用 <IMG>SHIPSCAN<> 從太空掃描世界。掃描會顯示出有關星球的重要細節。
     ui_exped_visit_planet_msg1: |-
       踏上星球
       進入你的<TECHNOLOGY>太空船<>開始搜索
@@ -6897,7 +6897,7 @@ zh-TW:
       按住 <IMG>THRUST<> 起飛
     ui_exped_visit_planet_msg3: |-
       踏上星球
-      使用 <IMG>SCAN<> 掃描世界來找到適合的降落點
+      使用 <IMG>SHIPSCAN<> 掃描世界來找到適合的降落點
     ui_warp_freighter_name: 啟動引擎
     ui_warp_freighter_name_u: 啟動引擎
     ui_warp_freighter_desc: 使用你的主力太空船進行空間跳躍

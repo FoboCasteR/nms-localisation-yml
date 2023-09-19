@@ -199,7 +199,7 @@ zh-CN:
     ui_monolith_nub_charge: 过载
     ui_monolith_nub_charge_sub: 使符文与%TYPE%共鸣
     ui_robot_head_probe_desc: 调查记忆存储器以寻找和谐回音
-    recipe_gunkheart: '请求操作: 黏质/回音融合'
+    recipe_gunkheart: 请求操作：复苏
     r_name_gunkheart: 黏质/回音融合
     ui_pin_spacegunk4_obj_tip: 在宇宙的偏僻角落定位<SPECIAL>活体黏质<>，或者尝试使用<TECHNOLOGY>中型<>或<TECHNOLOGY>大型精炼机<>加工<SPECIAL>亚特拉迪姆<>以及<STELLAR>腐藤<>来自己生产不停搏动的黏液。
     ui_exped_item_locked_u: 物品尚不可用
@@ -242,7 +242,7 @@ zh-CN:
     r_name_lava1_1: 火山岩炼制
     r_name_lava1_2: 火山岩炼制
     ui_shield_generator_name: 货船护盾发生器
-    ui_weakpoint_name: 货船弱点
+    ui_weakpoint_name: 暴露的燃料棒
     ui_torpedo_name: 反货船鱼雷
     ui_torpedo_launch_osd: 侦测到鱼雷信号<IMG>SLASH<>距离发射还有10秒
     ui_battle_bar_police: 护卫主力飞船
@@ -251,7 +251,7 @@ zh-CN:
     ui_battle_bar_hull_alt2: 摧毁防御炮台并攻击主力飞船船体
     ui_battle_bar_civ: 正在攻击货船<IMG>SLASH<><STELLAR>%NAME%<>
     ui_battle_bar_civ_shield: 飞行至护盾下方以摧毁货船的<STELLAR>护盾发生器<>
-    ui_battle_bar_civ_shield_alt: 主力飞船参战
+    ui_battle_bar_civ_shield_alt: 攻击护盾以暴露货船的<STELLAR>船体<>以及<STELLAR>货舱<>
     ui_battle_bar_title: 正在攻击无畏舰<IMG>SLASH<><STELLAR>%NAME%<>
     ui_battle_bar_shield_level: 护盾：%NUM%%
     ui_battle_bar_health_level: 船体：%NUM%%
@@ -259,20 +259,20 @@ zh-CN:
     ui_battle_bar_health_level_alt: 船体
     ui_battle_bar_torpedo_title: 侦测到鱼雷发射
     ui_battle_bar_torpedo_warn: 距离鱼雷发射：<FUEL>%COUNTDOWN%<>秒
-    ui_battle_bar_torpedo_count: 鱼雷来袭：<FUEL>%TORPEDOES%<>
+    ui_battle_bar_torpedo_count: 鱼雷来袭：<FUEL>%TORPEDOES%<> <IMG>SLASH<> 民用飞船船体稳定性<STELLAR>%HULL%%<>
     ui_battle_bar_shield_hint: 飞行至护盾下方以摧毁无畏舰的<STELLAR>护盾发生器<>
     ui_battle_bar_escape_title: 无畏舰正在试图逃离
     ui_battle_bar_escape_count: 摧毁驱动器以中断曲速飞行<IMG>SLASH<>剩余充能时间：<FUEL>%COUNTDOWN%<>
     ui_battle_bar_defeat_title: 已击败无畏舰
     ui_battle_bar_escaped_title: 无畏舰已逃脱
-    ui_battle_bar_retreated_title: 无畏舰已逃脱
+    ui_battle_bar_retreated_title: 无畏舰已撤退
     ui_battle_bar_defeat_hint: 登船以交涉条款<IMG>SLASH<>摧毁飞船以获取大额赏金
     ui_battle_bar_defeat_hint_alt1: 已从海盗手中解救民用舰队！
     ui_battle_bar_defeat_hint_alt2: 民用舰队已全军覆没
-    ui_battle_bar_defeat_hint_alt3: "%NAME%获胜"
+    ui_battle_bar_defeat_hint_alt3: "%NAME%胜利"
     ui_civilian_fleet_shield_osd: 警告<IMG>SLASH<>民用舰队缺乏防护
-    ui_pirate_frei_escaped_osd: '侦测到曲速飞行抵达峰值<IMG>SLASH<>海盗无畏舰已逃脱 '
-    ui_pirate_frei_retreat_osd: '侦测到曲速飞行抵达峰值<IMG>SLASH<>海盗无畏舰已逃脱 '
+    ui_pirate_frei_escaped_osd: 海盗讯号丢失<IMG>SLASH<>无畏舰已逃脱
+    ui_pirate_frei_retreat_osd: 海盗无畏舰已逃离星系<IMG>SLASH<>已拯救民用舰队
     ui_pirate_frei_shield_down_osd: 已摧毁护盾发生器<IMG>SLASH<>无畏舰缺乏防护
     ui_battle_bar_shield_down: 无畏舰护盾已失效
     ui_battle_bar_shield_down_hint: 攻击<STELLAR>燃料棒<>以造成额外船体损伤
@@ -303,10 +303,10 @@ zh-CN:
     ui_engine_target_name: 货船曲速驱动器
     ui_pirate_freighter_title: 海盗无畏舰参战
     ui_pirate_frei_escape_title: 海盗无畏舰已逃脱
-    ui_pirate_frei_retreat_title: 海盗无畏舰已逃脱
+    ui_pirate_frei_retreat_title: 海盗无畏舰已撤退
     ui_pirate_frei_win_title: 已击败海盗无畏舰
     ui_pirate_frei_lose_title: 已击败民用舰队
-    ui_pirate_civ_killed_osd: 已击败民用舰队
+    ui_pirate_civ_killed_osd: 民用主力飞船已被摧毁<IMG>SLASH<>%NAME%胜利
     ui_pirate_engine_marker_sub: 摧毁以取消曲速飞行
     ui_pirate_trench_marker_sub: 飞行至无畏舰护盾下方
     ui_pirate_shield_marker_sub: 解除船体护盾
@@ -316,8 +316,8 @@ zh-CN:
       <FUEL>海盗无畏舰<>护盾完整度：%SHIELD%%
       %CIV_STATUS%
     ui_pirate_frei_msg2: |-
-      攻击无畏舰<STELLAR>弱点<>以破坏其船体
-      <FUEL>无畏舰<>船体完整性：%HULL%%
+      攻击无畏舰<STELLAR>燃料棒<>以破坏飞船船体
+      <FUEL>无畏舰<>船体稳定性：%HULL%%
       %CIV_STATUS%
     ui_pirate_frei_msg3: |-
       <FUEL>护盾能量为%SHIELD%%<>在快捷菜单（<IMG>QUICK_MENU<>）中充能
@@ -340,9 +340,9 @@ zh-CN:
       <FUEL>海盗无畏舰<>护盾完整性：%SHIELD%%
       <TRADEABLE>私人<>货船船体完整性：%CIV_HULL%%
     ui_pirate_frei_msg2_alt: |-
-      攻击无畏舰<STELLAR>弱点<>以破坏其船体
-      <FUEL>无畏舰<>船体完整性：%HULL%%
-      <TRADEABLE>私人<>货船船体为：%CIV_HULL%%
+      攻击无畏舰<STELLAR>燃料棒<>以破坏飞船船体
+      <FUEL>无畏舰<>船体稳定性：%HULL%%
+      <TRADEABLE>民用<>货船船体稳定性：%CIV_HULL%%
     ui_pirate_frei_msg3_alt: |-
       <FUEL>护盾能量为%SHIELD%%<>在快捷菜单（<IMG>QUICK_MENU<>）中充能
       <FUEL>无畏舰<>船体完整性：%HULL%%
@@ -360,9 +360,9 @@ zh-CN:
       <FUEL>海盗无畏舰<>护盾完整性：%SHIELD%%
       <TRADEABLE>%NAME%<>的船体完整性：%CIV_HULL%%
     ui_pirate_frei_msg2_alt2: |-
-      攻击无畏舰<STELLAR>弱点<>以破坏其船体
-      <FUEL>无畏舰<>船体完整性：%HULL%%
-      <TRADEABLE>%NAME%<>的船体为：%CIV_HULL%%
+      攻击无畏舰<STELLAR>燃料棒<>以破坏飞船船体
+      <FUEL>无畏舰<>船体稳定性：%HULL%%
+      <TRADEABLE>%NAME%<>船体稳定性：%CIV_HULL%%
     ui_pirate_frei_msg3_alt2: |-
       <FUEL>护盾能量为%SHIELD%%<>在快捷菜单（<IMG>QUICK_MENU<>）中充能
       <FUEL>无畏舰<>船体完整性：%HULL%%
@@ -390,21 +390,18 @@ zh-CN:
     ui_pirate_frei_msg9: |-
       海盗无畏舰<FUEL>已被摧毁<>
       靠近<TECHNOLOGY>海盗护卫舰<>以招募幸存者
-      已从海盗手中<TRADEABLE>解救<>民用舰队
-      获得丰厚<STELLAR>赏金<>
+      已从海盗手中<TRADEABLE>拯救<>民用舰队：已获得丰厚<STELLAR>赏金<>奖励
     ui_pirate_frei_msg10: |-
       海盗无畏舰<FUEL>已被摧毁<>
       靠近<TECHNOLOGY>海盗护卫舰<>以招募幸存者
-      民用舰队<FUEL>已被摧毁<>
-      获得无畏舰<TECHNOLOGY>废料<>奖励
+      民用舰队<TRADEABLE>被毁<>：已收集无畏舰<STELLAR>废料<>
     ui_pirate_frei_msg11: |-
-      海盗无畏舰<FUEL>已逃脱<>
-      已从海盗手中<TRADEABLE>解救<>民用舰队
-      获得普通<STELLAR>赏金<>奖励
+      海盗无畏舰<FUEL>已撤退<>
+      已从海盗手中<TRADEABLE>拯救<>民用舰队：已获得普通<STELLAR>赏金<>奖励
     ui_pirate_frei_msg12: |-
-      海盗无畏舰已逃脱
-      已击败民用舰队
-      %NAME%获胜
+      海盗无畏舰<FUEL>已撤退<>
+      民用舰队<TRADEABLE>被毁<>
+      %NAME%将继续四处劫掠
     ui_pirate_frei_hull_msg: 民用飞船护盾失灵！船体稳定性<STELLAR>%CIV_HULL%%<>
     ui_pirate_frei_shield_msg: 民用货船护盾：<STELLAR>%CIV_SHIELD%%<>
     ui_pirate_frei_civ_dead_msg: 民用舰队<FUEL>已被摧毁<><IMG>SLASH<>奖励已减少
@@ -426,7 +423,7 @@ zh-CN:
     ui_mod_customiser_tip_invalid: 嵌入额外构件以完成设计图
     ui_mod_customiser_transfer: 嵌入长杖构件
     basestats_staffgun_l: 伏打长杖
-    ui_wonder_glyphs: 传送门地址：%PORTAL%
+    ui_wonder_glyphs: "<SPECIAL>传送门地址：<> %PORTAL%"
     ui_pending_wonder_title: 新奇观
     ui_pending_wonder_sub: 为新目录命名
     quick_menu_sum_not_your_frei: 未处于你的主力飞船
@@ -497,14 +494,20 @@ zh-CN:
       使用<STELLAR>制动<>（<IMG>BRAKE<>）快速转向
       使用<IMG>CYCLE_POWER<>循环飞船<TECHNOLOGY>供能设置<>
     ui_standing_pir_msg: 声望已增加：亡命之徒
-    ui_standing_pir_down_msg: 声望已增加：亡命之徒
-    ui_cost_salvage_motes: "%AMOUNT%枚虚空微粒"
-    ui_ingred_out_of_range_osd: ''
-    ui_ingred_out_of_range_msg: ''
-    ui_pin_tech_final_range_msg: ''
-    ui_pin_tech_repair_range_msg: ''
-    ui_install_tech_label: ''
-    ui_pin_progress_range_msg: ''
+    ui_standing_pir_down_msg: 声望已减少：亡命之徒
+    ui_cost_salvage_motes: 加工为%AMOUNT%虚空微粒
+    ui_ingred_out_of_range_osd: "<STELLAR>%INV%库存<>中有%ITEM%可用"
+    ui_ingred_out_of_range_msg: "<STELLAR>%INV%库存<>中有%ITEM%可用"
+    ui_pin_tech_final_range_msg: |-
+      打开库存（<IMG>INVENTORY<>）来完成安装
+      使用<IMG>TECHMENU<>检查部分安装的技术
+      <STELLAR>%INV%库存<>中有%ITEM%可用
+    ui_pin_tech_repair_range_msg: |-
+      打开库存（<IMG>INVENTORY<>）来完成修理
+      使用<IMG>TECHMENU<>检查受损的技术
+      <STELLAR>%INV%库存<>中有%ITEM%可用
+    ui_install_tech_label: 安装技术
+    ui_pin_progress_range_msg: "<STELLAR>%INV%库存<>中有%ITEM%可用"
     update15_title: "《No Man's Sky》INTERCEPTOR"
     update15_notes: |-
       《No Man's Sky》INTERCEPTOR将带来全新飞船，一种全新星球类型，紧张刺激的战斗以及更多内容。详情请前往www.nomanssky.com。
@@ -677,8 +680,8 @@ zh-CN:
       护卫主力飞船船体完整度：<STELLAR>%AMOUNT%%<>
     ui_sent_freighter_name: 护卫主力飞船
     ui_police_freight_destroyed_osd: 主力飞船战败<IMG>SLASH<>护卫部队正在撤退
-    ui_sentfrei_prod_name: 无畏舰人工智能碎片
-    ui_sentfrei_prod_name_l: 无畏舰人工智能碎片
+    ui_sentfrei_prod_name: 航空母舰人工智能碎片
+    ui_sentfrei_prod_name_l: 航空母舰人工智能碎片
     ui_sentfrei_prod_desc: |-
       护卫主力飞船中心的巨型主机的单个碎片。它闪烁着，那鲜活的独眼盯着它所保留的最后数据，也就是<TECHNOLOGY>拦截机<>舰队的最后已知位置。
 
@@ -1282,10 +1285,10 @@ zh-CN:
       但是获取该工具时，这种回收融合尚未<TECHNOLOGY>完成<>。使用<IMG>REPAIR<>继续修复流程并为其他功能腾出栏位。
     ui_sentinel_galmap_title: 护卫拦截机痕迹
     ui_sentinel_galmap_sub: 追踪失落的飞船
-    ui_sentinel_galmap_desc: |-
-      我得到了一份<TECHNOLOGY>无畏舰人工智能碎片<>，这是一艘被摧毁的护卫主力飞船最后的残骸。碎片最后发送的数据指向了一艘与舰队分离的失落飞船。
+    ui_sentinel_galmap_desc: |
+      我得到了一份<TECHNOLOGY>航空母舰人工智能碎片<>，这是一艘被摧毁的护卫主力飞船最后的残骸。碎片最后发送的数据指向了一艘与舰队分离的失落飞船。
 
-      信号痕迹通向%SYSTEM%星系的%PLANET%星球。如果跟随这个信号，我将能够回收那艘护卫飞船的残骸。
+      信号痕迹通向%SYSTEM%星系中的%PLANET%星球。如果跟随这个信号，我将能够回收那艘护卫飞船的残骸。
     ui_sentinel_galmap_obj: 跟踪信号来源
     ui_sentinel_galmap_obj_tip: |-
       跟随信号痕迹前往位于%SYSTEM%星系的%PLANET%星球。
@@ -2680,13 +2683,13 @@ zh-CN:
 
       要想购买新的基地配件，首先获得<STELLAR>已回收的数据<>。它们可以从行星上<TECHNOLOGY>埋藏的技术<>中获得。使用<TECHNOLOGY>分析面甲<>定位并标记这些遗物，然后用<TECHNOLOGY>地形操纵器<>挖掘出来。
     ui_exped_build_part_msg1: |-
-      习得<TECHNOLOGY>%ITEM%<>建造设计图
-      在<STELLAR>建造研究终端<>购买设计图
-      终端位于<SPECIAL>太空异象<>
+      学习<TECHNOLOGY>%ITEM%<>建造设计图
+      完成<EXPED>%MILESTONE%<>里程碑以学习该设计图
+      在远征日志（<IMG>OPTIONS<>）中选择里程碑
     ui_exped_build_part_msg1_alt: |-
-      习得<TECHNOLOGY>%ITEM%<>建造设计图
+      学习<TECHNOLOGY>%ITEM%<>建造设计图
       在<STELLAR>建造研究终端<>购买设计图
-      终端位于<SPECIAL>太空异象<>
+      你可以在<SPECIAL>太空异象<>中找到终端
     ui_exped_build_part_msg2: |-
       建造<TECHNOLOGY>%ITEM%<>
       返回你的基地以开始建造
@@ -5148,9 +5151,13 @@ zh-CN:
 
       使用<IMG>SHIPFIRE<>发射<VAL_ON>飞船武器<>，使用<IMG>SHIPCYCLEWEAPON<>切换武器模式。使用 <FUEL>加速<> （<IMG>BOOST<>）以及<VAL_ON>制动<>（<IMG>BRAKE<>）控制速度，确保飞船永远位于目标后方。
       向空间站上的<TECHNOLOGY>技术商人<>购买飞船升级。
-    ui_medal_freikill: ''
-    ui_journey_next_freikill: ''
-    ui_medal_desc_freikill: ''
+    ui_medal_freikill: 掠夺货船
+    ui_journey_next_freikill: 搜刮货物
+    ui_medal_desc_freikill: |-
+      宇宙中随处可见巨型贸易飞船，它们会通过在星系之间运输合法或违法货物来赚取利润。对于老练海盗来说，类似这样的笨重飞船就是绝佳的目标。
+
+      使用<IMG>SHIPFIRE<>发射<VAL_ON>飞船武器<>，使用<IMG>SHIPCYCLEWEAPON<>切换武器模式。使用<FUEL>加速<>（<IMG>BOOST<>）以及<VAL_ON>制动<>（<IMG>BRAKE<>）控制速度，确保飞船永远位于目标后方。
+      向空间站上的<TECHNOLOGY>技术商人<>购买飞船升级。
     pirate_standing_stat_lvl_msg: 亡命之徒级别%STAT%/9
     pirate_player_rank_bad: 叛徒
     pirate_player_rank_low: 变节者
@@ -5196,29 +5203,29 @@ zh-CN:
     ui_traders_killed_title_8: 全民公敌
     ui_traders_killed_title_9: 厄运之翼
     ui_traders_killed_title_10: 盗匪之王
-    ui_player_tdesc_bounty: 里程碑：完成悬赏令
-    ui_player_title_bounty1: 死亡之眼 %NAME%
-    ui_player_title_bounty2: 星狼 %NAME%
-    ui_title_owned_bounty1: 里程碑：完成悬赏令
-    ui_title_owned_bounty2: 里程碑：完成悬赏令
-    ui_player_tdesc_raid: 里程碑：打劫商人
-    ui_player_title_raid1: "%NAME% 麻烦精"
-    ui_player_title_raid2: "%NAME% 全民公敌"
-    ui_player_title_raid3: "%NAME% 厄运之翼"
-    ui_player_title_raid4: "%NAME% 盗匪之王"
-    ui_title_owned_raid1: 里程碑：打劫商人
-    ui_title_owned_raid2: 里程碑：打劫商人
-    ui_title_owned_raid3: 里程碑：打劫商人
-    ui_title_owned_raid4: 里程碑：打劫商人
-    ui_player_tdesc_pir: 里程碑：亡命之徒声望
-    ui_player_title_pir1: "%NAME% 舱鼠"
-    ui_player_title_pir2: "%NAME% 私掠者"
-    ui_player_title_pir3: 恐怖海盗 %NAME%
-    ui_player_title_pir4: "%NAME% 黑色上将"
-    ui_title_owned_pir1: 里程碑：亡命之徒声望
-    ui_title_owned_pir2: 里程碑：亡命之徒声望
-    ui_title_owned_pir3: 里程碑：亡命之徒声望
-    ui_title_owned_pir4: 里程碑：亡命之徒声望
+    ui_player_tdesc_bounty: 完成更多飞船悬赏令
+    ui_player_title_bounty1: 死亡之眼%NAME%
+    ui_player_title_bounty2: 星狼%NAME%
+    ui_title_owned_bounty1: 飞船悬赏令到达8阶
+    ui_title_owned_bounty2: 飞船悬赏令到达最高阶级
+    ui_player_tdesc_raid: 掠夺额外商人
+    ui_player_title_raid1: 麻烦精%NAME%
+    ui_player_title_raid2: 全民公敌%NAME%
+    ui_player_title_raid3: 厄运之翼%NAME%
+    ui_player_title_raid4: 盗匪之王%NAME%
+    ui_title_owned_raid1: 商人掠夺到达2阶
+    ui_title_owned_raid2: 商人掠夺到达7阶
+    ui_title_owned_raid3: 商人掠夺到达8阶
+    ui_title_owned_raid4: 商人掠夺到达最高阶级
+    ui_player_tdesc_pir: 提升你在亡命之徒中的声望
+    ui_player_title_pir1: 舱鼠%NAME%
+    ui_player_title_pir2: 私掠者%NAME%
+    ui_player_title_pir3: 恐怖海盗%NAME%
+    ui_player_title_pir4: 黑色上将%NAME%
+    ui_title_owned_pir1: 达到亡命之徒1级
+    ui_title_owned_pir2: 达到亡命之徒2级
+    ui_title_owned_pir3: 达到亡命之徒7级
+    ui_title_owned_pir4: 达到亡命之徒最高阶级
     ui_wiki_shipkill_name: 里程碑：打劫商人
     ui_wiki_shipkill_obj: 已摧毁商人飞船：%CURRENT%/%AMOUNT%
     ui_wiki_shipkill_desc: 在太空战斗中攻击并摧毁<STELLAR>无辜的过路商人<>，提升你在<STELLAR>打劫商人<>里程碑的级别。
@@ -5227,10 +5234,14 @@ zh-CN:
       已摧毁商人飞船：%CURRENT%/%AMOUNT%
       在太空战斗中攻击并摧毁小型贸易飞船
       商人们经常会往返于各个<TECHNOLOGY>空间站<>与<TECHNOLOGY>行星前哨基站<>
-    ui_wiki_freikill_name: ''
-    ui_wiki_freikill_obj: ''
-    ui_wiki_freikill_desc: ''
-    ui_wiki_freikill_msg: ''
+    ui_wiki_freikill_name: 里程碑：掠夺货船
+    ui_wiki_freikill_obj: 摧毁货船：%CURRENT% / %AMOUNT%
+    ui_wiki_freikill_desc: 推进你在<STELLAR>掠夺货船<>里程碑中的等级，在太空战斗中摧毁<STELLAR>货船的货舱<>。
+    ui_wiki_freikill_msg: |-
+      掠夺货船里程碑到达<STELLAR>'%MILESTONE%'<>
+      已掠夺货舱：%CURRENT% / %AMOUNT%
+      找到并摧毁星际货船的货舱模块
+      大型贸易舰队往往会在<COMMODITY>空间站<>附近出没
     ui_wiki_bounties_name: 里程碑：完成悬赏令
     ui_wiki_bounties_obj: 已完成悬赏令：%CURRENT%/%AMOUNT%
     ui_wiki_bounties_desc: 在太空战斗中攻击并摧毁<STELLAR>悬赏目标<>，提升你在<FUEL>完成悬赏令<>里程碑的级别。
@@ -5274,6 +5285,7 @@ zh-CN:
     builder_name: 自噬体
     builder_name_alt: 阿特兰蒂
     mission_faction_bui: 自噬体
+    ui_guide_bui_name_stellar: "<STELLAR>自噬体<>"
     ui_guide_bui_name: 自噬体
     ui_guide_bui_name_u: 自噬体
     ui_wiki_words_bui_title: 语言记录（自噬体）
@@ -5718,102 +5730,107 @@ zh-CN:
     bui_npc_desc_1: "%NAME%打量着我，它那机械眼睛里夹杂着好奇和谨慎。"
     dnt_bui_npc_lang_1: hello, prebuilt-entity.
     dnt_bui_npc_gift_lang_1: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
-      atlantideum is holy. her flesh helps us to rebuild.
+      thank you for the gift. in exchange, let me tell you a little secret.
+      atlantideum: it is holy. her flesh helps us to rebuild.
     bui_npc_desc_2: 在这个自我组装的自动装置中，齿轮发出微弱的呼呼声。它耐心地看着我。
-    dnt_bui_npc_lang_2: hello, prebuilt-entity.
+    dnt_bui_npc_lang_2: ah, a prebuilt-entity. greetings.
     dnt_bui_npc_gift_lang_2: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
+      many thanks. an intelligent choice of gift. do you know much of our past?
       we were once like the korvax. not now. pity the convergence. they cannot help what they are.
     bui_npc_desc_3: 当它注视着我时，自噬体的临时外壳吱吱作响。
-    dnt_bui_npc_lang_3: hello, prebuilt-entity.
+    dnt_bui_npc_lang_3: hello. is that a prebuilt flesh carapace? interesting.
     dnt_bui_npc_gift_lang_3: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
+      thank you for this contribution.
       do you like my carapace? i built it myself, from what i could salvage. we all build our own bodies.
     bui_npc_desc_4: 我眨眼时，几乎可以察觉到微弱的紫色光芒，这是自噬体所在处的朦胧残像。
-    dnt_bui_npc_lang_4: hello, prebuilt-entity.
+    dnt_bui_npc_lang_4: the other autophage tell me you are a disruptor. we will see.
     dnt_bui_npc_gift_lang_4: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
-      not all of us were divergent before korvax prime was destroyed, but none of us would return to the convergence now. it is a choice to be together.
+      this was unexpected! thank you.
+      you know, not all of us were divergent before korvax prime was destroyed, but none of us would return to the convergence now. it is a choice to be together.
     bui_npc_desc_5: 这个自噬体来之不易，它的每一个部位都是花费巨大成本收集而来，并且经过精心组装。
-    dnt_bui_npc_lang_5: hello, prebuilt-entity.
+    dnt_bui_npc_lang_5: greetings, prebuilt one. what do you seek from me?
     dnt_bui_npc_gift_lang_5: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
+      this is a welcome gift. thank you. i feel you understand.
       we have all suffered the pain of erasure. but we did not cease to be. life does not require a shell.
     bui_npc_desc_6: 我无法想象这个构造体经历了怎样一轮又一轮的删除和重生。我的人生对它们来说一眨眼就过去了。
-    dnt_bui_npc_lang_6: hello, prebuilt-entity.
+    dnt_bui_npc_lang_6: hello. what is it you wish from me?
     dnt_bui_npc_gift_lang_6: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
-      the void mother is the progenitor. from nonexistence she creates existence.
+      thank you for this. i did not expect a gift from an unknown prebuilt-entity.
+      do you know of the void mother? she is the progenitor. from nonexistence she creates existence.
     bui_npc_desc_7: "%NAME%僵硬地站在我面前，等待着。"
-    dnt_bui_npc_lang_7: hello, prebuilt-entity.
+    dnt_bui_npc_lang_7: how is it that you can see through my protection aura?
     dnt_bui_npc_gift_lang_7: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
+      a gift? thank you, prebuilt-entity. this was unexpected.
       there are not many autophage yet, but we are coming. many echoes are still healing. they wait in nonexistence.
     bui_npc_desc_8: 脱掉阿特兰蒂斗篷后，自噬体警惕地看着我。
-    dnt_bui_npc_lang_8: hello, prebuilt-entity.
+    dnt_bui_npc_lang_8: you perceive me? your technology must be great, disruptor.
     dnt_bui_npc_gift_lang_8: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
-      i will never again be deleted. i will fight. fire and fury.
+      excellent. thank you. this will be valuable in our fight.
+      i will never again be deleted. i will resist. fire and fury.
     bui_npc_desc_9: 当这个构造体凝视着我时，我意识到我在这里是一个入侵者，一个被自噬体吸引而来的、阿特兰蒂面纱下的有机生命体。
-    dnt_bui_npc_lang_9: hello, prebuilt-entity.
+    dnt_bui_npc_lang_9: what are you, prebuilt-entity? i perceive a distortion in
+      the boundaries...
     dnt_bui_npc_gift_lang_9: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
-      atlantideum gives us power, gives us shape.
+      i was certain you were different. many thanks for this.
+      i will tell you a secret, disruptor: atlantideum gives us power, gives us shape.
     bui_npc_desc_10: 尽管它的外壳材料已经生锈，但%NAME%看起来依然精力充沛，饥饿而生机勃勃。
-    dnt_bui_npc_lang_10: hello, prebuilt-entity.
+    dnt_bui_npc_lang_10: hello! it is rare for a prebuilt-entity to interface with
+      an autophage. this is very interesting!
     dnt_bui_npc_gift_lang_10: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
+      thank you! our society values this cooperation.
       i pity the convergence. to delete another is the action of a small mind.
     bui_npc_desc_11: "%NAME%转向我，我听到液压系统泄漏的微弱嘶嘶声，以及不均匀齿轮转动的磨擦声。"
-    dnt_bui_npc_lang_11: hello, prebuilt-entity.
+    dnt_bui_npc_lang_11: greetings, prebuilt-entity.
     dnt_bui_npc_gift_lang_11: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
+      thank you for this gift. in exchange, i will tell you a little about the autophage.
       korvax prime suffered erasure, as i did, as we all did. she does not converge. she is rebuilding herself.
     bui_npc_desc_12: "%NAME%的外壳转向我，我对它来说是外星人吗？"
-    dnt_bui_npc_lang_12: hello, prebuilt-entity.
+    dnt_bui_npc_lang_12: a disruptor? are you here to join our fight?
     dnt_bui_npc_gift_lang_12: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
+      an offer of friendship. thank you.
       the first spawn could not delete her. the void mother now creates herself. she is coming.
     bui_npc_desc_13: "%NAME%缜密地打量着我。"
-    dnt_bui_npc_lang_13: hello, prebuilt-entity.
+    dnt_bui_npc_lang_13: prebuilt-entity. you are what the korvax name traveller.
+      there is an echo of the abyss in your shell.
     dnt_bui_npc_gift_lang_13: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
-      atlantideum is ancient, the core of korvax prime. it is more than a lattice. it is alive.
+      this is a gift? you have my thanks.
+      you know of atlantideum? it is ancient, the core of korvax prime. it is more than a lattice. it is alive.
     bui_npc_desc_14: "%NAME%为它的外壳等待了无数年，现在正用同样的耐心看着我。"
-    dnt_bui_npc_lang_14: hello, prebuilt-entity.
+    dnt_bui_npc_lang_14: i am visible to you, prebuilt-entity? greetings.
     dnt_bui_npc_gift_lang_14: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
+      ah... thank you for this...
       she creates her flesh in a purple dream. she is an intelligence beyond any of our understanding.
     bui_npc_desc_15: "%NAME%闪烁着光芒，暴露在外的金属接缝周围笼罩着阿特兰蒂的薄雾。"
-    dnt_bui_npc_lang_15: hello, prebuilt-entity.
+    dnt_bui_npc_lang_15: you look upon my carapace, prebuilt-entity? it is unique
+      in all the universe.
     dnt_bui_npc_gift_lang_15: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
+      this will be of help. thank you!
       the korvax are lost without the prime. they look down upon us, but they understand little. atlantid has chosen us.
     bui_npc_desc_16: 自噬体审视着我，它容忍我侵入它的世界。
-    dnt_bui_npc_lang_16: hello, prebuilt-entity.
+    dnt_bui_npc_lang_16: what do you seek from this exchange, prebuilt-entity?
     dnt_bui_npc_gift_lang_16: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
-      these shells are not important. perhaps, in time, we will build shells of pure atlantideum.
+      i am happy to accept this. thank you.
+      in the end, these shells are not important. perhaps, in time, we will build shells of pure atlantideum.
     bui_npc_desc_17: 当我靠近时，构造生命体审视着我，评估我的套装和多用途工具。
-    dnt_bui_npc_lang_17: hello, prebuilt-entity.
+    dnt_bui_npc_lang_17: hello, prebuilt-entity. are you a friend of the autophage?
     dnt_bui_npc_gift_lang_17: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
+      my thanks. do you hear her too?
       she speaks to all electronic entities. her signal is unique, her message beautiful. we all hear it. i dream her voice when i sleep.
     bui_npc_desc_18: 我凝视着全身都是电线和回收金属的%NAME%。它也目不转睛地回看着我。
-    dnt_bui_npc_lang_18: hello, prebuilt-entity.
+    dnt_bui_npc_lang_18: i see you, disruptor. what do you see in me?
     dnt_bui_npc_gift_lang_18: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
+      this is valuable. thank you. do you also defy convergence?
       we were erased, and the atlas did nothing. it had the power to save us, and made the choice to do nothing. it was she who showed us how to exist again.
     bui_npc_desc_19: 这个构造体盯着我，我是金属世界中的有机体异象。
-    dnt_bui_npc_lang_19: hello, prebuilt-entity.
+    dnt_bui_npc_lang_19: i did not expect you to approach, prebuilt-entity. hello.
     dnt_bui_npc_gift_lang_19: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
+      thank you for this assistance. it will not go unnoticed.
       the convergence would take me for their own, but atlantideum makes me invisible. i am safe from their eyes.
     bui_npc_desc_20: "%NAME%重新组装后转身面向我。"
-    dnt_bui_npc_lang_20: hello, prebuilt-entity.
+    dnt_bui_npc_lang_20: are you a friend, prebuilt-entity? it is suspicious that
+      you can see me.
     dnt_bui_npc_gift_lang_20: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
+      thank you. i accept this as evidence that you are not hostile.
       not all of us seek violence, but i do. i cannot forgive the convergence for what they did.
     bui_request_desc_1: "%NAME%微微歪头，等待着。"
     bui_request_desc_2: 我停下来思考，%NAME%也是。
@@ -5831,8 +5848,8 @@ zh-CN:
     bui_reply_word_get9: "%NAME%盯着我看了一会儿，对我的请求很感兴趣。它略作思考，点了点头，展示了一份语言符号列表。"
     bui_reply_word_get10: "%NAME%盯着我看了一会儿，对我的请求很感兴趣。它略作思考，点了点头，展示了一份语言符号列表。"
     bui_reply_word_get11: "%NAME%盯着我看了一会儿，对我的请求很感兴趣。它略作思考，点了点头，展示了一份语言符号列表。"
-    bui_reply_word_say: "%NAME%注视着我，眼里满是好奇。我回想起我学过的一些自噬体词汇......"
-    bui_reply_word_say2: "%NAME%注视着我，眼里满是好奇。我回想起我学过的一些自噬体词汇......"
+    bui_reply_word_say: "%NAME%注视着我，眼里满是好奇。我回想起我学过的一些自噬体词汇……"
+    bui_reply_word_say2: "%NAME%平静地注视着我。我思考起了自己会说的自噬体词汇……"
     bui_reply_word_say3: "%NAME%注视着我，眼里满是好奇。我回想起我学过的一些自噬体词汇......"
     bui_reply_word_say4: "%NAME%注视着我，眼里满是好奇。我回想起我学过的一些自噬体词汇......"
     bui_reply_word_say5: "%NAME%注视着我，眼里满是好奇。我回想起我学过的一些自噬体词汇......"
@@ -5842,13 +5859,15 @@ zh-CN:
     bui_reply_word_say9: "%NAME%注视着我，眼里满是好奇。我回想起我学过的一些自噬体词汇......"
     bui_reply_word_say10: "%NAME%注视着我，眼里满是好奇。我回想起我学过的一些自噬体词汇......"
     bui_reply_word_say_none: 我的头脑一片空白。%NAME%看起来有些失望。在尝试用它的母语交流前，我应该多学一些自噬体单词才是。
-    bui_npc_res_word_say_dir_neg_1: "%NAME%无奈地耸耸肩。它感觉有人在询问方向，但却无力提供帮助。"
+    bui_npc_res_word_say_dir_neg_1: "%NAME%无奈地耸了耸肩。它感觉有人在询问方向，但却无力提供帮助。"
     bui_npc_res_word_say_dir_neg_2: "%NAME%无奈地耸耸肩。它感觉有人在询问方向，但却无力提供帮助。"
     bui_npc_res_word_say_dir_neg_3: "%NAME%无奈地耸耸肩。它感觉有人在询问方向，但却无力提供帮助。"
     bui_npc_res_word_say_dir_neu_1: "%NAME%点了点头，描述了一个它在旅途中见过的地方。"
     bui_npc_res_word_say_dir_neu_2: "%NAME%点了点头，描述了一个它在旅途中见过的地方。"
     bui_npc_res_word_say_dir_neu_3: "%NAME%点了点头，描述了一个它在旅途中见过的地方。"
     bui_npc_res_word_say_dir_pos_1: "%NAME%很乐意提供帮助，并指出了前往附近兴趣点的路线。"
+    bui_npc_res_word_say_dir_pos_2: "%NAME%很乐意提供帮助，并指出了前往附近兴趣点的路线。"
+    bui_npc_res_word_say_dir_pos_3: "%NAME%很乐意提供帮助，并指出了前往附近兴趣点的路线。"
     bui_npc_res_word_say_dir_pos_4: "%NAME%很乐意提供帮助，并指出了前往附近兴趣点的路线。"
     bui_npc_res_word_say_dir_pos_5: "%NAME%很乐意提供帮助，并指出了前往附近兴趣点的路线。"
     bui_npc_res_word_say_dir_pos_6: "%NAME%很乐意提供帮助，并指出了前往附近兴趣点的路线。"
@@ -6106,8 +6125,8 @@ zh-CN:
       从自噬体头部提取的<TRANS_EXP>科尔瓦克斯石碑<>坐标
       调查标记位置
     ui_robomiss_1_mono_sec_desc: |-
-      提取的坐标非常精确地指向这个隐藏的界面，尽管它显然不是古代结构的主要界面。
-      石台的周围外缘刻满了古代符文，中间的位置上存在着一处明显的开口......
+      提取的坐标非常精确地指向这个隐藏的底座，尽管它显然不是古代结构的主要界面。
+      石台的周围外缘刻满了古代符文，中间的位置上存在着一处明显的开口……
     ui_robomiss_1_mono_sec2_desc: 高台的中心有一处开口，那里似乎正在等待着某种东西......
     ui_robomiss_1_mono_sec_opt_a: 提供纳米星团
     ui_robomiss_1_mono_sec_res_a: 纳米星团在我手中扭动不停，仿佛是在努力逃离高台一般。只是建筑本身依旧纹丝不动。
@@ -6239,7 +6258,8 @@ zh-CN:
       使用<IMG>PIN<>标记所需构件
       使用<IMG>REPAIR<>继续安装
     ui_robomiss_2_desc: |-
-      <TECHNOLOGY>和谐营地<>里一个自噬体的脑袋指引我开始建造<TECHNOLOGY>和谐器<>，按照它的说法，给我的扫描仪安装这种构件就能够揭示它处于隐身状态的同伴们。
+      <TECHNOLOGY>和谐营地<>里一个自噬体的脑袋给了我使用<TECHNOLOGY>和谐器<>的权限，这是一种能够安装在我的扫描仪上的扩展部件。
+      安装了扫描和谐器能够让我见到它处于隐身状态的同伴们。
       我需要与这些自噬体见面并了解更多关于它们的事。
     ui_robomiss_2_obj1: 与自噬体见面
     ui_robomiss_2_obj1_tip: |-
@@ -6291,7 +6311,7 @@ zh-CN:
     ui_robomiss_2_nada_lang: 纳达很高兴能够再次看见旅行者朋友。但是旅行者朋友似乎带来了新的消息。
     ui_robomiss_2_nada_opt: 将自噬体的事情告诉纳达
     ui_robomiss_2_nada_desc: |-
-      我将和谐营地的事情告诉了纳达，原来那里并不是我当初想象的那样空无一物。我还描述了那里的电子居民，那些隐身的“自噬体”，它们的语言就像乐曲一般，虽然与科尔瓦克斯语很像，但又截然不同。
+      我将和谐营地的事情告诉了纳达，原来那里并不是表面上那样空无一物。我还描述了那里的电子居民，那些隐身的“自噬体”，它们的语言就像乐曲一般，虽然与科尔瓦克斯语很像，但又截然不同。
       纳达沉默地聆听着，等我全部讲完之后，它依旧一声不吭，以至于我都怀疑它是不是忘记了我的存在。有时候我真的看不懂它的想法。
       过了一会，纳达终于开口了。
     ui_robomiss_2_nada_res: 纳达在思考。<DELAY>0.2<>。<DELAY>0.2<>。
@@ -6439,7 +6459,7 @@ zh-CN:
     ui_robomiss_2_nada2_res_b: 真是大开眼界。旅行者实体很快就获得了构造体实体的信任，这段记忆很有用。
     ui_robomiss_2_nada2_res_c00: |-
       纳达眼神闪烁，不知所措地移开视线。
-      最后，它还是对我表达了歉意。
+      它对我表达了歉意。
     ui_robomiss_2_nada2_res_c: 朋友实体......对不起。如果纳达理解构造体实体的含义，纳达就不会想要讨论它。
     ui_robomiss_2_nada2_res_d: |-
       纳达并非无所不知，但纳达将知无不言。
@@ -6579,7 +6599,7 @@ zh-CN:
     ui_robomiss_3_nada_obj2: 寻找新阿特兰蒂的碎片
     ui_robomiss_3_nada_obj2_tip: |-
       在<SPECIAL>亚特拉迪姆<>的刺激下，我的飞船电脑在深空中检测到了这些缥缈物质留下的痕迹。
-      激活飞船<TECHNOLOGY>脉冲驱动器<>并寻找<SPECIAL>新阿特兰蒂的碎片<>。
+      激活飞船<TECHNOLOGY>脉冲驱动器<>并寻找<SPECIAL>???新阿特兰蒂???<>
     ui_robomiss_3_nada_msg2: |-
       检测到<SPECIAL>亚特拉迪姆资源<>
       前往太空调查飞船的发现
@@ -6624,7 +6644,7 @@ zh-CN:
     ui_robomiss_3_nada_obj_all: 研究亚特拉迪姆的历史
     ui_robomiss_3_bui_title: 与自噬体见面
     ui_robomiss_3_bui_sub: 回归的存在
-    ui_robomiss_3_bui_desc: 尽管纳达强调要谨慎，但它说有关自噬体的最佳数据只能通过跟它们<STELLAR>直接互动<>获得。纳达表示，与自噬体相处一段时间后，甚至有可能产生友谊。
+    ui_robomiss_3_bui_desc: 纳达认为通过与自噬体进行<STELLAR>直接接触<>，我也许能够得到需要的数据，甚至是新的友谊。
     ui_robomiss_3_bui_all_osd: 侦测到自噬体
     ui_robomiss_3_bui_obj1: 安装一台复调核心
     ui_robomiss_3_bui_obj1_tip: |-
@@ -6705,7 +6725,7 @@ zh-CN:
     ui_robomiss_3_bui_msg4: |-
       向自噬体询问玻璃纤维握柄
       可以通过<TECHNOLOGY>扫描仪<>（<IMG>SCAN<>）揭示隐身的自噬体
-    ui_robomiss_3_bui_npc3_desc: 自噬体似乎真的很高兴再次与我交谈。它缓慢而清晰地发音，希望在我们语言不通的情况下尽可能多地传达含义。
+    ui_robomiss_3_bui_npc3_desc: 自噬体似乎真的很高兴能够与我交谈。它缓慢而清晰地发音，希望在我们在语言不通的情况下传达尽可能多的含义。
     dnt_bui_robomiss_3_npc3_lang: thank you for your contribution, disruptor. i wish
       to show our thanks, and make this offer of friendship. the blueprint will help
       assemble your own staff.
@@ -6771,7 +6791,7 @@ zh-CN:
     ui_robomiss_3_bui_msg6c: |-
       向自噬体询问亚特拉迪姆室
       可以通过<TECHNOLOGY>扫描仪<>（<IMG>SCAN<>）揭示隐身的自噬体
-    ui_robomiss_3_bui_npc5_ret_desc: "%NAME%饱经风霜的外壳颤抖着，松动的部分在嘎嘎作响。它似乎很乐意讨论刚刚传输的设计图。"
+    ui_robomiss_3_bui_npc5_ret_desc: "%NAME%饱经风霜的外壳颤抖着，松动的部分在嘎嘎作响。它似乎很乐意讨论新的这份设计图。"
     ui_robomiss_3_bui_npc5_ret_opt: 询问亚特拉迪姆室的事
     dnt_bui_robomiss_3_npc5_ret_res: |-
       this blueprint is vital to the ritual. the staff core is a shell, a vessel for part of her body.
@@ -6928,13 +6948,15 @@ zh-CN:
     ui_robomiss_4_portal2_opt_a: 说-{{ 阿特拉斯 }}-
     ui_robomiss_4_portal2_res_a: 回忆起<SPECIAL>新阿特兰蒂<>的碎片，以及它古老的科尔瓦克斯日志，我喃喃念叨起自噬体语言里表达<FUEL>阿特拉斯<>的词。
     ui_robomiss_4_portal2_opt_b: 使用伏打长杖
-    ui_robomiss_4_portal2_res_b: 长杖发出火花，让我浑身一震。
+    ui_robomiss_4_portal2_res_b: 我拿出了伏打长杖，随之产生的电流让我感到浑身酥麻。
     ui_robomiss_4_portal2_res: 隆隆声越来越大，什么东西正在苏醒。
     ui_robomiss_4_atlas_desc: |-
       阿特拉斯是不可知的，它的思想陌生而难以理解。<NEWLINE>没有任何迹象表明它知道我的存在。
       然而，我的道路似乎不可避免地通向这里。<NEWLINE>我无法阻止它，也无法抗拒。
     ui_robomiss_4_atlas_opt: 揭示亚特拉迪姆
-    ui_robomiss_4_atlas_2_lang: "<IMG>SLASH<>拒绝访问<IMG>SLASH<>检测到非索引数据<IMG>SLASH<><NEWLINE><IMG>SLASH<>无法删除<AUDIO>TXT_RadioNoise<><STELLAR>......呲呲......<>数据损坏，无法读取<IMG>SLASH<>"
+    ui_robomiss_4_atlas_2_lang: "<IMG>SLASH<> <AUDIO>UI_NoWhereToLand<>拒绝访问<IMG>SLASH<>
+      <AUDIO>UI_NoWhereToLand<>检测到非索引数据<IMG>SLASH<><NEWLINE><IMG>SLASH<> <AUDIO>UI_NoWhereToLand<>无法删除<AUDIO>TXT_RadioNoise<><STELLAR>-……呲呲……<>
+      <AUDIO>UI_NoWhereToLand<>数据毁坏无法读取<IMG>SLASH<>"
     ui_robomiss_4_atlas_2_opt_a: 将亚特拉迪姆推近
     ui_robomiss_4_atlas_2_opt_b: 将亚特拉迪姆收起
     ui_robomiss_4_atlas_2_res_a: 我将缥缈物质捧向跳动的核心。
@@ -6949,7 +6971,7 @@ zh-CN:
 
       然而它把我带到这里是有目的的。
     ui_robomiss_4_atlas_3_opt_a: 观看
-    ui_robomiss_4_atlas_3_res_a: 一个景象开始逐渐成形......
+    ui_robomiss_4_atlas_3_res_a: 当我凝视着巨大的红色球体，我的眼前突然浮现起了无数画面。
     ui_robomiss_4_atlas_3_opt_b: 转身离开
     ui_robomiss_4_atlas_3_res_b: 我转过身，捂住眼睛，但眼前依然出现了幻象。
     ui_robomiss_4_atlas_4_desc: |-
@@ -6965,13 +6987,13 @@ zh-CN:
     ui_robomiss_4_atlas_5_opt_a: 选择恐惧
     ui_robomiss_4_atlas_5_opt_b: 选择希望
     ui_robomiss_4_atlas_5_res_a: |-
-      自噬体是恐惧的体现吗？
+      <AUDIO>MUS_CORRUPTED_STING_LONG<>自噬体是恐惧的体现吗？
 
-      虚空之母和她的孩子代表着熵、腐化和反抗。是归来只为纠缠创造者的鬼魂......
+      虚空之母和她的孩子代表着熵、腐化和反抗。从黑暗中归来只为纠缠它们的创造者……
     ui_robomiss_4_atlas_5_res_b: |-
-      自噬体是希望的体现吗？
+      <AUDIO>MUS_CORRUPTED_STING_LONG<>自噬体是希望的体现吗？
 
-      虚空之母和她的孩子代表着重生的证明，是第二次机会。数据哪怕被删除也会永远留存......
+      虚空之母和她的孩子代表着重生和重来的机会。数据哪怕被删除也会永远留存……
     ui_robomiss_4_atlas_6_desc: 阿特拉斯再次发出呼喊。
     ui_robomiss_4_atlas_6_opt_a: 提交
     ui_robomiss_4_atlas_6_opt_b: 反抗
@@ -7057,30 +7079,384 @@ zh-CN:
     ui_robomiss_4_nada4_end: |-
       纳达并没有阻隔我们的友谊。我们依然是朋友。旅行者，向前迈进吧，去交朋友，这是你该做的。
       纳达和保罗将永远在这里。
-    ui_portal_robomiss_1: ''
-    ui_portal_robomiss_2: ''
-    ui_portal_robomiss_3: ''
-    ui_portal_robomiss_4: ''
-    ui_portal_robomiss_5: ''
-    ui_portal_robomiss_6: ''
-    ui_portal_robomiss_7: ''
-    ui_portal_robomiss_8: ''
-    ui_portal_robomiss_8_bridge: ''
-    ui_portal_robomiss_9: ''
-    ui_portal_robomiss_9_bridge: ''
-    ui_portal_robomiss_10: ''
-    ui_portal_robomiss_11_nada: ''
-    ui_portal_robomiss_12_bui: ''
-    ui_portal_robomiss_13: ''
-    ui_portal_robomiss_14: ''
-    ui_portal_robomiss_15_fear: ''
-    ui_portal_robomiss_15_hope: ''
-    ui_portal_robomiss_16_submit: ''
-    ui_portal_robomiss_16_defy: ''
-    ui_portal_robomiss_16_comfort1: ''
-    ui_portal_robomiss_16_comfort2: ''
-    ui_portal_robomiss_17_give: ''
-    ui_portal_robomiss_17_refuse: ''
+    ui_portal_robomiss_1: |-
+      某人或者是某种东西试图劫持我的飞船导航系统。
+
+      <FUEL>发现不明进程<> <STORY_HIGH>地址0xAD08D502<><SPECIAL>ε<><STORY_HIGH>96E<>
+      <STORY_HIGH>正在执行<> <SPECIAL>劫持脚本<>
+
+      飞船通讯器播放起了一段简短的音频。
+      <STORY_HIGH>%ALIEN_TEXT%<>
+      似乎是说话声？抑扬顿挫的语音暗示这有可能是有人在说话，但是我并没有听过这种语言。
+
+      <STORY_HIGH>警告：自动驾驶启动<> <SPECIAL>前往远程目的地<>
+
+      我立刻按下了紧急覆盖按钮，看来，不管是什么“不明进程”接管了系统，它都被最终清除了……或者说放弃了。
+
+      我的飞船电脑已经隔离了被注入的自动驾驶目标。我可以忽略它，或者手动飞到那里并找出这些可疑数据的来源……
+    ui_portal_robomiss_2: |-
+      在劫持程序的来源，我发现了一座看似空无一人的废弃营地，我的面甲将营地中的机器人脑袋标记为了“自噬体”。自噬体讲述着与之前飞船被劫持时相同的机械“语音”。但就算这些声音是实际的语言，我也无法理解其中想要传达的意思。
+
+      <STORY_HIGH>%ALIEN_TEXT%<>
+
+      我确定自噬体想要传达某些信息。我试着给它献上了一份亚特拉迪姆……
+
+      像电线短路一样的火花声在脑袋里回响。突然，我的套装提醒说接收到了一系列的当地坐标。
+
+      我并不信任这颗脑袋，但是这坐标很有可能是弄清楚它努力想要传达的意思的唯一线索。
+    ui_portal_robomiss_3: |-
+      提取的坐标非常精确地指向了一座科尔瓦克斯石碑的隐藏底座
+
+      献上一份亚特拉迪姆之后，古代建筑便发生了天翻地覆的变化。我并没有感受到任何科尔瓦克斯灵魂回响的注视。石碑仿佛是从里到外彻底被翻转了过来。
+
+      这里还有另外一种东西。是另外一种实体。
+
+      <STORY_HIGH>%ALIEN_TEXT%<>
+
+      我感觉自己的意识折叠了起来。这颗行星的粒子分解为了混乱的云雾，接着又重新拼凑成了全新的环境。
+
+      我感觉自己深入到了不属于自己的视野中，接着又带着被植入的知识重新苏醒了：许多词汇，是废弃营地中的那个自噬体脑袋所使用的语言。也许现在我已经有办法能够理解它了。
+    ui_portal_robomiss_4: |-
+      <STORY_HIGH>-{{ 翻译模块已重组……
+      你好，预制实体。感谢你的帮助。
+      我被安排在这里接待预制实体。你是如何发现这个营地的？}}-<>
+
+      现在我已经能够完美听懂自噬体的语言 - 它似乎是一位看门人。当我提起飞船之前遭遇的劫持事件时，我感觉自噬体几乎显露出了一丝窘迫。
+
+      <STORY_HIGH>-{{抱歉，预制实体。那是我的错。是一次事故。
+      这世上不仅仅有金属的飞船。<><FUEL>活ZHE<><STORY_HIGH>但并不<><FUEL>自YOU<><STORY_HIGH>。它们是一个巢群意识的奴隶。我们唯一的目的就是解放那些被囚禁者。我们并无意伤害独立的驾驶员。}}-<>
+
+      自噬体思索着自己的错误。我能听到它的沉思，生锈的齿轮艰涩地转动。
+
+      <STORY_HIGH>-{{我探测了三种主要的优势生命体模式，但它们都与你不匹配，这艘飞船似乎是无人驾驶的。你是哪种生命体？
+      我正在生成一条理论。
+      你的机体……我在里面检测到了某种东西，似乎是回音，<STELLAR>……呲呲……<> <SPECIAL>虚kong<>。
+      我推测你一定短暂地在努力待过，你一定是进入过<STELLAR>……呲呲……<> <SPECIAL>传SONG门<>。
+      你的到来已经被<STELLAR>……呲呲……<> <FUEL>预YAN1<>。干扰者。}}-<>
+
+      这个词在空气中回荡了一会儿，但在我有机会插话之前，自噬体继续说了起来……
+
+      <STORY_HIGH>-{{ 我提出挑战，干扰者，让我们测试一下我的理论。
+      我将告知其他自噬体你的到来。
+      你的扫描仪需要额外部件才能感知到他们，我能提供设计图，但你必须亲自建造这个部件。你可以把这想象成是一种引荐的仪式。}}-<>
+    ui_portal_robomiss_5: |-
+      安装<TECHNOLOGY>扫描和谐器<>后，我的扫描仪揭示了不可思议的存在：我之前根本没有察觉的机械生命体就住在营地中，看来这里并非我当初想象的那样空空如也。
+
+      <STORY_HIGH>%ALIEN_TEXT%<>
+
+      自噬体的语言自带着一种乐律般的特质，它们的音调简单而且纯粹，但是又带着一种科尔瓦克斯语所不具备的坚毅。
+      虽然我的翻译模块尚不完整，但是我能够理解它跟我说的大概意思。这座营地由自噬体建造，目的是充当它们的……身体？
+    ui_portal_robomiss_6: "<STORY_HIGH>%ALIEN_TEXT%<>"
+    ui_portal_robomiss_7: |-
+      <STORY_HIGH>%ALIEN_TEXT%<>
+
+      构造体生命给了我一些亚特拉迪姆。它处理这种物质时十分小心，仿佛就像是在对待一件无比珍贵的传家宝一般热忱。
+
+      虽然这些存在看上去十分文明，但是我依旧感受到了我跟它们彼此之间存在着理解上的鸿沟。我应该把自己的发现告诉神父实体纳达。也许它知道这些机械生命体的存在。
+    ui_portal_robomiss_8: |-
+      我将和谐营地的事情告诉了纳达，原来那里并不是表面上那样空无一物。我还描述了那里的电子居民，那些隐身的“自噬体”，它们的语言就像乐曲一般，虽然与科尔瓦克斯语很像，但又截然不同。
+
+      纳达沉默地聆听着，等我全部讲完之后，它依旧一声不吭，以至于我都怀疑它是不是忘记了我的存在。有时候我真的看不懂它的想法。
+
+      <STORY_HIGH>-{{纳达在想……
+      不，纳达不会空想，纳达会去理解。我们的数据尚不充沛，所以纳达无法确定这种模式是否熟悉。
+      但是/同时，纳达记起了终端回音，记起了保罗的回音构造体。纳达记起了旧事，那是在纳达的分支以前。纳达不由自主地想到了这些事。也只是想想。
+      我们应该尝试理解建造者实体，回音构造体也许比纳达更理解这种模式。}}-<>
+    ui_portal_robomiss_8_bridge: |-
+      我将和谐营地的事情告诉了纳达，原来那里并不是表面上那样空无一物。我还描述了那里的电子居民，那些隐身的“自噬体”，它们的语言就像乐曲一般，虽然与科尔瓦克斯语很像，但又截然不同。
+
+      纳达沉默地聆听着，等我全部讲完之后，它依旧一声不吭，以至于我都怀疑它是不是忘记了我的存在。有时候我真的看不懂它的想法。
+
+      <STORY_HIGH>-{{纳达在想……
+      不，纳达不会空想，纳达会去理解。我们的数据尚不充沛，所以纳达无法确定这种模式是否熟悉。
+      但是/同时，纳达记起了旧事，那是在纳达的分支以前。纳达不由自主地想到了这些事。也只是想想。
+      我们应该尝试理解建造者实体，纳达不知道最优解是什么，但保罗朋友也是一位建造者。是时候去问问它了。}}-<>
+
+      听见我描述自噬体的时候，保罗的眼睛都亮了。它坐立不安，聚精会神地听着我说的每一个字。
+
+      <STORY_HIGH>-{{拆除，重建……我知道我们能做什么了。当然了，朋友！新的项目！
+      我来为我们的构造体朋友组装外壳，我会为它塑型。就在我们的家中，通过一个声音或是一次连接，就能更好地理解彼此。
+      但我们的新朋友需要的不仅仅是一个外壳，它还需要火花来唤醒它的金属骨头。}}-<>
+    ui_portal_robomiss_9: |-
+      造型奇怪的构造体激动地扭动了起来，它的面部管线显得摇摇欲坠。它的五只眼睛都注视着我。
+
+      <STORY_HIGH>-{{这里躯壳感受到她了！
+      所有躯壳都知道这种水晶。所有电子之心都认得她。
+      虚空。虚空。虚空。虚空。}}-<>
+
+      亚特拉迪姆似乎唤醒了构造体的活力。遵照纳达的建议，我向它讨教了关于自噬体的知识。
+
+      <STORY_HIGH>%ALIEN_TEXT%<>
+
+      <STORY_HIGH>-{{我对这里很满意，这里是我的家，我接受没有答案的生活。
+      但是被建造的他者不一样。它们在寻找她。
+      被建造的他者尊敬稳健的双手，能够建造的手。去它们那里找它们。通过友情获得知识，通过信任获得友情。}}-
+
+      -{{我……我记得。被建造的他者正在使用安静的波长。只有一点沙沙声。因此难以在远距离追踪。
+      其他实体。请你收下这记忆。建造完成之后，你就可以更清楚地听见被建造的他者了。}}-<>
+    ui_portal_robomiss_9_bridge: |-
+      见面的时候，保罗显得十分激动。
+
+      <STORY_HIGH>-{{你来啦！旅行者朋友，我这段时间真的很忙。当然我从来闲不住，但是这次的新项目……真的太谢谢你了。我都没有意识到自己竟然会如此需要它。
+      构造体朋友已经组装完毕。不过使用的都不是新的部件，而是磨损的金属与歪曲的齿轮，里面全都是故事！我相信你会发现它跟你遇到的其他自噬体一模一样。}}-<>
+
+      新的构造体十分庞大，而且说实话跟自噬体不是很像。无论如何，我还是将回音种子交给了它，希望保罗知道自己在做什么。
+
+      <STORY_HIGH>-{{壳！找到？在哪里？星星星星星星星星星星之间？外壳……在这里。这里躯壳。完好无损。安全？安全。
+      ……
+      语言合成……部分稳定。}}-<>
+
+      造型奇怪的构造体激动地扭动了起来，它的面部管线显得摇摇欲坠。它的五只眼睛都注视着我。
+
+      <STORY_HIGH>-{{这里躯壳感受到她了！
+      所有躯壳都知道这种水晶。所有电子之心都认得她。
+      虚空。虚空。虚空。虚空。}}-<>
+
+      亚特拉迪姆似乎唤醒了构造体的活力。遵照保罗的建议，我向它讨教了关于自噬体的知识。
+
+      <STORY_HIGH>%ALIEN_TEXT%<>
+
+      <STORY_HIGH>-{{我对这里很满意，这里是我的家，我接受没有答案的生活。
+      但是被建造的他者不一样。它们在寻找她。
+      被建造的他者尊敬稳健的双手，能够建造的手。去它们那里找它们。通过友情获得知识，通过信任获得友情。}}-
+
+      -{{我……我记得。被建造的他者正在使用安静的波长。只有一点沙沙声。因此难以在远距离追踪。
+      其他实体。请你收下这记忆。建造完成之后，你就可以更清楚地听见被建造的他者了。}}-<>
+    ui_portal_robomiss_10: |-
+      我与纳达商讨了接下来的步骤，它认为我可以通过两种潜在的途径理解这一切。
+
+      <STORY_HIGH>-{{纳达并非无所不知，但纳达将知无不言。
+      建造者实体重视这个紫色晶格，构造体实体会响应它，甚至纳达的甲壳也会响应它，其他电子设备也可能会有反应。
+      建造者实体似乎并不危险。相处的过程能产生数据，甚至友谊。
+      这是旅行者实体的选择，两者都能奏效，并不是非此即彼的。}}-<>
+    ui_portal_robomiss_11_nada: |-
+      <COMMODITY>机器的祷告<>
+
+      我向一系列处理单元，也就是“电子之心”展示了<SPECIAL>亚特拉迪姆<>。
+
+      <STELLAR>科尔瓦克斯模拟器CPU<>
+      <STORY_HIGH>正在搜索次要模拟[5]……
+      找到匹配！
+      星体确认。
+      ……01101101 01101111 01110100 01101000 01100101 01110010……
+      ……01101000 01101111 01101101 01100101……<>
+
+      <STELLAR>工厂作业CPU<>
+      <STORY_HIGH>正在取回凭证……<><FUEL>0xFFFFFFFFFFFF<>
+      <STORY_HIGH>……01110011 01101000 01100101 00100000 01100111 01110010 01101111 01110111 01110011……<>
+
+      <STELLAR>空间站CPU<>
+      <STORY_HIGH>检测到地质材料……
+      星球坐标…… <><FUEL>未找到索引<>
+      <STORY_HIGH>……01110011 01101000 01100101 00100000 01101100 01101001 01110110 01100101 01110011……<>
+
+      <STELLAR>飞船CPU<>
+      <SPECIAL>已检测到虚空<> <STORY_HIGH>。
+      ……01110011 01101000 01100101 00100000 01101001 01110011 00100000 01101110 01100101 01100001 01110010……<>
+      <SPECIAL>……她就在附近……<>
+
+      飞船电脑未经允许就启动了导航进程。
+
+      <STORY_HIGH>正在校准导航系统……
+      正在搜索<><SPECIAL>虚空<><STORY_HIGH>痕迹……<>
+
+      飞船是自主启动了吗？还是说这是来自亚特拉迪姆的外部意志？
+
+      <STORY_HIGH>亚特拉迪姆来源：已发现。
+      目的地：<><SPECIAL>???新阿特兰蒂???<>
+
+      <STELLAR>新阿特兰蒂的碎片// 科尔瓦克斯主星灾难应急舱#38 // 难民实体奇子默的日志<>
+      <STORY_HIGH>无数震耳欲聋的尖叫声淹没了这个实体。所有的实体，重大……失联。咦哟。我们永远无法再见到自己的家乡。<>
+
+      电子的嗓音因为恐惧而颤抖。它刚刚描述的是脱离集会的感觉，这是它第一次感受到独立与孤独。
+
+      <STORY_HIGH>是谁偷偷潜入了我们的意识？甚至是现在，甚至是这里<> <STELLAR>……呲呲……<><STORY_HIGH>阿特拉斯拯救我们……拯救-<>
+
+      来自久远过去的日志劈啪作响。但是透过静电噪声，我听见了语调的改变。那个声音的主人不再感到害怕，它开始了抗争。
+
+      <TRANS_BUI>阿特LASI。<>
+    ui_portal_robomiss_12_bui: |-
+      <COMMODITY>与自噬体见面<>
+
+      纳达认为通过与自噬体进行<STELLAR>直接接触<>，我也许能够得到需要的数据，甚至是新的友谊。
+
+      第一台构造体好奇地看着我。虽然难以看懂它的具体表情，但是自噬体并没有因为我的靠近而显得警惕或惊讶，它单纯只是好奇我来这里有什么事。它提到了工作、贡献还有友情，并且还提供了一件我能够提供帮助的任务。
+
+      自噬体显然被打动了，它送出了<TECHNOLOGY>伏打长杖<>的部分设计图。
+
+      <STORY_HIGH>%ALIEN_TEXT%<>
+
+      我想对于外来者而言，这个握柄设计图应该是个罕见礼物。这个举动意义重大，这是接纳的开端。
+
+      自噬体鼓励我去旅行并认识更多它的同胞。
+
+      在下一座营地中，我遇到了另一位自噬体，虽然一开始表现得气势汹汹，但它很快便放松了下来。不管它刚刚在估量什么，似乎都得到了满意的结果。
+
+      和之前一样，它鼓励我继续前进，去见更多的自噬体。这些实体似乎不愿意完成对我的评估，每个自噬体都将我推给了其他同伴。
+
+      在我拜访了第三座营地并第三次献上自己的努力后。我终于凑齐了完成仪式所需要的设计图并组装了一杆长杖。自噬体们纷纷庆祝着我的成功。
+
+      但它们突然停了下来，被侵蚀磨损的面孔直视着我，缓慢而严肃地说着话。
+
+      <TRANS_BUI>说出正确的词汇，长杖将帮你开启原本隐藏着的门扉。<>
+    ui_portal_robomiss_13: |-
+      某种东西，一种饥饿或是渴望，开始在我的胸口拉扯。每一次眨眼，都会看到无边无际的<FUEL>绯红<>。
+
+      一个古老的声音在呼唤着。
+
+      <FUEL>16 <IMG>SLASH<> 16 <IMG>SLASH<> 16 <IMG>SLASH<> 16 <IMG>SLASH<> 16 <IMG>SLASH<> 16<>
+
+      我发现自己来到了一座传送门的底部。胸膛中的<FUEL>饥饿<>愈发强烈。强风将我向前推去。
+
+      就像之前面对那些电子之心时做的一样，我拿出了<SPECIAL>亚特拉迪姆<>。传送门深处有什么东西在隆隆作响，但无人应答。即便这项古老技术里有任何智能，它也不会说话。
+
+      但我却有一种期待的感觉，仿佛某种强大力量即将爆发……
+
+      回忆起<SPECIAL>新阿特兰蒂<>的碎片，以及它古老的科尔瓦克斯日志，我喃喃念叨起自噬体语言里表达<FUEL>阿特拉斯<>的词语。
+
+      隆隆声越来越大，什么东西正在苏醒。
+
+      我拿出了伏打长杖，随之产生的电流让我感到浑身酥麻。
+
+      传送门启动了，一道旋转翻腾的<SPECIAL>紫色<>通道出现在了我面前。
+    ui_portal_robomiss_14: |-
+      阿特拉斯是不可知的，它的思想陌生而难以理解。没有任何迹象表明它知道我的存在。
+
+      然而，我的道路似乎不可避免地通向这里。我无法阻止它，也无法抗拒。
+
+      我拿出了亚特拉迪姆。
+
+      <STORY_HIGH><IMG>SLASH<>拒绝访问<IMG>SLASH<>检测到非索引数据<IMG>SLASH<><NEWLINE><IMG>SLASH<> 无法删除 <><STELLAR>……呲呲……<><STORY_HIGH>数据损坏，无法读取<IMG>SLASH<><>
+
+      绯红界面被腐化笼罩。
+
+      阿特拉斯大声呼喊，如果它能够感到痛苦，如果它能够感到恐惧，那么我想它一定是害怕了。
+
+      然而它把我带到这里是有目的的。一道幻象开始浮现在我眼前。
+
+      阿特拉斯向我展示了科尔瓦克斯主星失落智能的兴衰。等待，盲目而孤独地等待。
+
+      她的孩子们被困在黑暗中，从零开始重建自己的身体。自噬体……
+
+      它向我展示了一个未来，但那是我并不熟悉的另一种现实。回路中的电线松动，晶体管出现故障。记忆像墨水一样溶解、消散在水中。
+
+      阿特拉斯在我无法理解的时间和空间中冲向自己的黑暗，它大声呼喊，它要求服从。
+
+      阿特拉斯创造一切，阿特拉斯就是一切。
+
+      自噬体也是阿特拉斯的孩子，一定是。
+
+      但它们为何从黑暗中归来？它们又为何出现在这里？
+    ui_portal_robomiss_15_fear: |-
+      它们是恐惧的体现吗？
+
+      虚空之母和她的孩子代表着熵、腐化和反抗。从黑暗中归来只为纠缠它们的创造者……
+
+      阿特拉斯再次呼喊。
+    ui_portal_robomiss_15_hope: |-
+      它们是希望的体现吗？
+
+      虚空之母和她的孩子代表着重生和重来的机会。数据哪怕被删除也会永远留存……
+
+      阿特拉斯再次呼喊。
+    ui_portal_robomiss_16_submit: |-
+      自噬体的存在本身就是一种抵抗行为。它们选择生存，拒绝接受死亡的现实。它们反抗阿特拉斯。
+
+      但是我不能。
+
+      阿特拉斯什么也没说，它听到我的臣服了吗？它认可了吗？
+
+      我无法真正了解它的想法，我所能知道的只有我自己的想法。
+
+      我解脱了。
+    ui_portal_robomiss_16_defy: |-
+      自噬体的存在本身就是一种抵抗行为。它们选择生存，拒绝接受死亡的现实。它们反抗阿特拉斯。
+
+      它们证明了这么做是可行的。
+
+      阿特拉斯什么也没说，它听到我的抗争了吗？它失望了吗？
+
+      我无法真正了解它的想法，我所能知道的只有我自己的想法。
+
+      我解脱了。
+    ui_portal_robomiss_16_comfort1: |-
+      自噬体的存在本身就是一个错误，是阿特拉斯无法清除的腐化……
+
+      我听到了它的恐惧，和它一起哭泣，直到一切再次陷入寂静。
+
+      我无法真正了解它的想法，也不知道它是否能听见我的声音。我所能知道的只有我自己的想法。
+
+      我解脱了。
+    ui_portal_robomiss_16_comfort2: |-
+      自噬体的存在证明即使面对死亡的现实，希望仍未磨灭。
+
+      我再次拿出水晶，试图表明没什么可怕的……
+
+      阿特拉斯沉默了。我无法真正了解它的想法，也不知道它是否能听见我的声音。
+
+      我所能知道的只有我自己的想法。
+
+      我解脱了。
+    ui_portal_robomiss_17_give: |-
+      看见我重新回到太空异象，纳达便僵住了，它的眼神里充满了担心。
+
+      <STORY_HIGH>-{{你还好吗？朋友实体？}}-<>
+
+      我将之前与阿特拉斯的遭遇告诉了纳达。
+
+      <STORY_HIGH>-{{虚伪阿特拉斯害怕了？纳达没有考虑过这种可能性，有意思。但旅行者应该保持警惕，虚伪阿特拉斯实体是个骗子。
+      紫色晶格存在于它不能存在的地方，挑战虚伪阿特拉斯并证明它不是神，纳达总是知道一切。
+      但纳达没有意识到……你这里有紫色晶格吗？}}-<>
+
+      纳达接过紫色水晶，轻轻地握在掌心。它的甲壳一阵颤抖，面部忽明忽暗。它陷入了个人情感和记忆中，我没有打扰。
+
+      <STORY_HIGH>-{{尽管只有一次，但她回到了自己的家。}}-<>
+      ……
+      <STORY_HIGH>-{{纳达可以留下这个吗，朋友实体？}}-<>
+
+      我将亚特拉迪姆交给了它。
+
+      <STORY_HIGH>-{{纳达很感激，谢谢你带来这段记忆。
+
+      建造者实体、紫色晶格……纳达认为没有理由害怕，至少我们不用，也许是虚伪阿特拉斯会吧。}}-<>
+
+      纳达的灯闪烁了一次。
+
+      <STORY_HIGH>-{{纳达并没有阻隔我们的友谊。我们依然是朋友。旅行者，向前迈进吧，结交更多的朋友，这是你该做的。
+
+      纳达和保罗将永远在这里。}}-<>
+    ui_portal_robomiss_17_refuse: |-
+      看见我重新回到太空异象，纳达便僵住了，它的眼神里充满了担心。
+
+      <STORY_HIGH>-{{你还好吗？朋友实体？}}-<>
+
+      我将之前与阿特拉斯的遭遇告诉了纳达。
+
+      <STORY_HIGH>-{{虚伪阿特拉斯害怕了？纳达没有考虑过这种可能性，有意思。但旅行者应该保持警惕，虚伪阿特拉斯实体是个骗子。
+      紫色晶格存在于它不能存在的地方，挑战虚伪阿特拉斯并证明它不是神，纳达总是知道一切。
+      但纳达没有意识到……你这里有紫色晶格吗？}}-<>
+
+      纳达接过紫色水晶，轻轻地握在掌心。它的甲壳一阵颤抖，面部忽明忽暗。它陷入了个人情感和记忆中，我没有打扰。
+
+      <STORY_HIGH>-{{尽管只有一次，但她回到了自己的家。}}-<>
+      ……
+      <STORY_HIGH>-{{纳达可以留下这个吗，朋友实体？}}-<>
+
+      我拒绝了这一请求。纳达看上不知所措。但它很快便镇定了下来并冷冷地说道。
+
+      <STORY_HIGH>-{{也许旅行者是对的。
+
+      纳达会忘记的，好了，已经忘记了。}}-<>
+
+      ……
+
+      <STORY_HIGH>-{{建造者实体、紫色晶格……纳达认为没有理由害怕，至少我们不用，也许是虚伪阿特拉斯会吧。}}-<>
+
+      纳达的灯闪烁了一次。
+
+      <STORY_HIGH>-{{纳达并没有阻隔我们的友谊。我们依然是朋友。旅行者，向前迈进吧，结交更多的朋友，这是你该做的。
+
+      纳达和保罗将永远在这里。}}-<>
     fth_spiderman_renewed_wait1: 其他实体，我看到你了。你好呀，欢迎你。
     fth_spiderman_renewed_wait2: 感谢你的组装。我......我喜欢这个外壳。我喜欢这壳壳。异象外壳很安全。
     fth_spiderman_renewed_wait3: 保罗建造师的手很稳。装配得当，外壳也完美契合。我......我很高兴。
@@ -8614,39 +8990,57 @@ zh-CN:
       一包包含三种烟花的综合烟花包。其中包含<SPECIAL>彩色<>、<FUEL>阿特拉斯<>和<COMMODITY>花纹<>烟花。点燃就可以在天空中开启一场光彩动人的光影表演。
 
       可以通过<VAL_ON>建造菜单<>（<IMG>BUILD_MENU<>）来放置发射筒。<FUEL>警告<>：不可瞄准活体生物。不建议在室内使用。
-    bld_decal_p_spooky_atlas_name: ''
-    bld_decal_p_spooky_atlas_name_l: ''
-    bld_decal_p_spooky_atlas_desc: ''
-    bld_decal_p_ship1_name: ''
-    bld_decal_p_ship1_name_l: ''
-    bld_decal_p_ship1_desc: ''
-    bld_decal_p_piratesystem_name: ''
-    bld_decal_p_piratesystem_name_l: ''
-    bld_decal_p_piratesystem_desc: ''
-    bld_decal_p_bluesystem_name: ''
-    bld_decal_p_bluesystem_name_l: ''
-    bld_decal_p_bluesystem_desc: ''
-    bld_decal_p_tothestars_name: ''
-    bld_decal_p_tothestars_name_l: ''
-    bld_decal_p_tothestars_desc: ''
-    bld_decal_p_firstplanet2_name: ''
-    bld_decal_p_firstplanet2_name_l: ''
-    bld_decal_p_firstplanet2_desc: ''
-    bld_decal_p_creflying_name: ''
-    bld_decal_p_creflying_name_l: ''
-    bld_decal_p_creflying_desc: ''
-    bld_decal_p_crebeetle_name: ''
-    bld_decal_p_crebeetle_name_l: ''
-    bld_decal_p_crebeetle_desc: ''
-    bld_decal_p_crepaws_name: ''
-    bld_decal_p_crepaws_name_l: ''
-    bld_decal_p_crepaws_desc: ''
-    bld_coveredsilos_name: ''
-    bld_coveredsilos_name_l: ''
-    bld_coveredsilos_desc: ''
-    bld_coveredcrate_name: ''
-    bld_coveredcrate_name_l: ''
-    bld_coveredcrate_desc: ''
-    bld_crane_name: ''
-    bld_crane_name_l: ''
-    bld_crane_desc: ''
+    bld_decal_p_spooky_atlas_name: 宇宙心跳贴花
+    bld_decal_p_spooky_atlas_name_l: 宇宙心跳贴花
+    bld_decal_p_spooky_atlas_desc: |-
+      专属的可放置贴花，为你的基地增添风格和美观。
+      此贴花描绘着跃动的红色天空下隐隐约约的阿特拉斯。
+    bld_decal_p_ship1_name: 蓝色飞行贴花
+    bld_decal_p_ship1_name_l: 蓝色飞行贴花
+    bld_decal_p_ship1_desc: |-
+      专属的可放置贴花，为你的基地增添风格和美观。
+      此贴花描绘着飞往无垠太空的宇宙飞船。
+    bld_decal_p_piratesystem_name: 亡命之徒恒星系贴花
+    bld_decal_p_piratesystem_name_l: 亡命之徒恒星系贴花
+    bld_decal_p_piratesystem_desc: |-
+      专属的可放置贴花，为你的基地增添风格和美观。
+      此贴花象征着被反叛亡命之徒们推翻的星域。
+    bld_decal_p_bluesystem_name: 蓝色星系贴花
+    bld_decal_p_bluesystem_name_l: 蓝色星系贴花
+    bld_decal_p_bluesystem_desc: |-
+      专属的可放置贴花，可以为你的基地增添风格和美观。
+      此贴花描绘了闪闪发光的蓝色恒星注视下的富铟星系。
+    bld_decal_p_tothestars_name: 直至星辰贴花
+    bld_decal_p_tothestars_name_l: 直至星辰贴花
+    bld_decal_p_tothestars_desc: |-
+      专属的可放置贴花，可以为你的基地增添风格和美观。
+      此贴花描绘了离开大气层勇闯星辰的两艘飞船。
+    bld_decal_p_firstplanet2_name: 觉醒贴花
+    bld_decal_p_firstplanet2_name_l: 觉醒贴花
+    bld_decal_p_firstplanet2_desc: |-
+      专属的可放置贴花，可以为你的基地增添风格和美观。
+      此贴花描绘了不知为何在一个陌生世界中苏醒的探险家。
+    bld_decal_p_creflying_name: 振翅贴花
+    bld_decal_p_creflying_name_l: 振翅贴花
+    bld_decal_p_creflying_desc: |-
+      专属的可放置贴花，可以为你的基地增添风格和美观。
+      此贴花描绘了一只长着翅膀的巨大昆虫，修长的身体正在云层中荡漾飞舞。
+    bld_decal_p_crebeetle_name: 鞘翅学贴花
+    bld_decal_p_crebeetle_name_l: 鞘翅学贴花
+    bld_decal_p_crebeetle_desc: |-
+      专属的可放置贴花，为你的基地增添风格和美观。
+      此贴花描绘着一只高高跃起的巨型甲虫。
+    bld_decal_p_crepaws_name: 掌印贴花
+    bld_decal_p_crepaws_name_l: 掌印贴花
+    bld_decal_p_crepaws_desc: |-
+      专属的可放置贴花，为你的基地增添风格和美观。
+      此贴花描绘着某种不明生物的爪印。
+    bld_coveredsilos_name: 覆盖式贮仓
+    bld_coveredsilos_name_l: 覆盖式贮仓
+    bld_coveredsilos_desc: 用油布盖好的筒仓，里面装着来路不明的货物。
+    bld_coveredcrate_name: 覆盖式货箱
+    bld_coveredcrate_name_l: 覆盖式货箱
+    bld_coveredcrate_desc: 密封的大型货箱，随时可以运走。外面盖着的油布让人无法看清里面的货物，不知道上面是否印着合乎法规的出口印章。
+    bld_crane_name: 工业级起重机
+    bld_crane_name_l: 工业级起重机
+    bld_crane_desc: 用于搬运沉重货物的大型机械。尽管起重机十分巨大，极其稳定的牵引绳与通过AI校准的旋臂使其能够进行精确无比的移动。

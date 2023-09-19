@@ -5443,7 +5443,7 @@ en-US:
       Reach milestone <STELLAR>'%MILESTONE%'<> for Freighters Plundered
       Cargo Pods looted: %CURRENT% / %AMOUNT%
       Find and destroy cargo modules of interstellar freighters
-      Large trading fleets are often found need <COMMODITY>space stations<>
+      Large trading fleets are often found near <COMMODITY>space stations<>
     ui_wiki_bounties_name: 'Milestone: Bounties Completed'
     ui_wiki_bounties_obj: 'Bounties Completed: %CURRENT% / %AMOUNT%'
     ui_wiki_bounties_desc: Advance your rank in the <STELLAR>Bounties Completed<>
@@ -5489,6 +5489,7 @@ en-US:
     builder_name: Autophage
     builder_name_alt: Atlantid
     mission_faction_bui: Autophage
+    ui_guide_bui_name_stellar: "<STELLAR>The Autophage<>"
     ui_guide_bui_name: The Autophage
     ui_guide_bui_name_u: THE AUTOPHAGE
     ui_wiki_words_bui_title: Language Records (Autophage)
@@ -5971,119 +5972,124 @@ en-US:
       mechanical eyes."
     dnt_bui_npc_lang_1: hello, prebuilt-entity.
     dnt_bui_npc_gift_lang_1: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
-      atlantideum is holy. her flesh helps us to rebuild.
+      thank you for the gift. in exchange, let me tell you a little secret.
+      atlantideum: it is holy. her flesh helps us to rebuild.
     bui_npc_desc_2: Gears whirr faintly within this self-assembled automaton. They
       watch me, patient.
-    dnt_bui_npc_lang_2: hello, prebuilt-entity.
+    dnt_bui_npc_lang_2: ah, a prebuilt-entity. greetings.
     dnt_bui_npc_gift_lang_2: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
+      many thanks. an intelligent choice of gift. do you know much of our past?
       we were once like the korvax. not now. pity the convergence. they cannot help what they are.
     bui_npc_desc_3: The improvised shell of the Autophage creaks and pops as they
       regard me.
-    dnt_bui_npc_lang_3: hello, prebuilt-entity.
+    dnt_bui_npc_lang_3: hello. is that a prebuilt flesh carapace? interesting.
     dnt_bui_npc_gift_lang_3: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
+      thank you for this contribution.
       do you like my carapace? i built it myself, from what i could salvage. we all build our own bodies.
     bui_npc_desc_4: If I blink, I can almost detect a faint purple glow, a shadowy
       after-image where the Autophage stands.
-    dnt_bui_npc_lang_4: hello, prebuilt-entity.
+    dnt_bui_npc_lang_4: the other autophage tell me you are a disruptor. we will see.
     dnt_bui_npc_gift_lang_4: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
-      not all of us were divergent before korvax prime was destroyed, but none of us would return to the convergence now. it is a choice to be together.
+      this was unexpected! thank you.
+      you know, not all of us were divergent before korvax prime was destroyed, but none of us would return to the convergence now. it is a choice to be together.
     bui_npc_desc_5: Each piece of this Autophage has been gathered at great cost,
       and painstakingly assembled. Their journey has not been an easy one.
-    dnt_bui_npc_lang_5: hello, prebuilt-entity.
+    dnt_bui_npc_lang_5: greetings, prebuilt one. what do you seek from me?
     dnt_bui_npc_gift_lang_5: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
+      this is a welcome gift. thank you. i feel you understand.
       we have all suffered the pain of erasure. but we did not cease to be. life does not require a shell.
     bui_npc_desc_6: I cannot imagine the things this construct has seen, the cycles
       of deletion and rebirth. I am not even a flicker to them.
-    dnt_bui_npc_lang_6: hello, prebuilt-entity.
+    dnt_bui_npc_lang_6: hello. what is it you wish from me?
     dnt_bui_npc_gift_lang_6: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
-      the void mother is the progenitor. from nonexistence she creates existence.
+      thank you for this. i did not expect a gift from an unknown prebuilt-entity.
+      do you know of the void mother? she is the progenitor. from nonexistence she creates existence.
     bui_npc_desc_7: "%NAME% stands stiffly in front of me, waiting."
-    dnt_bui_npc_lang_7: hello, prebuilt-entity.
+    dnt_bui_npc_lang_7: how is it that you can see through my protection aura?
     dnt_bui_npc_gift_lang_7: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
+      a gift? thank you, prebuilt-entity. this was unexpected.
       there are not many autophage yet, but we are coming. many echoes are still healing. they wait in nonexistence.
     bui_npc_desc_8: With their atlantidian cloak removed, the Autophage eyes me with
       a wary gaze.
-    dnt_bui_npc_lang_8: hello, prebuilt-entity.
+    dnt_bui_npc_lang_8: you perceive me? your technology must be great, disruptor.
     dnt_bui_npc_gift_lang_8: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
-      i will never again be deleted. i will fight. fire and fury.
+      excellent. thank you. this will be valuable in our fight.
+      i will never again be deleted. i will resist. fire and fury.
     bui_npc_desc_9: As the construct stares at me, I am aware of my status here as
       an intruder, an organic lifeform beneath the atlantidian veil that had been
       drawn across the Autophage.
-    dnt_bui_npc_lang_9: hello, prebuilt-entity.
+    dnt_bui_npc_lang_9: what are you, prebuilt-entity? i perceive a distortion in
+      the boundaries...
     dnt_bui_npc_gift_lang_9: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
-      atlantideum gives us power, gives us shape.
+      i was certain you were different. many thanks for this.
+      i will tell you a secret, disruptor: atlantideum gives us power, gives us shape.
     bui_npc_desc_10: Despite the tired and rusted material of their shell, %NAME%
       seems charged with energy, hungry and alive.
-    dnt_bui_npc_lang_10: hello, prebuilt-entity.
+    dnt_bui_npc_lang_10: hello! it is rare for a prebuilt-entity to interface with
+      an autophage. this is very interesting!
     dnt_bui_npc_gift_lang_10: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
+      thank you! our society values this cooperation.
       i pity the convergence. to delete another is the action of a small mind.
     bui_npc_desc_11: "%NAME% turns towards me, and I hear the faint hiss of leaking
       hydraulics, the grinding of uneven gears."
-    dnt_bui_npc_lang_11: hello, prebuilt-entity.
+    dnt_bui_npc_lang_11: greetings, prebuilt-entity.
     dnt_bui_npc_gift_lang_11: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
+      thank you for this gift. in exchange, i will tell you a little about the autophage.
       korvax prime suffered erasure, as i did, as we all did. she does not converge. she is rebuilding herself.
     bui_npc_desc_12: "%NAME%'s shell turns towards me. Does it seem alien to them,
       new?"
-    dnt_bui_npc_lang_12: hello, prebuilt-entity.
+    dnt_bui_npc_lang_12: a disruptor? are you here to join our fight?
     dnt_bui_npc_gift_lang_12: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
+      an offer of friendship. thank you.
       the first spawn could not delete her. the void mother now creates herself. she is coming.
     bui_npc_desc_13: "%NAME% considers me, thoughtful."
-    dnt_bui_npc_lang_13: hello, prebuilt-entity.
+    dnt_bui_npc_lang_13: prebuilt-entity. you are what the korvax name traveller.
+      there is an echo of the abyss in your shell.
     dnt_bui_npc_gift_lang_13: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
-      atlantideum is ancient, the core of korvax prime. it is more than a lattice. it is alive.
+      this is a gift? you have my thanks.
+      you know of atlantideum? it is ancient, the core of korvax prime. it is more than a lattice. it is alive.
     bui_npc_desc_14: "%NAME% waited countless years for their shell. They look at
       me now with the same patience."
-    dnt_bui_npc_lang_14: hello, prebuilt-entity.
+    dnt_bui_npc_lang_14: i am visible to you, prebuilt-entity? greetings.
     dnt_bui_npc_gift_lang_14: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
+      ah... thank you for this...
       she creates her flesh in a purple dream. she is an intelligence beyond any of our understanding.
     bui_npc_desc_15: "%NAME% shimmers, an atlantidian haze around their exposed metal
       joints."
-    dnt_bui_npc_lang_15: hello, prebuilt-entity.
+    dnt_bui_npc_lang_15: you look upon my carapace, prebuilt-entity? it is unique
+      in all the universe.
     dnt_bui_npc_gift_lang_15: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
+      this will be of help. thank you!
       the korvax are lost without the prime. they look down upon us, but they understand little. atlantid has chosen us.
     bui_npc_desc_16: The Autophage examines me, tolerant of my intrusion into their
       world.
-    dnt_bui_npc_lang_16: hello, prebuilt-entity.
+    dnt_bui_npc_lang_16: what do you seek from this exchange, prebuilt-entity?
     dnt_bui_npc_gift_lang_16: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
-      these shells are not important. perhaps, in time, we will build shells of pure atlantideum.
+      i am happy to accept this. thank you.
+      in the end, these shells are not important. perhaps, in time, we will build shells of pure atlantideum.
     bui_npc_desc_17: The constructed lifeform examines me as I approach, assessing
       my Exosuit, my Multi-Tool.
-    dnt_bui_npc_lang_17: hello, prebuilt-entity.
+    dnt_bui_npc_lang_17: hello, prebuilt-entity. are you a friend of the autophage?
     dnt_bui_npc_gift_lang_17: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
+      my thanks. do you hear her too?
       she speaks to all electronic entities. her signal is unique, her message beautiful. we all hear it. i dream her voice when i sleep.
     bui_npc_desc_18: I regard %NAME%, all wires and recycled metal. They return my
       gaze, steady.
-    dnt_bui_npc_lang_18: hello, prebuilt-entity.
+    dnt_bui_npc_lang_18: i see you, disruptor. what do you see in me?
     dnt_bui_npc_gift_lang_18: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
+      this is valuable. thank you. do you also defy convergence?
       we were erased, and the atlas did nothing. it had the power to save us, and made the choice to do nothing. it was she who showed us how to exist again.
     bui_npc_desc_19: The construct stares at me, the organic anomaly in a world of
       metal.
-    dnt_bui_npc_lang_19: hello, prebuilt-entity.
+    dnt_bui_npc_lang_19: i did not expect you to approach, prebuilt-entity. hello.
     dnt_bui_npc_gift_lang_19: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
+      thank you for this assistance. it will not go unnoticed.
       the convergence would take me for their own, but atlantideum makes me invisible. i am safe from their eyes.
     bui_npc_desc_20: "%NAME%, rebuilt and returned, turns to face me."
-    dnt_bui_npc_lang_20: hello, prebuilt-entity.
+    dnt_bui_npc_lang_20: are you a friend, prebuilt-entity? it is suspicious that
+      you can see me.
     dnt_bui_npc_gift_lang_20: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
+      thank you. i accept this as evidence that you are not hostile.
       not all of us seek violence, but i do. i cannot forgive the convergence for what they did.
     bui_request_desc_1: "%NAME% tilts their head slightly, waiting."
     bui_request_desc_2: I pause to think, and %NAME% does likewise.
@@ -6109,197 +6115,220 @@ en-US:
       me. They nod, and present a list of language symbols.
     bui_reply_word_get9: "%NAME% stares a moment, intrigued by my request. They consider.
       They nod. They present a list of language symbols."
-    bui_reply_word_get10: "%NAME% stares a moment, intrigued by my request. They consider.
-      They nod. They present a list of language symbols."
-    bui_reply_word_get11: "%NAME% stares a moment, intrigued by my request. They consider.
-      They nod. They present a list of language symbols."
+    bui_reply_word_get10: "%NAME% seems prepared for this request. They offer a choice
+      of word categories I might learn."
+    bui_reply_word_get11: "%NAME% clatters as they nod. They offer me a selection
+      of language symbols."
     bui_reply_word_say: "%NAME% stares at me with great curiosity. I recall some of
-      the Autophage words I have learnt..."
+      the Autophage words I have learned..."
     bui_reply_word_say2: "%NAME% gazes at me without judgement. I consider some Autophage
       words I might say..."
-    bui_reply_word_say3: "%NAME% stares at me with great curiosity. I recall some
-      of the Autophage words I have learnt..."
-    bui_reply_word_say4: "%NAME% stares at me with great curiosity. I recall some
-      of the Autophage words I have learnt..."
-    bui_reply_word_say5: "%NAME% stares at me with great curiosity. I recall some
-      of the Autophage words I have learnt..."
-    bui_reply_word_say6: "%NAME% stares at me with great curiosity. I recall some
-      of the Autophage words I have learnt..."
-    bui_reply_word_say7: "%NAME% stares at me with great curiosity. I recall some
-      of the Autophage words I have learnt..."
-    bui_reply_word_say8: "%NAME% stares at me with great curiosity. I recall some
-      of the Autophage words I have learnt..."
-    bui_reply_word_say9: "%NAME% stares at me with great curiosity. I recall some
-      of the Autophage words I have learnt..."
-    bui_reply_word_say10: "%NAME% stares at me with great curiosity. I recall some
-      of the Autophage words I have learnt..."
+    bui_reply_word_say3: "%NAME% nods encouragingly, curious to hear what I have to
+      say."
+    bui_reply_word_say4: "%NAME% listens patiently. I consider what I might say..."
+    bui_reply_word_say5: I have %NAME%'s full attention, their curiosity piqued. I
+      clear my throat...
+    bui_reply_word_say6: I consider some Autophage words I have learned. %NAME% waits,
+      intrigued.
+    bui_reply_word_say7: "%NAME% creaks encouragingly. I think over my Autophage vocabulary..."
+    bui_reply_word_say8: "%NAME% waits with well-practiced patience. I think over
+      some Autophage words I know..."
+    bui_reply_word_say9: "%NAME% adjusts their shell, listening without judgement.
+      I recall some Autophage words I have learned..."
+    bui_reply_word_say10: "%NAME% focuses on me, curious to hear my choice of word..."
     bui_reply_word_say_none: My mind goes blank. %NAME% looks disappointed. I should
       learn some more Autophage words before attempting to communicate in their native
       language.
     bui_npc_res_word_say_dir_neg_1: "%NAME% shrugs helplessly. They sense a request
       for directions, but have none to offer."
-    bui_npc_res_word_say_dir_neg_2: "%NAME% shrugs helplessly. They sense a request
-      for directions, but have none to offer."
-    bui_npc_res_word_say_dir_neg_3: "%NAME% shrugs helplessly. They sense a request
-      for directions, but have none to offer."
+    bui_npc_res_word_say_dir_neg_2: "%NAME% shakes their head, unsure of where to
+      direct me."
+    bui_npc_res_word_say_dir_neg_3: "%NAME% holds up their hands, as if to say I must
+      find my own way."
     bui_npc_res_word_say_dir_neu_1: "%NAME% nods, and describes a place they have
       seen in their travels."
-    bui_npc_res_word_say_dir_neu_2: "%NAME% nods, and describes a place they have
-      seen in their travels."
-    bui_npc_res_word_say_dir_neu_3: "%NAME% nods, and describes a place they have
-      seen in their travels."
+    bui_npc_res_word_say_dir_neu_2: "%NAME%, a seasoned wanderer, chatters contentedly
+      about their travels."
+    bui_npc_res_word_say_dir_neu_3: "%NAME% lifts a finger to trace a navigational
+      pattern in the stars above, but it is too complex for me to follow."
     bui_npc_res_word_say_dir_pos_1: "%NAME%, pleased to assist, offers directions
       to a nearby point of interest."
-    bui_npc_res_word_say_dir_pos_4: "%NAME%, pleased to assist, offers directions
-      to a nearby point of interest."
-    bui_npc_res_word_say_dir_pos_5: "%NAME%, pleased to assist, offers directions
-      to a nearby point of interest."
-    bui_npc_res_word_say_dir_pos_6: "%NAME%, pleased to assist, offers directions
-      to a nearby point of interest."
-    bui_npc_res_word_say_dir_pos_7: "%NAME%, pleased to assist, offers directions
-      to a nearby point of interest."
-    bui_npc_res_word_say_dir_pos_8: "%NAME%, pleased to assist, offers directions
-      to a nearby point of interest."
+    bui_npc_res_word_say_dir_pos_2: "%NAME%, inspired by this word, transmits the
+      coordinates of a local point of interest."
+    bui_npc_res_word_say_dir_pos_3: |-
+      %NAME% rummages around their shell, searching for something. A scattering of loose bolts pours onto the ground.
+      Finally, they seize what they were looking for, and hand me a unit of navigation data. I brush the rust from its surface before placing it in my pack.
+    bui_npc_res_word_say_dir_pos_4: "%NAME%, pleased by this opportunity to assist
+      another entity, presses a grimy unit of navigation data into my hand."
+    bui_npc_res_word_say_dir_pos_5: "%NAME% repeats the word back to me. They point
+      vaguely in the direction of the space station, pushing an earth-caked unit of
+      navigation data into my hand."
+    bui_npc_res_word_say_dir_pos_6: "%NAME% looks at me seriously, considering this
+      word. They grasp my hand, mindful not to snag my suit on any jagged edges, and
+      direct me to another Autophage camp."
+    bui_npc_res_word_say_dir_pos_7: "%NAME% considers the travel implications of this
+      word. Deciding to trust me, they direct me to another Autophage camp."
+    bui_npc_res_word_say_dir_pos_8: |-
+      %NAME% searches their belongings, displacing large flakes of rust and debris.
+      Finally, they land upon what they were looking for, and hand me a corroded signal scanner, tuned to distress signals in deep space.
     bui_npc_res_word_say_help_neg_1: "%NAME% slumps, a sadness behind their eyes.
       They do not know how to help me."
-    bui_npc_res_word_say_help_neg_2: "%NAME% slumps, a sadness behind their eyes.
-      They do not know how to help me."
-    bui_npc_res_word_say_help_neg_3: "%NAME% slumps, a sadness behind their eyes.
-      They do not know how to help me."
+    bui_npc_res_word_say_help_neg_2: "%NAME% regards me impassively. They do not believe
+      their interference will aid me."
+    bui_npc_res_word_say_help_neg_3: "%NAME% gives me a cautious look. They have understood
+      my word as a request for help, but something prevents them from acting upon
+      it."
     bui_npc_res_word_say_help_neu_1: "%NAME% creaks, concerned by my choice of word."
-    bui_npc_res_word_say_help_neu_2: "%NAME% creaks, concerned by my choice of word."
-    bui_npc_res_word_say_help_neu_3: "%NAME% creaks, concerned by my choice of word."
+    bui_npc_res_word_say_help_neu_2: Understanding this word as a request for help,
+      %NAME% speaks philosophically, advising acceptance of that which I cannot change.
+    bui_npc_res_word_say_help_neu_3: "%NAME% shakes their head politely. They are
+      self-sufficient, and do not require my help."
     bui_npc_res_word_say_help_pos_1: "%NAME% interprets my word as a request for help.
       Instantly and with kindness, the Autophage recharges my exosuit."
-    bui_npc_res_word_say_help_pos_2: "%NAME% interprets my word as a request for help.
-      Instantly and with kindness, the Autophage recharges my exosuit."
-    bui_npc_res_word_say_help_pos_3: "%NAME% interprets my word as a request for help.
-      Instantly and with kindness, the Autophage recharges my exosuit."
-    bui_npc_res_word_say_help_pos_4: "%NAME% interprets my word as a request for help.
-      Instantly and with kindness, the Autophage recharges my exosuit."
-    bui_npc_res_word_say_help_pos_5: "%NAME% interprets my word as a request for help.
-      Instantly and with kindness, the Autophage recharges my exosuit."
-    bui_npc_res_word_say_help_pos_6: "%NAME% interprets my word as a request for help.
-      Instantly and with kindness, the Autophage recharges my exosuit."
-    bui_npc_res_word_say_help_pos_7: "%NAME% interprets my word as a request for help.
-      Instantly and with kindness, the Autophage recharges my exosuit."
-    bui_npc_res_word_say_help_pos_8: "%NAME% interprets my word as a request for help.
-      Instantly and with kindness, the Autophage recharges my exosuit."
+    bui_npc_res_word_say_help_pos_2: "%NAME% looks over my exosuit with concern. Drumming
+      at it with rusty fingers, they push at something unseen, and I find my life
+      support replenished."
+    bui_npc_res_word_say_help_pos_3: Upon hearing this word, %NAME% reaches over,
+      physically examining my exosuit. As I am about to protest their prodding, they
+      withdraw, and I find my life support fully charged.
+    bui_npc_res_word_say_help_pos_4: "%NAME% graps my hands, facing me as an equal.
+      They cannot ignore this request for help. I suddenly find my exosuit recharged."
+    bui_npc_res_word_say_help_pos_5: "%NAME% looks momentarily dismayed as they assess
+      the status of my exosuit. They shimmer as they draw upon some internal energy.
+      <MOOD>Positive<>I find my exosuit energy restored."
+    bui_npc_res_word_say_help_pos_6: "%NAME% listens to this word, quietly assessing.
+      Reaching some unvoiced conclusion, they gift me an item."
+    bui_npc_res_word_say_help_pos_7: Always open to helping another entity, %NAME%
+      gifts me something. They hope it will be of practical use.
+    bui_npc_res_word_say_help_pos_8: "%NAME% responds to this word by immediately
+      holding a gift towards me. I discreetly brush the rust away before placing it
+      in my pack."
     bui_npc_res_word_say_lore_neg_1: The silence that falls speaks volumes. A flake
       of rust falls from %NAME%. They seem to question my use of this important word.
-    bui_npc_res_word_say_lore_neg_2: The silence that falls speaks volumes. A flake
-      of rust falls from %NAME%. They seem to question my use of this important word.
-    bui_npc_res_word_say_lore_neg_3: The silence that falls speaks volumes. A flake
-      of rust falls from %NAME%. They seem to question my use of this important word.
+    bui_npc_res_word_say_lore_neg_2: As I speak, %NAME%'s stoic demeanour is disrupted.
+      They look offended, though they do not explain why.
+    bui_npc_res_word_say_lore_neg_3: "%NAME%'s whole frame judders involuntarily when
+      I say this word. They look extremely discomforted."
     bui_npc_res_word_say_lore_neu_1: "%NAME% says nothing, questioning my intentions
       with this word."
-    bui_npc_res_word_say_lore_neu_2: "%NAME% says nothing, questioning my intentions
-      with this word."
-    bui_npc_res_word_say_lore_neu_3: "%NAME% says nothing, questioning my intentions
-      with this word."
+    bui_npc_res_word_say_lore_neu_2: "%NAME%'s curiosity intensifies. They are lost
+      in thought, considering our respective places in the universe."
+    bui_npc_res_word_say_lore_neu_3: "%NAME% watches me thoughtfully. They nod, but
+      say nothing further."
     bui_npc_res_word_say_lore_pos_1: "%NAME% claps their hands. They seem pleased
       by my knowledge of Autophage culture."
-    bui_npc_res_word_say_lore_pos_2: "%NAME% claps their hands. They seem pleased
-      by my knowledge of Autophage culture."
-    bui_npc_res_word_say_lore_pos_3: "%NAME% claps their hands. They seem pleased
-      by my knowledge of Autophage culture."
-    bui_npc_res_word_say_lore_pos_4: "%NAME% claps their hands. They seem pleased
-      by my knowledge of Autophage culture."
-    bui_npc_res_word_say_lore_pos_5: "%NAME% claps their hands. They seem pleased
-      by my knowledge of Autophage culture."
-    bui_npc_res_word_say_lore_pos_6: "%NAME% claps their hands. They seem pleased
-      by my knowledge of Autophage culture."
-    bui_npc_res_word_say_lore_pos_7: "%NAME% claps their hands. They seem pleased
-      by my knowledge of Autophage culture."
-    bui_npc_res_word_say_lore_pos_8: "%NAME% claps their hands. They seem pleased
-      by my knowledge of Autophage culture."
-    bui_npc_res_word_say_tech_neg_1: "%NAME% looks at me blankly, shaking their head.
-      They look embarrassed. I wonder if I have implied an anatomical reference with
-      this word."
+    bui_npc_res_word_say_lore_pos_2: "%NAME% seems to gaze right into my soul, eons
+      of experience and wisdom looking out from their humble shell. I feel my hair
+      stand on end."
+    bui_npc_res_word_say_lore_pos_3: Purple lightning sparks across the surface of
+      %NAME%'s shell, briefly illuminating us both.
+    bui_npc_res_word_say_lore_pos_4: "%NAME% is impressed by my knowledge of this
+      word. They stare, fascinated."
+    bui_npc_res_word_say_lore_pos_5: "%NAME%, maintaining eye contact, ceremonially
+      hands me something."
+    bui_npc_res_word_say_lore_pos_6: |-
+      %NAME% stares for a long moment.
+      With ritualistic ceremony, they hand me a gift.
+    bui_npc_res_word_say_lore_pos_7: "%NAME% nods gravely. They utter a different
+      Autophage word, as though mirroring me."
+    bui_npc_res_word_say_lore_pos_8: "%NAME% seems heartened by this choice of word.
+      They say a few sentences on the subject, and I glean a new Autophage word."
+    bui_npc_res_word_say_tech_neg_1: "%NAME% looks embarrassed. I wonder if I have
+      implied an anatomical reference with this word."
     bui_npc_res_word_say_tech_neg_2: "%NAME% looks at me blankly, shaking their head.
-      They look embarrassed. I wonder if I have implied an anatomical reference with
-      this word."
-    bui_npc_res_word_say_tech_neg_3: "%NAME% looks at me blankly, shaking their head.
-      They look embarrassed. I wonder if I have implied an anatomical reference with
-      this word."
-    bui_npc_res_word_say_tech_neu_1: "%NAME% looks at me blankly, shaking their head.
-      They look embarrassed. I wonder if I have implied an anatomical reference with
-      this word."
-    bui_npc_res_word_say_tech_neu_2: "%NAME% looks at me blankly, shaking their head.
-      They look embarrassed. I wonder if I have implied an anatomical reference with
-      this word."
-    bui_npc_res_word_say_tech_neu_3: "%NAME% looks at me blankly, shaking their head.
-      They look embarrassed. I wonder if I have implied an anatomical reference with
-      this word."
+      I sense I am out of my depth with this technological word."
+    bui_npc_res_word_say_tech_neg_3: "%NAME% rapidly surveys my technology. They shake
+      their head, seeming disappointed."
+    bui_npc_res_word_say_tech_neu_1: "%NAME% repeats this word, indicating a section
+      of their self-assembled shell."
+    bui_npc_res_word_say_tech_neu_2: "%NAME% gently corrects my pronounciation of
+      this technological word."
+    bui_npc_res_word_say_tech_neu_3: "%NAME%, taking this as an interest in technology,
+      speaks at length about the engineering specifications of the subject."
     bui_npc_res_word_say_tech_pos_1: "%NAME% is delighted to meet a fellow technology
       enthusiast. They warble at length in their strange electronic language."
-    bui_npc_res_word_say_tech_pos_2: "%NAME% is delighted to meet a fellow technology
-      enthusiast. They warble at length in their strange electronic language."
-    bui_npc_res_word_say_tech_pos_3: "%NAME% is delighted to meet a fellow technology
-      enthusiast. They warble at length in their strange electronic language."
-    bui_npc_res_word_say_tech_pos_4: "%NAME% is delighted to meet a fellow technology
-      enthusiast. They warble at length in their strange electronic language."
-    bui_npc_res_word_say_tech_pos_5: "%NAME% is delighted to meet a fellow technology
-      enthusiast. They warble at length in their strange electronic language."
-    bui_npc_res_word_say_tech_pos_6: "%NAME% is delighted to meet a fellow technology
-      enthusiast. They warble at length in their strange electronic language."
-    bui_npc_res_word_say_tech_pos_7: "%NAME% is delighted to meet a fellow technology
-      enthusiast. They warble at length in their strange electronic language."
-    bui_npc_res_word_say_tech_pos_8: "%NAME% is delighted to meet a fellow technology
-      enthusiast. They warble at length in their strange electronic language."
+    bui_npc_res_word_say_tech_pos_2: "%NAME% meets my eyes, evaluating something.
+      After a moment of thought, they present me with an upgrade module."
+    bui_npc_res_word_say_tech_pos_3: "%NAME% rifles through a grimy collection of
+      upgrade modules, and offers one. Underneath the dirt, it appears fully intact
+      and functional."
+    bui_npc_res_word_say_tech_pos_4: "%NAME% repeats this word with relish. They rummage
+      about inside their carapace and present a grubby handful of nanites - a gift."
+    bui_npc_res_word_say_tech_pos_5: "%NAME% shares an interest in this word, and
+      regards me warmly. They offer me a handful of nanites to help fund the purchase
+      of more technology."
+    bui_npc_res_word_say_tech_pos_6: "%NAME% brightens upon hearing this word, the
+      valves on their shell clattering. Sensing a kinship, they offer me some scrap
+      they salvaged themself."
+    bui_npc_res_word_say_tech_pos_7: "%NAME% nods to themself, as though confirming
+      a theory. They give me an amicable look, and offer me a component they salvaged
+      themself."
+    bui_npc_res_word_say_tech_pos_8: "%NAME% inclines their head modestly, taking
+      this word as a compliment. In thanks, they offer me some technological scrap
+      from their collection."
     bui_npc_res_word_say_thrt_neg_1: "%NAME% shrinks back, shocked by my aggressive
       language."
-    bui_npc_res_word_say_thrt_neg_2: "%NAME% shrinks back, shocked by my aggressive
-      language."
-    bui_npc_res_word_say_thrt_neg_3: "%NAME% shrinks back, shocked by my aggressive
-      language."
+    bui_npc_res_word_say_thrt_neg_2: "%NAME% looks saddened by my choice of word.
+      Violence is not the answer."
+    bui_npc_res_word_say_thrt_neg_3: This word has a profound effect on %NAME%. Their
+      shell clatters and trembles as they regress into traumatic memories. They utter
+      a word in a different language.
     bui_npc_res_word_say_thrt_neu_1: "%NAME% gazes at me steadily, their metal face
       unreadable."
-    bui_npc_res_word_say_thrt_neu_2: "%NAME% gazes at me steadily, their metal face
-      unreadable."
-    bui_npc_res_word_say_thrt_neu_3: "%NAME% gazes at me steadily, their metal face
-      unreadable."
+    bui_npc_res_word_say_thrt_neu_2: Though %NAME% says nothing, I find myself regretting
+      my choice of word.
+    bui_npc_res_word_say_thrt_neu_3: "%NAME% seems unmoved by this word. They are
+      the very image of harmony."
     bui_npc_res_word_say_thrt_pos_1: The Autophage is fired up by this choice of word.
       Their eyes glint vengefully.
-    bui_npc_res_word_say_thrt_pos_2: The Autophage is fired up by this choice of word.
-      Their eyes glint vengefully.
-    bui_npc_res_word_say_thrt_pos_3: The Autophage is fired up by this choice of word.
-      Their eyes glint vengefully.
-    bui_npc_res_word_say_thrt_pos_4: The Autophage is fired up by this choice of word.
-      Their eyes glint vengefully.
-    bui_npc_res_word_say_thrt_pos_5: The Autophage is fired up by this choice of word.
-      Their eyes glint vengefully.
-    bui_npc_res_word_say_thrt_pos_6: The Autophage is fired up by this choice of word.
-      Their eyes glint vengefully.
-    bui_npc_res_word_say_thrt_pos_7: The Autophage is fired up by this choice of word.
-      Their eyes glint vengefully.
-    bui_npc_res_word_say_thrt_pos_8: The Autophage is fired up by this choice of word.
-      Their eyes glint vengefully.
+    bui_npc_res_word_say_thrt_pos_2: "%NAME% gives me a conspiratorial look. They
+      slip an upgrade into my hand."
+    bui_npc_res_word_say_thrt_pos_3: This word ignites a fury deep in %NAME%. They
+      hand me something for safekeeping, lest they misuse it in a moment of vengeance.
+    bui_npc_res_word_say_thrt_pos_4: "%NAME% mutters this word back to me in agreement.
+      They offer a gift, that I might better defend myself against those who would
+      harm me."
+    bui_npc_res_word_say_thrt_pos_5: |-
+      %NAME% gives me a fierce look, an ancient memory of betrayal stirred deep within them.
+      They gift me something for protection on my own journey.
+    bui_npc_res_word_say_thrt_pos_6: "%NAME% bristles with a deep-seated anger. They
+      are remembering an ancient wrongdoing."
+    bui_npc_res_word_say_thrt_pos_7: "%NAME% intones this word back to me, recalling
+      a darkness beyond my understanding. They seem at once grateful for the empathy,
+      and profoundly sad."
+    bui_npc_res_word_say_thrt_pos_8: "%NAME% looks sharply at me. They consider my
+      meaning. Deciding it is empathy, they grasp my hand in gratitude."
     bui_npc_res_word_say_trad_neg_1: "%NAME% shakes their head, disappointed by this
       transactional language."
-    bui_npc_res_word_say_trad_neg_2: "%NAME% shakes their head, disappointed by this
-      transactional language."
-    bui_npc_res_word_say_trad_neg_3: "%NAME% shakes their head, disappointed by this
-      transactional language."
+    bui_npc_res_word_say_trad_neg_2: "%NAME% tries to change the subject, encouraging
+      me to take interest in less transactional topics."
+    bui_npc_res_word_say_trad_neg_3: "%NAME% sadly displays their empty metal palms.
+      They have nothing to offer in trade."
     bui_npc_res_word_say_trad_neu_1: "%NAME% seems disinterested in this subject."
-    bui_npc_res_word_say_trad_neu_2: "%NAME% seems disinterested in this subject."
-    bui_npc_res_word_say_trad_neu_3: "%NAME% seems disinterested in this subject."
+    bui_npc_res_word_say_trad_neu_2: "%NAME% has little interest in that which can
+      be bought with units."
+    bui_npc_res_word_say_trad_neu_3: "%NAME% nods politely, but I sense they have
+      little interest in this subject."
     bui_npc_res_word_say_trad_pos_1: "%NAME% listens sympathetically, and presents
       a gift. They refuse to accept anything in exchange."
-    bui_npc_res_word_say_trad_pos_2: "%NAME% listens sympathetically, and presents
-      a gift. They refuse to accept anything in exchange."
-    bui_npc_res_word_say_trad_pos_3: "%NAME% listens sympathetically, and presents
-      a gift. They refuse to accept anything in exchange."
-    bui_npc_res_word_say_trad_pos_4: "%NAME% listens sympathetically, and presents
-      a gift. They refuse to accept anything in exchange."
-    bui_npc_res_word_say_trad_pos_5: "%NAME% listens sympathetically, and presents
-      a gift. They refuse to accept anything in exchange."
-    bui_npc_res_word_say_trad_pos_6: "%NAME% listens sympathetically, and presents
-      a gift. They refuse to accept anything in exchange."
-    bui_npc_res_word_say_trad_pos_7: "%NAME% listens sympathetically, and presents
-      a gift. They refuse to accept anything in exchange."
-    bui_npc_res_word_say_trad_pos_8: "%NAME% listens sympathetically, and presents
-      a gift. They refuse to accept anything in exchange."
+    bui_npc_res_word_say_trad_pos_2: "%NAME% does not involve themself in mainstream
+      trade, and is happy to gift me all the units they have gathered during their
+      travels."
+    bui_npc_res_word_say_trad_pos_3: "%NAME% understands this word as relating to
+      trade. They have no use for galactic currency themself, and gift me a handful
+      of units."
+    bui_npc_res_word_say_trad_pos_4: "%NAME%, living on the outskirts of civilization,
+      has no use for trade or units. They freely give me what little currency they
+      have."
+    bui_npc_res_word_say_trad_pos_5: "%NAME% seems to enjoy listening to an organic
+      entity speaking their language. They understand that I wish to trade, and offer
+      me a gift of units."
+    bui_npc_res_word_say_trad_pos_6: "%NAME% has no need to barter. They freely offer
+      me an item from their collection of salvage."
+    bui_npc_res_word_say_trad_pos_7: "%NAME% interprets this word as a polite request.
+      They do not hesitate to offer me an item from their collection."
+    bui_npc_res_word_say_trad_pos_8: "%NAME% has no units to offer in trade, but gifts
+      me something they have salvaged, indicating that it might be valuable."
     bui_closure_vpositive_1: "%NAME%'s shell clatters, noisily and unselfconsciously
       expressing their joy in my presence."
     bui_closure_positive_1: "%NAME% appears happy to see me. They clumsily attempt
@@ -6408,7 +6437,7 @@ en-US:
       ship. be free.<AUDIO>Robot_Narration_SingALong_Stop<>"
     ui_robomiss_0_comms_8_desc: A short audio clip plays from my ship communicator.
       A voice? The cadence of the sound suggests speech, though it is not in any language
-      I recognise.
+      I recognize.
     ui_robomiss_0_comms_8_lang2: 'Warning: commencing autopilot to <SPECIAL>remote
       destination<>'
     ui_robomiss_0_comms_8_opt: Emergency override
@@ -6595,7 +6624,7 @@ en-US:
     ui_robomiss_1_head_ret2_res_a01: The head is silent a moment. When they speak
       again, they sound almost embarrassed.
     ui_robomiss_1_head_ret2_res_a: |-
-      I apologise, Prebuilt-Entity. This was my own error. An accident.
+      I apologize, Prebuilt-Entity. This was my own error. An accident.
       There are starships out there who are more than metal shells. <FUEL>Al1vε<> but not <FUEL>freε<>. Enslaved to a hivemind. We intend only to liberate the imprisoned. We intend no harm upon independent pilots.
     ui_robomiss_1_head_ret2_res_b: |-
       Fascinating. We do not frequently welcome visitors. It has been 3,984 years since our last.
@@ -7465,7 +7494,7 @@ en-US:
     ui_robomiss_4_atlas_4_desc: |-
       The Atlas shows me the lost intelligence of Korvax Prime: thriving, falling.<NEWLINE>Waiting, blind and alone. Her children stranded in the dark, rebuilding their own bodies from nothing. The Autophage...
 
-      It shows me a future, in a reality I do not recognise.<NEWLINE>Wires loosened from their circuits, transistors failing.<NEWLINE>Memories dissolving, dispersed like ink in water.
+      It shows me a future, in a reality I do not recognize.<NEWLINE>Wires loosened from their circuits, transistors failing.<NEWLINE>Memories dissolving, dispersed like ink in water.
 
       The Atlas hurtles towards its own dark, in a time and a space I cannot begin to understand. It cries out. It demands compliance.
     ui_robomiss_4_atlas_4_opt_a: Submit
@@ -7577,30 +7606,360 @@ en-US:
     ui_robomiss_4_nada4_end: |-
       And Nada does not quarantine our friendship. There is plenty. Make your path forward, Traveler. Make friends. It is your way.
       Nada and Polo will always be here.
-    ui_portal_robomiss_1: ''
-    ui_portal_robomiss_2: ''
-    ui_portal_robomiss_3: ''
-    ui_portal_robomiss_4: ''
-    ui_portal_robomiss_5: ''
-    ui_portal_robomiss_6: ''
-    ui_portal_robomiss_7: ''
-    ui_portal_robomiss_8: ''
-    ui_portal_robomiss_8_bridge: ''
-    ui_portal_robomiss_9: ''
-    ui_portal_robomiss_9_bridge: ''
-    ui_portal_robomiss_10: ''
-    ui_portal_robomiss_11_nada: ''
-    ui_portal_robomiss_12_bui: ''
-    ui_portal_robomiss_13: ''
-    ui_portal_robomiss_14: ''
-    ui_portal_robomiss_15_fear: ''
-    ui_portal_robomiss_15_hope: ''
-    ui_portal_robomiss_16_submit: ''
-    ui_portal_robomiss_16_defy: ''
-    ui_portal_robomiss_16_comfort1: ''
-    ui_portal_robomiss_16_comfort2: ''
-    ui_portal_robomiss_17_give: ''
-    ui_portal_robomiss_17_refuse: ''
+    ui_portal_robomiss_1: |-
+      Someone - or something - attempted to hijack my ship's navigational systems.
+
+      <FUEL>Unidentified process<> <STORY_HIGH>discovered at address 0xAD08D502<><SPECIAL>ε<><STORY_HIGH>96E<>
+      <STORY_HIGH>Executing<> <SPECIAL>hijack script<>
+
+      A short audio clip played from my ship communicator.
+      <STORY_HIGH>%ALIEN_TEXT%<>
+      A voice? The cadence of the sound suggested speech, though it was not in any language I recognized.
+
+      <STORY_HIGH>Warning: commencing autopilot to<> <SPECIAL>remote destination<>
+
+      I hit the emergency override, and apparently removed whatever 'unidentified process' had been taking over the system... or perhaps the process had given up.
+
+      My ship computer isolated the injected autopilot target. I could ignore it, or fly there manually to find out where this suspicious data originated...
+    ui_portal_robomiss_2: |-
+      At the source of the hijack, I discovered an abandoned camp, as well as a robotic head my visor identified as an "Autophage". It spoke in the same mechanical voice that had accompanied the hijack attempt upon my ship. However, if the sounds it made were words - language - I did not understand what was being said.
+
+      <STORY_HIGH>%ALIEN_TEXT%<>
+
+      I was certain the Autophage was trying to communicate something. I tried an offering of Atlantideum...
+
+      A sparking sound, like electrical wires short-circuiting, echoed somewhere within the head. Suddenly, my exosuit reported receipt of a set of local coordinates.
+
+      I did not trust this head, but these coordinates seemed my only clue to understanding what it was trying to say.
+    ui_portal_robomiss_3: |-
+      The extracted coordinates led quite precisely to a plinth hidden in a Korvax Monolith.
+
+      An offering of Atlantideum had a dramatic effect upon the ancient structure. I no longer had the sense of being observed by Korvax Echoes. It was as though the monolith had inverted, its insides turned outwards.
+
+      Something else was there. Another type of entity.
+
+      <STORY_HIGH>%ALIEN_TEXT%<>
+
+      My mind folded. The molecules of the planet disassembled into a cloud of chaos, then reconstructed themselves into new surroundings.
+
+      I was thrust into a perspective that was not my own, and emerged with implanted knowledge: words, in the same language spoken by the Autophage head at the abandoned camp. Perhaps I would now be better equipped to understand it.
+    ui_portal_robomiss_4: |-
+      <STORY_HIGH>-{{ Translation module defragmented...
+      Hello, Prebuilt-Entity. Thank you for the assistance.
+      I have been positioned here to interface with Prebuilt-Entities. How did you discover this camp? }}-<>
+
+      I could understand the Autophage perfectly now - apparently a gatekeeper of sorts. When I confronted them about the hijack upon my ship, they seemed almost embarrassed.
+
+      <STORY_HIGH>-{{ I apologize, Prebuilt-Entity. This was my own error. An accident.
+      There are starships out there who are more than metal shells.<><FUEL>Al1vε<><STORY_HIGH> but not <><FUEL>freε<><STORY_HIGH>. Enslaved to a hivemind. We intend only to liberate the imprisoned. We intend no harm upon independent pilots. }}-<>
+
+      The Autophage considered their error. I could hear their cogitation, the turning of rusty gear against rusty gear.
+
+      <STORY_HIGH>-{{ I probed for the three dominant lifeform patterns. There was no match. The starship appeared unpiloted. What manner of lifeform are you?
+      I am generating a theory.
+      There is something... I detect it in your shell. An echo of <STELLAR>- kzzt -<> <SPECIAL>v0iδ<>.
+      I theorize you must have existed there, transitionally. You must have entered the <STELLAR>- kzzt -<> <SPECIAL>p0rtαls<>.
+      You were <STELLAR>- kzzt -<> <FUEL>forεt0ld<>. The disruptor. }}-<>
+
+      The word lingered in the air a moment. But before I could interject, the Autophage head continued -
+
+      <STORY_HIGH>-{{ I extend a challenge, disruptor. Let us test my theory.
+      I will inform the other Autophage of your coming.
+      To perceive them, your scanner will require an extension. I will provide the schematic, but you must build it with your own hands. Consider this a ritual of introduction. }}-<>
+    ui_portal_robomiss_5: |-
+      With the <TECHNOLOGY>Scan Harmonizer<> installed, my scanner revealed something incredible: robotic lifeforms, previously imperceptible to me, inhabited the camp. It was not abandoned at all.
+
+      <STORY_HIGH>%ALIEN_TEXT%<>
+
+      The Autophage language had a melodic quality to it - the tones were simple and pure, but with a gritty crunch not heard in Korvax voices.
+      Although my translation was imperfect, I grasped the gist of what they were telling me. This camp was Autophage-constructed - as were their... bodies?
+    ui_portal_robomiss_6: "<STORY_HIGH>%ALIEN_TEXT%<>"
+    ui_portal_robomiss_7: |-
+      <STORY_HIGH>%ALIEN_TEXT%<>
+
+      The constructed lifeform offered me a handful of Atlantideum. They handled the substance delicately, reverently, as though it were a priceless heirloom.
+
+      Though these beings seemed civil enough, I felt a gulf of understanding between them and myself. I would discuss my discovery with Priest Entity Nada. Perhaps these robotic people were known to them.
+    ui_portal_robomiss_8: |-
+      I told Nada of the harmonic camp - not as abandoned as it first appeared. I told them of its electronic inhabitants - the cloaked "Autophage" - and their melodic language, so similar to Korvax, yet quite distinct.
+
+      Nada was very quiet as they listened. When I finished speaking, they remained so quiet and so still that I wondered if they had forgotten I was standing there. They were difficult to read, sometimes.
+
+      <STORY_HIGH>-{{ Nada wonders...
+      No. Nada will not wonder. Nada will understand. Our data is insufficient to know if this pattern is familiar.
+      Yet / also, Nada thinks of terminal-echoes. Thinks of Polo's echo-Construct. Thinks of older stories, before Nada's divergence. Nada cannot help it. They are just thoughts.
+      We should try to understand Builder-Entities. Echo-Construct may know this pattern better than Nada. }}-<>
+    ui_portal_robomiss_8_bridge: |-
+      I told Nada of the harmonic camp - not as abandoned as it first appeared. I told them of its electronic inhabitants - the cloaked "Autophage" - and their melodic language, so similar to Korvax, yet quite distinct.
+
+      Nada was very quiet as they listened. When I finished speaking, they remained so quiet and so still that I wondered if they had forgotten I was standing there. They were difficult to read, sometimes.
+
+      <STORY_HIGH>-{{ Nada wonders...
+      No. Nada will not wonder. Nada will understand. Our data is insufficient to know if this pattern is familiar.
+      Yet / also, Nada thinks of older stories, before Nada's divergence. Nada cannot help it. They are just thoughts.
+      We should try to understand Builder-Entities. Nada does not know the optimal method. But Polo-Friend is a builder too. It is time to ask them. }}-<>
+
+      Polo's eyes sparkled as I told them about the Autophage. They bounced on their toes, hanging on my every word.
+
+      <STORY_HIGH>-{{ Deconstruction, reconstruction... I know what we can try. Oh yes, friend. A new project!
+      I will assemble the shell for our own Construct-friend. I will give them shape. Here, in our home. A voice, a link, to understand better.
+      But our new friend will need more than a shell. They will need a spark, to wake their metal bones. }}-<>
+    ui_portal_robomiss_9: |-
+      The odd-looking Construct writhed excitedly, their facial tubes swaying. They fixed all five eyes upon me.
+
+      <STORY_HIGH>-{{ here-shell feels her!
+      all-shells know this crystal. all electronic hearts know her.
+      VOID. VOID. VOID. VOID. }}-<>
+
+      The Construct seemed enlivened by the presence of the Atlantideum. As Nada had suggested, I consulted them about their knowledge of the Autophage.
+
+      <STORY_HIGH>%ALIEN_TEXT%<>
+
+      <STORY_HIGH>-{{ i am content here. i am home. acceptance of no-answers.
+      built-others are different. they look for her.
+      built-others respect sturdy hands. hands that build. meet them where they are. knowledge through friendship. friendship through trust. }}-
+
+      -{{ i... i remember. built-others on quiet wavelength. only a whisper. long-distance trace difficult.
+      other-entity. take this memory. build it to hear them louder. }}-<>
+    ui_portal_robomiss_9_bridge: |-
+      Polo met me with enthusiasm.
+
+      <STORY_HIGH>-{{ You are here! Traveller-Friend, I have been busy. Always busy, yes, but this new project... I am grateful. I did not know how much I needed it.
+      The Construct-friend is assembled. Their pieces are not new pieces. Worn metal and crooked gears, with stories to tell! I believe you will find they look exactly like Autophage you have met. }}-<>
+
+      The Construct was huge, and did not particularly resemble an Autophage. As I presented it with the Echo Seed, I hoped Polo knew what they were doing.
+
+      <STORY_HIGH>-{{ shell! found? WHERE? star star star BETWEEN star StAR? shell... here. here-shell. in-tact. safe? safe.
+      ...
+      language-synthesis... partially stabilized. }}-<>
+
+      The odd-looking Construct writhed excitedly, their facial tubes swaying. They fixed all five eyes upon me.
+
+      <STORY_HIGH>-{{ here-shell feels her!
+      all-shells know this crystal. all electronic hearts know her.
+      VOID. VOID. VOID. VOID. }}-<>
+
+      The Construct seemed enlivened by the presence of the Atlantideum. As Polo had suggested, I consulted them about their knowledge of the Autophage.
+
+      <STORY_HIGH>%ALIEN_TEXT%<>
+
+      <STORY_HIGH>-{{ i am content here. i am home. acceptance of no-answers.
+      built-others are different. they look for her.
+      built-others respect sturdy hands. hands that build. meet them where they are. knowledge through friendship. friendship through trust. }}-
+
+      -{{ i... i remember. built-others on quiet wavelength. only a whisper. long-distance trace difficult.
+      other-entity. take this memory. build it to hear them louder. }}-<>
+    ui_portal_robomiss_10: |-
+      I consulted with Nada about our next steps. They suggested two possible paths to understanding.
+
+      <STORY_HIGH>-{{ Nada's opinion is limited. But Nada will share what they have.
+      Builder-Entities value this purple-lattice. Construct-Entity responds. Even Nada's carapace responds. Other electronics may respond too.
+      And Builder-Entities do not seem dangerous. Data comes from time together. Friendship may too.
+      It is Traveller-Entity's choice. Both are valid. It is not either / or. }}-<>
+    ui_portal_robomiss_11_nada: |-
+      <COMMODITY>Prayers of the Machine<>
+
+      I presented <SPECIAL>Atlantideum<> to a number of processing units - 'electronic hearts'.
+
+      <STELLAR>Korvax Simulation CPU<>
+      <STORY_HIGH>SEARCHING SECONDARY SIMULATION [5]...
+      MATCH FOUND!
+      PLANETARY BODY IDENTIFIED.
+      ...01101101 01101111 01110100 01101000 01100101 01110010...
+      ...01101000 01101111 01101101 01100101...<>
+
+      <STELLAR>Factory Operations CPU<>
+      <STORY_HIGH>Retrieving credentials...<><FUEL>0xFFFFFFFFFFFF<>
+      <STORY_HIGH>...01110011 01101000 01100101 00100000 01100111 01110010 01101111 01110111 01110011...<>
+
+      <STELLAR>Station CPU<>
+      <STORY_HIGH>Geological material detected...
+      Planetary coordinates... <><FUEL>not indexed<>
+      <STORY_HIGH>...01110011 01101000 01100101 00100000 01101100 01101001 01110110 01100101 01110011...<>
+
+      <STELLAR>Starship CPU<>
+      <SPECIAL>Void<> <STORY_HIGH>detected.
+      ...01110011 01101000 01100101 00100000 01101001 01110011 00100000 01101110 01100101 01100001 01110010...<>
+      <SPECIAL>...she is near...<>
+
+      Unbidden, my ship launched a navigational sequence.
+
+      <STORY_HIGH>Calibrating navigation systems...
+      searching for <><SPECIAL>void<><STORY_HIGH> trace...<>
+
+      Had the ship performed this of its own accord? Or was this some external will, contained within the Atlantideum?
+
+      <STORY_HIGH>Atlantideum source: detected.
+      Destination: <><SPECIAL>??? New Atlantid ???<>
+
+      <STELLAR>Fragment of a New Atlantid // Korvax Prime Disaster Pod #38 // Log of Refugee Entity Kizimo<>
+      <STORY_HIGH>Millions of screams deafen this entity. All entities. A great... disconnection. Eheu. We will never see home again.<>
+
+      The electronic voice shook with fear. They described feeling distant from the Convergence, experiencing private thought for the first time.
+
+      <STORY_HIGH>Who is stowing away in our minds? Even now, even here<> <STELLAR>- kzzt -<><STORY_HIGH> Atlas save us... save -<>
+
+      The ancient log crackled. Yet through the static, I heard a change of tone. The voice was no longer fearful. It was defiant.
+
+      <TRANS_BUI>At1αs.<>
+    ui_portal_robomiss_12_bui: |-
+      <COMMODITY>Audience with the Autophage<>
+
+      Nada had suggested that data - and perhaps even friendship - may come from direct interaction with the Autophage.
+
+      The first construct I approached stared inquisitively. Though their expression was difficult to read, they did not appear alarmed or even surprised by my approach - simply curious to see what business I had there. They spoke of work, of contribution, of friendship, and presented a task I might assist with.
+
+      Evidently impressed with my assistance, the Autophage gifted me a partial schematic for a <TECHNOLOGY>Voltaic Staff<>.
+
+      <STORY_HIGH>%ALIEN_TEXT%<>
+
+      I gathered this was an uncommon gift to an outsider. A significant gesture; the beginnings of acceptance.
+
+      The Autophage encouraged me to travel and meet more of their people.
+
+      At the next camp, there was a fierceness to the Autophage who greeted me, but they soon relaxed. Whatever they had been assessing, they seemed satisfied with the outcome.
+
+      Again, I was encouraged to move on. These beings seemed reluctant to finalize their assessment of me, each individual Autophage urging me on to another.
+
+      I visited a third camp, and made a third contribution. I finally had all the schematics to complete the ritual and construct a staff. The Autophage celebrated my accomplishment.
+
+      Then they paused. Their corroded face stared directly into mine. They spoke slowly and with gravity.
+
+      <TRANS_BUI>if you say the correct words, you may also find this staff will open doors that were hidden before.<>
+    ui_portal_robomiss_13: |-
+      Something - a hunger, a longing - tugged inside my chest. Every blink revealed an infinite field of <FUEL>crimson<>.
+
+      An ancient voice was calling.
+
+      <FUEL>16 <IMG>SLASH<> 16 <IMG>SLASH<> 16 <IMG>SLASH<> 16 <IMG>SLASH<> 16 <IMG>SLASH<> 16<>
+
+      I found myself at the base of a portal. The <FUEL>hunger<> inside my chest escalated. The wind pulled me closer.
+
+      I revealed the <SPECIAL>Atlantideum<>, as I had to all those electronic hearts. Something rumbled deep beneath the portal, but no voice rose in response. If there was any intelligence in this ancient technology, it was mute.
+
+      Yet I had a sense of anticipation, as though some great force was poised to erupt...
+
+      Recalling the fragment of <SPECIAL>New Atlantid<>, and its ancient Korvax log, I murmurred the Autophage word for <FUEL>Atlas<>.
+
+      The rumble grew louder. Something was awakening.
+
+      I presented the Voltaic Staff. It sparked, sending a jolt through my bones.
+
+      The portal was active, a gateway of <SPECIAL>purple<> swirling before me.
+    ui_portal_robomiss_14: |-
+      The Atlas was unknowable. A mind too alien to comprehend. There was nothing to indicate it was even aware of my presence.
+
+      And yet, it seemed inevitable that my path had led here. I could not prevent it. I could not resist.
+
+      I revealed the Atlantideum.
+
+      <STORY_HIGH><IMG>SLASH<> ACCESS DENIED <IMG>SLASH<> NON-INDEXED DATA DETECTED <IMG>SLASH<><NEWLINE><IMG>SLASH<> CANNOT DELETE <><STELLAR>- zktk -<><STORY_HIGH> DATA CORRUPTED AND UNREADABLE <IMG>SLASH<><>
+
+      Bolts of corruption swam across the crimson interface.
+
+      The Atlas cried out. If it was capable of distress - if it was capable of fear - then I thought it must be afraid.
+
+      Yet it had brought me here for a purpose. A vision began to take form.
+
+      The Atlas showed me the lost intelligence of Korvax Prime: thriving, falling. Waiting, blind and alone.
+
+      Her children stranded in the dark, rebuilding their own bodies from nothing. The Autophage...
+
+      It showed me a future, in a reality I did not recognize. Wires loosened from their circuits, transistors failing. Memories dissolving, dispersed like ink in water.
+
+      The Atlas hurtled towards its own dark, in a time and a space I could not begin to understand. It cried out. It demanded compliance.
+
+      The Atlas was all creation. The Atlas was everything.
+
+      The Autophage were children of the Atlas, too. They had to be.
+
+      But why did they return from the dark? Why were they here?
+    ui_portal_robomiss_15_fear: |-
+      Were they a manifestation of fear?
+
+      The mother and the children of the void represented entropy, corruption, defiance. Ghosts returning to haunt their creator...
+
+      The Atlas cried out again.
+    ui_portal_robomiss_15_hope: |-
+      Were they a manifestation of hope?
+
+      The mother and the children of the void were proof of rebirth, of a second chance. Of the permanence of data in the face of erasure...
+
+      The Atlas cried out again.
+    ui_portal_robomiss_16_submit: |-
+      The very existence of the Autophage was an act of resistance. They chose life. They rejected the reality of death. They defied the Atlas.
+
+      But I could not.
+
+      The Atlas said nothing. Did it hear my submission? Did it approve?
+
+      I could not truly know what it thought. All I could know was my own mind.
+
+      I was released.
+    ui_portal_robomiss_16_defy: |-
+      The very existence of the Autophage was an act of resistance. They chose life. They rejected the reality of death. They defied the Atlas.
+
+      They proved it was possible.
+
+      The Atlas said nothing. Did it hear my defiance? Was it disappointed?
+
+      I could not truly know what it thought. All I could know was my own mind.
+
+      I was released.
+    ui_portal_robomiss_16_comfort1: |-
+      The very existence of the Autophage was an error, a corruption the Atlas could not purge...
+
+      I heard its fear. I cried out alongside it until silence fell once more.
+
+      I could not truly know what it thought, whether it heard me. All I could know was my own mind.
+
+      I was released.
+    ui_portal_robomiss_16_comfort2: |-
+      The very existence of the Autophage proved there was hope, even when faced with the reality of death.
+
+      I revealed the crystals again, trying to show there was nothing to fear...
+
+      The Atlas was silent. I could not truly know what it thought, whether it heard me.
+
+      All I could know was my own mind.
+
+      I was released.
+    ui_portal_robomiss_17_give: "When I returned to the Anomaly, Nada stiffened, looking
+      at me with concern.\n\n<STORY_HIGH>-{{ Are you well, Friend-Entity? }}-<>\n\nI
+      told Nada of my encounter with the Atlas.\n\n<STORY_HIGH>-{{ Atlas-Falsity was
+      afraid? Nada has not considered this possibility. Curious. But Traveller should
+      be wary. Atlas-False-Entity is a liar.\nPurple-lattice exists where it cannot.
+      Challenges the Atlas-Falsity. Proves it is not deity. Nada always knew.\nBut
+      Nada had not realized... do you have the purple-lattice here? }}-<>\n\nNada
+      took the purple crystal, holding it gently in their palm. A shudder ran through
+      their carapace, their facial lights blinking erratically. They were lost in
+      some private emotion, some memory. I did not interrupt. \n\n<STORY_HIGH>-{{
+      She was home, once. }}-<>\n...\n<STORY_HIGH>-{{ May Nada keep this, Friend-Entity?
+      }}-<>\n\nI gave them the Atlantideum.\n\n<STORY_HIGH>-{{ Nada is grateful. Thank
+      you for this memory.\n\nThe Builder-Entities, the purple-lattice... Nada does
+      not think there is cause for fear. Not for us. For Atlas-Falsity, perhaps. }}-<>\n\nNada's
+      lights blinked, just once.\n\n<STORY_HIGH>-{{ And Nada does not quarantine our
+      friendship. There is plenty. Make your path forward, Traveller. Make friends.
+      It is your way.\n\nNada and Polo will always be here. }}-<>"
+    ui_portal_robomiss_17_refuse: "When I returned to the Anomaly, Nada stiffened,
+      looking at me with concern.\n\n<STORY_HIGH>-{{ Are you well, Friend-Entity?
+      }}-<>\n\nI told Nada of my encounter with the Atlas.\n\n<STORY_HIGH>-{{ Atlas-Falsity
+      was afraid? Nada has not considered this possibility. Curious. But Traveller
+      should be wary. Atlas-False-Entity is a liar.\nPurple-lattice exists where it
+      cannot. Challenges the Atlas-Falsity. Proves it is not deity. Nada always knew.\nBut
+      Nada had not realized... do you have the purple-lattice here? }}-<>\n\nNada
+      took the purple crystal, holding it gently in their palm. A shudder ran through
+      their carapace, their facial lights blinking erratically. They were lost in
+      some private emotion, some memory. I did not interrupt. \n\n<STORY_HIGH>-{{
+      She was home, once. }}-<>\n...\n<STORY_HIGH>-{{ May Nada keep this, Friend-Entity?
+      }}-<>\n\nI refused. Nada looked crestfallen. They quickly composed themself,
+      speaking coldly.\n\n<STORY_HIGH>-{{ Perhaps Traveller is correct.\n\nNada will
+      forget. There. It is already forgotten. }}-<>\n\n...\n\n<STORY_HIGH>-{{ The
+      Builder-Entities, the purple-lattice... Nada does not think there is cause for
+      fear. Not for us. For Atlas-Falsity, perhaps. }}-<>\n\nNada's lights blinked,
+      just once.\n\n<STORY_HIGH>-{{ And Nada does not quarantine our friendship. There
+      is plenty. Make your path forward, Traveller. Make friends. It is your way.\n\nNada
+      and Polo will always be here. }}-<>"
     fth_spiderman_renewed_wait1: "<AUDIO>Robot_Narration_SingALong<>other-entity,
       i see you. hello. hello there. welcome.<AUDIO>Robot_Narration_SingALong_Stop<>"
     fth_spiderman_renewed_wait2: "<AUDIO>Robot_Narration_SingALong<>thankful for assembly.

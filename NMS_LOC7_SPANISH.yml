@@ -473,12 +473,12 @@ es:
     ui_repair_tech_desc: |-
       Estado de <TECHNOLOGY>%TECH%<>: <FUEL>daños críticos<>. Deben repararse todos los subcomponentes para restaurar la funcionalidad.
 
-      Repara este subcomponente con <TECHNOLOGY>%NUM% x %ITEM%<>. Usa <IMG>TECHMENU<> para <STELLAR>fijar<> <STELLAR>instrucciones de reparación<> detalladas en el registro de misión, incluida información sobre dónde encontrar los elementos necesarios.
+      Repara este subcomponente con <TECHNOLOGY>%NUM% x %ITEM%<>. Usa <IMG>FE_TRANSFER<> para <STELLAR>fijar<> <STELLAR>instrucciones de reparación<> detalladas en el registro de misión, incluida información sobre dónde encontrar los elementos necesarios.
     ui_repair_tech_sub: Subcomponente dañado
     ui_install_tech_desc: |-
       Estado de subcomponentes de <TECHNOLOGY>%TECH%<>: <FUEL>desinstalado<>. Inserta cada subcomponente para finalizar la instalación.
 
-      Completa este subcomponente con <TECHNOLOGY>%NUM% x %ITEM%<>. Usa <IMG>TECHMENU<> para <STELLAR>fijar<> <STELLAR>instrucciones de instalación<> detalladas a tu registro de misión, incluida información sobre dónde encontrar los elementos necesarios.
+      Completa este subcomponente con <TECHNOLOGY>%NUM% x %ITEM%<>. Usa <IMG>FE_TRANSFER<> para <STELLAR>fijar<> <STELLAR>instrucciones de instalación<> detalladas a tu registro de misión, incluida información sobre dónde encontrar los elementos necesarios.
     ui_install_tech_name: PIEZA %TECH%
     ui_install_tech_sub: Subcomponente requerido
     ui_repaired_tech_desc: |-
@@ -7328,7 +7328,7 @@ es:
     ui_exped_visit_planet_desc: Los pies en la tierra
     ui_exped_visit_planet_desc_d: Se ha explorado un planeta
     ui_exped_visit_planet_obj: Aterriza en un planeta
-    ui_exped_visit_planet_obj_tip: Escanea mundos desde el espacio con <IMG>SCAN<>
+    ui_exped_visit_planet_obj_tip: Escanea mundos desde el espacio con <IMG>SHIPSCAN<>
       mientras vuelas en tu nave. El escaneo desvelará detalles importantes sobre
       el planeta.
     ui_exped_visit_planet_msg1: |-
@@ -7338,8 +7338,8 @@ es:
       Pon los pies en un planeta
       Mantén <IMG>THRUST<> para despegar
     ui_exped_visit_planet_msg3: |-
-      Pon los pies en un planeta
-      Escanea los mundos con <IMG>SCAN<> para encontrar un área de aterrizaje adecuada
+      Poner un pie en un planeta
+      Escanea mundos con <IMG>SHIPSCAN<> para localizar un lugar de aterrizaje adecuado
     ui_warp_freighter_name: Activar motores
     ui_warp_freighter_name_u: ACTIVAR MOTORES
     ui_warp_freighter_desc: Viaja en tu nave principal

@@ -467,12 +467,12 @@ pl:
     ui_repair_tech_desc: |-
       <TECHNOLOGY>%TECH%<> – stan: <FUEL>krytyczne uszkodzenia<>. Należy naprawić każdy subkomponent, by przywrócić działanie.
 
-      Użyj: <TECHNOLOGY>%NUM% x %ITEM%<>, by naprawić ten subkomponent. Użyj <IMG>TECHMENU<>, by <STELLAR>przypiąć<> dokładne <STELLAR>instrukcje naprawy<> do dziennika misji, łącznie z informacjami o lokalizacji wymaganych przedmiotów.
+      Użyj: <TECHNOLOGY>%NUM% x %ITEM%<>, by naprawić ten subkomponent. Użyj <IMG>FE_TRANSFER<>, by <STELLAR>przypiąć<> dokładne <STELLAR>instrukcje naprawy<> do dziennika misji, łącznie z informacjami o lokalizacji wymaganych przedmiotów.
     ui_repair_tech_sub: Subkomponent uszkodzony
     ui_install_tech_desc: |-
-      <TECHNOLOGY>%TECH%<> – stan subkomponentu: <FUEL>odinstalowano<>. Włóż każdy subkomponent, by dokończyć instalację.
+      <TECHNOLOGY>%TECH%<>– stan subkomponentu: <FUEL>odinstalowano<>. Włóż każdy subkomponent, by dokończyć instalację.
 
-      Użyj: <TECHNOLOGY>%NUM% x %ITEM%<>, by dokończyć ten subkomponent. Użyj <IMG>TECHMENU<>, by <STELLAR>przypiąć<> dokładne <STELLAR>instrukcje instalacji<> do dziennika misji, łącznie z informacjami o lokalizacji wymaganych przedmiotów.
+      Użyj: <TECHNOLOGY>%NUM% x %ITEM%<>, by dokończyć ten subkomponent. Użyj <IMG>FE_TRANSFER<>, by <STELLAR>przypiąć<> dokładne <STELLAR>instrukcje instalacji<>do dziennika misji, łącznie z informacjami o lokalizacji wymaganych przedmiotów.
     ui_install_tech_name: 'CZĘŚĆ: %TECH%'
     ui_install_tech_sub: Subkomponent wymagany
     ui_repaired_tech_desc: |-
@@ -7259,7 +7259,7 @@ pl:
     ui_exped_visit_planet_desc_d: Zbadano planetę
     ui_exped_visit_planet_obj: Wyląduj na planecie
     ui_exped_visit_planet_obj_tip: Skanuj planety z pokładu swojego statku za pomocą
-      <IMG>SCAN<>. Skanowanie ujawni najważniejsze informacje o planecie.
+      <IMG>SHIPSCAN<>. Skanowanie ujawni najważniejsze informacje o planecie.
     ui_exped_visit_planet_msg1: |-
       Postaw stopę na planecie
       Wejdź do <TECHNOLOGY>statku<>, by rozpocząć poszukiwania
@@ -7268,7 +7268,7 @@ pl:
       Przytrzymaj <IMG>THRUST<>, by wystartować
     ui_exped_visit_planet_msg3: |-
       Postaw stopę na planecie
-      Skanuj planety za pomocą <IMG>SCAN<>, by znaleźć odpowiednie lądowisko
+      Skanuj planety za pomocą <IMG>SHIPSCAN<>, by znaleźć odpowiednie lądowisko
     ui_warp_freighter_name: Włącz silniki
     ui_warp_freighter_name_u: WŁĄCZ SILNIKI
     ui_warp_freighter_desc: Uruchom napęd warp statku głównego

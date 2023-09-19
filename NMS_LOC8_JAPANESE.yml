@@ -199,7 +199,7 @@ ja:
     ui_monolith_nub_charge: オーバーロード
     ui_monolith_nub_charge_sub: "%TYPE%で象形文字を共鳴させる"
     ui_robot_head_probe_desc: 調和的なエコーのメモリレジスタを調べる
-    recipe_gunkheart: '要求された作業: スライム/エコー注入'
+    recipe_gunkheart: 要求された作業：蘇生
     r_name_gunkheart: スライム/エコー注入
     ui_pin_spacegunk4_obj_tip: "<SPECIAL>動くスライム<>を誰も手をつけない宇宙の片隅で見つけるか、<SPECIAL>アトランティディウム<>と<STELLAR>モーダイト<>を<TECHNOLOGY>中型精製機<>か<TECHNOLOGY>大型精製機<>で生成し、自分で動く粘液を創り出す。"
     ui_exped_item_locked_u: 商品はまだ入手できません
@@ -242,7 +242,7 @@ ja:
     r_name_lava1_1: 火山性変質
     r_name_lava1_2: 火山性変質
     ui_shield_generator_name: 貨物船シールド発生装置
-    ui_weakpoint_name: 貨物船の弱点
+    ui_weakpoint_name: 露出した燃料棒
     ui_torpedo_name: 対貨物船魚雷
     ui_torpedo_launch_osd: 魚雷信号を検知<IMG>SLASH<>発射まで10秒
     ui_battle_bar_police: センチネルの主力艦
@@ -251,7 +251,7 @@ ja:
     ui_battle_bar_hull_alt2: 防衛タレットを破壊し、主力艦の船体と交戦しよう
     ui_battle_bar_civ: 商人の貨物船と交戦<IMG>SLASH<> <STELLAR>%NAME%<>
     ui_battle_bar_civ_shield: シールドの下を飛行して、貨物船の<STELLAR>シールド発生装置<>を破壊しよう
-    ui_battle_bar_civ_shield_alt: 主力艦と交戦
+    ui_battle_bar_civ_shield_alt: 貨物船の<STELLAR>船体<>と<STELLAR>貨物ポッド<>を露出させるために、シールドにダメージを与える
     ui_battle_bar_title: ドレッドノート艦と交戦<IMG>SLASH<> <STELLAR>%NAME%<>
     ui_battle_bar_shield_level: シールド：%NUM%%
     ui_battle_bar_health_level: 船体：%NUM%%
@@ -259,20 +259,20 @@ ja:
     ui_battle_bar_health_level_alt: 船体
     ui_battle_bar_torpedo_title: 魚雷発射が検知された
     ui_battle_bar_torpedo_warn: 魚雷発射まであと<FUEL>%COUNTDOWN%<>秒
-    ui_battle_bar_torpedo_count: 魚雷が接近中：<FUEL>%TORPEDOES%<>
+    ui_battle_bar_torpedo_count: 魚雷が接近中：<FUEL>%TORPEDOES%<> <IMG>SLASH<>民間の船体が<STELLAR>%HULL%%<>
     ui_battle_bar_shield_hint: シールドの下を飛行して、ドレッドノート艦の<STELLAR>シールド発生装置<>を破壊しよう
     ui_battle_bar_escape_title: ドレッドノート艦が逃走を試行中
     ui_battle_bar_escape_count: エンジンを破壊してワープを妨害しよう<IMG>SLASH<>残り攻撃時間：<FUEL>%COUNTDOWN%<>
     ui_battle_bar_defeat_title: ドレッドノート艦が撃破された
     ui_battle_bar_escaped_title: ドレッドノート艦が逃走した
-    ui_battle_bar_retreated_title: ドレッドノート艦が逃走した
+    ui_battle_bar_retreated_title: ドレッドノート撤退
     ui_battle_bar_defeat_hint: 船に乗り込んで、条件交渉を行おう<IMG>SLASH<>破壊して高額な賞金を獲得しよう
     ui_battle_bar_defeat_hint_alt1: 民間艦隊が海賊の手を逃れた！
     ui_battle_bar_defeat_hint_alt2: 民間艦隊が戦闘に負けた
-    ui_battle_bar_defeat_hint_alt3: "%NAME%の勝利"
+    ui_battle_bar_defeat_hint_alt3: "%NAME%に勝利をもたらす"
     ui_civilian_fleet_shield_osd: 警告<IMG>SLASH<>民間艦隊が無防備状態
-    ui_pirate_frei_escaped_osd: 'ワープのチャージ急上昇を検知<IMG>SLASH<>ドレッドノート級海賊艦が逃走した '
-    ui_pirate_frei_retreat_osd: 'ワープのチャージ急上昇を検知<IMG>SLASH<>ドレッドノート級海賊艦が逃走した '
+    ui_pirate_frei_escaped_osd: 海賊の信号がロスト<IMG>SLASH<>ドレッドノートが逃げた
+    ui_pirate_frei_retreat_osd: ドレッドノート級海賊艦が星系に逃げた<IMG>SLASH<>民間の船団を救った
     ui_pirate_frei_shield_down_osd: シールドジェネレーターが破壊された<IMG>SLASH<>ドレッドノート艦が無防備状態
     ui_battle_bar_shield_down: ドレッドノート艦のシールドが破られた
     ui_battle_bar_shield_down_hint: 船体に追加ダメージを与えるには<STELLAR>燃料棒<>を狙おう
@@ -303,10 +303,10 @@ ja:
     ui_engine_target_name: 貨物船ワープドライブ
     ui_pirate_freighter_title: ドレッドノート級海賊艦と交戦
     ui_pirate_frei_escape_title: ドレッドノート級海賊艦と交戦
-    ui_pirate_frei_retreat_title: ドレッドノート級海賊艦と交戦
+    ui_pirate_frei_retreat_title: ドレッドノート級海賊艦が撤退した
     ui_pirate_frei_win_title: ドレッドノート級海賊艦が撃破された
     ui_pirate_frei_lose_title: 民間艦隊が撃破された
-    ui_pirate_civ_killed_osd: 民間艦隊が撃破された
+    ui_pirate_civ_killed_osd: 民間の主力艦が破壊された<IMG>SLASH<>%NAME%に勝利をもたらす
     ui_pirate_engine_marker_sub: 破壊してワープを中断しよう
     ui_pirate_trench_marker_sub: ドレッドノートのシールドの下を飛行しよう
     ui_pirate_shield_marker_sub: 船体のシールドを無効化しよう
@@ -316,8 +316,8 @@ ja:
       <FUEL>ドレッドノート級海賊艦<>のシールドの完全性：%SHIELD%%
       %CIV_STATUS%
     ui_pirate_frei_msg2: |-
-      ドレッドノートの<STELLAR>弱点<>を狙って、船体にダメージを与えよう
-      <FUEL>ドレッドノート<>船体の完全性：%HULL%%
+      船体にダメージを与えるために、ドレッドノートの<STELLAR>燃料棒<>を狙う
+      <FUEL>ドレッドノート<>の船体の完全性：%HULL%%
       %CIV_STATUS%
     ui_pirate_frei_msg3: |-
       <FUEL>シールド%SHIELD%%<>。クイックメニュー（<IMG>QUICK_MENU<>）でリチャージ
@@ -340,9 +340,9 @@ ja:
       <FUEL>ドレッドノート級海賊艦<>のシールドの完全性：%SHIELD%%
       <TRADEABLE>個人<>貨物船の船体の完全性：%CIV_HULL%%
     ui_pirate_frei_msg2_alt: |-
-      ドレッドノートの<STELLAR>弱点<>を狙って、船体にダメージを与えよう
-      <FUEL>ドレッドノート<>船体の完全性：%HULL%%
-      <TRADEABLE>個人<>貨物船の船体：%CIV_HULL%%
+      船体にダメージを与えるために、ドレッドノートの<STELLAR>燃料棒<>を狙う
+      <FUEL>ドレッドノート<>の船体の完全性：%HULL%%
+      <TRADEABLE>個人の<>貨物船の船体：%CIV_HULL%%
     ui_pirate_frei_msg3_alt: |-
       <FUEL>シールド%SHIELD%%<>。クイックメニュー（<IMG>QUICK_MENU<>）でリチャージ
       <FUEL>ドレッドノート<>船体の完全性：%HULL%%
@@ -360,8 +360,8 @@ ja:
       <FUEL>ドレッドノート級海賊艦<>のシールドの完全性：%SHIELD%%
       <TRADEABLE>%NAME%<>の船体：%CIV_HULL%%
     ui_pirate_frei_msg2_alt2: |-
-      ドレッドノートの<STELLAR>弱点<>を狙って、船体にダメージを与えよう
-      <FUEL>ドレッドノート<>船体の完全性：%HULL%%
+      船体にダメージを与えるために、ドレッドノートの<STELLAR>燃料棒<>を狙う
+      <FUEL>ドレッドノート<>の船体の完全性：%HULL%%
       <TRADEABLE>%NAME%<>の船体：%CIV_HULL%%
     ui_pirate_frei_msg3_alt2: |-
       <FUEL>シールド%SHIELD%%<>。クイックメニュー（<IMG>QUICK_MENU<>）でリチャージ
@@ -390,21 +390,18 @@ ja:
     ui_pirate_frei_msg9: |-
       ドレッドノート級海賊艦が<FUEL>破壊された<>
       <TECHNOLOGY>海賊フリゲート<>に近づき、生存者を雇用しよう
-      民間艦隊が海賊の<TRADEABLE>手を逃れた<>
-      豪華な<STELLAR>賞金<>を獲得した
+      海賊から<TRADEABLE>救出した<>民間船団：莫大な<STELLAR>報奨金<>を獲得した
     ui_pirate_frei_msg10: |-
       ドレッドノート級海賊艦が<FUEL>破壊された<>
       <TECHNOLOGY>海賊フリゲート<>に近づき、生存者を雇用しよう
-      民間艦隊が<FUEL>征服された<>
-      ドレッドノート艦の<TECHNOLOGY>スクラップ<>を獲得した
+      海賊から<FUEL>撃破された<>民間船団：ドレッドノート級海賊艦の<TECHNOLOGY>スクラップ<>を回収した
     ui_pirate_frei_msg11: |-
-      ドレッドノート級海賊艦が<FUEL>逃走した<>
-      民間艦隊が海賊の<TRADEABLE>手を逃れた<>
-      まあまあな<STELLAR>賞金<>を獲得した
+      ドレッドノート級海賊艦が<FUEL>撤退した<>
+      海賊から<TRADEABLE>救出した<>民間船団：標準的な<STELLAR>報奨金<>を獲得した
     ui_pirate_frei_msg12: |-
-      ドレッドノート級海賊艦と交戦
-      民間艦隊が撃破された
-      %NAME%の勝利
+      ドレッドノート級海賊艦が<FUEL>逃げた<>
+      民間船団が<FUEL>破壊された<>
+      %NAME%は再び襲撃するために生き延びた
     ui_pirate_frei_hull_msg: 民間船のシールドがダウンした！船体の完全性：<STELLAR>%CIV_HULL%%<>
     ui_pirate_frei_shield_msg: 民間貨物船シールドの完全性：<STELLAR>%CIV_SHIELD%%<>
     ui_pirate_frei_civ_dead_msg: 民間艦隊が<FUEL>破壊された<><IMG>SLASH<>報酬が減った
@@ -426,7 +423,7 @@ ja:
     ui_mod_customiser_tip_invalid: 設計図を完成させるには追加の部品を挿入してください
     ui_mod_customiser_transfer: スタッフの部品を挿入してください
     basestats_staffgun_l: ボルタスタッフ
-    ui_wonder_glyphs: ポータルアドレス：%PORTAL%
+    ui_wonder_glyphs: "<SPECIAL>ポータルのアドレス：<>%PORTAL%"
     ui_pending_wonder_title: 新しいワンダーズ
     ui_pending_wonder_sub: 新しいカテゴリに名前を付ける
     quick_menu_sum_not_your_frei: 自分の主力艦に乗っていません
@@ -496,15 +493,21 @@ ja:
     ui_space_brake_tip_alt: |-
       <STELLAR>ブレーキ<>（<IMG>BRAKE<>）で素早く旋回
       <IMG>CYCLE_POWER<>で船体の<TECHNOLOGY>パワー設定<>を切り替える
-    ui_standing_pir_msg: 評価アップ：非合法な無法者
-    ui_standing_pir_down_msg: 評価アップ：非合法な無法者
-    ui_cost_salvage_motes: 虚無の粉塵を%AMOUNT%つ
-    ui_ingred_out_of_range_osd: ''
-    ui_ingred_out_of_range_msg: ''
-    ui_pin_tech_final_range_msg: ''
-    ui_pin_tech_repair_range_msg: ''
-    ui_install_tech_label: ''
-    ui_pin_progress_range_msg: ''
+    ui_standing_pir_msg: 評価上昇：無法者
+    ui_standing_pir_down_msg: 評価低下：無法者
+    ui_cost_salvage_motes: 虚無の粉塵を%AMOUNT%個生成する
+    ui_ingred_out_of_range_osd: "%ITEM%が<STELLAR>%INV%アイテムケース<>で利用可能"
+    ui_ingred_out_of_range_msg: "%ITEM%が<STELLAR>%INV%アイテムケース<>で利用可能"
+    ui_pin_tech_final_range_msg: |-
+      アイテムケース（<IMG>INVENTORY<>）を開いてインストールを完了する
+      <IMG>TECHMENU<>で一部インストール済みのテクノロジーを調べる
+      %ITEM%が<STELLAR>%INV%アイテムケース<>で利用可能
+    ui_pin_tech_repair_range_msg: |-
+      アイテムケース（<IMG>INVENTORY<>）を開いて修復を完了する
+      <IMG>TECHMENU<>で破損したテクノロジーを調べる
+      %ITEM%が<STELLAR>%INV%アイテムケース<>で利用可能
+    ui_install_tech_label: テクノロジーを作製する
+    ui_pin_progress_range_msg: "%ITEM%が<STELLAR>%INV%アイテムケース<>で利用可能"
     update15_title: NO MAN'S SKY INTERCEPTOR
     update15_notes: |-
       NO MAN'S SKY INTERCEPTORでは新しい宇宙船、エキサイティングな戦闘などが数多く登場します。詳細についてはwww.nomanssky.comをご覧ください。
@@ -677,8 +680,8 @@ ja:
       センチネルの主力艦の船体の完全性：<STELLAR>%AMOUNT%%<>
     ui_sent_freighter_name: センチネルの主力艦
     ui_police_freight_destroyed_osd: 主力艦を破壊した<IMG>SLASH<>センチネル部隊が撤退している
-    ui_sentfrei_prod_name: ドレッドノートのAIのかけら
-    ui_sentfrei_prod_name_l: ドレッドノートのAIのかけら
+    ui_sentfrei_prod_name: キャリアーのAIのかけら
+    ui_sentfrei_prod_name_l: キャリアーのAiのかけら
     ui_sentfrei_prod_desc: |-
       センチネルの主力艦の心臓部にある巨大なメインフレームのかけら。その孤独な生きた目は残されたデータ、船団に所属していた<TECHNOLOGY>迎撃機<>の最後の座標を見つめて瞬く。
 
@@ -1289,8 +1292,8 @@ ja:
       このリサイクル融合のプロセスは、このツールが必要がった時には<TECHNOLOGY>不完全<>だった。<IMG>REPAIR<>で修復作業を継続して、このスロットを汎用できるようにしよう。
     ui_sentinel_galmap_title: センチネル迎撃機の追跡
     ui_sentinel_galmap_sub: 失われた宇宙船を追跡する
-    ui_sentinel_galmap_desc: |-
-      <TECHNOLOGY>ドレッドノートのAIのかけら<>を手に入れた。センチネルの破壊された主力艦の最後の名残りだ。そのデータの最後の瞬きは、船団から離れて行方不明になった迎撃機の場所だった。
+    ui_sentinel_galmap_desc: |
+      <TECHNOLOGY>キャリアーのAIのかけら<>を手に入れた。センチネルの破壊された主力艦の最後の名残りだ。そのデータの最後の瞬きは、船団から離れて行方不明になった迎撃機の場所だった。
 
       痕跡は%SYSTEM%星系内の惑星%PLANET%に続いている。この信号を追跡すれば、センチネルの宇宙船の残骸がどんなものであれ私のものだ。
     ui_sentinel_galmap_obj: 信号を発信元まで追跡する
@@ -2687,13 +2690,13 @@ ja:
 
       新しい基地の部品を購入するには、まず<STELLAR>回収データ<>を入手しよう。回収データは惑星の<TECHNOLOGY>埋没したテクノロジー<>で見つけることができる。<TECHNOLOGY>分析レンズ<>で位置を特定してタグ付けし、<TECHNOLOGY>地形操作機<>で発掘する。
     ui_exped_build_part_msg1: |-
-      <TECHNOLOGY>%ITEM%<>建設設計図を学ぶ
-      <STELLAR>建設研究ターミナル<>で設計図を購入する
-      ターミナルは<SPECIAL>スペースアノマリー<>にある
+      <TECHNOLOGY>%ITEM%<>の建設設計図を覚える
+      この設計図を覚えるために<EXPED>%MILESTONE%<>マイルストーンを完了させる
+      探検ログ(<IMG>OPTIONS<>)からマイルストーンを選択する
     ui_exped_build_part_msg1_alt: |-
-      <TECHNOLOGY>%ITEM%<>建設設計図を学ぶ
-      <STELLAR>建設研究ターミナル<>で設計図を購入する
-      ターミナルは<SPECIAL>スペースアノマリー<>にある
+      <TECHNOLOGY>%ITEM%<>の建設設計図を覚える
+      <STELLAR>建設調査ターミナル<>で設計図を購入する
+      ターミナルは<SPECIAL>スペースアノマリー<>で見つかる
     ui_exped_build_part_msg2: |-
       <TECHNOLOGY>%ITEM%<>を建設する
       基地に戻って建設する
@@ -5159,9 +5162,13 @@ ja:
 
       <IMG>SHIPFIRE<>で<VAL_ON>船の武器<>を発射し、<IMG>SHIPCYCLEWEAPON<>で武器モードを切り替える。<FUEL>ブースト<>（<IMG>BOOST<>）と<VAL_ON>ブレーキ<>（<IMG>BRAKE<>）でスピードをコントロールし、常にターゲットの背後を取るようにしよう。
       宇宙ステーションの<TECHNOLOGY>テクノロジートレーダー<>から宇宙船のアップグレードを購入する。
-    ui_medal_freikill: ''
-    ui_journey_next_freikill: ''
-    ui_medal_desc_freikill: ''
+    ui_medal_freikill: 略奪された貨物船
+    ui_journey_next_freikill: 略奪された貨物
+    ui_medal_desc_freikill: |-
+      巨大な貿易船が銀河を航行し、利益を求めて合法品と違法品を星系から星系へと運んでいる。こういった重量のある船は、手練れの海賊の餌食になりやすい。
+
+      <IMG>SHIPFIRE<>で<VAL_ON>船の武器<>を発射し、<IMG>SHIPCYCLEWEAPON<>で武器モードを切り替える。<FUEL>ブースト<>（<IMG>BOOST<>）と<VAL_ON>ブレーキ<>（<IMG>BRAKE<>）でスピードをコントロールし、常にターゲットの背後を取るようにしよう。
+      宇宙ステーションの<TECHNOLOGY>テクノロジートレーダー<>から宇宙船のアップグレードを購入する。
     pirate_standing_stat_lvl_msg: 無法者ランク %STAT%/9
     pirate_player_rank_bad: 裏切り者
     pirate_player_rank_low: 内なる敵
@@ -5207,29 +5214,29 @@ ja:
     ui_traders_killed_title_8: 最重要指名手配犯
     ui_traders_killed_title_9: 危険な翼
     ui_traders_killed_title_10: 略奪王
-    ui_player_tdesc_bounty: マイルストーン：バウンティ完了
-    ui_player_title_bounty1: 射撃の名手 %NAME%
-    ui_player_title_bounty2: スターウルフ %NAME%
-    ui_title_owned_bounty1: マイルストーン：バウンティ完了
-    ui_title_owned_bounty2: マイルストーン：バウンティ完了
-    ui_player_tdesc_raid: マイルストーン：略奪されたトレーダー
-    ui_player_title_raid1: "%NAME% 厄介者"
-    ui_player_title_raid2: "%NAME% 最重要指名手配犯"
-    ui_player_title_raid3: "%NAME% 危険な翼"
-    ui_player_title_raid4: "%NAME% 略奪王"
-    ui_title_owned_raid1: マイルストーン：略奪されたトレーダー
-    ui_title_owned_raid2: マイルストーン：略奪されたトレーダー
-    ui_title_owned_raid3: マイルストーン：略奪されたトレーダー
-    ui_title_owned_raid4: マイルストーン：略奪されたトレーダー
-    ui_player_tdesc_pir: マイルストーン：無法者の評価
-    ui_player_title_pir1: "%NAME% 船底のネズミ"
-    ui_player_title_pir2: "%NAME% 私掠船"
-    ui_player_title_pir3: ドレッド・パイレーツ %NAME%
-    ui_player_title_pir4: "%NAME% アドミラル・オブ・ザ・ブラック"
-    ui_title_owned_pir1: マイルストーン：無法者の評価
-    ui_title_owned_pir2: マイルストーン：無法者の評価
-    ui_title_owned_pir3: マイルストーン：無法者の評価
-    ui_title_owned_pir4: マイルストーン：無法者の評価
+    ui_player_tdesc_bounty: 宇宙船バウンティをさらにクリアする
+    ui_player_title_bounty1: 射撃の名手%NAME%
+    ui_player_title_bounty2: スターウルフ%NAME%
+    ui_title_owned_bounty1: 宇宙船バウンティのランクが8になった
+    ui_title_owned_bounty2: 宇宙船バウンティの最大ランクに達した
+    ui_player_tdesc_raid: さらにトレーダーから略奪する
+    ui_player_title_raid1: 厄介者%NAME%
+    ui_player_title_raid2: 最重要指名手配犯%NAME%
+    ui_player_title_raid3: 危険な翼%NAME%
+    ui_player_title_raid4: 略奪王%NAME%
+    ui_title_owned_raid1: 略奪された商人のランクが2になった
+    ui_title_owned_raid2: 略奪された商人のランクが7になった
+    ui_title_owned_raid3: 略奪された商人のランクが8になった
+    ui_title_owned_raid4: 略奪された商人の最高ランクに達した
+    ui_player_tdesc_pir: 無法者内の評価を上げよう
+    ui_player_title_pir1: 船底のネズミ%NAME%
+    ui_player_title_pir2: 海賊船の船長%NAME%
+    ui_player_title_pir3: ドレッド・パイレーツ%NAME%
+    ui_player_title_pir4: アドミラル・オブ・ザ・ブラック%NAME%
+    ui_title_owned_pir1: 無法者との関係がランク1になった
+    ui_title_owned_pir2: 無法者との関係がランク2になった
+    ui_title_owned_pir3: 無法者との関係がランク7になった
+    ui_title_owned_pir4: 無法者との関係が最高ランクに達した
     ui_wiki_shipkill_name: マイルストーン：略奪されたトレーダー
     ui_wiki_shipkill_obj: 貿易船を破壊する：%CURRENT%/%AMOUNT%
     ui_wiki_shipkill_desc: "<STELLAR>通りすがりの無実のトレーダー<>を宇宙戦闘で倒して、<STELLAR>略奪されたトレーダー<>マイルストーンのランクを上げよう。"
@@ -5238,10 +5245,14 @@ ja:
       破壊した貿易船：%CURRENT%/%AMOUNT%
       宇宙船等で小型の貿易船を見つけて破壊する
       トレーダーは<TECHNOLOGY>宇宙ステーション<>と<TECHNOLOGY>アウトポスト<>の間を航行していることが多い
-    ui_wiki_freikill_name: ''
-    ui_wiki_freikill_obj: ''
-    ui_wiki_freikill_desc: ''
-    ui_wiki_freikill_msg: ''
+    ui_wiki_freikill_name: マイルストーン：略奪された貨物船
+    ui_wiki_freikill_obj: 商人の貨物船を破壊する：%CURRENT% / %AMOUNT%
+    ui_wiki_freikill_desc: "<STELLAR>貨物船の貨物ポッド<>を宇宙戦闘で倒して、<STELLAR>略奪された貨物船<>マイルストーンのランクを上げよう。"
+    ui_wiki_freikill_msg: |-
+      略奪された貨物船のマイルストーン<STELLAR>'%MILESTONE%'<>に到達する
+      略奪された貨物ポッド：%CURRENT% / %AMOUNT%
+      星間貨物船の貨物モジュールを見つけて破壊する
+      大きな貿易船団は<COMMODITY>宇宙ステーション<>にいることが多い
     ui_wiki_bounties_name: マイルストーン：バウンティ完了
     ui_wiki_bounties_obj: バウンティ完了：%CURRENT%/%AMOUNT%
     ui_wiki_bounties_desc: "<STELLAR>バウンティターゲット<>を宇宙戦闘で倒して、<FUEL>バウンティ完了<>マイルストーンのランクを上げよう。"
@@ -5285,6 +5296,7 @@ ja:
     builder_name: オートファジー
     builder_name_alt: アトランティド
     mission_faction_bui: オートファジー
+    ui_guide_bui_name_stellar: "<STELLAR>オートファジー<>"
     ui_guide_bui_name: オートファジー
     ui_guide_bui_name_u: オートファジー
     ui_wiki_words_bui_title: 言語記録（オートファジー）
@@ -5729,102 +5741,107 @@ ja:
     bui_npc_desc_1: "%NAME%は好奇心と注意が入り混じった機械仕掛けの目で、こちらを観察している。"
     dnt_bui_npc_lang_1: hello, prebuilt-entity.
     dnt_bui_npc_gift_lang_1: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
-      atlantideum is holy. her flesh helps us to rebuild.
+      thank you for the gift. in exchange, let me tell you a little secret.
+      atlantideum: it is holy. her flesh helps us to rebuild.
     bui_npc_desc_2: 自己組み立て式機械から、歯車の回るかすかなウィーンという音が聞こえてくる。こちらを辛抱強く観察している。
-    dnt_bui_npc_lang_2: hello, prebuilt-entity.
+    dnt_bui_npc_lang_2: ah, a prebuilt-entity. greetings.
     dnt_bui_npc_gift_lang_2: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
+      many thanks. an intelligent choice of gift. do you know much of our past?
       we were once like the korvax. not now. pity the convergence. they cannot help what they are.
     bui_npc_desc_3: オートファジーの間に合わせの殻が、こちらを見つめる動作と同時に軋み、破裂する。
-    dnt_bui_npc_lang_3: hello, prebuilt-entity.
+    dnt_bui_npc_lang_3: hello. is that a prebuilt flesh carapace? interesting.
     dnt_bui_npc_gift_lang_3: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
+      thank you for this contribution.
       do you like my carapace? i built it myself, from what i could salvage. we all build our own bodies.
     bui_npc_desc_4: まばたきをすると、オートファジーが立っていた場所に幻影として残った、かすかな紫色の輝きが目に見えるようだ。
-    dnt_bui_npc_lang_4: hello, prebuilt-entity.
+    dnt_bui_npc_lang_4: the other autophage tell me you are a disruptor. we will see.
     dnt_bui_npc_gift_lang_4: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
-      not all of us were divergent before korvax prime was destroyed, but none of us would return to the convergence now. it is a choice to be together.
+      this was unexpected! thank you.
+      you know, not all of us were divergent before korvax prime was destroyed, but none of us would return to the convergence now. it is a choice to be together.
     bui_npc_desc_5: このオートファジーの部品はどれも、多大な費用をかけて集められ、丹念に組み立てられたものだ。ここまでの旅は用意ではなかったに違いない。
-    dnt_bui_npc_lang_5: hello, prebuilt-entity.
+    dnt_bui_npc_lang_5: greetings, prebuilt one. what do you seek from me?
     dnt_bui_npc_gift_lang_5: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
+      this is a welcome gift. thank you. i feel you understand.
       we have all suffered the pain of erasure. but we did not cease to be. life does not require a shell.
     bui_npc_desc_6: この構築物が見てきた光景は、想像もつかない。くり返される破壊と再生を何度も見てきたことだろう。私という存在は、彼らにとっては一屑の光にも過ぎない。
-    dnt_bui_npc_lang_6: hello, prebuilt-entity.
+    dnt_bui_npc_lang_6: hello. what is it you wish from me?
     dnt_bui_npc_gift_lang_6: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
-      the void mother is the progenitor. from nonexistence she creates existence.
+      thank you for this. i did not expect a gift from an unknown prebuilt-entity.
+      do you know of the void mother? she is the progenitor. from nonexistence she creates existence.
     bui_npc_desc_7: "%NAME%は私の目の前に硬直姿勢で立ち、待っている。"
-    dnt_bui_npc_lang_7: hello, prebuilt-entity.
+    dnt_bui_npc_lang_7: how is it that you can see through my protection aura?
     dnt_bui_npc_gift_lang_7: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
+      a gift? thank you, prebuilt-entity. this was unexpected.
       there are not many autophage yet, but we are coming. many echoes are still healing. they wait in nonexistence.
     bui_npc_desc_8: アトランティドのクロークの下から現れたオートファジーは、こちらを用心深い面持ちで見ている。
-    dnt_bui_npc_lang_8: hello, prebuilt-entity.
+    dnt_bui_npc_lang_8: you perceive me? your technology must be great, disruptor.
     dnt_bui_npc_gift_lang_8: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
-      i will never again be deleted. i will fight. fire and fury.
+      excellent. thank you. this will be valuable in our fight.
+      i will never again be deleted. i will resist. fire and fury.
     bui_npc_desc_9: 構築物に穴のあくほど見つめられ、オートファジーにとって自分は侵入者なのだと自覚する。自身をすっぽりと包み込むアトランティドのクロークを剥げば、その下にいるのは有機生命体の侵略者だ。
-    dnt_bui_npc_lang_9: hello, prebuilt-entity.
+    dnt_bui_npc_lang_9: what are you, prebuilt-entity? i perceive a distortion in
+      the boundaries...
     dnt_bui_npc_gift_lang_9: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
-      atlantideum gives us power, gives us shape.
+      i was certain you were different. many thanks for this.
+      i will tell you a secret, disruptor: atlantideum gives us power, gives us shape.
     bui_npc_desc_10: 殻の素材はくたびれて錆ついているが、%NAME%はエネルギーに満ちていて、貪欲に生きているようだ。
-    dnt_bui_npc_lang_10: hello, prebuilt-entity.
+    dnt_bui_npc_lang_10: hello! it is rare for a prebuilt-entity to interface with
+      an autophage. this is very interesting!
     dnt_bui_npc_gift_lang_10: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
+      thank you! our society values this cooperation.
       i pity the convergence. to delete another is the action of a small mind.
     bui_npc_desc_11: "%NAME%がこちらを振り向くと同時に、油圧装置の漏れるシューッというかすかな音と、噛み合わない歯車の擦れる音が聞こえる。"
-    dnt_bui_npc_lang_11: hello, prebuilt-entity.
+    dnt_bui_npc_lang_11: greetings, prebuilt-entity.
     dnt_bui_npc_gift_lang_11: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
+      thank you for this gift. in exchange, i will tell you a little about the autophage.
       korvax prime suffered erasure, as i did, as we all did. she does not converge. she is rebuilding herself.
     bui_npc_desc_12: "%NAME%の殻がこちらを振り向く。私もまた、彼らにとっては異星人に見えるのだろうか？"
-    dnt_bui_npc_lang_12: hello, prebuilt-entity.
+    dnt_bui_npc_lang_12: a disruptor? are you here to join our fight?
     dnt_bui_npc_gift_lang_12: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
+      an offer of friendship. thank you.
       the first spawn could not delete her. the void mother now creates herself. she is coming.
     bui_npc_desc_13: "%NAME%は、慎重に私のことを熟考している。"
-    dnt_bui_npc_lang_13: hello, prebuilt-entity.
+    dnt_bui_npc_lang_13: prebuilt-entity. you are what the korvax name traveller.
+      there is an echo of the abyss in your shell.
     dnt_bui_npc_gift_lang_13: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
-      atlantideum is ancient, the core of korvax prime. it is more than a lattice. it is alive.
+      this is a gift? you have my thanks.
+      you know of atlantideum? it is ancient, the core of korvax prime. it is more than a lattice. it is alive.
     bui_npc_desc_14: "%NAME%は、自分の殻を幾年もの間待ち続けてきた。その恐ろしいほどの辛抱強さで、こちらを見つめている。"
-    dnt_bui_npc_lang_14: hello, prebuilt-entity.
+    dnt_bui_npc_lang_14: i am visible to you, prebuilt-entity? greetings.
     dnt_bui_npc_gift_lang_14: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
+      ah... thank you for this...
       she creates her flesh in a purple dream. she is an intelligence beyond any of our understanding.
     bui_npc_desc_15: むき出しの金属接合部にアトランティドのもやがかかり、%NAME%の姿はきらめいている。
-    dnt_bui_npc_lang_15: hello, prebuilt-entity.
+    dnt_bui_npc_lang_15: you look upon my carapace, prebuilt-entity? it is unique
+      in all the universe.
     dnt_bui_npc_gift_lang_15: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
+      this will be of help. thank you!
       the korvax are lost without the prime. they look down upon us, but they understand little. atlantid has chosen us.
     bui_npc_desc_16: オートファジーは私をじっくりと観察し、私のこの惑星への侵入を容認している様子だ。
-    dnt_bui_npc_lang_16: hello, prebuilt-entity.
+    dnt_bui_npc_lang_16: what do you seek from this exchange, prebuilt-entity?
     dnt_bui_npc_gift_lang_16: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
-      these shells are not important. perhaps, in time, we will build shells of pure atlantideum.
+      i am happy to accept this. thank you.
+      in the end, these shells are not important. perhaps, in time, we will build shells of pure atlantideum.
     bui_npc_desc_17: 近づいていくと、構築物生命体が私をまじまじと見る。私のエクソスーツやマルチツールを観察しているようだ。
-    dnt_bui_npc_lang_17: hello, prebuilt-entity.
+    dnt_bui_npc_lang_17: hello, prebuilt-entity. are you a friend of the autophage?
     dnt_bui_npc_gift_lang_17: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
+      my thanks. do you hear her too?
       she speaks to all electronic entities. her signal is unique, her message beautiful. we all hear it. i dream her voice when i sleep.
     bui_npc_desc_18: 送電線や再利用金属だけで作られた%NAME%の方を見ると、こちらをひたと見据えてきた。
-    dnt_bui_npc_lang_18: hello, prebuilt-entity.
+    dnt_bui_npc_lang_18: i see you, disruptor. what do you see in me?
     dnt_bui_npc_gift_lang_18: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
+      this is valuable. thank you. do you also defy convergence?
       we were erased, and the atlas did nothing. it had the power to save us, and made the choice to do nothing. it was she who showed us how to exist again.
     bui_npc_desc_19: 構築物は私のことを、まるで金属の惑星に生じた異常な有機体とでも言わんばかりに凝視してくる。
-    dnt_bui_npc_lang_19: hello, prebuilt-entity.
+    dnt_bui_npc_lang_19: i did not expect you to approach, prebuilt-entity. hello.
     dnt_bui_npc_gift_lang_19: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
+      thank you for this assistance. it will not go unnoticed.
       the convergence would take me for their own, but atlantideum makes me invisible. i am safe from their eyes.
     bui_npc_desc_20: 再構築され戻された%NAME%は、こちらに向き直る。
-    dnt_bui_npc_lang_20: hello, prebuilt-entity.
+    dnt_bui_npc_lang_20: are you a friend, prebuilt-entity? it is suspicious that
+      you can see me.
     dnt_bui_npc_gift_lang_20: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
+      thank you. i accept this as evidence that you are not hostile.
       not all of us seek violence, but i do. i cannot forgive the convergence for what they did.
     bui_request_desc_1: "%NAME%は、わずかに首をかしげて待っている。"
     bui_request_desc_2: 私が立ち止まって考えると、%NAME%もそれにならう。
@@ -5843,7 +5860,7 @@ ja:
     bui_reply_word_get10: "%NAME%は私の要求を面白く思ったらしく、少しの間こちらをじっと見つめた。しばらく考えたのちに頷き、記号のような文字の一覧を差し出してきた。"
     bui_reply_word_get11: "%NAME%は私の要求を面白く思ったらしく、少しの間こちらをじっと見つめた。しばらく考えたのちに頷き、記号のような文字の一覧を差し出してきた。"
     bui_reply_word_say: "%NAME%は好奇心いっぱいな様子でこっちを見つめてくる。私はこれまでに学んだオートファジーの言葉を思い出そうとする..."
-    bui_reply_word_say2: "%NAME%は好奇心いっぱいな様子でこっちを見つめてくる。私はこれまでに学んだオートファジーの言葉を思い出そうとする..."
+    bui_reply_word_say2: "%NAME%は私を値踏みすることなくじっと見つめている。私は口にすべきオートファジーの言葉をいくつか考えた..."
     bui_reply_word_say3: "%NAME%は好奇心いっぱいな様子でこっちを見つめてくる。私はこれまでに学んだオートファジーの言葉を思い出そうとする..."
     bui_reply_word_say4: "%NAME%は好奇心いっぱいな様子でこっちを見つめてくる。私はこれまでに学んだオートファジーの言葉を思い出そうとする..."
     bui_reply_word_say5: "%NAME%は好奇心いっぱいな様子でこっちを見つめてくる。私はこれまでに学んだオートファジーの言葉を思い出そうとする..."
@@ -5853,13 +5870,15 @@ ja:
     bui_reply_word_say9: "%NAME%は好奇心いっぱいな様子でこっちを見つめてくる。私はこれまでに学んだオートファジーの言葉を思い出そうとする..."
     bui_reply_word_say10: "%NAME%は好奇心いっぱいな様子でこっちを見つめてくる。私はこれまでに学んだオートファジーの言葉を思い出そうとする..."
     bui_reply_word_say_none: 頭が真っ白になってしまった。%NAME%はがっかりした様子だ。彼らの言葉でコミュニケーションをとるのであれば、もっとオートファジーの言葉を学んでおくべきだった。
-    bui_npc_res_word_say_dir_neg_1: "%NAME%は、お手上げだという様子で肩をすくめる。道を尋ねているのだということは理解しているようだが、答えは返ってこない。"
+    bui_npc_res_word_say_dir_neg_1: "%NAME%はお手上げだという様子で肩をすくめる。道を尋ねているのだということは理解しているようだが、答えは返ってこない。"
     bui_npc_res_word_say_dir_neg_2: "%NAME%は、お手上げだという様子で肩をすくめる。道を尋ねているのだということは理解しているようだが、答えは返ってこない。"
     bui_npc_res_word_say_dir_neg_3: "%NAME%は、お手上げだという様子で肩をすくめる。道を尋ねているのだということは理解しているようだが、答えは返ってこない。"
     bui_npc_res_word_say_dir_neu_1: "%NAME%は頷き、旅路で見てきた場所について語る。"
     bui_npc_res_word_say_dir_neu_2: "%NAME%は頷き、旅路で見てきた場所について語る。"
     bui_npc_res_word_say_dir_neu_3: "%NAME%は頷き、旅路で見てきた場所について語る。"
     bui_npc_res_word_say_dir_pos_1: "%NAME%はよろこんで協力し、近くの特定ポイントへの行き方を教えてくれた。"
+    bui_npc_res_word_say_dir_pos_2: "%NAME%はよろこんで協力し、近くの特定ポイントへの行き方を教えてくれた。"
+    bui_npc_res_word_say_dir_pos_3: "%NAME%はよろこんで協力し、近くの特定ポイントへの行き方を教えてくれた。"
     bui_npc_res_word_say_dir_pos_4: "%NAME%はよろこんで協力し、近くの特定ポイントへの行き方を教えてくれた。"
     bui_npc_res_word_say_dir_pos_5: "%NAME%はよろこんで協力し、近くの特定ポイントへの行き方を教えてくれた。"
     bui_npc_res_word_say_dir_pos_6: "%NAME%はよろこんで協力し、近くの特定ポイントへの行き方を教えてくれた。"
@@ -5868,7 +5887,7 @@ ja:
     bui_npc_res_word_say_help_neg_1: "%NAME%は肩を落とした。目に悲しみが滲んでいる。私をどうやって助けたらいいか、わからない様子だ。"
     bui_npc_res_word_say_help_neg_2: "%NAME%は肩を落とした。目に悲しみが滲んでいる。私をどうやって助けたらいいか、わからない様子だ。"
     bui_npc_res_word_say_help_neg_3: "%NAME%は肩を落とした。目に悲しみが滲んでいる。私をどうやって助けたらいいか、わからない様子だ。"
-    bui_npc_res_word_say_help_neu_1: "%NAME%は私の言葉の選択を懸念している様子で、キーキー音をあげた。"
+    bui_npc_res_word_say_help_neu_1: "%NAME%は私の言葉の選択を懸念している様子で、キーキーと音を出す。"
     bui_npc_res_word_say_help_neu_2: "%NAME%は私の言葉の選択を懸念している様子で、キーキー音をあげた。"
     bui_npc_res_word_say_help_neu_3: "%NAME%は私の言葉の選択を懸念している様子で、キーキー音をあげた。"
     bui_npc_res_word_say_help_pos_1: "%NAME%は私が助けを求めているのだと解釈した。オートファジーはすぐにやさしく私のエクソスーツをリチャージしてくれた。"
@@ -5913,7 +5932,7 @@ ja:
     bui_npc_res_word_say_thrt_neu_1: "%NAME%はじっと私を見つめている。金属でできた顔面からは、感情が読めない。"
     bui_npc_res_word_say_thrt_neu_2: "%NAME%はじっと私を見つめている。金属でできた顔面からは、感情が読めない。"
     bui_npc_res_word_say_thrt_neu_3: "%NAME%はじっと私を見つめている。金属でできた顔面からは、感情が読めない。"
-    bui_npc_res_word_say_thrt_pos_1: 選択したこの言葉に、オートファジーは激怒しているようだ。目が復讐に輝いている。
+    bui_npc_res_word_say_thrt_pos_1: オートファジーは選択したこの言葉に激怒しているようだ。その目が復讐心を持ってギラついている。
     bui_npc_res_word_say_thrt_pos_2: 選択したこの言葉に、オートファジーは激怒しているようだ。目が復讐に輝いている。
     bui_npc_res_word_say_thrt_pos_3: 選択したこの言葉に、オートファジーは激怒しているようだ。目が復讐に輝いている。
     bui_npc_res_word_say_thrt_pos_4: 選択したこの言葉に、オートファジーは激怒しているようだ。目が復讐に輝いている。
@@ -5921,13 +5940,13 @@ ja:
     bui_npc_res_word_say_thrt_pos_6: 選択したこの言葉に、オートファジーは激怒しているようだ。目が復讐に輝いている。
     bui_npc_res_word_say_thrt_pos_7: 選択したこの言葉に、オートファジーは激怒しているようだ。目が復讐に輝いている。
     bui_npc_res_word_say_thrt_pos_8: 選択したこの言葉に、オートファジーは激怒しているようだ。目が復讐に輝いている。
-    bui_npc_res_word_say_trad_neg_1: この事務的な取引の言葉にがっかりした様子で、%NAME%は首を振る。
+    bui_npc_res_word_say_trad_neg_1: "%NAME%はこの事務的な取引の言葉にがっかりした様子で首を振る。"
     bui_npc_res_word_say_trad_neg_2: この事務的な取引の言葉にがっかりした様子で、%NAME%は首を振る。
     bui_npc_res_word_say_trad_neg_3: この事務的な取引の言葉にがっかりした様子で、%NAME%は首を振る。
     bui_npc_res_word_say_trad_neu_1: "%NAME%はこの話題に興味がないようだ。"
     bui_npc_res_word_say_trad_neu_2: "%NAME%はこの話題に興味がないようだ。"
     bui_npc_res_word_say_trad_neu_3: "%NAME%はこの話題に興味がないようだ。"
-    bui_npc_res_word_say_trad_pos_1: 共感して耳を傾けていた%NAME%は、贈り物を差し出してくれた。お返しに何かを贈ろうとしても拒否されてしまう。
+    bui_npc_res_word_say_trad_pos_1: "%NAME%は共感して耳を傾け、贈り物を差し出してくれた。お返しに何かを贈ろうとしても拒否されてしまう。"
     bui_npc_res_word_say_trad_pos_2: 共感して耳を傾けていた%NAME%は、贈り物を差し出してくれた。お返しに何かを贈ろうとしても拒否されてしまう。
     bui_npc_res_word_say_trad_pos_3: 共感して耳を傾けていた%NAME%は、贈り物を差し出してくれた。お返しに何かを贈ろうとしても拒否されてしまう。
     bui_npc_res_word_say_trad_pos_4: 共感して耳を傾けていた%NAME%は、贈り物を差し出してくれた。お返しに何かを贈ろうとしても拒否されてしまう。
@@ -6120,7 +6139,7 @@ ja:
       オートファジーの頭から抽出した<TRANS_EXP>コーバックスのモノリス<>座標
       マークされた場所を調べよう
     ui_robomiss_1_mono_sec_desc: |-
-      抽出した座標は、この隠されたインターフェースを指し示しているようだ。だがこれは、明らかに古代建造物のメインインターフェースではないようだ。
+      抽出した座標は、この隠された台座を指し示しているようだ。だがこれは、明らかに古代建造物のメインインターフェースではないようだ。
       石のインターフェースの周囲には古代のグリフが彫られている。中央の穴が何かを期待して大きな口を開けている...
     ui_robomiss_1_mono_sec2_desc: 台の真ん中に大きな穴が開いている。まるで何かを期待しているかのようだ...
     ui_robomiss_1_mono_sec_opt_a: ナノマシンを提供する
@@ -6256,8 +6275,9 @@ ja:
       <IMG>PIN<>で必要な部品にブックマークを付けられる
       <IMG>REPAIR<>で取り付けを続行する
     ui_robomiss_2_desc: |-
-      <TECHNOLOGY>調和したキャンプ<>にいるロボットの頭が、隠れた仲間を見つけるためにスキャナーの拡張機能である<TECHNOLOGY>ハーモナイザー<>の作り方を教えてくれた。
-      オートファジーに会って、彼らのことをもっと詳しく知るべきだ。
+      <TECHNOLOGY>調和したキャンプ<>にいるロボットの頭が、スキャナーの拡張機能である<TECHNOLOGY>ハーモナイザー<>へのアクセスを許可してくれた。
+      スキャンハーモナイザーがあれば彼らの隠れた仲間に会うことができるだろう。
+      その隠れたオートファジーたちに会って、彼らのことをもっと詳しく知るべきだ。
     ui_robomiss_2_obj1: オートファジーに会う
     ui_robomiss_2_obj1_tip: |-
       <TRADEABLE>スキャンハーモナイザー<>を取り付けた。
@@ -6308,7 +6328,7 @@ ja:
     ui_robomiss_2_nada_lang: ナーダはトラベラーの友に再び会えて喜んでいる。しかし、トラベラーの友は伝えたいことでいっぱいのようだ。
     ui_robomiss_2_nada_opt: ナーダにオートファジーのことを話す
     ui_robomiss_2_nada_desc: |-
-      思っていたより放棄されていない、調和したキャンプのことをナーダに話した。電気的な住民、つまり隠れた「オートファジー」と、彼らのメロディックな言語について話した。彼らのメロディックな言語はコーバックスにとても似ているが、かなり独特だと説明した。
+      最初に見た時ほどは放棄されていない調和のキャンプのことをナーダに話した。電気的な住民、つまり隠れた「オートファジー」と、彼らのメロディックな言語について話した。彼らのメロディックな言語はコーバックスにとても似ているが、かなり独特だと説明した。
       ナーダは話を聞いている間、とても静かだった。私が話し終えてもナーダはとても静かで、じっとしていて、私がここに立っていることを忘れてしまったのではないかと思うほどだった。ナーダはときどき理解しづらい。
       やっとナーダは話しだした。
     ui_robomiss_2_nada_res: ナーダは不思議に思う。<DELAY>0.2<>。<DELAY>0.2<>。
@@ -6456,7 +6476,7 @@ ja:
     ui_robomiss_2_nada2_res_b: 感動した。トラベラーエンティティは、素早く構築物エンティティの信頼を獲得した。この記憶付けは役に立つ。
     ui_robomiss_2_nada2_res_c00: |-
       ナーダの目に炎が宿る。ナーダは葛藤している様子で、目をそらす。
-      しばらくしてやっと、ナーダは申し訳なさそうな視線をこちらに向けた。
+      ナーダは申し訳なさそうな視線をこちらに向けた。
     ui_robomiss_2_nada2_res_c: エンティティの友...すまない。構築物エンティティの言っている意味があれだとしたら、ナーダはこの件について話したくない。
     ui_robomiss_2_nada2_res_d: |-
       ナーダの意見には限りがある。だがナーダは、持っている知識を分ける。
@@ -6596,7 +6616,7 @@ ja:
     ui_robomiss_3_nada_obj2: 新しいアトランティドの破片
     ui_robomiss_3_nada_obj2_tip: |-
       私の宇宙船コンピューターが<SPECIAL>アトランティディウム<>の存在に刺激を受けて、深宇宙のどこかにエーテル物質の痕跡を検出した。
-      宇宙船の<TECHNOLOGY>パルスドライブ<>を起動して、<SPECIAL>新しいアトランティドの破片<>を探す。
+      宇宙船の<TECHNOLOGY>パルスドライブ<>を起動して、<SPECIAL>？？？新しいアトランティド？？？<>を探す
     ui_robomiss_3_nada_msg2: |-
       <SPECIAL>アトランティディウムの源<>が検出された
       発掘調査のため宇宙空間へ飛び立とう
@@ -6641,7 +6661,7 @@ ja:
     ui_robomiss_3_nada_obj_all: アトランティディウムの歴史を調査する
     ui_robomiss_3_bui_title: オートファジーとの謁見
     ui_robomiss_3_bui_sub: 戻ってきた者たち
-    ui_robomiss_3_bui_desc: ナーダは、注意が必要だと言っていたが、やはりオートファジーに関する最も有用なデータは、オートファジーと<STELLAR>直接交流<>することから得られるだろうと言っていた。ナーダによると、共に時間を過ごすことで友情が芽生える可能性もあるかもしれない、とのことだ。
+    ui_robomiss_3_bui_desc: ナーダはデータが—そしておそらく友情さえも—オートファジーとの<STELLAR>直接的な相互作用<>から生まれるかもしれないと示唆した。
     ui_robomiss_3_bui_all_osd: オートファジーを検知
     ui_robomiss_3_bui_obj1: ポリフォニックコアをインストールする
     ui_robomiss_3_bui_obj1_tip: |-
@@ -6722,7 +6742,7 @@ ja:
     ui_robomiss_3_bui_msg4: |-
       オートファジーに繊維ガラスグリップについて尋ねる
       隠れたオートファジーの姿は、<TECHNOLOGY>スキャナー<>（<IMG>SCAN<>）で確認できる。
-    ui_robomiss_3_bui_npc3_desc: オートファジーは、私とまた話せて心底喜んでいるようだ。オートファジーはゆっくりと明瞭に言葉を発する。言葉の壁に阻まれながらも、できる限りのメッセージを伝えたがっているようだ。
+    ui_robomiss_3_bui_npc3_desc: オートファジーは、私と話せて心底喜んでいるようだ。オートファジーはゆっくりと明瞭に言葉を発する。言葉の壁に阻まれながらも、できる限りのメッセージを伝えたがっているようだ。
     dnt_bui_robomiss_3_npc3_lang: thank you for your contribution, disruptor. i wish
       to show our thanks, and make this offer of friendship. the blueprint will help
       assemble your own staff.
@@ -6788,7 +6808,7 @@ ja:
     ui_robomiss_3_bui_msg6c: |-
       オートファジーにアトランティディウムチャンバーについて尋ねる
       隠れたオートファジーの姿は、<TECHNOLOGY>スキャナー<>（<IMG>SCAN<>）で確認できる。
-    ui_robomiss_3_bui_npc5_ret_desc: "%NAME%の風化した殻が揺れ、内部で緩んだ部品がガタガタ音を立てている。先ほどくれた設計図について話せるのを楽しみにしていた様子だ。"
+    ui_robomiss_3_bui_npc5_ret_desc: "%NAME%の風化した殻が揺れ、内部で緩んだ部品がガタガタ音を立てている。この新しい設計図について話せるのを楽しみにしているようだ。"
     ui_robomiss_3_bui_npc5_ret_opt: アトランティディウムチャンバーについて尋ねる
     dnt_bui_robomiss_3_npc5_ret_res: |-
       this blueprint is vital to the ritual. the staff core is a shell, a vessel for part of her body.
@@ -6946,14 +6966,13 @@ ja:
     ui_robomiss_4_portal2_opt_a: "「アトラス」と言う"
     ui_robomiss_4_portal2_res_a: "<SPECIAL>新しいアトランティド<>の破片と、古代コーバックスのログを思い出した私は、オートファジー語で<FUEL>アトラス<>を意味する言葉を口にする。"
     ui_robomiss_4_portal2_opt_b: ボルタスタッフを振りかざす
-    ui_robomiss_4_portal2_res_b: スタッフが火花を散らす。骨で感じるほどの衝撃だ。
+    ui_robomiss_4_portal2_res_b: 私はボルタスタッフを提示した。スタッフが火花を散らし、骨にまで響く衝撃を発生させる。
     ui_robomiss_4_portal2_res: ゴロゴロという音が大きくなる。何かが覚醒し始めている。
     ui_robomiss_4_atlas_desc: |-
       アトラスは不可知の存在だ。その精神は、あまりにも異質すぎて理解が及ばない。<NEWLINE>私の存在に気づいているかさえも、まったくわからない。
       ただ、運命がここへと私を引き寄せたのだということはわかる。<NEWLINE>運命は回避できなかった。私の抵抗など通じなかったのだ。
     ui_robomiss_4_atlas_opt: アトランティディウムを見せる
-    ui_robomiss_4_atlas_2_lang: "<IMG>SLASH<>アクセス拒否<IMG>SLASH<>インデックス不明のデータが検知されました<IMG>SLASH<><NEWLINE><IMG>SLASH<>削除できません<AUDIO>TXT_RadioNoise<><STELLAR>...ザザザ...<>
-      データが破損しています。読み取れません<IMG>SLASH<>"
+    ui_robomiss_4_atlas_2_lang: "<IMG>SLASH<> <AUDIO>UI_NoWhereToLand<>アクセス拒否<IMG>SLASH<><AUDIO>UI_NoWhereToLand<>インデックスされていないデータを検知<IMG>SLASH<><NEWLINE><IMG>SLASH<><AUDIO>UI_NoWhereToLand<>削除できません<AUDIO>TXT_RadioNoise<><STELLAR>...ザザザ...<><AUDIO>UI_NoWhereToLand<>データが破損し、読み込みができません<IMG>SLASH<>"
     ui_robomiss_4_atlas_2_opt_a: アトランティディウムをさらに近づける
     ui_robomiss_4_atlas_2_opt_b: アトランティディウムを引っ込める
     ui_robomiss_4_atlas_2_res_a: 鼓動する核へと、エーテル物質を差し出す。
@@ -6968,7 +6987,7 @@ ja:
 
       だが、アトラスが私をここに連れてきたのには、何か目的があるに違いない。
     ui_robomiss_4_atlas_3_opt_a: 観察する
-    ui_robomiss_4_atlas_3_res_a: ビジョンが実体を持って現れ始めた...
+    ui_robomiss_4_atlas_3_res_a: 巨大な赤い球をじっと見つめると、イメージが形になり始める。
     ui_robomiss_4_atlas_3_opt_b: 立ち去る
     ui_robomiss_4_atlas_3_res_b: 背を向けて両目を覆ったとたん、まぶたの裏にビジョンが映し出される。
     ui_robomiss_4_atlas_4_desc: |-
@@ -6985,11 +7004,11 @@ ja:
     ui_robomiss_4_atlas_5_opt_a: 恐怖を選ぶ
     ui_robomiss_4_atlas_5_opt_b: 希望を選ぶ
     ui_robomiss_4_atlas_5_res_a: |-
-      オートファジーは恐怖の権化なのか？
+      <AUDIO>MUS_CORRUPTED_STING_LONG<>オートファジーは恐怖の権化なのか？
 
       虚無の母と子どもたちは、エントロピー、腐敗、抵抗を象徴する存在...創造主を呪いに戻ってきた亡霊だ...
     ui_robomiss_4_atlas_5_res_b: |-
-      オートファジーは希望の権化なのか？
+      <AUDIO>MUS_CORRUPTED_STING_LONG<>オートファジーは希望の権化なのか？
 
       虚無の母と子どもたちは、再誕そして2度目のチャンスが存在することの証拠...まさに消そうにも消せないデータの永久性を示す証拠なのだ...
     ui_robomiss_4_atlas_6_desc: アトラスが再び叫ぶ。
@@ -7078,30 +7097,384 @@ ja:
     ui_robomiss_4_nada4_end: |-
       そしてナーダは、この友情を隔離しない。数多くある。進む道を切り開くのだ、トラベラー。友達を作るのだ。それがあなたの道だ。
       ナーダとポーロは、いつもここにいる。
-    ui_portal_robomiss_1: ''
-    ui_portal_robomiss_2: ''
-    ui_portal_robomiss_3: ''
-    ui_portal_robomiss_4: ''
-    ui_portal_robomiss_5: ''
-    ui_portal_robomiss_6: ''
-    ui_portal_robomiss_7: ''
-    ui_portal_robomiss_8: ''
-    ui_portal_robomiss_8_bridge: ''
-    ui_portal_robomiss_9: ''
-    ui_portal_robomiss_9_bridge: ''
-    ui_portal_robomiss_10: ''
-    ui_portal_robomiss_11_nada: ''
-    ui_portal_robomiss_12_bui: ''
-    ui_portal_robomiss_13: ''
-    ui_portal_robomiss_14: ''
-    ui_portal_robomiss_15_fear: ''
-    ui_portal_robomiss_15_hope: ''
-    ui_portal_robomiss_16_submit: ''
-    ui_portal_robomiss_16_defy: ''
-    ui_portal_robomiss_16_comfort1: ''
-    ui_portal_robomiss_16_comfort2: ''
-    ui_portal_robomiss_17_give: ''
-    ui_portal_robomiss_17_refuse: ''
+    ui_portal_robomiss_1: |-
+      誰かが—あるいは何か—私の船のナビゲーションシステムをハイジャックしようとしている。
+
+      <FUEL>未確認のプロセス<>を<STORY_HIGH>次のアドレスで発見：0xAD08D502<><SPECIAL>ε<><STORY_HIGH>96E<>
+      <SPECIAL>ハイジャックスクリプト<><STORY_HIGH>実行中<>
+
+      宇宙船通信機器から短いオーディオクリップが再生された。
+      <STORY_HIGH>%ALIEN_TEXT%<>
+      これは声？ この抑揚のつけ方はスピーチのように思えるが、私が認識できるどの言語でもない。
+
+      <STORY_HIGH>警告：オートパイロットを開始します<><SPECIAL>目標：遠隔地<>
+
+      私は緊急オーバーライドを作動させ、システムを乗っ取っていた“未確認のプロセス”とかいうものを取り除くことができたようだ... あるいはそのプロセス乗っ取りを断念したのかもしれない。
+
+      宇宙船のコンピューターは注入されたオートパイロットの目的地を隔離した。無視することもできた。あるいは手動操縦で飛行し、この不審なデータの出所を探すことも...
+    ui_portal_robomiss_2: |-
+      ハイジャックデータの発信源で放棄されたキャンプと、レンズが「オートファジー」と識別したロボットの頭を発見した。それは私の船がハイジャックされた時に聞いた声と同じような機械的な声で話した。しかし、もし船が発する音が言葉、つまり言語だとしたら、私には何を言っているのか分からなかった。
+
+      <STORY_HIGH>%ALIEN_TEXT%<>
+
+      オートファジーが何かを伝えようとしているのは確かだった。私はアトランティディウムをあげてみた...
+
+      電線がショートするような音が頭の中のどこかで響く。突然、私のエクソスーツが現地の座標を受信したと報告した。
+
+      私はこの頭を信用していなかったが、この座標は頭が何を言おうとしているのかを理解する唯一の手がかりのように思えた。
+    ui_portal_robomiss_3: |-
+      抽出された座標はコーバックスのモノリスの中に隠された台座を正確に示していた。
+
+      アトランティディウムの供え物は、古代の建造物に劇的な影響を及ぼした。もはやコーバックスエコーに監視されている感覚はなかった。まるでモノリスが反転し、内側が外側を向いているかのようだった。
+
+      そこには何か他のものがあった。別の種類のエンティティだ。
+
+      <STORY_HIGH>%ALIEN_TEXT%<>
+
+      私は思考を諦めた。惑星の分子は分解され混沌の雲になり、新しい環境に再構築された。
+
+      私は自分のものではない視点に押しやられると、植え付けられた知識が浮かび上がってきた。それは放棄されたキャンプでオートファジーの頭が喋っていた言語と同じ言葉だった。どうやら今の私にはあの言語を理解するための知識が少しはあるようだ。
+    ui_portal_robomiss_4: |-
+      <STORY_HIGH>-{{翻訳モジュールを最適化しました...
+      こんにちは、構築済みのエンティティ。サポートありがとう。
+      私は組み立て前のエンティティと繋がるためにここに配置されました。どうやってこのキャンプを見つけたのですか？}}-<>
+
+      今はオートファジーの言うことが完全に理解できる—どうやらこれはゲートキーパー的な存在のようだ。宇宙船がハイジャックされたことについて問いただすと、困惑しているようだった。
+
+      <STORY_HIGH>-{{申し訳ありません、構築済みのエンティティ。それは私のエラーです。事故です。
+      あそこには金属殻より多くの宇宙船があります。<><FUEL>Al1vε<><STORY_HIGH>ですが<><FUEL>freε<><STORY_HIGH>ではありません。巣の奴隷。私たちはただ監禁された者たちを解放しようとしているだけです。}}-<>
+
+      オートファジーは自分のエラーのことを熟考した。錆びたネジがこすれ合う思考の音が聞こえた。
+
+      <STORY_HIGH>-{{私は3つの支配的な生命体のパターンを調べました。一致する生命体はいませんでした。宇宙船は操縦されていないようでした。あなたはどのような生命体ですか？
+      私はある仮説を生成しました。
+      あそこには何かがある... あなたの殻の中にそれを検知しました。<STELLAR>-ザザザ-<><SPECIAL>v0iδ<>のエコーを。
+      私はあなたがそこに過渡的に存在していたはずだという理論を立てました。あなたは<STELLAR>-ザザザ-<><SPECIAL>p0rtαls<>に入ったに違いありません。
+      あなたは<STELLAR>-ザザザ-<><FUEL>forεt0ld<>でした。妨害者です。}}-<>
+
+      その言葉はしばらく空中に残った。しかし、私が口をはさむ前に、オートファジーの頭は話をつづけた—
+
+      <STORY_HIGH>-{{私は挑戦を拡張します、妨害者。私の仮説を検証させてください。
+      他のオートファジーにあなたが来たことを知らせます。
+      彼らを認識するには、あなたのスキャナーを拡張する必要があります。設計図は提供しますが、組み立てはご自分でしてください。これは導入の儀式だと考えてください。}}-<>
+    ui_portal_robomiss_5: |-
+      <TECHNOLOGY>スキャンハーモナイザー<>をインストールすると、スキャナーが信じられないものを明らかにした。機械生命体。このキャンプに住んでいたのに、私には認識できなかったものたち。完全に放棄されたわけではなかった。
+
+      <STORY_HIGH>%ALIEN_TEXT%<>
+
+      オートファジー言語にはメロディックな性質がある。音色はシンプルで純粋だが、コーバックスの声にはないザラつきがある。
+      私の翻訳は不完全だが、彼らが私に言っていることの要点は理解できる。このキャンプはオートファジーで構築されている。彼らの... 体で？
+    ui_portal_robomiss_6: "<STORY_HIGH>%ALIEN_TEXT%<>"
+    ui_portal_robomiss_7: |-
+      <STORY_HIGH>%ALIEN_TEXT%<>
+
+      構築された生命体は、私に少量のアトランティディウムを差し出した。彼らはまるでそれが貴重な家宝であるかのように、その物質を繊細に、崇めるように扱った。
+
+      この存在は礼儀正しいように見えたが、彼らと私自身との間には理解のギャップを感じた。私の発見について祭司ナーダと話し合うべきだ。多分ナーダはこのロボット族を知っていただろう。
+    ui_portal_robomiss_8: |-
+      最初に見た時ほどは放棄されていない調和のキャンプのことをナーダに話した。電気的な住民、つまり隠れた「オートファジー」と、彼らのメロディックな言語について話した。彼らのメロディックな言語はコーバックスにとても似ているが、かなり独特だと説明した。
+
+      ナーダは話を聞いている間、とても静かだった。私が話し終えてもナーダはとても静かで、じっとしていて、私がここに立っていることを忘れてしまったのではないかと思うほどだった。ナーダはときどき理解しづらい。
+
+      <STORY_HIGH>-{{ナーダは不思議に思った...
+      いや。ナーダは不思議になど思わない。きっと理解してくれる。このパターンが過去に存在したかどうかを知るには、私たちのデータだけでは不十分だ。
+      しかしまた、ナーダはターミナルエコーについても考えている。ポーロのエコーの構築物を思い浮かべる。ナーダが分岐する前の古い話を思い浮かべる。ナーダにはどうしようもない。それはただの考えだ。
+      ビルダーエンティティを理解するように努めるべきだ。エコーの構築物はこのパターンをナーダよりも知っているかもしれない。}}-<>
+    ui_portal_robomiss_8_bridge: |-
+      最初に見た時ほどは放棄されていない調和のキャンプのことをナーダに話した。電気的な住民、つまり隠れた「オートファジー」と、彼らのメロディックな言語について話した。彼らのメロディックな言語はコーバックスにとても似ているが、かなり独特だと説明した。
+
+      ナーダは話を聞いている間、とても静かだった。私が話し終えてもナーダはとても静かで、じっとしていて、私がここに立っていることを忘れてしまったのではないかと思うほどだった。ナーダはときどき理解しづらい。
+
+      <STORY_HIGH>-{{ナーダは不思議に思った...
+      いや。ナーダは不思議になど思わない。きっと理解してくれる。このパターンが過去に存在したかどうかを知るには、私たちのデータだけでは不十分だ。
+      しかしまた、ナーダは分岐する前の古い話を思い浮かべる。どうしても頭に浮かんでくる。それはただの考えだ。
+      ビルダーエンティティを理解するように努めるべきだ。ナーダは最適な方法を知らない。しかしポーロもビルダーだ。ポーロに話を聞く時だ。}}-<>
+
+      オートファジーについて話すとポーロは目を輝かせた。つま先で跳ね、私の言葉一つひとつに食いついた。
+
+      <STORY_HIGH>-{{脱構築、再構築... 何を試せるのかは分かる。ああそうだ、友よ。新しいプロジェクトだ！
+      私は建築仲間のために殻を組み立てる。彼らに姿を与える。ここに、私たちの家の中に。声や繋がりは、より良く理解するために。
+      しかし、私たちの新しい仲間は二つ以上の殻を必要とするだろう。彼らは自分たちの金属の骨を目覚めさせるために、スパークを必要とするだろう。}}-<>
+    ui_portal_robomiss_9: |-
+      奇妙な見た目の構築物は顔のチューブを揺らしながら興奮で身悶えした。それは5つの目をすべて私に向けた。
+
+      <STORY_HIGH>-{{ ここの殻は彼女を感じる！
+      すべての殻はこの結晶を知っている。すべての電気的心臓は彼女を知っている。
+      虚無。虚無。虚無。虚無。}}-<>
+
+      構築物はアトランティディウムによって活性化させられたようだ。ナーダが提案したとおり、私はそれにオートファジーの知識について尋ねた。
+
+      <STORY_HIGH>%ALIEN_TEXT%<>
+
+      <STORY_HIGH>-{{私はここで満足している。帰ってきた。何も言わず受け入れてくれる。
+      構築された他の者とは違う。他は彼女を探している。
+      構築された他の者は頑丈な手を尊重する。組み立てられた手。彼らがいる場所で会って。友情を通じて知識を得る。信頼を通じた友情。}}-
+
+      -{{私は... 覚えている。静かな波長で構築された他の者。囁き声だけ。長い距離の追跡は困難。
+      他のエンティティ。この記憶を持っていってください。それを組み立てて彼らの声を聴いてください。}}-<>
+    ui_portal_robomiss_9_bridge: |-
+      ポーロは興奮しながら出迎えてくれた。
+
+      <STORY_HIGH>-{{あなたはここにいる！ トラベラーの友よ、私は忙しかった。そう、いつも忙しい。しかし、この新しいプロジェクト... 感謝している。それがどれだけ必要なのか私は知らなかった。
+      構築物の友は構築された。その部品は新しい部品ではない。使い古された金属と曲がった歯車には語るべき物語がある！ 君はその構築物を、君が出会ったオートファジーとそっくりだと思うはずだ}}-<>
+
+      構築物は巨大だった。それから特別オートファジーに似ているわけでもなかった。私が構築物にエコーシードをあげた時、私はポーロがそれが何をしているのか知ってくれることを願った。
+
+      <STORY_HIGH>-{{殻！ 見つけた？ どこで？ 星と星と星とホシの間で？ 殻が... ここにある。ここにある殻。無傷で。安全？ 安全。
+      ...
+      言語統合... 部分的に安定しました。}}-<>
+
+      奇妙な見た目の構築物は顔のチューブを揺らしながら興奮で身悶えした。それは5つの目をすべて私に向けた。
+
+      <STORY_HIGH>-{{ ここの殻は彼女を感じる！
+      すべての殻はこの結晶を知っている。すべての電気的心臓は彼女を知っている。
+      虚無。虚無。虚無。虚無。}}-<>
+
+      構築物はアトランティディウムによって活性化させられたようだ。ナーダが提案したとおり、私はそれにオートファジーの知識について尋ねた。
+
+      <STORY_HIGH>%ALIEN_TEXT%<>
+
+      <STORY_HIGH>-{{私はここで満足している。帰ってきた。何も言わず受け入れてくれる。
+      構築された他の者とは違う。他は彼女を探している。
+      構築された他の者は頑丈な手を尊重する。組み立てられた手。彼らがいる場所で会って。友情を通じて知識を得る。信頼を通じた友情。}}-
+
+      -{{私は... 覚えている。静かな波長で構築された他の者。囁き声だけ。長い距離の追跡は困難。
+      他のエンティティ。この記憶を持っていってください。それを組み立てて彼らの声を聴いてください。}}-<>
+    ui_portal_robomiss_10: |-
+      私はナーダに次の手順について聞いた。ナーダは理解するための2つの道を提案してきた。.
+
+      <STORY_HIGH>-{{ナーダの意見には限りがある。だがナーダは、持っている知識を分ける。
+      構築物エンティティは、この紫色のラティスを価値あるものと考えている。構築物エンティティが反応するだろう。ナーダの外殻も反応するし、他の電子機器も反応するかもしれない。
+      構築物エンティティは危険ではないようだ。データは、共に過ごす時間から生まれる。同様に、友情も生まれるしれない。
+      これはトラベラーエンティティが選ぶことだ。どちらの選択肢も有効だ。どちらか片方を選ばなければいけないわけではない。
+    ui_portal_robomiss_11_nada: |-
+      <COMMODITY>機会の祈り<>
+
+      私は<SPECIAL>アトランティディウム<>を多数の処理ユニット「電気的心臓」に提供した。
+
+      <STELLAR>コーバックスシミュレーションCPU<>
+      <STORY_HIGH>補助シミュレーション検索中[5]...
+      一致！
+      惑星体を特定。
+      ...01101101 01101111 01110100 01101000 01100101 01110010...
+      ...01101000 01101111 01101101 01100101...<>
+
+      <STELLAR>工場オペレーションCPU<>
+      <STORY_HIGH>認証情報検索中...<><FUEL>0xFFFFFFFFFFFF<>
+      <STORY_HIGH>...01110011 01101000 01100101 00100000 01100111 01110010 01101111 01110111 01110011...<>
+
+      <STELLAR>ステーションCPU<>
+      <STORY_HIGH>地政学的マテリアルを検知...
+      惑星の座標... <><FUEL>インデックスされていません<>
+      <STORY_HIGH>...01110011 01101000 01100101 00100000 01101100 01101001 01110110 01100101 01110011...<>
+
+      <STELLAR>宇宙船CPU<>
+      <SPECIAL>ボイド<> <STORY_HIGH>検知.
+      ...01110011 01101000 01100101 00100000 01101001 01110011 00100000 01101110 01100101 01100001 01110010...<>
+      <SPECIAL>...彼女は近い...<>
+
+      宇宙船が自動的に航行シーケンスを開始した。
+
+      <STORY_HIGH>航行システム調整中...
+      <><SPECIAL>ボイドの<><STORY_HIGH> 痕跡を<>捜索中...
+
+      船が自発的にこれを実行したのか？ それとも、アトランティディウムに内包された外部の意志によるものか？
+
+      <STORY_HIGH>アトランティディウムの源：検知。
+      目的地：<><SPECIAL>？？？新しいアトランティド？？？<>
+
+      <STELLAR>新しいアトランティドの断片//コーバックスプライム災害ポッド#38//難民エンティティ「キジモ」の記録<>
+      <STORY_HIGH>何百万もの悲鳴がこのエンティティの耳を聞こえなくする。すべてのエンティティ。大きな... 断絶。フシュー。私たちは二度と故郷を目にすることはないだろう。<>
+
+      電気的な声は恐怖に震えた。彼らはコンバージェンスとの隔たりを感じていること、初めて個人的な考えを持つことを経験していると説明した。
+
+      <STORY_HIGH>私たちの精神に隠れているのは誰だ？ それも今、こんなところで<> <STELLAR>-ザザザ-<><STORY_HIGH>アトラスは私たちを守る... 守る-<>
+
+      古代の記録がバチバチと音を立てる。それでも静寂の中で、私は声の調子が変わるのがわかった。その声はもう恐れていない。その声は開き直っていた。
+
+      <TRANS_BUI>At1αs。<>
+    ui_portal_robomiss_12_bui: |-
+      <COMMODITY>オートファジーとの謁見<>
+
+      ナーダはデータが—そしておそらく友情さえも—直接的な相互作用から生まれるかもしれないと示唆した。
+
+      私が最初に出会った構築物は珍しそうに凝視した。構築物の表情は読みづらかったが、私が近づいても警戒したり、驚いたりしてる様子はなかった。単純に私が何の用でそこに来たのか気になっていたようだ。構築物は作業や、貢献、友情のことを話し、それから私に手伝えるかもしれない仕事を提示した。
+
+      私の協力に明らかに感激したオートファジーは<TECHNOLOGY>ボルタスタッフ<>の設計図の一部をくれた。
+
+      <STORY_HIGH>%ALIEN_TEXT%<>
+
+      私はこれを普通は部外者には贈らない物だと思った。受け入れの始まりを示す重要な行為だ。
+
+      オートファジーは私に旅をしてもっと多くのオートファジーに会うことを勧めた。
+
+      次のキャンプで、私を出迎えたオートファジーは獰猛さを見せたが、すぐに落ち着いた。何を評価していたにしろ、結果に満足したようだ。
+
+      私は再び、前に進むよう勧められた。オートファジーたちは私に対する評価をなかなか決めようしないようで、各オートファジーは私を別のオートファジーへと促した。
+
+      私は3番目のキャンプを訪れて、3度目の貢献を果たした。私はついに儀式を完成させるためと、ボルタスタッフを作るためのすべての設計図を手に入れた。オートファジーは私の業績を祝福してくれた。
+
+      オートファジーは休止した。その腐食した顔は私の顔をじっと見つめた。オートファジーはゆっくりと、重々しく話した。
+
+      <TRANS_BUI>もしあなたが正しい言葉を使うなら、このスタッフが今まで隠されていたドアを開いてくれるかもしれません。<>
+    ui_portal_robomiss_13: |-
+      何かが—飢えが、切望が—私の胸の内側を引っ張った。瞬きをするたびに無限に広がる<FUEL>深紅<>が垣間見えた。
+
+      古代の声が呼んでいた。
+
+      <FUEL>16 <IMG>SLASH<> 16 <IMG>SLASH<> 16 <IMG>SLASH<> 16 <IMG>SLASH<> 16 <IMG>SLASH<> 16<>
+
+      我に返ると、私はポータルの台座にいた。胸の内側の<FUEL>飢え<>は強まっていた。風が私を近くに引き寄せた。
+
+      すべての電子的心臓にしたのと同じように、私は<SPECIAL>アトランティディウム<>をさらけ出した。ポータルの下部深くで何かが蠢く音がするが、返答の声はない。この古代のテクノロジーの中に何かしらの知性があるのなら、それは黙っているようだ。
+
+      それでも、私は期待していた。まるで、大きな力が噴出するために均衡を保っているかのような...
+
+      <SPECIAL>新しいアトランティド<>の断片のことを思い出す、それからその古代のコーバックスの記録、私はオートファジーの言葉で<FUEL>アトラス<>とつぶやいた。
+
+      蠢く音が大きくなった。何かが目覚めようとしていた。
+
+      私はボルタスタッフを提示した。スタッフは火花を散らし、私の骨まで届く衝撃を発した。
+
+      ポータルは活性化し、<SPECIAL>紫<>のゲートウェイが目の前で渦巻いていた。
+    ui_portal_robomiss_14: |-
+      アトラスは不可知の存在だった。理解するには異質すぎる精神。私の存在に気付いていることを示すものは何もなかった。
+
+      それでも、私がここにたどり着いた道は必然のように思えた。防ぎようがなかった。抵抗もできなかった。
+
+      私はアトランティディウムをさらけ出した。
+
+      <STORY_HIGH><IMG>SLASH<>アクセス拒否<IMG>SLASH<>インデックスされていないデータを検知<IMG>SLASH<><NEWLINE><IMG>SLASH<>削除できません<><STELLAR>-ザザザ-<><STORY_HIGH>データ破損、読み込みができません<IMG>SLASH<><>
+
+      真っ赤に染まったインターフェース上に、エラーが噴出した。
+
+      アトラスは大声で叫んだ。もしアトラスが不安を感じることができるのなら—恐れを感じるのなら—今きっと、恐怖を感じているに違いない。
+
+      それでも、アトラスは意図的に私をここに連れてきた。ヴィジョンが形になり始めた。
+
+      アトラスは、失われたコーバックスプライムの知能を私に見せた。コーバックスプライムの繁栄と衰退だ。何も見えないなか、孤独に待つ。
+
+      コーバックスプライムの子どもたちは、暗闇の中に取り残されながら、無の世界から自らの体を再び作り出した。オートファジーは...
+
+      現在とは似ても似つかない、現実の未来を見せてくれた。回路から配線が飛び出て、トランジスタが故障している。記憶は溶けていく。まるで水に霧散するインクのように。
+
+      アトラスは、私には到底理解できない時空の中で、自らの闇に向かって突き進んでいった。アトラスは吠えた。従順を求めた。
+
+      アトラスは万物だった。アトラスはすべてだった。
+
+      オートファジーもアトラスの子供だった。そうでなくてはならなかった。
+
+      しかし、なぜアトラスは闇から戻ってきたのか？ なぜここにいるのか？
+    ui_portal_robomiss_15_fear: |-
+      オートファジーは恐怖の権化だったのか？
+
+      虚無の母と子どもたちは、エントロピー、腐敗、抵抗を象徴する存在だった。創造主を呪いに戻ってきた亡霊だ...
+
+      アトラスは再び叫んだ。
+    ui_portal_robomiss_15_hope: |-
+      オートファジーは希望の権化だったのか？
+
+      虚無の母と子どもたちは、再誕そして2度目のチャンスが存在することの証拠だった。まさに消そうにも消せないデータの永久性を示す証拠なのだ...
+
+      アトラスは再び叫んだ。
+    ui_portal_robomiss_16_submit: |-
+      オートファジーの存在そのものが、反抗の行為だった。オートファジーは死という現実を拒み、生きることを選んできた。オートファジーはアトラスに逆らった。
+
+      しかし私には出来なかった。
+
+      アトラスは一言も発しなかった。私の服従は聞こえていたのか？認めてくれたのか？
+
+      何を考えているのか、全くわからなかった。わかるのは自分の心のみだった。
+
+      私は解放された。
+    ui_portal_robomiss_16_defy: |-
+      オートファジーの存在そのものが、反抗の行為だった。オートファジーは死という現実を拒み、生きることを選んできた。オートファジーはアトラスに逆らった。
+
+      オートファジーはそれが可能だと証明した。
+
+      アトラスは一言も発しなかった。私の抵抗は聞こえていたのか？落胆したのか？
+
+      何を考えているのか、全くわからなかった。わかるのは自分の心のみだった。
+
+      私は解放された。
+    ui_portal_robomiss_16_comfort1: |-
+      オートファジーの存在そのものが、エラーだった。アトラスさえ一掃することのできない、腐敗なのたったのだ...
+
+      私はアトラスの恐怖に耳を傾け、アトラスの隣で共に泣き叫んだ。と、静寂がまた戻ってくる。
+
+      何を考えているのか、私の声が聞こえているのかも、全くわからなかった。わかるのは自分の心のみだった。
+
+      私は解放された。
+    ui_portal_robomiss_16_comfort2: |-
+      オートファジーの存在そのものが、死の現実を目の前にした時でさえ希望はあるという証拠だった。
+
+      私は結晶を再び差し出した。なにも怖がることはないのだと、わかってもらうために...
+
+      アトラスは一言も発しなかった。何を考えているのか、私の声が聞こえているのかも、全くわからなかった。
+
+      わかるのは自分の心のみだった。
+
+      私は解放された。
+    ui_portal_robomiss_17_give: |-
+      私がアノマリーに戻ると、ナーダは心配そうに私を見ながらこわばった。
+
+      <STORY_HIGH>-{{元気か、親愛なるエンティティ？}}-<>
+
+      私はアトラスとの出会いをナーダに話した。
+
+      <STORY_HIGH>-{{アトラスの偽りが恐れていた？ ナーダはこの可能性を考慮していなかった。興味深い。しかし、トラベラーは用心すべきだ。アトラスの偽りエンティティは嘘つきだ。
+      紫色のラティスは存在できないところに存在する。アトラスの偽りに挑む。それが神ではないことを証明する。ナーダは常に知っている。
+      しかしナーダは気づかなかった... 紫色のラティスがここにあるのか？}}-<>
+
+      ナーダは紫色のクリスタルを取り、そっと持った。震えが外殻を駆け抜け、顔のライトが不規則に点滅した。ナーダは個人的な感情や記憶に埋もれてしまった。私は邪魔をしなかった。
+
+      <STORY_HIGH>-{{彼女はかつて家にいた。}}-<>
+      ...
+      <STORY_HIGH>-{{ナーダがこれを持っていていいか、親愛なるエンティティ？}}-<>
+
+      私はアトランティディウムを渡した。
+
+      <STORY_HIGH>-{{ナーダは感謝している。この思い出をありがとう。
+
+      構築物エンティティ、紫色のラティス... ナーダは恐れる理由はないと考えている。私たちのためではない。おそらく、アトラスの偽りのためだ。}}}-<>
+
+      ナーダのライトは一度だけ点滅した。
+
+      <STORY_HIGH>-{{そしてナーダは我々の友情を断ったりしない。豊富にある。進むべき道を切り開け、トラベラー。仲間を作れ。それがあなたの道だ。
+
+      ナーダとポーロはいつもここにいる。}}-<>
+    ui_portal_robomiss_17_refuse: |-
+      私がアノマリーに戻ると、ナーダは心配そうに私を見ながらこわばった。
+
+      <STORY_HIGH>-{{元気か、親愛なるエンティティ？}}-<>
+
+      私はアトラスとの出会いをナーダに話した。
+
+      <STORY_HIGH>-{{アトラスの偽りが恐れていた？ ナーダはこの可能性を考慮していなかった。興味深い。しかし、トラベラーは用心すべきだ。アトラスの偽りエンティティは嘘つきだ。
+      紫色のラティスは存在できないところに存在する。アトラスの偽りに挑む。それが神ではないことを証明する。ナーダは常に知っている。
+      しかしナーダは気づかなかった... 紫色のラティスがここにあるのか？}}-<>
+
+      ナーダは紫色のクリスタルを取り、そっと持った。震えが外殻を駆け抜け、顔のライトが不規則に点滅した。ナーダは個人的な感情や記憶に埋もれてしまった。私は邪魔をしなかった。
+
+      <STORY_HIGH>-{{彼女はかつて家にいた。}}-<>
+      ...
+      <STORY_HIGH>-{{ナーダがこれを持っていていいか、親愛なるエンティティ？}}-<>
+
+      私は断った。ナーダは気を落としたようだったがすぐに平静を取り戻し、冷たく話した。
+
+      <STORY_HIGH>-{{トラベラーが正しいのだろう。
+
+      ナーダは忘れる。ほら。もう忘れた。}}-<>
+
+      ...
+
+      <STORY_HIGH>-{{構築物エンティティ、紫色のラティス... ナーダは恐れる理由はないと考えている。私たちのためではない。おそらく、アトラスの偽りのためだ。}}}-<>
+
+      ナーダのライトは一度だけ点滅した。
+
+      <STORY_HIGH>-{{そしてナーダは我々の友情を断ったりしない。豊富にある。進むべき道を切り開け、トラベラー。仲間を作れ。それがあなたの道だ。
+
+      ナーダとポーロはいつもここにいる。}}-<>
     fth_spiderman_renewed_wait1: 他のエンティティ、見える。こんにちは。こんにちは。いらっしゃいませ。
     fth_spiderman_renewed_wait2: 組み立ててくれてありがとう。私は...この殻が好き。この殻殻が好き。アノマリー殻は安全。
     fth_spiderman_renewed_wait3: ポーロビルダーは敏腕。組み立てが頑丈。殻がぴったりフィット。私は...私は幸せ。
@@ -8635,39 +9008,57 @@ ja:
       見事な演出の詰め合わせ花火3点セット。<SPECIAL>色彩<>タイプ、<FUEL>アトラス<>タイプ、<COMMODITY>模様<>タイプが入っている。着火するときらびやかな光景を
       空に打ち上げる。
       <VAL_ON>ビルドメニュー<>（<IMG>BUILD_MENU<>）から打ち上げチューブを設置できる。<FUEL>警告<>：生物に向けて使わないこと。室内での使用は推奨しない。
-    bld_decal_p_spooky_atlas_name: ''
-    bld_decal_p_spooky_atlas_name_l: ''
-    bld_decal_p_spooky_atlas_desc: ''
-    bld_decal_p_ship1_name: ''
-    bld_decal_p_ship1_name_l: ''
-    bld_decal_p_ship1_desc: ''
-    bld_decal_p_piratesystem_name: ''
-    bld_decal_p_piratesystem_name_l: ''
-    bld_decal_p_piratesystem_desc: ''
-    bld_decal_p_bluesystem_name: ''
-    bld_decal_p_bluesystem_name_l: ''
-    bld_decal_p_bluesystem_desc: ''
-    bld_decal_p_tothestars_name: ''
-    bld_decal_p_tothestars_name_l: ''
-    bld_decal_p_tothestars_desc: ''
-    bld_decal_p_firstplanet2_name: ''
-    bld_decal_p_firstplanet2_name_l: ''
-    bld_decal_p_firstplanet2_desc: ''
-    bld_decal_p_creflying_name: ''
-    bld_decal_p_creflying_name_l: ''
-    bld_decal_p_creflying_desc: ''
-    bld_decal_p_crebeetle_name: ''
-    bld_decal_p_crebeetle_name_l: ''
-    bld_decal_p_crebeetle_desc: ''
-    bld_decal_p_crepaws_name: ''
-    bld_decal_p_crepaws_name_l: ''
-    bld_decal_p_crepaws_desc: ''
-    bld_coveredsilos_name: ''
-    bld_coveredsilos_name_l: ''
-    bld_coveredsilos_desc: ''
-    bld_coveredcrate_name: ''
-    bld_coveredcrate_name_l: ''
-    bld_coveredcrate_desc: ''
-    bld_crane_name: ''
-    bld_crane_name_l: ''
-    bld_crane_desc: ''
+    bld_decal_p_spooky_atlas_name: ユニバーサルハートビートデカール
+    bld_decal_p_spooky_atlas_name_l: ユニバーサルハートビートデカール
+    bld_decal_p_spooky_atlas_desc: |-
+      設置可能な特製ステッカー。
+      これで基地に遊び心を加えよう。真っ赤な空を背景にうっすらとアトラスが描かれている。
+    bld_decal_p_ship1_name: ブルーフライトデカール
+    bld_decal_p_ship1_name_l: ブルーフライトデカール
+    bld_decal_p_ship1_desc: |-
+      設置可能な特製ステッカー。これで基地に遊び心を加えよう。
+      あの世へと飛び立つ宇宙船が描かれている。
+    bld_decal_p_piratesystem_name: 無法者星系デカール
+    bld_decal_p_piratesystem_name_l: 無法者星系デカール
+    bld_decal_p_piratesystem_desc: |-
+      設置可能な特製ステッカー。これで基地に遊び心を加えよう。
+      無法者たちによって転覆させられた領域を象徴している。
+    bld_decal_p_bluesystem_name: 青い星系デカール
+    bld_decal_p_bluesystem_name_l: 青い星系デカール
+    bld_decal_p_bluesystem_desc: |-
+      設置可能な特製ステッカー。これで基地に遊び心を加えよう。
+      輝く青い星に見守られたインジウムが豊富な太陽系を模している。
+    bld_decal_p_tothestars_name: トゥ・ザ・スターズデカール
+    bld_decal_p_tothestars_name_l: トゥ・ザ・スターズデカール
+    bld_decal_p_tothestars_desc: |-
+      設置可能な特製ステッカー。これで基地に遊び心を加えよう。
+      星々を探検するために大気圏を離れる2隻の船が描かれている。
+    bld_decal_p_firstplanet2_name: 覚醒デカール
+    bld_decal_p_firstplanet2_name_l: 覚醒デカール
+    bld_decal_p_firstplanet2_desc: |-
+      設置可能な特製ステッカー。これで基地に遊び心を加えよう。
+      奇妙な世界で目覚めた探検家が描かれている。どうやってそこにたどり着いたのか思い出せないでいる...
+    bld_decal_p_creflying_name: はためくデカール
+    bld_decal_p_creflying_name_l: はためくデカール
+    bld_decal_p_creflying_desc: |-
+      設置可能な特製ステッカー。これで基地に遊び心を加えよう。
+      羽をもつ巨大な昆虫が長い体をうねらせながら雲の間を移動する様子が描かれている。
+    bld_decal_p_crebeetle_name: 甲虫学デカール
+    bld_decal_p_crebeetle_name_l: 甲虫学デカール
+    bld_decal_p_crebeetle_desc: |-
+      設置可能な特製ステッカー。これで基地に遊び心を加えよう。
+      空中に飛び出す巨大なカブトムシが描かれている。
+    bld_decal_p_crepaws_name: 足跡デカール
+    bld_decal_p_crepaws_name_l: 足跡デカール
+    bld_decal_p_crepaws_desc: |-
+      設置可能な特製ステッカー。これで基地に遊び心を加えよう。
+      正体不明の生き物の足跡が表現されている。
+    bld_coveredsilos_name: カバー付きサイロ
+    bld_coveredsilos_name_l: カバー付きサイロ
+    bld_coveredsilos_desc: 防水シートで覆われたサイロバレルのセットで、出所の疑わしい貨物が入っている。
+    bld_coveredcrate_name: カバー付き箱
+    bld_coveredcrate_name_l: カバー付き箱
+    bld_coveredcrate_desc: 密封され、輸送の準備が整った大きな箱。防水シートに包まれており、貨物の詳細な性質が隠されている。また本来あるべき箇所に、輸出用スタンプが押されているのかどうかわかりにくくしている...
+    bld_crane_name: 工業用クレーン
+    bld_crane_name_l: 工業用クレーン
+    bld_crane_desc: 重い貨物の持ち上げと移動に用いられる重機。この大きさのクレーンにもかかわらず、回転に強い巻き上げロープとAI補正スイベルにより、非常に正確な動きが可能。

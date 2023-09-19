@@ -443,12 +443,12 @@ zh-CN:
     ui_repair_tech_desc: |-
       <TECHNOLOGY>%TECH%<>状态：<FUEL>严重受损<>。修复所有子部件以恢复运作。
 
-      使用<TECHNOLOGY>%NUM%x%ITEM%<>修复该子部件。用<IMG>TECHMENU<>在你的任务日志中<STELLAR>标记<>详细的<STELLAR>修复指示<>，其中将包含寻找所需物品的相关位置信息。
+      使用<TECHNOLOGY>%NUM% x %ITEM%<>修复该子部件。使用<IMG>FE_TRANSFER<>在你的任务日志中<STELLAR>标记<>详细的<STELLAR>修复指示<>，其中将包含寻找所需物品的相关位置信息。
     ui_repair_tech_sub: 受损子部件
     ui_install_tech_desc: |-
-      <TECHNOLOGY>%TECH%<>子部件状态：<FUEL>已卸载<>。插入所有子部件以完成安装。
+      <TECHNOLOGY>%TECH%<>子部件状态：<FUEL>已卸载<>。嵌入所有子部件以完成安装。
 
-      使用<TECHNOLOGY>%NUM%x%ITEM%<>完成该子部件。用<IMG>TECHMENU<>在你的任务日志中<STELLAR>标记<>详细的<STELLAR>安装说明<>，其中将包含寻找所需物品的相关位置信息。
+      使用<TECHNOLOGY>%NUM% x %ITEM%<>完成该子部件。使用<IMG>FE_TRANSFER<>在你的任务日志中<STELLAR>标记<>详细的<STELLAR>安装说明<>，其中将包含寻找所需物品的相关位置信息。
     ui_install_tech_name: "%TECH%部件"
     ui_install_tech_sub: 所需子部件
     ui_repaired_tech_desc: |-
@@ -6884,7 +6884,7 @@ zh-CN:
     ui_exped_visit_planet_desc: 登陆的一小步
     ui_exped_visit_planet_desc_d: 调查了一颗行星
     ui_exped_visit_planet_obj: 登陆了一颗行星
-    ui_exped_visit_planet_obj_tip: 驾驶飞船时可以使用<IMG>SCAN<>来扫描宇宙中的星体。扫描可以获取关于行星的重要信息。
+    ui_exped_visit_planet_obj_tip: 驾驶飞船时可以使用<IMG>SHIPSCAN<>来扫描宇宙中的星体。扫描可以获取关于行星的重要信息。
     ui_exped_visit_planet_msg1: |-
       登陆了一颗行星
       进入<TECHNOLOGY>飞船<>开始搜索
@@ -6893,7 +6893,7 @@ zh-CN:
       按住<IMG>THRUST<>以起飞
     ui_exped_visit_planet_msg3: |-
       登陆了一颗行星
-      使用<IMG>SCAN<>以寻找合适的登陆点
+      使用<IMG>SHIPSCAN<>以寻找合适的登陆点
     ui_warp_freighter_name: 启动引擎
     ui_warp_freighter_name_u: 启动引擎
     ui_warp_freighter_desc: 在你的主力飞船中进行曲速飞行

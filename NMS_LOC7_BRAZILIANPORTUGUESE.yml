@@ -470,12 +470,12 @@ pt-BR:
     ui_repair_tech_desc: |-
       Status de <TECHNOLOGY>%TECH%<>: <FUEL>sofreu dano crítico<>. Cada subcomponente deve ser consertado para restaurar o funcionamento.
 
-      Conserte este subcomponente com <TECHNOLOGY>%NUM% unidade(s) de %ITEM%<>. Use <IMG>TECHMENU<> para <STELLAR>fixar<> <STELLAR>instruções de conserto<> detalhadas no log da missão, incluindo informações sobre onde encontrar os itens necessários.
+      Conserte o subcomponente com <TECHNOLOGY>%NUM% x %ITEM%<>. Use <IMG>FE_TRANSFER<> para <STELLAR>fixar<> <STELLAR>instruções de reparo<> detalhadas no log da missão, incluindo informações sobre onde encontrar os itens necessários.
     ui_repair_tech_sub: Subcomponente danificado
     ui_install_tech_desc: |-
       Status do subcomponente de <TECHNOLOGY>%TECH%<>: <FUEL>não instalado<>. Insira todos os subcomponentes para concluir a instalação.
 
-      Complete este subcomponente com <TECHNOLOGY>%NUM% unidade(s) de %ITEM%<>. Use <IMG>TECHMENU<> para <STELLAR>fixar<> <STELLAR>instruções de instalação<> detalhadas no log da missão, incluindo informações sobre onde encontrar os itens necessários.
+      Complete o subcomponente com <TECHNOLOGY>%NUM% x %ITEM%<>. Use <IMG>FE_TRANSFER<> para <STELLAR>fixar<> <STELLAR>instruções de instalação<> detalhadas no log da missão, incluindo informações sobre onde encontrar os itens necessários.
     ui_install_tech_name: PEÇA DE %TECH%
     ui_install_tech_sub: Subcomponente necessário
     ui_repaired_tech_desc: |-
@@ -7312,9 +7312,9 @@ pt-BR:
     ui_exped_visit_planet_desc: Aterrisse
     ui_exped_visit_planet_desc_d: Pesquisou um planeta
     ui_exped_visit_planet_obj: Pouse em um planeta
-    ui_exped_visit_planet_obj_tip: Ao viajar com sua nave, verifique mundos a partir
-      do espaço com <IMG>SCAN<>. A verificação revela detalhes importantes sobre o
-      planeta.
+    ui_exped_visit_planet_obj_tip: Enquanto pilota sua nave, verifique mundos a partir
+      do espaço com <IMG>SHIPSCAN<>. A verificação revela detalhes importantes sobre
+      o planeta.
     ui_exped_visit_planet_msg1: |-
       Pouse em um planeta
       Entre na sua <TECHNOLOGY>nave<> para começar a busca
@@ -7322,8 +7322,8 @@ pt-BR:
       Pouse em um planeta
       Segure <IMG>THRUST<> para decolar
     ui_exped_visit_planet_msg3: |-
-      Pouse em um planeta
-      Verifique mundos com <IMG>SCAN<> para encontrar um local de pouso adequado
+      Pise em um planeta
+      Verifique mundos com <IMG>SHIPSCAN<> para localizar um local de pouso adequado
     ui_warp_freighter_name: Ativar motores
     ui_warp_freighter_name_u: ATIVAR MOTORES
     ui_warp_freighter_desc: Faça dobra com sua nave capital

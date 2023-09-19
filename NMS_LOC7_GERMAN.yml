@@ -473,14 +473,14 @@ de:
       Mengen zusätzliches Quecksilber.
     ui_network_rate_label: Netzwerk-Extraktionsrate %RATE%
     ui_repair_tech_desc: |-
-      <TECHNOLOGY>%TECH%<> Status: <FUEL>kritisch beschädigt<>. Jede Unterkomponente muss repariert werden, um die Funktionsfähigkeit wiederherzustellen.
+      <TECHNOLOGY>%TECH%<> Status: <FUEL>kritisch beschädigt<>. Jede Unterkomponente muss repariert werden, um die Funktionalität wiederherzustellen.
 
-      Repariere diese Unterkomponente mit <TECHNOLOGY>%NUM% x %ITEM%<>. Verwende <IMG>TECHMENU<>, um detaillierte <STELLAR>Reparaturanweisungen<> an dein Missionsprotokoll <STELLAR>anzuheften<>, einschließlich Informationen darüber, wo du die benötigten Gegenstände findest.
+      Repariere diese Unterkomponente mit <TECHNOLOGY>%NUM% x %ITEM%<>. Verwende <IMG>FE_TRANSFER<>, um detaillierte <STELLAR>Reparaturanweisungen<> an dein Missionsprotokoll zu <STELLAR>pinnen<>, einschließlich Informationen darüber, wo du die benötigten Gegenstände findest.
     ui_repair_tech_sub: Beschädigte Unterkomponente
     ui_install_tech_desc: |-
-      <TECHNOLOGY>%TECH%<> Unterkomponentenstatus: <FUEL>nicht installiert<>. Führe jede Unterkomponente ein, um die Installation abzuschließen.
+      <TECHNOLOGY>%TECH%<> Status der Unterkomponente: <FUEL>deinstalliert<>. Füge jede Unterkomponente ein, um die Installation abzuschließen.
 
-      Schließe diese Unterkomponente mit <TECHNOLOGY>%NUM% x %ITEM%<> ab. Verwende <IMG>TECHMENU<>, um detaillierte <STELLAR>Installationsanweisungen<> an dein Missionsprotokoll <STELLAR>anzuheften<>, einschließlich Informationen darüber, wo du die benötigten Gegenstände findest.
+      Vervollständige diese Unterkomponente mit <TECHNOLOGY>%NUM% x %ITEM%<>. Verwende <IMG>FE_TRANSFER<> um ausführliche <STELLAR>Installationsanweisungen<> an dein Missionsprotokoll zu <STELLAR>pinnen<>, einschließlich Informationen darüber, wo du die benötigten Gegenstände findest.
     ui_install_tech_name: "%TECH%-TEIL"
     ui_install_tech_sub: Erforderliche Unterkomponente
     ui_repaired_tech_desc: |-
@@ -7382,8 +7382,8 @@ de:
     ui_exped_visit_planet_desc_d: Einen Planeten begutachtet
     ui_exped_visit_planet_obj: Lande auf einem Planeten
     ui_exped_visit_planet_obj_tip: Während du mit deinem Raumschiff fliegst, kannst
-      du mit <IMG>SCAN<> Welten vom Weltraum aus scannen. Das Scannen enthüllt dir
-      wichtige Details über den Planeten.
+      du mit <IMG>SHIPSCAN<> Welten vom Weltraum aus scannen. Das Scannen enthüllt
+      wichtige Details über einen Planeten.
     ui_exped_visit_planet_msg1: |-
       Betritt einen Planeten
       Geh an Bord deines <TECHNOLOGY>Raumschiffs<>, um die Suche zu beginnen
@@ -7392,7 +7392,7 @@ de:
       Halte <IMG>THRUST<> gedrückt, um abzuheben
     ui_exped_visit_planet_msg3: |-
       Betritt einen Planeten
-      Scanne mit <IMG>SCAN<> Welten, um einen geeigneten Landeplatz zu finden
+      Scanne mit <IMG>SHIPSCAN<> Welten, um einen geeigneten Landeplatz zu finden.
     ui_warp_freighter_name: Triebwerke starten
     ui_warp_freighter_name_u: TRIEBWERKE STARTEN
     ui_warp_freighter_desc: Warpe mit deinem Hauptschiff

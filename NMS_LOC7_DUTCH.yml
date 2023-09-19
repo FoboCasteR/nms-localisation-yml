@@ -469,12 +469,12 @@ nl:
     ui_repair_tech_desc: |-
       Status <TECHNOLOGY>%TECH%<>: <FUEL>ernstig beschadigd<>. Elk subonderdeel moet worden gerepareerd om de functionaliteit te herstellen.
 
-      Repareer dit subonderdeel met <TECHNOLOGY>%NUM% x %ITEM%<>. Gebruik <IMG>TECHMENU<> om gedetailleerde <STELLAR>reparatie-instructies<> in je missielogboek <STELLAR>vast te zetten<>, inclusief informatie over waar je de vereiste voorwerpen kunt vinden.
+      Repareer dit subonderdeel met <TECHNOLOGY>%NUM% x %ITEM%<>. Gebruik <IMG>FE_TRANSFER<> om gedetailleerde <STELLAR>reparatie-instructies<> in je missielogboek <STELLAR>vast te zetten<>, inclusief informatie over waar je de vereiste voorwerpen kunt vinden.
     ui_repair_tech_sub: Beschadigd subonderdeel
     ui_install_tech_desc: |-
       Status subonderdeel <TECHNOLOGY>%TECH%<>: <FUEL>verwijderd<>. Plaats elk subonderdeel om de installatie te voltooien.
 
-      Voltooi dit subonderdeel met <TECHNOLOGY>%NUM% x %ITEM%<>. Gebruik <IMG>TECHMENU<> om gedetailleerde <STELLAR>installatie-instructies<> in je missielogboek <STELLAR>vast te zetten<>, inclusief informatie over waar je de vereiste voorwerpen kunt vinden.
+      Voltooi dit subonderdeel met <TECHNOLOGY>%NUM% x %ITEM%<>. Gebruik <IMG>FE_TRANSFER<> om gedetailleerde <STELLAR>installatie-instructies<> in je missielogboek <STELLAR>vast te zetten<>, inclusief informatie over waar je de vereiste voorwerpen kunt vinden.
     ui_install_tech_name: "%TECH%-ONDERDEEL"
     ui_install_tech_sub: Vereist subonderdeel
     ui_repaired_tech_desc: |-
@@ -7296,8 +7296,8 @@ nl:
     ui_exped_visit_planet_desc_d: Een planeet in kaart gebracht
     ui_exped_visit_planet_obj: Land op een planeet
     ui_exped_visit_planet_obj_tip: Terwijl je met je ruimteschip vliegt, kun je vanuit
-      de ruimte werelden scannen met <IMG>SCAN<>. Hiermee ontdek je belangrijke details
-      over de planeet.
+      de ruimte werelden scannen met <IMG>SHIPSCAN<>. Hiermee ontdek je belangrijke
+      details over de planeet.
     ui_exped_visit_planet_msg1: |-
       Zet voet op een planeet
       Betreed je <TECHNOLOGY>ruimteschip<> om je zoektocht te beginnen
@@ -7306,7 +7306,7 @@ nl:
       Houd <IMG>THRUST<> ingedrukt om op te stijgen
     ui_exped_visit_planet_msg3: |-
       Zet voet op een planeet
-      Scan werelden met <IMG>SCAN<> om een geschikte landingsplaats te vinden
+      Scan werelden met <IMG>SHIPSCAN<> om een geschikte landingsplaats te vinden
     ui_warp_freighter_name: Start de motoren
     ui_warp_freighter_name_u: START DE MOTOREN
     ui_warp_freighter_desc: Warp met je vlaggenschip

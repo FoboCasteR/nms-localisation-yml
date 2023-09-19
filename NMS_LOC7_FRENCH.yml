@@ -475,12 +475,12 @@ fr:
     ui_repair_tech_desc: |-
       Statut de <TECHNOLOGY>%TECH%<> : <FUEL>gravement endommagé(e)<>. Chaque sous-composant doit être réparé pour rétablir les fonctions.
 
-      Réparez ce sous-composant avec <TECHNOLOGY>%NUM% x %ITEM%<>. Utilisez <IMG>TECHMENU<> pour <STELLAR>marquer<> des <STELLAR>instructions de réparation<> détaillées dans votre journal de mission, dont des informations sur l'emplacement des objets requis.
+      Réparez ce sous-composant avec <TECHNOLOGY>%NUM% x %ITEM%<>. Utilisez <IMG>FE_TRANSFER<> pour <STELLAR>marquer<> des <STELLAR>instructions de réparation<> détaillées dans votre journal de mission, dont des informations sur l'emplacement des objets requis.
     ui_repair_tech_sub: Sous-composant endommagé
     ui_install_tech_desc: |-
       Statut du sous-composant <TECHNOLOGY>%TECH%<> : <FUEL>désinstallé<>. Insérez tous les sous-composants pour terminer l'installation.
 
-      Complétez ce sous-composant avec <TECHNOLOGY>%NUM% x %ITEM%<>. Utilisez <IMG>TECHMENU<> pour <STELLAR>marquer<> des <STELLAR>instructions d'installation<> détaillées dans votre journal de mission, dont des informations sur l'emplacement des objets requis.
+      Complétez ce sous-composant avec <TECHNOLOGY>%NUM% x %ITEM%<>. Utilisez <IMG>FE_TRANSFER<> pour <STELLAR>marquer<> des <STELLAR>instructions d'installation<> détaillées dans votre journal de mission, dont des informations sur l'emplacement des objets requis.
     ui_install_tech_name: PIÈCE DE %TECH%
     ui_install_tech_sub: Sous-composant requis
     ui_repaired_tech_desc: |-
@@ -7376,7 +7376,7 @@ fr:
     ui_exped_visit_planet_desc_d: Planète étudiée
     ui_exped_visit_planet_obj: Atterrissez sur une planète
     ui_exped_visit_planet_obj_tip: Tout en pilotant votre vaisseau, scannez des mondes
-      depuis l'espace avec <IMG>SCAN<>. La scanographie révélera des détails importants
+      depuis l'espace avec <IMG>SHIPSCAN<>. La scanographie révélera des détails importants
       sur la planète.
     ui_exped_visit_planet_msg1: |-
       Posez le pied sur une planète.
@@ -7386,7 +7386,7 @@ fr:
       Maintenez <IMG>THRUST<> pour décoller.
     ui_exped_visit_planet_msg3: |-
       Posez le pied sur une planète.
-      Scannez des mondes avec <IMG>SCAN<> pour localiser un site d'atterrissage adapté.
+      Scannez des mondes avec <IMG>SHIPSCAN<> pour localiser un site d'atterrissage adapté.
     ui_warp_freighter_name: Enclencher les moteurs
     ui_warp_freighter_name_u: ENCLENCHER LES MOTEURS
     ui_warp_freighter_desc: Voyager par distorsion avec votre vaisseau amiral

@@ -468,12 +468,12 @@ pt:
     ui_repair_tech_desc: |-
       Estado de <TECHNOLOGY>%TECH%<>: <FUEL>gravemente danificado<>. Cada subcomponente deve ser reparado para restaurar a funcionalidade.
 
-      Repara este subcomponente com <TECHNOLOGY>%NUM% x %ITEM%<>. Usa <IMG>TECHMENU<> para <STELLAR>afixar<> <STELLAR>instruções de reparação<> detalhadas no registo de missão, incluindo informações sobre onde encontrar os itens necessários.
+      Repara este subcomponente com <TECHNOLOGY>%NUM% x %ITEM%<>. Usa <IMG>FE_TRANSFER<> para <STELLAR>afixar<> <STELLAR>instruções de reparação<> detalhadas no registo de missão, incluindo informações sobre onde encontrar os itens necessários.
     ui_repair_tech_sub: Subcomponente Danificado
     ui_install_tech_desc: |-
       Estado de subcomponente <TECHNOLOGY>%TECH%<>: <FUEL>desinstalado<>. Insere todos os subcomponentes para finalizar a instalação.
 
-      Completa este subcomponente com <TECHNOLOGY>%NUM% x %ITEM%<>. Usa <IMG>TECHMENU<> para <STELLAR>afixar<> <STELLAR>instruções de instalação<> detalhadas no registo de missão, incluindo informações sobre onde encontrar os itens necessários.
+      Completa este subcomponente com <TECHNOLOGY>%NUM% x %ITEM%<>. Usa <IMG>FE_TRANSFER<> para <STELLAR>afixar<> <STELLAR>instruções de instalação<> detalhadas no registo de missão, incluindo informações sobre onde encontrar os itens necessários.
     ui_install_tech_name: PARTE %TECH%
     ui_install_tech_sub: Subcomponente Necessário
     ui_repaired_tech_desc: |-
@@ -7308,7 +7308,7 @@ pt:
     ui_exped_visit_planet_desc_d: Estudaste um planeta
     ui_exped_visit_planet_obj: Aterra num planeta
     ui_exped_visit_planet_obj_tip: Enquanto voares na tua nave espacial, analisa mundos
-      a partir do espaço com <IMG>SCAN<>. A análise vai revelar detalhes importantes
+      a partir do espaço com <IMG>SHIPSCAN<>. A análise vai revelar detalhes importantes
       sobre o planeta.
     ui_exped_visit_planet_msg1: |-
       Coloca os pés num planeta
@@ -7318,7 +7318,7 @@ pt:
       Pressiona <IMG>THRUST<> para descolar
     ui_exped_visit_planet_msg3: |-
       Coloca os pés num planeta
-      Analisa mundos com <IMG>SCAN<> para localizar um local de aterragem adequado
+      Analisa mundos com <IMG>SHIPSCAN<> para localizar um local de aterragem adequado
     ui_warp_freighter_name: Ativar Motores
     ui_warp_freighter_name_u: ATIVAR MOTORES
     ui_warp_freighter_desc: Viaja na tua nave capital

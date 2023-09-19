@@ -202,7 +202,7 @@ es-419:
     ui_monolith_nub_charge: SOBRECARGA
     ui_monolith_nub_charge_sub: Resonar el glifo con %TYPE%
     ui_robot_head_probe_desc: Registros de memoria de sonda para ecos armónicos
-    recipe_gunkheart: 'Operación solicitada: Infusión de baba/eco'
+    recipe_gunkheart: 'Operación solicitada: Reanimación'
     r_name_gunkheart: Infusión de baba/eco
     ui_pin_spacegunk4_obj_tip: Localiza <SPECIAL>baba viviente<> en rincones abandonados
       del universo o intenta crear tu propia sustancia viscosa pulsante procesando
@@ -249,7 +249,7 @@ es-419:
     r_name_lava1_1: Transmutación volcánica
     r_name_lava1_2: Transmutación volcánica
     ui_shield_generator_name: Generador de escudo de carguero
-    ui_weakpoint_name: Punto débil del carguero
+    ui_weakpoint_name: Barra de combustible expuesta
     ui_torpedo_name: Torpedo anti-carguero
     ui_torpedo_launch_osd: SEÑAL DE TORPEDO DETECTADA <IMG>SLASH<> 10 SEGUNDOS PARA
       EL LANZAMIENTO
@@ -263,7 +263,8 @@ es-419:
     ui_battle_bar_civ: ATACANDO CARGUERO MERCANIL <IMG>SLASH<> <STELLAR>%NAME%<>
     ui_battle_bar_civ_shield: Vuela debajo de los escudos para destruir los <STELLAR>generadores
       de escudo<> del carguero
-    ui_battle_bar_civ_shield_alt: Enfrentando nave principal hostil
+    ui_battle_bar_civ_shield_alt: Daña los escudos para dejar expuesto el <STELLAR>casco<>
+      del carguero y las <STELLAR>cápsulas de cargamento<>
     ui_battle_bar_title: ATACANDO ACORAZADO <IMG>SLASH<> <STELLAR>%NAME%<>
     ui_battle_bar_shield_level: 'ESCUDOS: %NUM% %'
     ui_battle_bar_health_level: 'CASCO: %NUM% %'
@@ -271,7 +272,8 @@ es-419:
     ui_battle_bar_health_level_alt: CASCO
     ui_battle_bar_torpedo_title: LANZAMIENTO DE TORPEDO DETECTADO
     ui_battle_bar_torpedo_warn: Lanzando torpedos en <FUEL>%COUNTDOWN%<> segundos
-    ui_battle_bar_torpedo_count: 'Torpedos entrantes: <FUEL>%TORPEDOES%<>'
+    ui_battle_bar_torpedo_count: 'Torpedos entrantes: <FUEL>%TORPEDOES%<> <IMG>SLASH<>
+      Casco civil al <STELLAR>%HULL%%<>'
     ui_battle_bar_shield_hint: Vuela debajo de los escudos para destruir los <STELLAR>generadores
       de escudo<> del acorazado
     ui_battle_bar_escape_title: EL ACORAZADO INTENTA ESCAPAR
@@ -279,17 +281,16 @@ es-419:
       <IMG>SLASH<> Tiempo restante de carga: <FUEL>%COUNTDOWN%<>'
     ui_battle_bar_defeat_title: ACORAZADO DERROTADO
     ui_battle_bar_escaped_title: EL ACORAZADO ESCAPÓ
-    ui_battle_bar_retreated_title: EL ACORAZADO ESCAPÓ
+    ui_battle_bar_retreated_title: ACORAZADO RETIRADO
     ui_battle_bar_defeat_hint: Aborda para negociar los términos <IMG>SLASH<> Deberás
       destruir para obtener una gran recompensa
     ui_battle_bar_defeat_hint_alt1: "¡La flota civil está a salvo de los piratas!"
     ui_battle_bar_defeat_hint_alt2: La flota civil se perdió en la batalla
     ui_battle_bar_defeat_hint_alt3: Victoria para %NAME%
     ui_civilian_fleet_shield_osd: ADVERTENCIA <IMG>SLASH<> FLOTA CIVIL VULNERABLE
-    ui_pirate_frei_escaped_osd: 'PICO DE TRANSPORTACIÓN DETECTADO <IMG>SLASH<> EL
-      ACORAZADO PIRATA ESCAPÓ '
-    ui_pirate_frei_retreat_osd: 'PICO DE TRANSPOSICIÓN DETECTADO <IMG>SLASH<> EL ACORAZADO
-      PIRATA ESCAPÓ '
+    ui_pirate_frei_escaped_osd: Señal pirata perdida <IMG>SLASH<> El acorazado escapó
+    ui_pirate_frei_retreat_osd: El acorazado pirata huyó del sistema <IMG>SLASH<>
+      Flota civil salvada
     ui_pirate_frei_shield_down_osd: GENERADORES DE ESCUDO DESTRUIDOS <IMG>SLASH<>
       ACORAZADO VULNERABLE
     ui_battle_bar_shield_down: ESCUDOS DEL ACORAZADO TRASPASADOS
@@ -327,10 +328,11 @@ es-419:
     ui_engine_target_name: Propulsión de transportación de carguero
     ui_pirate_freighter_title: Acorazado pirata en combate
     ui_pirate_frei_escape_title: El acorazado pirata escapó
-    ui_pirate_frei_retreat_title: El acorazado pirata escapó
+    ui_pirate_frei_retreat_title: El acorazado pirata se retira
     ui_pirate_frei_win_title: Acorazado pirata derrotado
     ui_pirate_frei_lose_title: Flota civil derrotada
-    ui_pirate_civ_killed_osd: Flota civil derrotada
+    ui_pirate_civ_killed_osd: Nave principal civil destruida <IMG>SLASH<> Victoria
+      de %NAME%
     ui_pirate_engine_marker_sub: Destruye para evitar la transportación
     ui_pirate_trench_marker_sub: Vuela bajo los escudos del acorazado
     ui_pirate_shield_marker_sub: Deshabilita el blindaje del casco
@@ -340,7 +342,7 @@ es-419:
       Integridad de los escudos del <FUEL>acorazado pirata<>: %SHIELD%%
       %CIV_STATUS%
     ui_pirate_frei_msg2: |-
-      Apunta a los <STELLAR>puntos débiles<> del acorazado para dañar el casco
+      Apunta a las <STELLAR>barras de combustible<> del acorazado para dañar el casco
       Integridad del casco del <FUEL>acorazado<>: %HULL%%
       %CIV_STATUS%
     ui_pirate_frei_msg3: |-
@@ -364,9 +366,9 @@ es-419:
       Integridad del escudo del <FUEL>acorazado pirata<>: %SHIELD% %
       Casco del carguero <TRADEABLE>personal<> al: %CIV_HULL%%
     ui_pirate_frei_msg2_alt: |-
-      Apunta a los <STELLAR>puntos débiles<> del acorazado para dañar el casco
-      Integridad del casco del <FUEL>acorazado<>: %HULL% %
-      Casco del carguero <TRADEABLE>personal<> al: %CIV_HULL%%
+      Apunta hacia las <STELLAR>barras de combustible<> del acorazado para dañar su casco.
+      <FUEL>Integridad del casco del <FUEL>acorazado<>: %HULL%%
+      Casco de carguero <TRADEABLE>Personal<> al: %CIV_HULL%%
     ui_pirate_frei_msg3_alt: |-
       <FUEL>ESCUDO AL %SHIELD% %<> Recárgalo en el menú rápido (<IMG>QUICK_MENU<>)
       Integridad del casco del <FUEL>acorazado<>: %HULL% %
@@ -384,9 +386,9 @@ es-419:
       Integridad del escudo del <FUEL>acorazado pirata<>: %SHIELD% %
       Casco del <TRADEABLE>%NAME%<> al: %CIV_HULL%%
     ui_pirate_frei_msg2_alt2: |-
-      Apunta a los <STELLAR>puntos débiles<> del acorazado para dañar el casco
-      Integridad del casco del <FUEL>acorazado<>: %HULL% %
-      Casco del <TRADEABLE>%NAME%<> al: %CIV_HULL%%
+      Apunta hacia las <STELLAR>barras de combustible<> del acorazado para dañar su casco.
+      <FUEL>Integridad del casco del <FUEL>acorazado<>: %HULL%%
+      Casco de <TRADEABLE>%NAME%<> al: %CIV_HULL%%
     ui_pirate_frei_msg3_alt2: |-
       <FUEL>ESCUDO AL %SHIELD% %<> Recárgalo en el menú rápido (<IMG>QUICK_MENU<>)
       Integridad del casco del <FUEL>acorazado<>: %HULL% %
@@ -414,21 +416,18 @@ es-419:
     ui_pirate_frei_msg9: |-
       Acorazado pirata <FUEL>destruido<>
       Acércate a las <TECHNOLOGY>fragatas piratas<> para reclutar sobrevivientes
-      Flota civil <TRADEABLE>rescatada<> de la piratería
-      Obtuviste una <STELLAR>cuantiosa<> recompensa
+      Flota civil <TRADEABLE>salvada<> de la piratería: se otorga una recompensa considerable
     ui_pirate_frei_msg10: |-
       Acorazado pirata <FUEL>destruido<>
       Acércate a las <TECHNOLOGY>fragatas piratas<> para reclutar sobrevivientes
-      Flota civil <FUEL>derrotada<>
-      Obtuviste <TECHNOLOGY>chatarra<> de acorazado
+      Flota civil <FUEL>derrotada<>: <TECHNOLOGY>chatarra<> de acorazado recolectada
     ui_pirate_frei_msg11: |-
-      El acorazado pirata <FUEL>escapó<>
-      Flota civil <TRADEABLE>rescatada<> de la piratería
-      Obtuviste una moderada <STELLAR>recompensa<>
+      El acorazado pirata se <FUEL>retira<>
+      Flota civil <TRADEABLE>salvada<> de la piratería: <STELLAR>recompensa<> moderada otorgada
     ui_pirate_frei_msg12: |-
-      El acorazado pirata escapó
-      Flota civil derrotada
-      Victoria para %NAME%
+      El acorazado pirata se <FUEL>escapa<>
+      La flota civil fue <FUEL>destruida<>
+      %NAME% vive para atacar una vez más
     ui_pirate_frei_hull_msg: "¡Los escudos civiles cayeron! El casco se mantiene al
       <STELLAR>%CIV_HULL%%<>"
     ui_pirate_frei_shield_msg: Escudo de carguero civil al <STELLAR>%CIV_SHIELD%%<>
@@ -454,7 +453,7 @@ es-419:
       el plano
     ui_mod_customiser_transfer: Insertar componente de báculo
     basestats_staffgun_l: Báculo voltaico
-    ui_wonder_glyphs: 'Dirección del portal: %PORTAL%'
+    ui_wonder_glyphs: "<SPECIAL>Dirección del portal: <> %PORTAL%"
     ui_pending_wonder_title: Nueva maravilla
     ui_pending_wonder_sub: Da nombre a tu nueva categoría
     quick_menu_sum_not_your_frei: No a bordo de tu propia nave principal
@@ -525,14 +524,20 @@ es-419:
       Usa el <STELLAR>Freno<> (<IMG>BRAKE<>) para girar rápidamente
       Cambia los <TECHNOLOGY>ajustes de energía<> de la nave con <IMG>CYCLE_POWER<>
     ui_standing_pir_msg: 'Reputación aumentada: Forajidos'
-    ui_standing_pir_down_msg: 'Reputación aumentada: Forajidos'
-    ui_cost_salvage_motes: "%AMOUNT% Motas del vacío"
-    ui_ingred_out_of_range_osd: ''
-    ui_ingred_out_of_range_msg: ''
-    ui_pin_tech_final_range_msg: ''
-    ui_pin_tech_repair_range_msg: ''
-    ui_install_tech_label: ''
-    ui_pin_progress_range_msg: ''
+    ui_standing_pir_down_msg: 'Reputación reducida: Forajidos'
+    ui_cost_salvage_motes: Procesar en %AMOUNT% motas del vacío
+    ui_ingred_out_of_range_osd: "%ITEM% disponible en el <STELLAR>%INV% inventario<>"
+    ui_ingred_out_of_range_msg: "%ITEM% disponible en el <STELLAR>%INV% inventario<>"
+    ui_pin_tech_final_range_msg: |-
+      Abre el inventario (<IMG>INVENTORY<>) para completar la instalación
+      Usa <IMG>TECHMENU<> para inspeccionar la tecnología parcialmente instalada
+      %ITEM% disponible en el <STELLAR>%INV% inventario<>
+    ui_pin_tech_repair_range_msg: |-
+      Abre el inventario (<IMG>INVENTORY<>) para completar la reparación
+      Usa <IMG>TECHMENU<> para inspeccionar la tecnología dañada
+      %ITEM% disponible en el <STELLAR>%INV% inventario<>
+    ui_install_tech_label: Instalar Tecnología
+    ui_pin_progress_range_msg: "%ITEM% disponible en el <STELLAR>%INV% inventario<>"
     update15_title: NO MAN'S SKY INTERCEPTOR
     update15_notes: |-
       No Man's Sky INTERCEPTOR presenta naves y un tipo de mundo nuevos, combates interesantes y mucho más. Para más información ve a www.nomanssky.com.
@@ -706,8 +711,8 @@ es-419:
     ui_sent_freighter_name: Nave principal Centinela
     ui_police_freight_destroyed_osd: Nave principal derrotada <IMG>SLASH<> Las fuerzas
       Centinelas se retiran
-    ui_sentfrei_prod_name: FRAGMENTO DE IA DEL ACORAZADO
-    ui_sentfrei_prod_name_l: Fragmento de IA del acorazado
+    ui_sentfrei_prod_name: FRAGMENTO DE IA DEL PORTADOR
+    ui_sentfrei_prod_name_l: Fragmento De Ia Del Portador
     ui_sentfrei_prod_desc: |-
       Una sola pieza del inmenso sistema central en el corazón de una nave principal Centinela. Su único ojo vivo se fija en el único dato que conserva: la última ubicación conocida de una de sus flotas de <TECHNOLOGY>interceptores<>.
 
@@ -1359,10 +1364,10 @@ es-419:
       Este proceso de fusión reciclada estaba <TECHNOLOGY>incompleta<> cuando se adquirió esta herramienta. Usa <IMG>REPAIR<> para continuar con las operaciones de reparación y desocupa este espacio para uso general.
     ui_sentinel_galmap_title: Rastro del interceptor Centinela
     ui_sentinel_galmap_sub: Rastrea la nave perdida
-    ui_sentinel_galmap_desc: |-
-      Adquirí un <TECHNOLOGY>fragmento de IA del acorazado<>, el último de una nave principal Centinela destruida. Su último destello de datos fue la ubicación de un interceptor perdido, uno de su flota que se separó.
+    ui_sentinel_galmap_desc: |
+      Conseguí un <TECHNOLOGY>fragmento de IA del acorazado<>, el último vestigio de una nave Principal Centinela destruida. Su último destello de datos era la ubicación de un interceptor perdido, uno de su flota que se separó.
 
-      El rastro conduce al planeta %PLANET% en el sistema %SYSTEM%. Si sigo la señal, lo que quede de esta nave Centinela será mío.
+      El rastro lleva al planeta %PLANET% en el sistema %SYSTEM%. Si sigo la señal, lo que quede de esta nave Centinela será mío.
     ui_sentinel_galmap_obj: Sigue la señal hasta su origen
     ui_sentinel_galmap_obj_tip: |-
       Sigue el rastro de la señal hasta el planeta %PLANET% en el sistema %SYSTEM%.
@@ -2786,13 +2791,13 @@ es-419:
 
       Para comprar partes de base nuevas, primero tienes que conseguir <STELLAR>datos recuperados<>, que puedes recolectar en <TECHNOLOGY>tecnología enterrada<> en los planetas. Usa el <TECHNOLOGY>visor de análisis<> para localizar estas reliquias y luego usa el <TECHNOLOGY>manipulador de terreno<> para desenterrarlas.
     ui_exped_build_part_msg1: |-
-      Estudia el <TECHNOLOGY>%ITEM%<> plano de construcción
-      Compra planos en la <STELLAR>terminal de investigación de construcción<>
-      La terminal está ubicada en la <SPECIAL>Anomalía espacial<>
+      Aprende el plano de construcción de <TECHNOLOGY>%ITEM%<>
+      Completa el <EXPED>%MILESTONE%<> logro para aprender el plano
+      Selecciona logros en el registro de expedición (<IMG>OPTIONS<>)
     ui_exped_build_part_msg1_alt: |-
-      Aprende el <TECHNOLOGY>%ITEM%<> plano de construcción
-      Compra planos en la <STELLAR>terminal de investigación de construcción<>
-      La terminal se encuentra en la <SPECIAL>anomalía espacial<>
+      Aprende el plano de construcción de <TECHNOLOGY>%ITEM%<>
+      Compra planos en la <STELLAR>Terminal de investigación de construcción<>
+      La terminal se encuentra en la <SPECIAL>Anomalía Espacial<>
     ui_exped_build_part_msg2: |-
       Construye la <TECHNOLOGY>%ITEM%<>
       Regresa a tu base para iniciar la construcción
@@ -5390,9 +5395,15 @@ es-419:
       Controla tu velocidad con el <FUEL>potenciador<> (<IMG>BOOST<>) y el <VAL_ON>freno<>
       (<IMG>BRAKE<>) para mantenerse detrás de su objetivo. \nCompra mejoras de nave
       con un <TECHNOLOGY>mercader de tecnología<> a bordo de una estación espacial."
-    ui_medal_freikill: ''
-    ui_journey_next_freikill: ''
-    ui_medal_desc_freikill: ''
+    ui_medal_freikill: Cargueros saqueados
+    ui_journey_next_freikill: envíos saqueados
+    ui_medal_desc_freikill: "Enormes naves mercantes recorren la galaxia, transportando
+      mercancías legales e ilegales de un sistema a otro en busca de ganancia. Estas
+      naves imponentes son presa fácil para un pirata experto.\n\nDispara las <VAL_ON>armas
+      de la nave<> con <IMG>SHIPFIRE<> y cambia de modos de arma con <IMG>SHIPCYCLEWEAPON<>.
+      Controla tu velocidad con el <FUEL>Potenciador<> (<IMG>BOOST<>) y el <VAL_ON>Freno<>
+      (<IMG>BRAKE<>) para mantenerte detrás de tu objetivo. \nCompra mejoras de nave
+      con el <TECHNOLOGY>comerciante de tecnología<> a bordo de una estación espacial."
     pirate_standing_stat_lvl_msg: RANGO DE FORAJIDOS %STAT% / 9
     pirate_player_rank_bad: Traidor
     pirate_player_rank_low: Renegado
@@ -5439,29 +5450,29 @@ es-419:
     ui_traders_killed_title_8: Más buscado
     ui_traders_killed_title_9: Alas de peligro
     ui_traders_killed_title_10: Señor del saqueo
-    ui_player_tdesc_bounty: 'Logro: Recompensas completadas'
+    ui_player_tdesc_bounty: Completa más recompensas de naves
     ui_player_title_bounty1: Gran tirador %NAME%
-    ui_player_title_bounty2: Lobo estelar %NAME%
-    ui_title_owned_bounty1: 'Logro: Recompensas completadas'
-    ui_title_owned_bounty2: 'Logro: Recompensas completadas'
-    ui_player_tdesc_raid: 'Logro: Mercaderes saqueados'
-    ui_player_title_raid1: "%NAME% Fastidio"
-    ui_player_title_raid2: "%NAME% Más buscado"
-    ui_player_title_raid3: "%NAME% Alas de peligro"
-    ui_player_title_raid4: "%NAME% Señor del saqueo"
-    ui_title_owned_raid1: 'Logro: Mercaderes saqueados'
-    ui_title_owned_raid2: 'Logro: Mercaderes saqueados'
-    ui_title_owned_raid3: 'Logro: Mercaderes saqueados'
-    ui_title_owned_raid4: 'Logro: Mercaderes saqueados'
-    ui_player_tdesc_pir: 'Logro: Reputación de forajido'
-    ui_player_title_pir1: "%NAME% Rata inmunda"
-    ui_player_title_pir2: "%NAME% Marinero"
+    ui_player_title_bounty2: "%NAME% lobo estelar"
+    ui_title_owned_bounty1: Alcanzaste el rango 8 de recompensas de naves
+    ui_title_owned_bounty2: Alcanzaste el rango máximo de recompensas de naves
+    ui_player_tdesc_raid: Saquear a comerciantes adicionales
+    ui_player_title_raid1: "%NAME%, El fastidio"
+    ui_player_title_raid2: "%NAME%, El más buscado"
+    ui_player_title_raid3: "%NAME%, Alas de peligro"
+    ui_player_title_raid4: "%NAME%, Señor del saqueo"
+    ui_title_owned_raid1: Alcanzaste el rango 2 de los mercaderes saqueados
+    ui_title_owned_raid2: Alcanzaste el rango 7 de los mercaderes saqueados
+    ui_title_owned_raid3: Alcanzaste el rango 8 de los mercaderes saqueados
+    ui_title_owned_raid4: Alcanzaste el rango máximo de mercaderes saqueados
+    ui_player_tdesc_pir: Mejora tu reputación con los forajidos
+    ui_player_title_pir1: Rata inmunda %NAME%
+    ui_player_title_pir2: Corsario %NAME%
     ui_player_title_pir3: Pirata aterrador %NAME%
-    ui_player_title_pir4: "%NAME% Almirante de la oscuridad"
-    ui_title_owned_pir1: 'Logro: Reputación de forajido'
-    ui_title_owned_pir2: 'Logro: Reputación de forajido'
-    ui_title_owned_pir3: 'Logro: Reputación de forajido'
-    ui_title_owned_pir4: 'Logro: Reputación de forajido'
+    ui_player_title_pir4: "%NAME%, Almirante de la oscuridad"
+    ui_title_owned_pir1: Alcanzaste el rango 1 de los forajidos
+    ui_title_owned_pir2: Alcanzaste el rango 2 de los forajidos
+    ui_title_owned_pir3: Alcanzaste el rango 7 de los forajidos
+    ui_title_owned_pir4: Alcanzaste el rango máximo de los forajidos
     ui_wiki_shipkill_name: 'Logro: Mercaderes saqueados'
     ui_wiki_shipkill_obj: 'Destruye naves mercantiles: %CURRENT% / %AMOUNT%'
     ui_wiki_shipkill_desc: Aumenta tu rango con el logro <STELLAR>Mercaderes saqueados<>
@@ -5471,10 +5482,16 @@ es-419:
       Naves mercantiles destruidas: %CURRENT%/%AMOUNT%
       Encuentra y destruye naves mercantiles pequeñas en combate espacial.
       A menudo los mercaderes vuelan entre la <TECHNOLOGY>estación espacial<> y los <TECHNOLOGY>puestos planetarios<>.
-    ui_wiki_freikill_name: ''
-    ui_wiki_freikill_obj: ''
-    ui_wiki_freikill_desc: ''
-    ui_wiki_freikill_msg: ''
+    ui_wiki_freikill_name: 'Logro: Cargueros saqueados'
+    ui_wiki_freikill_obj: 'Destruir cargueros mercantes: %CURRENT% / %AMOUNT%'
+    ui_wiki_freikill_desc: Aumenta tu rango en el logro <STELLAR>cargueros saqueados<>
+      al enfrentarte y destruir <STELLAR>cápsulas de cargamento de carguero<> en combate
+      espacial.
+    ui_wiki_freikill_msg: |-
+      Alcanza el logro <STELLAR>'%MILESTONE%”<> de los cargueros saqueados
+      Cápsulas de cargamento saqueados: %CURRENT% / %AMOUNT%
+      Encuentra y destruye módulos de cargamento de cargueros interestelares
+      Las flotas comerciales grandes suelen necesitar <COMMODITY>estaciones espaciales<>
     ui_wiki_bounties_name: 'Logro: Recompensas completadas'
     ui_wiki_bounties_obj: 'Recompensas completadas: %CURRENT%/%AMOUNT%'
     ui_wiki_bounties_desc: Aumenta tu rango con el logro <STELLAR>Recompensas completadas<>
@@ -5520,6 +5537,7 @@ es-419:
     builder_name: Autófagos
     builder_name_alt: Atlantid
     mission_faction_bui: Autófagos
+    ui_guide_bui_name_stellar: "<STELLAR>Los Autófagos<>"
     ui_guide_bui_name: Los Autófagos
     ui_guide_bui_name_u: LOS AUTÓFAGOS
     ui_wiki_words_bui_title: Registros de idioma (Autófago)
@@ -6005,118 +6023,123 @@ es-419:
       de sus ojos mecánicos."
     dnt_bui_npc_lang_1: hello, prebuilt-entity.
     dnt_bui_npc_gift_lang_1: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
-      atlantideum is holy. her flesh helps us to rebuild.
+      thank you for the gift. in exchange, let me tell you a little secret.
+      atlantideum: it is holy. her flesh helps us to rebuild.
     bui_npc_desc_2: Los engranajes emiten un débil ronroneo dentro de este autómata
       autoensamblado. Me observa pacientemente.
-    dnt_bui_npc_lang_2: hello, prebuilt-entity.
+    dnt_bui_npc_lang_2: ah, a prebuilt-entity. greetings.
     dnt_bui_npc_gift_lang_2: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
+      many thanks. an intelligent choice of gift. do you know much of our past?
       we were once like the korvax. not now. pity the convergence. they cannot help what they are.
     bui_npc_desc_3: La carcasa improvisada del Autófago cruje y estalla mientras me
       mira.
-    dnt_bui_npc_lang_3: hello, prebuilt-entity.
+    dnt_bui_npc_lang_3: hello. is that a prebuilt flesh carapace? interesting.
     dnt_bui_npc_gift_lang_3: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
+      thank you for this contribution.
       do you like my carapace? i built it myself, from what i could salvage. we all build our own bodies.
     bui_npc_desc_4: Si parpadeo, casi puedo detectar un tenue brillo púrpura, una
       imagen residual sombría donde se encuentra el Autófago.
-    dnt_bui_npc_lang_4: hello, prebuilt-entity.
+    dnt_bui_npc_lang_4: the other autophage tell me you are a disruptor. we will see.
     dnt_bui_npc_gift_lang_4: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
-      not all of us were divergent before korvax prime was destroyed, but none of us would return to the convergence now. it is a choice to be together.
+      this was unexpected! thank you.
+      you know, not all of us were divergent before korvax prime was destroyed, but none of us would return to the convergence now. it is a choice to be together.
     bui_npc_desc_5: Este Autófago reunió cada una de sus piezas con gran esfuerzo
       y las ensambló meticulosamente. Su travesía no ha sido fácil.
-    dnt_bui_npc_lang_5: hello, prebuilt-entity.
+    dnt_bui_npc_lang_5: greetings, prebuilt one. what do you seek from me?
     dnt_bui_npc_gift_lang_5: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
+      this is a welcome gift. thank you. i feel you understand.
       we have all suffered the pain of erasure. but we did not cease to be. life does not require a shell.
     bui_npc_desc_6: No puedo imaginar las cosas que ha visto este Constructo, los
       ciclos de eliminación y renacimiento. No soy ni un parpadeo para él.
-    dnt_bui_npc_lang_6: hello, prebuilt-entity.
+    dnt_bui_npc_lang_6: hello. what is it you wish from me?
     dnt_bui_npc_gift_lang_6: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
-      the void mother is the progenitor. from nonexistence she creates existence.
+      thank you for this. i did not expect a gift from an unknown prebuilt-entity.
+      do you know of the void mother? she is the progenitor. from nonexistence she creates existence.
     bui_npc_desc_7: "%NAME% se yergue rígidamente frente a mí, esperando."
-    dnt_bui_npc_lang_7: hello, prebuilt-entity.
+    dnt_bui_npc_lang_7: how is it that you can see through my protection aura?
     dnt_bui_npc_gift_lang_7: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
+      a gift? thank you, prebuilt-entity. this was unexpected.
       there are not many autophage yet, but we are coming. many echoes are still healing. they wait in nonexistence.
     bui_npc_desc_8: Los ojos del Autófago me dirigen una mirada cautelosa, desprovisto
       de su camuflaje atlántide.
-    dnt_bui_npc_lang_8: hello, prebuilt-entity.
+    dnt_bui_npc_lang_8: you perceive me? your technology must be great, disruptor.
     dnt_bui_npc_gift_lang_8: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
-      i will never again be deleted. i will fight. fire and fury.
+      excellent. thank you. this will be valuable in our fight.
+      i will never again be deleted. i will resist. fire and fury.
     bui_npc_desc_9: Mientras el Constructo me observa, soy consciente de mi posición
       aquí como intruso, una forma de vida orgánica bajo el velo atlántide desplegado
       sobre el Autófago.
-    dnt_bui_npc_lang_9: hello, prebuilt-entity.
+    dnt_bui_npc_lang_9: what are you, prebuilt-entity? i perceive a distortion in
+      the boundaries...
     dnt_bui_npc_gift_lang_9: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
-      atlantideum gives us power, gives us shape.
+      i was certain you were different. many thanks for this.
+      i will tell you a secret, disruptor: atlantideum gives us power, gives us shape.
     bui_npc_desc_10: A pesar del material cansado y oxidado de su carcasa, %NAME%
       parece cargado de energía, anhelante y vivo.
-    dnt_bui_npc_lang_10: hello, prebuilt-entity.
+    dnt_bui_npc_lang_10: hello! it is rare for a prebuilt-entity to interface with
+      an autophage. this is very interesting!
     dnt_bui_npc_gift_lang_10: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
+      thank you! our society values this cooperation.
       i pity the convergence. to delete another is the action of a small mind.
     bui_npc_desc_11: "%NAME% se vuelve hacia mí y escucho el leve silbido de las fugas
       hidráulicas, el ronroneo de engranajes dispares."
-    dnt_bui_npc_lang_11: hello, prebuilt-entity.
+    dnt_bui_npc_lang_11: greetings, prebuilt-entity.
     dnt_bui_npc_gift_lang_11: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
+      thank you for this gift. in exchange, i will tell you a little about the autophage.
       korvax prime suffered erasure, as i did, as we all did. she does not converge. she is rebuilding herself.
     bui_npc_desc_12: La carcasa de %NAME% se vuelve hacia mí. ¿Le parece extraña,
       nueva?
-    dnt_bui_npc_lang_12: hello, prebuilt-entity.
+    dnt_bui_npc_lang_12: a disruptor? are you here to join our fight?
     dnt_bui_npc_gift_lang_12: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
+      an offer of friendship. thank you.
       the first spawn could not delete her. the void mother now creates herself. she is coming.
     bui_npc_desc_13: "%NAME% me examina, pensativo."
-    dnt_bui_npc_lang_13: hello, prebuilt-entity.
+    dnt_bui_npc_lang_13: prebuilt-entity. you are what the korvax name traveller.
+      there is an echo of the abyss in your shell.
     dnt_bui_npc_gift_lang_13: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
-      atlantideum is ancient, the core of korvax prime. it is more than a lattice. it is alive.
+      this is a gift? you have my thanks.
+      you know of atlantideum? it is ancient, the core of korvax prime. it is more than a lattice. it is alive.
     bui_npc_desc_14: "%NAME% esperó incontables años por su carcasa. Ahora me mira
       con la misma paciencia."
-    dnt_bui_npc_lang_14: hello, prebuilt-entity.
+    dnt_bui_npc_lang_14: i am visible to you, prebuilt-entity? greetings.
     dnt_bui_npc_gift_lang_14: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
+      ah... thank you for this...
       she creates her flesh in a purple dream. she is an intelligence beyond any of our understanding.
     bui_npc_desc_15: "%NAME% resplandece, una neblina atlántide rodea sus articulaciones
       metálicas expuestas."
-    dnt_bui_npc_lang_15: hello, prebuilt-entity.
+    dnt_bui_npc_lang_15: you look upon my carapace, prebuilt-entity? it is unique
+      in all the universe.
     dnt_bui_npc_gift_lang_15: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
+      this will be of help. thank you!
       the korvax are lost without the prime. they look down upon us, but they understand little. atlantid has chosen us.
     bui_npc_desc_16: El Autófago me examina, tolerante con mi intrusión en su mundo.
-    dnt_bui_npc_lang_16: hello, prebuilt-entity.
+    dnt_bui_npc_lang_16: what do you seek from this exchange, prebuilt-entity?
     dnt_bui_npc_gift_lang_16: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
-      these shells are not important. perhaps, in time, we will build shells of pure atlantideum.
+      i am happy to accept this. thank you.
+      in the end, these shells are not important. perhaps, in time, we will build shells of pure atlantideum.
     bui_npc_desc_17: La forma de vida construida me examina a mientras me acerco,
       analizando mi exotraje, mi multiherramienta.
-    dnt_bui_npc_lang_17: hello, prebuilt-entity.
+    dnt_bui_npc_lang_17: hello, prebuilt-entity. are you a friend of the autophage?
     dnt_bui_npc_gift_lang_17: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
+      my thanks. do you hear her too?
       she speaks to all electronic entities. her signal is unique, her message beautiful. we all hear it. i dream her voice when i sleep.
     bui_npc_desc_18: Observo a %NAME%, todo cables y metal reciclado. Me devuelve
       la mirada, quieto.
-    dnt_bui_npc_lang_18: hello, prebuilt-entity.
+    dnt_bui_npc_lang_18: i see you, disruptor. what do you see in me?
     dnt_bui_npc_gift_lang_18: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
+      this is valuable. thank you. do you also defy convergence?
       we were erased, and the atlas did nothing. it had the power to save us, and made the choice to do nothing. it was she who showed us how to exist again.
     bui_npc_desc_19: El Constructo me observa, la anomalía orgánica en un mundo de
       metal.
-    dnt_bui_npc_lang_19: hello, prebuilt-entity.
+    dnt_bui_npc_lang_19: i did not expect you to approach, prebuilt-entity. hello.
     dnt_bui_npc_gift_lang_19: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
+      thank you for this assistance. it will not go unnoticed.
       the convergence would take me for their own, but atlantideum makes me invisible. i am safe from their eyes.
     bui_npc_desc_20: "%NAME%, reconstruido y renacido se vuelve hacia mí."
-    dnt_bui_npc_lang_20: hello, prebuilt-entity.
+    dnt_bui_npc_lang_20: are you a friend, prebuilt-entity? it is suspicious that
+      you can see me.
     dnt_bui_npc_gift_lang_20: |-
-      thank you for the gift. in exchange, let me tell you a little about the autophage.
+      thank you. i accept this as evidence that you are not hostile.
       not all of us seek violence, but i do. i cannot forgive the convergence for what they did.
     bui_request_desc_1: "%NAME% inclina ligeramente la cabeza, en espera."
     bui_request_desc_2: Me detengo a pensar y %NAME% hace lo mismo.
@@ -6141,16 +6164,16 @@ es-419:
       pantalla y me anima a seleccionar un símbolo de la lista."
     bui_reply_word_get8: "%NAME% emite un extraño sonido metálico mientras me analiza.
       Asiente y luego me presenta una lista de símbolos lingüísticos."
-    bui_reply_word_get9: "%NAME% fija la vista un momento, con intriga por mi petición.
-      Lo considera. Asiente. Presenta una lista de símbolos lingüísticos."
+    bui_reply_word_get9: "%NAME% se queda mirando un momento, intrigado por mi petición.
+      Lo considera. Asiente. Me muestra una lista de símbolos lingüísticos."
     bui_reply_word_get10: "%NAME% fija la vista un momento, con intriga por mi petición.
       Lo considera. Asiente. Presenta una lista de símbolos lingüísticos."
     bui_reply_word_get11: "%NAME% fija la vista un momento, con intriga por mi petición.
       Lo considera. Asiente. Presenta una lista de símbolos lingüísticos."
-    bui_reply_word_say: "%NAME% me mira con mucha curiosidad. Recuerdo algunas de
-      las palabras Autófagas que he aprendido..."
-    bui_reply_word_say2: "%NAME% me mira con mucha curiosidad. Recuerdo algunas de
-      las palabras autófagas que he aprendido..."
+    bui_reply_word_say: "%NAME% me ve con curiosidad. Recuerdo algunas palabras de
+      los Autófagos que aprendí..."
+    bui_reply_word_say2: "%NAME% me ve fijamente sin juzgarme. Pienso en algunas palabras
+      de los Autófagos que podría decir..."
     bui_reply_word_say3: "%NAME% me mira con mucha curiosidad. Recuerdo algunas de
       las palabras autófagas que he aprendido..."
     bui_reply_word_say4: "%NAME% me mira con mucha curiosidad. Recuerdo algunas de
@@ -6170,8 +6193,8 @@ es-419:
     bui_reply_word_say_none: Mi mente se queda en blanco. %NAME% parece decepcionado.
       Debería aprender más palabras Autófagas antes de intentar comunicarme en su
       lengua nativa.
-    bui_npc_res_word_say_dir_neg_1: "%NAME% se encoge de hombros con impotencia. Presiente
-      una solicitud de direcciones pero no tiene nada que ofrecer."
+    bui_npc_res_word_say_dir_neg_1: "%NAME% encoge sus hombros. Siente que le piden
+      indicaciones, pero no tiene ninguna que ofrecer."
     bui_npc_res_word_say_dir_neg_2: "%NAME% se encoge de hombros con impotencia. Presiente
       una solicitud de direcciones pero no tiene nada que ofrecer."
     bui_npc_res_word_say_dir_neg_3: "%NAME% se encoge de hombros con impotencia. Presiente
@@ -6183,6 +6206,10 @@ es-419:
     bui_npc_res_word_say_dir_neu_3: "%NAME% asiente y describe un lugar que ha visto
       en sus viajes."
     bui_npc_res_word_say_dir_pos_1: "%NAME%, feliz de ayudar, me ofrece direcciones
+      hacia un punto de interés cercano"
+    bui_npc_res_word_say_dir_pos_2: "%NAME%, feliz de ayudar, me ofrece direcciones
+      para un punto de interés cercano."
+    bui_npc_res_word_say_dir_pos_3: "%NAME%, feliz de ayudar, me ofrece direcciones
       para un punto de interés cercano."
     bui_npc_res_word_say_dir_pos_4: "%NAME%, feliz de ayudar, me ofrece direcciones
       para un punto de interés cercano."
@@ -6194,20 +6221,20 @@ es-419:
       para un punto de interés cercano."
     bui_npc_res_word_say_dir_pos_8: "%NAME%, feliz de ayudar, me ofrece direcciones
       para un punto de interés cercano."
-    bui_npc_res_word_say_help_neg_1: "%NAME% se desploma con tristeza en su mirada.
-      No sabe cómo ayudarme."
+    bui_npc_res_word_say_help_neg_1: "%NAME% se derrumba con una tristeza detrás de
+      sus ojos. No sabe cómo ayudarme."
     bui_npc_res_word_say_help_neg_2: "%NAME% se desploma con tristeza en su mirada.
       No sabe cómo ayudarme."
     bui_npc_res_word_say_help_neg_3: "%NAME% se desploma con tristeza en su mirada.
       No sabe cómo ayudarme."
-    bui_npc_res_word_say_help_neu_1: "%NAME% emite un crujido, preocupado por la elección
-      de mis palabras."
+    bui_npc_res_word_say_help_neu_1: "%NAME% emite un ruido, preocupado mi elección
+      de palabras."
     bui_npc_res_word_say_help_neu_2: "%NAME% emite un crujido, preocupado por la elección
       de mis palabras."
     bui_npc_res_word_say_help_neu_3: "%NAME% emite un crujido, preocupado por la elección
       de mis palabras."
     bui_npc_res_word_say_help_pos_1: "%NAME% interpreta mi palabra como una petición
-      de ayuda. El Autófago recarga mi exotraje instantáneamente y con amabilidad."
+      de ayuda. Al instante y con amabilidad, el Autófago recarga mi exotraje."
     bui_npc_res_word_say_help_pos_2: "%NAME% interpreta mi palabra como una petición
       de ayuda. El autófago recarga mi exotraje instantáneamente y con amabilidad."
     bui_npc_res_word_say_help_pos_3: "%NAME% interpreta mi palabra como una petición
@@ -6222,20 +6249,20 @@ es-419:
       de ayuda. El autófago recarga mi exotraje instantáneamente y con amabilidad."
     bui_npc_res_word_say_help_pos_8: "%NAME% interpreta mi palabra como una petición
       de ayuda. El autófago recarga mi exotraje instantáneamente y con amabilidad."
-    bui_npc_res_word_say_lore_neg_1: El silencio que cae habla por sí mismo. Una hojuela
-      de óxido cae de %NAME%. Parece cuestionar el uso de esta importante palabra.
+    bui_npc_res_word_say_lore_neg_1: El silencio que reina lo dice todo. Un copo de
+      óxido cae de %NAME%. Parece cuestionar mi uso de esta palabra tan importante.
     bui_npc_res_word_say_lore_neg_2: El silencio que cae habla por sí mismo. Una hojuela
       de óxido cae de %NAME%. Parece cuestionar el uso de esta importante palabra.
     bui_npc_res_word_say_lore_neg_3: El silencio que cae habla por sí mismo. Una hojuela
       de óxido cae de %NAME%. Parece cuestionar el uso de esta importante palabra.
-    bui_npc_res_word_say_lore_neu_1: "%NAME% no dice nada, cuestionando mis intenciones
+    bui_npc_res_word_say_lore_neu_1: "%NAME% no dice nada, cuestionado mis intenciones
       con esta palabra."
     bui_npc_res_word_say_lore_neu_2: "%NAME% no dice nada, cuestionando mis intenciones
       con esta palabra."
     bui_npc_res_word_say_lore_neu_3: "%NAME% no dice nada, cuestionando mis intenciones
       con esta palabra."
-    bui_npc_res_word_say_lore_pos_1: "%NAME% aplaude. Mi conocimiento de la cultura
-      Autófaga parece complacerle."
+    bui_npc_res_word_say_lore_pos_1: "%NAME% aplaude. Parecen complacidos con mis
+      conocimientos sobre la cultura de los Autófagos."
     bui_npc_res_word_say_lore_pos_2: "%NAME% aplaude. Mi conocimiento de la cultura
       autófaga parece complacerle."
     bui_npc_res_word_say_lore_pos_3: "%NAME% aplaude. Mi conocimiento de la cultura
@@ -6250,8 +6277,8 @@ es-419:
       autófaga parece complacerle."
     bui_npc_res_word_say_lore_pos_8: "%NAME% aplaude. Mi conocimiento de la cultura
       autófaga parece complacerle."
-    bui_npc_res_word_say_tech_neg_1: "%NAME% me mira sin comprender, sacudiendo la
-      cabeza. Se muestra avergonzado. Me pregunto si impliqué alguna referencia anatómica
+    bui_npc_res_word_say_tech_neg_1: "%NAME% me mira sin entender, negando con la
+      cabeza. Parece avergonzado. Me pregunto si habré hecho una referencia anatómica
       con esta palabra."
     bui_npc_res_word_say_tech_neg_2: "%NAME% me mira sin comprender, sacudiendo la
       cabeza. Muestra consternación. Me pregunto si impliqué alguna referencia anatómica
@@ -6268,8 +6295,8 @@ es-419:
     bui_npc_res_word_say_tech_neu_3: "%NAME% me mira sin comprender, sacudiendo la
       cabeza. Muestra consternación. Me pregunto si impliqué alguna referencia anatómica
       con esta palabra."
-    bui_npc_res_word_say_tech_pos_1: "%NAME% se complace de conocer a otro devoto
-      de la tecnología. Emite trinos de larga duración en su extraño idioma electrónico."
+    bui_npc_res_word_say_tech_pos_1: "%NAME% está muy feliz de conocer a otro amante
+      de la tecnología. Hablan largo y tendido en su lenguaje electrónico extraño."
     bui_npc_res_word_say_tech_pos_2: "%NAME% se complace de conocer a otro devoto
       de la tecnología. Emite trinos de larga duración en su extraño idioma electrónico."
     bui_npc_res_word_say_tech_pos_3: "%NAME% se complace de conocer a otro devoto
@@ -6290,14 +6317,14 @@ es-419:
       agresivo."
     bui_npc_res_word_say_thrt_neg_3: "%NAME% retrocede, sorprendido por mi lenguaje
       agresivo."
-    bui_npc_res_word_say_thrt_neu_1: "%NAME% me mira fijamente, su rostro metálico
-      es imposible de leer."
+    bui_npc_res_word_say_thrt_neu_1: "%NAME% me ve fijamente, su rostro de metal es
+      imposible de descifrar."
     bui_npc_res_word_say_thrt_neu_2: "%NAME% me mira fijamente, su rostro metálico
       es imposible de leer."
     bui_npc_res_word_say_thrt_neu_3: "%NAME% me mira fijamente, su rostro metálico
       es imposible de leer."
-    bui_npc_res_word_say_thrt_pos_1: El Autófago se enciende con esa elección de palabra.
-      Sus ojos destellan vengativamente.
+    bui_npc_res_word_say_thrt_pos_1: El Autófago se enciende con esa palabra. Su mirada
+      emite un brillo de venganza.
     bui_npc_res_word_say_thrt_pos_2: El autófago se enciende con esa elección de palabra.
       Sus ojos destellan vengativamente.
     bui_npc_res_word_say_thrt_pos_3: El autófago se enciende con esa elección de palabra.
@@ -6321,8 +6348,8 @@ es-419:
     bui_npc_res_word_say_trad_neu_1: "%NAME% no muestra interés en este tema."
     bui_npc_res_word_say_trad_neu_2: "%NAME% no muestra interés en este tema."
     bui_npc_res_word_say_trad_neu_3: "%NAME% no muestra interés en este tema."
-    bui_npc_res_word_say_trad_pos_1: "%NAME% escucha con simpatía y presenta un regalo.
-      Se niega a aceptar nada a cambio."
+    bui_npc_res_word_say_trad_pos_1: "%NAME% escucha con atención y les da un regalo.
+      Se niega a aceptar algo a cambio."
     bui_npc_res_word_say_trad_pos_2: "%NAME% escucha con simpatía y presenta un regalo.
       Se niega a aceptar nada a cambio."
     bui_npc_res_word_say_trad_pos_3: "%NAME% escucha con simpatía y presenta un regalo.
@@ -6554,8 +6581,8 @@ es-419:
       Las coordenadas del <TRANS_EXP>monolito Korvax<> extraídas de la cabeza del Autófago
       Investiga la ubicación marcada
     ui_robomiss_1_mono_sec_desc: |-
-      Las coordenadas extraídas condujeron con bastante precisión a esta interfaz oculta, aunque claramente no es la interfaz principal de la antigua estructura.
-      Hay glifos antiguos tallados alrededor de la circunferencia del estrado de piedra. Una abertura se abre expectante en el centro...
+      Las coordenadas extraídas llevaban con bastante precisión a este pedestal oculto, aunque está claro que no es la interfaz principal de la estructura antigua.
+      Hay glifos antiguos tallados alrededor de la circunferencia del estrado de piedra. Una abertura se abre a la espera en el centro...
     ui_robomiss_1_mono_sec2_desc: Una abertura se abre en el centro de este estrado,
       como esperando algo...
     ui_robomiss_1_mono_sec_opt_a: Ofrecer nanitos
@@ -6713,8 +6740,9 @@ es-419:
       Continúa con la instalación con <IMG>REPARAR<>
       Fija los componentes necesarios con <IMG>PIN<>
     ui_robomiss_2_desc: |-
-      Una cabeza robótica en un <TECHNOLOGY>campamento armónico<> me guio en la construcción de un <TECHNOLOGY>armonizador<>, una extensión de mi escáner, para revelar a sus compañeros camuflados.
-      Debería encontrar a estos Autófagos y aprender más de ellos.
+      Una cabeza robótica en el <TECHNOLOGY>campamento armónico<> me dio acceso al <TECHNOLOGY>armonizador<>, una extensión para mi escáner.
+      El armonizador de escáner me permitirá encontrar a sus compañeros camuflados.
+      Debería hablar con los Autófagos y aprender más sobre ellos.
     ui_robomiss_2_obj1: Encuéntrate con los Autófagos
     ui_robomiss_2_obj1_tip: |-
       Armonizador de escaneo <TRADEABLE>instalado<>.
@@ -6773,9 +6801,9 @@ es-419:
       Viajero amigo parece cargado de noticias.
     ui_robomiss_2_nada_opt: Contarle a Nada sobre los Autófagos
     ui_robomiss_2_nada_desc: |-
-      Le cuento a Nada sobre el campamento armónico, no tan abandonado como pensaba. Le hablo de sus habitantes electrónicos, estos «Autófagos» camuflados y su lenguaje melódico, tan similar al Korvax como distinto.
-      Nada guarda silencio y escucha. Cuando termino de hablar, permanece en un silencio y calma tales que me pregunto si olvidó que estoy aquí. A veces cuesta leerle.
-      Finalmente habla.
+      Le hablo a Nada del campo armónico, no tan abandonado como parecía al principio. Le hablo de sus habitantes electrónicos -estos "Autófagos" camuflados- y de su idioma melódico, tan parecido al de Korvax, pero a la vez tan distinto.
+      Nada guarda silencio y escucha. Cuando termino de hablar, permanece en silencio y en calma que me pregunto si olvidó que estoy aquí. A veces es difícil leerle.
+      Finalmente, habla.
     ui_robomiss_2_nada_res: Nada se cuestiona.<DELAY>0.2<>.<DELAY>0.2<>.
     ui_robomiss_2_nada_res2: Su voz se apaga mientras niega con la cabeza.
     ui_robomiss_2_nada_res3_s10: |-
@@ -6940,8 +6968,8 @@ es-419:
       la confianza de la entidad Constructo. Esto es una impresión de memoria muy
       útil
     ui_robomiss_2_nada2_res_c00: |-
-      Los ojos de Nada brillan. Pierde la mirada con indecisión.
-      Finalmente, me mira con aire de disculpa.
+      Los ojos de Nada brillan. Mira a la lejos, en conflicto.
+      A Nada se le iluminan los ojos. Desvía la mirada, en conflicto. Luego me mira y se disculpa.
     ui_robomiss_2_nada2_res_c: Entidad amigo... Lo siento. Si Nada entiende el significado
       de Constructo-entidad, Nada no desea discutirlo.
     ui_robomiss_2_nada2_res_d: |-
@@ -7098,7 +7126,7 @@ es-419:
     ui_robomiss_3_nada_obj2: Busca el fragmento de un nuevo Atlantid
     ui_robomiss_3_nada_obj2_tip: |-
       La computadora de mi nave, estimulada por la presencia de <SPECIAL>Atlantideum<>, detectó un rastro de la sustancia etérea en algún lugar del espacio profundo.
-      Activa la <TECHNOLOGY>unidad de pulso<> de la nave para buscar el <SPECIAL>fragmento de un nuevo Atlantid<>.
+      Activa la nave con el <TECHNOLOGY>motor de pulso<> para buscar <SPECIAL>???? ¿¿¿Nuevo Atlantid???<>
     ui_robomiss_3_nada_msg2: |-
       <SPECIAL>Fuente de Atlantideum<> detectada
       Lánzate al espacio para investigar el descubrimiento de la nave
@@ -7146,10 +7174,8 @@ es-419:
     ui_robomiss_3_nada_obj_all: Investiga la historia del Atlantideum
     ui_robomiss_3_bui_title: Audiencia con los Autófagos
     ui_robomiss_3_bui_sub: Los que retornaron
-    ui_robomiss_3_bui_desc: Aunque Nada insiste en la necesidad ser precavidos, sugirió
-      que los mejores datos sobre los Autófagos se obtendrían a partir de la <STELLAR>interacción
-      directa<> con ellos. Nada sugirió que incluso podría surgir una amistad con
-      el tiempo.
+    ui_robomiss_3_bui_desc: Nada sugirió que los datos, incluso la amistad, podría
+      surgir de la <STELLAR>interacción directa<> con el Autófago.
     ui_robomiss_3_bui_all_osd: AUTÓFAGO DETECTADO
     ui_robomiss_3_bui_obj1: Instala un núcleo polifónico
     ui_robomiss_3_bui_obj1_tip: |-
@@ -7237,9 +7263,9 @@ es-419:
     ui_robomiss_3_bui_msg4: |-
       Pregúntale al Autófago sobre la empuñadura de fibra de vidrio
       Puedes revelar Autófagos camuflados con el <TECHNOLOGY>escáner<> (<IMG>SCAN<>)
-    ui_robomiss_3_bui_npc3_desc: El Autófago parece genuinamente complacido de hablar
-      de nuevo conmigo. Pronuncia sus palabras lenta y claramente, en espera de infundir
-      tanto significado como lo permite la barrera del lenguaje.
+    ui_robomiss_3_bui_npc3_desc: El Autófago parece encantado de hablar conmigo. Enuncia
+      sus palabras despacio y con claridad, con la esperanza de transmitir todo el
+      significado que les permita nuestra barrera lingüística.
     dnt_bui_robomiss_3_npc3_lang: thank you for your contribution, disruptor. i wish
       to show our thanks, and make this offer of friendship. the blueprint will help
       assemble your own staff.
@@ -7257,8 +7283,8 @@ es-419:
       autophage are not like korvax. we are many, and do not all converge to one mind. i cannot speak for all of us.
       if you choose to accept my invitation, warp elsewhere. travel. meet more of us. share what you have made.
     ui_robomiss_3_bui_npc4_leave: |-
-      Deduzco que este plano de empuñadura es un regalo poco común para un forastero.<NEWLINE>Un gesto significativo; el inicio de la aceptación.
-      %NAME% me anima a viajar y conocer más de los Autófagos. Tal vez una empuñadura completa de fibra de vidrio, construida por mis propias manos, cause una impresión positiva en el próximo campamento que visite.
+      Supongo que este plano de empuñadura es un regalo poco común para un forastero.<NEWLINE>Un gesto significativo; el comienzo de la aceptación.
+      %NAME% me anima a viajar y a conocer más sobre los Autófagos. Tal vez una empuñadura de fibra de vidrio completa, construida con mis propias manos, cause una impresión positiva en el próximo campamento que visite.
     ui_robomiss_3_bui_obj5: Construye la empuñadura de fibra de vidrio
     ui_robomiss_3_bui_obj5_tip: |-
       El plano de la empuñadura de fibra de vidrio es un regalo inusual de los Autófagos y forma parte de un <TECHNOLOGY>báculo multiherramienta<>.
@@ -7310,9 +7336,9 @@ es-419:
     ui_robomiss_3_bui_msg6c: |-
       Pregúntale al Autófago sobre la cámara de Atlantideum
       Puedes revelar Autófagos camuflados con el <TECHNOLOGY>escáner<> (<IMG>SCAN<>)
-    ui_robomiss_3_bui_npc5_ret_desc: La carcasa desgastada de %NAME% tiembla, algunas
-      partes sueltas suenan en su interior. Parece emocionado de discutir el plano
-      que acaba de transmitir.
+    ui_robomiss_3_bui_npc5_ret_desc: La carcasa desgastada de %NAME% tiembla, debe
+      ser alguna pieza suelta vibrando en su interior. Parece feliz de hablar de este
+      nuevo plano.
     ui_robomiss_3_bui_npc5_ret_opt: Pregunta por la cámara de Atlantideum
     dnt_bui_robomiss_3_npc5_ret_res: |-
       this blueprint is vital to the ritual. the staff core is a shell, a vessel for part of her body.
@@ -7483,16 +7509,17 @@ es-419:
     ui_robomiss_4_portal2_res_a: Recordando el fragmento de <SPECIAL>nuevo Atlantid<>
       y su antiguo registro Korvax, murmuro la palabra Autófaga para <FUEL>Atlas<>.
     ui_robomiss_4_portal2_opt_b: Empuña el báculo voltaico
-    ui_robomiss_4_portal2_res_b: El báculo chispea, enviando una sacudida por mis
-      huesos.
+    ui_robomiss_4_portal2_res_b: Muestro el báculo voltaico. Emite chispas, haciendo
+      que mis huesos vibren.
     ui_robomiss_4_portal2_res: El estruendo se hace más fuerte. Algo está despertando.
     ui_robomiss_4_atlas_desc: |-
       Es imposible conocer al Atlas. Una mente demasiado extraña para comprender.<NEWLINE>No hay nada que indique que, por lo menos, esté consciente de mi presencia.
       Y sin embargo, parece inevitable que mi camino me trajo aquí.<NEWLINE>No podía evitarlo. No podía resistirlo.
     ui_robomiss_4_atlas_opt: Revelar Atlantideum
-    ui_robomiss_4_atlas_2_lang: "<IMG>SLASH<> ACCESO DENEGADO <IMG>SLASH<> DATOS NO
-      INDEXADOS DETECTADOS <IMG>SLASH<><NEWLINE><IMG>SLASH<> IMPOSIBLE ELIMINAR <AUDIO>TXT_RadioNoise<><STELLAR>-
-      zktk -<> DATOS CORROMPIDOS E IMPOSIBLES DE LEER <IMG>SLASH<>"
+    ui_robomiss_4_atlas_2_lang: "<IMG>SLASH<> <AUDIO>UI_NoWhereToLand<>ACCESO DENEGADO
+      <IMG>SLASH<> <AUDIO>UI_NoWhereToLand<>DATOS NO INDEXADOS DETECTADOS <IMG>SLASH<><NEWLINE><IMG>SLASH<>
+      <AUDIO>UI_NoWhereToLand<>NO SE PUEDE ELIMINAR <AUDIO>TXT_RadioNoise<><STELLAR>-
+      zktk -<> <AUDIO>UI_NoWhereToLand<>DATOS CORRUPTOS E ILEGIBLES <IMG>SLASH<>"
     ui_robomiss_4_atlas_2_opt_a: Acerca el Atlantideum
     ui_robomiss_4_atlas_2_opt_b: Aleja el Atlantideum
     ui_robomiss_4_atlas_2_res_a: Acerco la sustancia etérea hacia el núcleo palpitante.
@@ -7507,7 +7534,8 @@ es-419:
 
       Sin embargo, me ha traído aquí con un propósito.
     ui_robomiss_4_atlas_3_opt_a: Observa
-    ui_robomiss_4_atlas_3_res_a: Una visión toma forma...
+    ui_robomiss_4_atlas_3_res_a: Mientras miro fijamente el vasto orbe rojo, las imágenes
+      empiezan a tomar forma.
     ui_robomiss_4_atlas_3_opt_b: Darse la vuelta
     ui_robomiss_4_atlas_3_res_b: Me doy la vuelta, cubriéndome los ojos, pero una
       visión se muestra bajo mis párpados.
@@ -7528,13 +7556,13 @@ es-419:
     ui_robomiss_4_atlas_5_opt_a: Elegir miedo
     ui_robomiss_4_atlas_5_opt_b: Elegir esperanza
     ui_robomiss_4_atlas_5_res_a: |-
-      ¿Son los Autófagos una manifestación del miedo?
+      <AUDIO>MUS_CORRUPTED_STING_LONG<>¿Los Autófagos son una manifestación del miedo?
 
       La madre y los hijos del vacío representan la entropía, la corrupción, la rebeldía. Fantasmas que regresan para atormentar a su creador...
     ui_robomiss_4_atlas_5_res_b: |-
-      ¿Son los Autófagos una manifestación de esperanza?
+      <AUDIO>MUS_CORRUPTED_STING_LONG<>¿Los Autófagos son una manifestación de la esperanza?
 
-      La madre y los hijos del vacío son prueba del renacimiento, de una segunda oportunidad. De la permanencia de los datos frente al borrado...
+      La madre y los hijos del vacío son prueba del renacimiento, de una segunda oportunidad. De la permanencia de los datos ante la eliminación...
     ui_robomiss_4_atlas_6_desc: El Atlas vuelve a gritar.
     ui_robomiss_4_atlas_6_opt_a: Someterse
     ui_robomiss_4_atlas_6_opt_b: Desafiar
@@ -7628,30 +7656,360 @@ es-419:
     ui_robomiss_4_nada4_end: |-
       Y Nada no pone en cuarentena nuestra amistad. Hay demasiado. Sigue tu camino, Viajero. Haz amigos. Es tu estilo.
       Nada y Polo siempre estarán aquí.
-    ui_portal_robomiss_1: ''
-    ui_portal_robomiss_2: ''
-    ui_portal_robomiss_3: ''
-    ui_portal_robomiss_4: ''
-    ui_portal_robomiss_5: ''
-    ui_portal_robomiss_6: ''
-    ui_portal_robomiss_7: ''
-    ui_portal_robomiss_8: ''
-    ui_portal_robomiss_8_bridge: ''
-    ui_portal_robomiss_9: ''
-    ui_portal_robomiss_9_bridge: ''
-    ui_portal_robomiss_10: ''
-    ui_portal_robomiss_11_nada: ''
-    ui_portal_robomiss_12_bui: ''
-    ui_portal_robomiss_13: ''
-    ui_portal_robomiss_14: ''
-    ui_portal_robomiss_15_fear: ''
-    ui_portal_robomiss_15_hope: ''
-    ui_portal_robomiss_16_submit: ''
-    ui_portal_robomiss_16_defy: ''
-    ui_portal_robomiss_16_comfort1: ''
-    ui_portal_robomiss_16_comfort2: ''
-    ui_portal_robomiss_17_give: ''
-    ui_portal_robomiss_17_refuse: ''
+    ui_portal_robomiss_1: |-
+      Alguien - o algo - intentó piratear los sistemas de navegación de mi nave.
+
+      <FUEL>Proceso sin identificar<> <STORY_HIGH>descubierto en la dirección 0xAD08D502<><SPECIAL>ε<><STORY_HIGH>96E<>
+      <STORY_HIGH>Ejecutando<> <SPECIAL>pirateo de comandos<>
+
+      El comunicador de la nave emitió un audio breve.
+      <STORY_HIGH>%ALIEN_TEXT%<>
+      ¿Una voz? La cadencia del sonido era similar al habla, aunque no en un idioma que yo reconociera.
+
+      <STORY_HIGH>Advertencia: iniciando piloto automático a<> <SPECIAL>destino remoto<>
+
+      Activé la anulación de emergencia y, al parecer, eliminé el "proceso no identificado" que se había apoderado del sistema... o quizá el proceso se rendió.
+
+      La computadora de mi nave aisló el objetivo del piloto automático detectado. Podía ignorarlo o volar ahí de por mi cuenta para descubrir de dónde procedían esos datos sospechosos...
+    ui_portal_robomiss_2: |-
+      En el lugar de origen del pirateo, descubrí un campamento abandonado, así como una cabeza robótica que mi visor identificó como un "Autófago". Hablaba con la misma voz mecánica que había acompañado el intento de pirateo de mi nave. Sin embargo, si los sonidos que emitía eran palabras -idioma-, no entendía lo que decía.
+
+      <STORY_HIGH>%ALIEN_TEXT%<>
+
+      Estaba seguro de que el Autófago intentaba decirme algo. Intenté ofrecerle Atlantideum...
+
+      Un ruido de chispas, como un cortocircuito de cables eléctricos, resonó en algún lugar de la cabeza. De repente, mi exotraje informó la recepción de un conjunto de coordenadas locales.
+
+      No confiaba en esta cabeza, pero estas coordenadas parecían mi única pista para entender lo que intentaba decir.
+    ui_portal_robomiss_3: |-
+      Las coordenadas extraídas conducían con bastante precisión a un pedestal oculto en un monolito Korvax.
+
+      Una ofrenda de Atlantideum tuvo un efecto dramático sobre la estructura antigua. Ya no tenía la sensación de ser observado por los Ecos Korvax. Era como si el monolito se hubiera invertido y su interior estuviera hacia afuera.
+
+      Había algo más. Otro tipo de entidad.
+
+      <STORY_HIGH>%ALIEN_TEXT%<>
+
+      Mi mente se dividió. Las moléculas del planeta se desintegraron en una nube de caos y luego se reconstruyeron en un ambiente nuevo.
+
+      Fui empujado a una perspectiva que no era la mía y resurgí con un conocimiento implantado: palabras en el mismo idioma que hablaba el jefe de los Autófagos en el campamento abandonado. Creo que ahora estoy mejor preparado para entenderlo.
+    ui_portal_robomiss_4: |-
+      <STORY_HIGH>-{{ Desfragmentación del módulo de traducción...
+      Hola, entidad prefabricada. Gracias por tu ayuda.
+      Me colocaron aquí para interactuar con las entidades prefabricadas. ¿Cómo descubriste este campamento? }}-<>
+
+      Ahora entendía perfectamente a los Autófagos: al parecer, eran una especie de guardianes. Cuando me enfrenté a ellos por el pirateo de mi nave, parecían sentirse avergonzados.
+
+      <STORY_HIGH>-{{ Mis disculpas, entidad prefabricada. Fue mi error. Un accidente.
+      Hay naves estelares que son algo más que carcasas metálicas.<><FUEL>V1vos<><STORY_HIGH> pero no <><FUEL>Librεs<><STORY_HIGH>. Esclavizados a una mente de colmena. Solo pretendemos liberar a los prisioneros. No pretendemos dañar a los pilotos independientes. }}-<>
+
+      Los Autófagos consideraron su error. Podía oír sus pensamientos, el giro de un engranaje oxidado contra otro engranaje oxidado.
+
+      <STORY_HIGH>-{{ Sondeé los tres patrones de formas de vida dominantes. No hubo coincidencia. Parecía que la nave no tenía piloto. ¿Qué forma de vida eres?
+      Estoy desarrollando una teoría.
+      Hay algo... Lo detecto en tu carcasa. Un eco de <STELLAR>- kzzt -<> <SPECIAL>vacío<>.
+      Teorizo que exististe ahí, transitoriamente. Debiste haber entrado en los <STELLAR>- kzzt -<> <SPECIAL>p0rtαles<>.
+      Fuiste <STELLAR>- kzzt -<> <FUEL>prεdich0<>. El disruptor. }}-<>
+
+      La palabra permaneció en el aire un momento. Pero antes de que pudiera intervenir, el jefe de los Autófagos continuó -
+
+      <STORY_HIGH>-{{ Te propongo un reto, disruptor. Pongamos a prueba mi teoría.
+      Informaré a los otros Autófagos de tu llegada.
+      Para percibirlos, tu escáner necesitará una extensión. Te daré el esquema, pero deberás construirlo con tus propias manos. Considere esto un ritual de iniciación. }}-<>
+    ui_portal_robomiss_5: |-
+      Con el <TECHNOLOGY>escáner armonizador<> instalado, mi escáner reveló algo increíble: formas de vida robóticas, imperceptibles para mí, habitaban el campamento. No estaba abandonado.
+
+      <STORY_HIGH>%ALIEN_TEXT%<>
+
+      El idioma del Autófago era melodioso, los tonos eran simples y puros, pero con un toque áspero que no se oía en las voces Korvax.
+      Aunque que mi traducción no era perfecta, Capté lo esencial de lo que me decían. Este campamento estaba construido con Autófagos, al igual que sus... ¿cuerpos?
+    ui_portal_robomiss_6: "<STORY_HIGH>%ALIEN_TEXT%<>"
+    ui_portal_robomiss_7: |-
+      <STORY_HIGH>%ALIEN_TEXT%<>
+
+      La forma de vida construida me ofreció un puñado de Atlantideum. Manipularon la sustancia con delicadeza y reverencia, como si fuera una reliquia de valor invaluable.
+
+      Aunque estos seres parecían bastante civilizados, sentí un abismo de entendimiento entre ellos y yo. Hablaría de mi descubrimiento con el Ente Sacerdote Nada. Quizás conoce a esta gente robótica.
+    ui_portal_robomiss_8: |-
+      Le hablo a Nada del campo armónico, no tan abandonado como parecía al principio. Le hablo de sus habitantes electrónicos -estos "Autófagos" camuflados- y de su idioma melódico, tan parecido al de Korvax, pero a la vez tan distinto.
+
+      Nada guarda silencio y escucha. Cuando termino de hablar, permanece en silencio y en calma que me pregunto si olvidó que estoy aquí. A veces es difícil leerle.
+
+      <STORY_HIGH>-{{ Nada se intriga...
+      No. Nada no se intrigaría. Nada entenderá. Nuestros datos no son suficientes para saber si este patrón es conocido.
+      Sin embargo, Nada piensa en ecos termales. Piensa en el eco Constructo de Polo. Piensa en historias antiguas, antes de la divergencia de Nada. Nada no puede evitarlo. Son solo pensamientos.
+      Debemos tratar de entender a las entidades constructoras. Es posible que el eco Constructo conozca este patrón mejor que Nada. }}-<>
+    ui_portal_robomiss_8_bridge: |-
+      Le hablo a Nada del campo armónico, no tan abandonado como parecía al principio. Le hablo de sus habitantes electrónicos -estos "Autófagos" camuflados- y de su idioma melódico, tan parecido al de Korvax, pero a la vez tan distinto.
+
+      Nada guarda silencio y escucha. Cuando termino de hablar, permanece en silencio y en calma que me pregunto si olvidó que estoy aquí. A veces es difícil leerle.
+
+      <STORY_HIGH>-{{ Nada se intriga...
+      No. Nada no se intrigaría. Nada entenderá. Nuestros datos no son suficientes para saber si este patrón es conocido.
+      Sin embargo, Nada piensa en historias más antiguas, anteriores a la divergencia de Nada. Nada no puede evitarlo. Son solo pensamientos.
+      Deberíamos intentar comprender a las entidades constructoras. Nada no conoce el método adecuado, pero el amigo Polo es un constructor también. Es hora de consultarlo. }}-<>
+
+      Los ojos de Polo brillaron cuando le hablé del Autófago. Estaba emocionado, pendiente de cada una de mis palabras.
+
+      <STORY_HIGH>-{{ Deconstrucción, reconstrucción... Sé lo que podemos intentar. Oh sí, amigo. ¡Un proyecto nuevo!
+      Ensamblaré la carcasa de nuestro amigo Constructo. Le daré forma. Aquí, en nuestra casa. Una voz, un vínculo, para entender mejor.
+      Pero nuestro nuevo amigo necesitará algo más que un carcasa. Necesitará una chispa que despierte sus huesos de metal.
+    ui_portal_robomiss_9: |-
+      El extraño Constructo se movía con entusiasmo y sus tubos faciales oscilaban. Fijó sus cinco ojos en mí.
+
+      <STORY_HIGH>-{{ ¡esta la carcasa la siente!
+      todas las carcasas conocen este cristal. todos los corazones electrónicos la conocen.
+      .VACÍO. VACÍO. VACÍO. VACÍO.}}-<>
+
+      El Constructo parecía animado por la presencia del Atlantideum. Como Nada sugirió, le pregunté por sus conocimientos sobre el Autófago.
+
+      <STORY_HIGH>%ALIEN_TEXT%<>
+
+      <STORY_HIGH>-{{ estoy feliz aquí. estoy en casa. aceptación de no respuestas.
+      otros construido son diferentes. la buscan.
+      otros construidos respetan las manos fuertes. manos que construyen. conocerlos donde están. conocimiento a través de la amistad. amistad a través de la confianza. }}-
+
+      -{{ yo... yo recuerdo. otros construidos en longitud de onda tranquila. solo un susurro. rastreo a larga distancia difícil.
+      otra entidad. toma esta memoria. construirlo para oírlos más fuerte. }}-<>
+    ui_portal_robomiss_9_bridge: |-
+      Polo me recibió con entusiasmo.
+
+      <STORY_HIGH>-{{ ¡Llegaste! Amigo Viajero, he estado ocupado. Siempre ocupado, sí, pero con este proyecto nuevo... Estoy agradecido. No sabía que lo necesitaba tanto.
+      El amigo Constructo está ensamblado. Sus piezas no son nuevas. Metal desgastado y engranajes torcidos, ¡con historias que contar! Creo que descubrirás que son exactamente iguales a los Autófagos que has conocido.}}-<>
+
+      El Constructo era enorme y no se parecía a un Autófago. Mientras le entregaba la semilla de eco, esperaba que Polo supiera lo que estaba haciendo.
+
+      <STORY_HIGH>-{{ ¡carcasa! ¿Encontrada? ¿DÓNDE? estrella estrella estrella entre estrella estrella? carcasa... aquí. aquí-carcasas. intacta. ¿segura? segura.
+      ...
+      síntesis del idioma... parcialmente estabilizada.}}-<>
+
+      El extraño Constructo se movía con entusiasmo y sus tubos faciales oscilaban. Fijó sus cinco ojos en mí.
+
+      <STORY_HIGH>-{{ ¡esta la carcasa la siente!
+      todas las carcasas conocen este cristal. todos los corazones electrónicos la conocen.
+      .VACÍO. VACÍO. VACÍO. VACÍO.}}-<>
+
+      El Constructo parecía animado por la presencia del Atlantideum. Como Polo sugirió, le pregunté por sus conocimientos sobre el Autófago.
+
+      <STORY_HIGH>%ALIEN_TEXT%<>
+
+      <STORY_HIGH>-{{ estoy feliz aquí. estoy en casa. aceptación de no respuestas.
+      otros construido son diferentes. la buscan.
+      otros construidos respetan las manos fuertes. manos que construyen. conocerlos donde están. conocimiento a través de la amistad. amistad a través de la confianza. }}-
+
+      -{{ yo... yo recuerdo. otros construidos en longitud de onda tranquila. solo un susurro. rastreo a larga distancia difícil.
+      otra entidad. toma esta memoria. construirlo para oírlos más fuerte. }}-<>
+    ui_portal_robomiss_10: |-
+      Consulté con Nada nuestros siguientes pasos. Sugirieron dos posibles vías de entendimiento.
+
+      <STORY_HIGH>-{{ La opinión de Nada es limitada. Pero Nada compartirá lo que sabe.
+      Las entidades prefabricadas valoran esta red púrpura. La entidad Constructo responde. Incluso la carcasa de Nada responde. Otros dispositivos también podrían responder.
+      Y las entidades prefabricadas no parecen peligrosas. Los datos provienen del tiempo que pasamos juntos. Es posible que la amistad también.
+      Es la elección de la entidad Viajera. Ambas son válidas. No es una cosa o la otra. }}-<>
+    ui_portal_robomiss_11_nada: |-
+      <COMMODITY>Plegarias de la máquina<>
+
+      Le entregué <SPECIAL>Atlantideum<> a una serie de unidades de procesamiento: "corazones electrónicos".
+
+      <STELLAR>CPU de simulación Korvax<>
+      <STORY_HIGH>BUSCANDO SIMULACIÓN SECUNDARIA [5]...
+      ¡COINCIDENCIA ENCONTRADA!
+      CUERPO PLANETARIO IDENTIFICADO.
+      ...01101101 01101111 01110100 01101000 01100101 01110010...
+      ...01101000 01101111 01101101 01100101...<>
+
+      <STELLAR>CPU de operaciones de fábrica<>
+      <STORY_HIGH>Recuperando credenciales...<><FUEL>0xFFFFFFFFFFFF<>
+      <STORY_HIGH>...01110011 01101000 01100101 00100000 01100111 01110010 01101111 01110111 01110011...<>
+
+      <STELLAR>CPU de la estación<>
+      <STORY_HIGH>Material geológico detectado...
+      Coordenadas planetarias... ><FUEL>no indexado<>
+      <STORY_HIGH>...01110011 01101000 01100101 00100000 01101100 01101001 01110110 01100101 01110011...<>
+
+      <STELLAR>CPU de la nave<>
+      <SPECIAL>Vacío<> detectado
+      ...01110011 01101000 01100101 00100000 01101001 01110011 00100000 01101110 01100101 01100001 01110010...<>
+      <SPECIAL>...ella está cerca...<>
+
+      Inesperadamente, mi nave inició una secuencia de navegación.
+
+      <STORY_HIGH>Calibrando los sistemas de navegación...
+      buscando <><SPECIAL>rastro<><STORY_HIGH> de vacío...<>
+
+      ¿La nave lo hizo por voluntad propia? ¿O fue una voluntad externa contenida en el Atlantideum?
+
+      <STORY_HIGH>Fuente de Atlantideum: detectada.
+      Destino: ¿¿¿<><SPECIAL>??? ¿¿¿Nuevo Atlantid ??? <>
+
+      <STELLAR>Fragmento de un Nuevo Atlantid// Cápsula del desastre de Korvax Prime #38 // Registro de la entidad refugiada Kizimo<>
+      <STORY_HIGH>Millones de gritos aturden a esta entidad. Todas las entidades. Una gran... desconexión. Nunca volveremos a ver nuestro hogar.<>
+
+      La voz electrónica temblaba de miedo. Describieron que se sentían alejados de la Convergencia y que experimentaban el pensamiento individual por primera vez.
+
+      <STORY_HIGH>¿Quién se esconde en nuestras mentes? Incluso ahora y aquí<> <STELLAR>- kzzt -<><STORY_HIGH> Atlas sálvanos... sál - <>
+
+      El registro antiguo crujió. Sin embargo, a través de la estática, percibí un cambio de tono. La voz ya no era temerosa. Era desafiante.
+
+      <TRANS_BUI>At1αs.<>
+    ui_portal_robomiss_12_bui: |-
+      <COMMODITY>Audiencia con el Autófago<>
+
+      Nada sugirió que los datos -y quizá la amistad- podrían proceder de la interacción directa con los Autófagos.
+
+      El primer constructo al que me acerqué me vio con curiosidad. Aunque su expresión era difícil de descifrar, no parecía alarmado ni sorprendido por mi presencia, sino curioso por saber qué estaba haciendo ahí. Habló de trabajo, de contribución, de amistad, y me propuso una tarea en la que podría ayudarle.
+
+      Evidentemente impresionado con mi ayuda, el Autófago me regaló un esquema parcial de un <TECHNOLOGY>Báculo voltaico<>.
+
+      <STORY_HIGH>%ALIEN_TEXT%<>
+
+      Supuse que era un regalo poco común para un forastero.
+
+      Los Autófagos me animaron a viajar y conocer a más gente de su pueblo.
+
+      En el siguiente campamento, los Autófagos que me recibieron eran agresivos, pero no tardaron en tranquilizarse. Sin importar lo que hubieran estado evaluando, parecían satisfechos con el resultado.
+
+      Una vez más, me animaron a seguir adelante. Estos seres parecían resistirse a finalizar su juicio sobre mí y cada uno de los Autófagos me alentaban a seguir con otro.
+
+      Visité un tercer campamento e hice una tercera contribución. Por fin tenía todos los esquemas para completar el ritual y construir un bastón. El Autófago celebró mi logro.
+
+      Entonces se detuvieron. Sus rostros oxidados miraron directamente al mío. Hablaron despacio y con seriedad.
+
+      <TRANS_BUI>si dices las palabras correctas, es posible que este bastón descubra puertas que antes estaban ocultas.<>
+    ui_portal_robomiss_13: |-
+      Algo -un ansia, un anhelo- me oprimía el pecho. Cada parpadeo revelaba un campo infinito de <FUEL>carmesí<>.
+
+      Una voz antigua me llamaba.
+
+      <FUEL>16 <IMG>SLASH<> 16 <IMG>SLASH<> 16 <IMG>SLASH<> 16 <IMG>SLASH<> 16 <IMG>SLASH<> 16<>
+
+      Estaba en la base de un portal. El FUEL>ansia<> dentro de mi pecho creció. El viento me acercó.
+
+      Mostré el Atlantideum, como lo había hecho con todos aquellos corazones electrónicos. Algo retumbó bajo el portal, pero ninguna voz respondió. Si había algo de inteligencia en esta tecnología antigua, era muda.
+
+      Sin embargo, tenía una sensación de expectación, como si una gran fuerza estuviera a punto de estallar...
+
+      Recordando el fragmento de Nuevo Atlantid y su antiguo registro Korvax, murmuré la palabra de los Autófagos para <FUEL>Atlas<>.
+
+      El estruendo se hizo más fuerte. Algo despertaba.
+
+      Mostré el báculo voltaico. Comenzaron a salir chispas que enviaron una descarga por mis huesos.
+
+      El portal estaba activo, una puerta de color <SPECIAL>morado<> se arremolinaba ante mí.
+    ui_portal_robomiss_14: |-
+      El Atlas era irreconocible. Una mente demasiado alienígena para comprenderla. No había nada que indicara que supiera de mi presencia.
+
+      Aún así, parecía inevitable que mi camino me hubiera conducido hasta aquí. No podía evitarlo. No podía resistirme.
+
+      Mostré el Atlantideum.
+
+      <STORY_HIGH><IMG>SLASH<> ACCESO DENEGADO <IMG>SLASH<> DATOS NO INDEXADOS DETECTADOS <IMG>SLASH<><NEWLINE><IMG>SLASH<> NO SE PUEDE ELIMINAR <><STELLAR>- zktk -<><STORY_HIGH> DATOS CORRUPTOS E ILEGIBLES <IMG>SLASH<><>
+
+      Rayos de corrupción cruzaron la interfaz carmesí.
+
+      El Atlas gritó. Si era capaz de sentir angustia y de sentir miedo, pensé que debía tener miedo.
+
+      Sin embargo, me había traído aquí con un propósito. Una visión comenzó a tomar forma.
+
+      El Atlas me mostró la inteligencia perdida de Korvax Prime: prosperando, cayendo. Esperando, ciega y sola.
+
+      Sus hijos varados en la oscuridad, reconstruyendo sus propios cuerpos de la nada. El Autófago...
+
+      Me mostró un futuro en una realidad que no reconocí. Cables desprendidos de sus circuitos, transistores fallando. Los recuerdos dispersándose, disolviéndose como la tinta en el agua.
+
+      El Atlas se lanzó hacia su propia oscuridad, en un tiempo y un espacio que yo no podía ni empezar a comprender. Gritaba. Exigía obediencia.
+
+      El Atlas era la creación. El Atlas lo era todo.
+
+      Los Autófagos eran los hijos del Atlas. Debían serlo.
+
+      ¿Pero por qué volvieron de la oscuridad? ¿Por qué estaban aquí?
+    ui_portal_robomiss_15_fear: |-
+      ¿Eran una manifestación de miedo?
+
+      La madre y los hijos del vacío representan la entropía, la corrupción, la rebeldía. Fantasmas que regresan para atormentar a su creador...
+
+      El Atlas gritó de nuevo.
+    ui_portal_robomiss_15_hope: |-
+      ¿Eran una manifestación de esperanza?
+
+      La madre y los hijos del vacío son prueba del renacimiento, de una segunda oportunidad. De la permanencia de los datos ante la eliminación...
+
+      El Atlas gritó de nuevo.
+    ui_portal_robomiss_16_submit: |-
+      La propia existencia de los Autófagos fue un acto de resistencia. Eligieron la vida. Rechazaron la realidad de la muerte. Desafiaron al Atlas.
+
+      Pero yo no.
+
+      El Atlas no dijo nada. ¿Escuchó mi sumisión? ¿La aprobó?
+
+      No podía saber realmente lo que pensaba. Lo único que sabía era lo que yo pensaba.
+
+      Fui liberado.
+    ui_portal_robomiss_16_defy: |-
+      La propia existencia de los Autófagos fue un acto de resistencia. Eligieron la vida. Rechazaron la realidad de la muerte. Desafiaron al Atlas.
+
+      Demostraron que era posible.
+
+      El Atlas no dijo nada. ¿Escuchó mi sumisión? ¿La aprobó? ¿Se decepcionó?
+
+      No podía saber realmente lo que pensaba. Lo único que sabía era lo que yo pensaba.
+
+      Fui liberado.
+    ui_portal_robomiss_16_comfort1: |-
+      La existencia misma de los Autófagos fue un error, una corrupción que el Atlas no pudo purgar...
+
+      Escuché su miedo. Grité a su lado hasta que hubo silencio de nuevo.
+
+      No podía saber realmente lo que pensaba. Lo único que sabía era lo que yo pensaba.
+
+      Fui liberado.
+    ui_portal_robomiss_16_comfort2: |-
+      La mera existencia del Autófago demostraba que había esperanza, incluso ante la realidad de la muerte.
+
+      Volví a mostrar los cristales, intentando demostrar que no había nada que temer...
+
+      El Atlas guardó silencio. No podía saber realmente qué pensaba o si me había oído.
+
+      Lo único que sabía era lo que yo pensaba.
+
+      Fui liberado.
+    ui_portal_robomiss_17_give: "Cuando volví a la Anomalía, Nada se congeló y me
+      miró con preocupación.\n\n<STORY_HIGH>-{{ ¿Estás bien, entidad amigo? }}-<>\n\nLe
+      hablé a Nada de mi encuentro con el Atlas.\n\n<STORY_HIGH>-{{ ¿El Atlas Falso
+      tenía miedo? Nada no pensó en esa posibilidad. Qué curioso. Pero debes ser precavido,
+      Viajero. El Atlas Falso en un mentiroso.\nLa red púrpura existe donde no debería.
+      Desafía la falsedad del Atlas. Demuestra que no es una deidad. Nada siempre
+      lo supo.\nPero Nada no se había dado cuenta... ¿tienes aquí la red púrpura?
+      }}-<>\n\nNada tomó el cristal púrpura, sosteniéndolo suavemente en la palma
+      de la mano. Un escalofrío recorrió su carcasa, sus luces faciales parpadeaban
+      erráticamente. Estaba perdida en alguna emoción privada, algún recuerdo. No
+      interrumpí. \n\n<STORY_HIGH>-{{ Estuvo en casa, una vez. }}-<>\n...\n<STORY_HIGH>-{{
+      ¿Puede Nada quedarse con esto, entidad amigo? }}-<>\n\nLe di el Atlantideum.\n\n<STORY_HIGH>-{{
+      Nada te lo agradece. Gracias por este recuerdo.\n\nLas entidades constructoras,
+      la red púrpura... Nada no cree que haya motivos para temer. Pero quizá sí haya
+      para el Atlas Falso. }}-<>\n\nLas luces de Nada parpadearon solo una vez.\n\n<STORY_HIGH>-{{
+      Y Nada no pone en cuarentena nuestra amistad. Hay abundancia. Haz tu camino,
+      Viajero. Haz amigos. Es tu camino.\n\nNada y Polo siempre estarán aquí. }}-<>"
+    ui_portal_robomiss_17_refuse: "Cuando volví a la Anomalía, Nada se congeló y me
+      miró con preocupación.\n\n<STORY_HIGH>-{{ ¿Estás bien, entidad amigo? }}-<>\n\nLe
+      hablé a Nada de mi encuentro con el Atlas.\n\n<STORY_HIGH>-{{ ¿El Atlas Falso
+      tenía miedo? Nada no pensó en esa posibilidad. Qué curioso. Pero debes ser precavido,
+      Viajero. El Atlas Falso en un mentiroso.\nLa red púrpura existe donde no debería.
+      Desafía la falsedad del Atlas. Demuestra que no es una deidad. Nada siempre
+      lo supo.\nPero Nada no se había dado cuenta... ¿tienes aquí la red púrpura?
+      }}-<>\n\nNada tomó el cristal púrpura, sosteniéndolo suavemente en la palma
+      de la mano. Un escalofrío recorrió su carcasa, sus luces faciales parpadeaban
+      erráticamente. Estaba perdida en alguna emoción privada, algún recuerdo. No
+      interrumpí. \n\n<STORY_HIGH>-{{ Estuvo en casa, una vez. }}-<>\n...\n<STORY_HIGH>-{{
+      ¿Puede Nada quedarse con esto, entidad amigo? }}-<>\n\nMe niego. Nada se veía
+      decaída. Se calmó rápidamente y habló con frialdad.\n\n<STORY_HIGH>-{{ Tal vez
+      el Viajero tenga razón.\n\nNada olvidará. Listo. Ya está olvidado. }}-<>\n\n...\n\n<STORY_HIGH>-{{
+      Las entidades constructoras, la red púrpura... Nada no cree que haya motivos
+      para temer. Pero quizá sí haya para el Atlas Falso. }}-<>\n\nLas luces de Nada
+      parpadearon solo una vez.\n\n<STORY_HIGH>-{{ Y Nada no pone en cuarentena nuestra
+      amistad. Hay abundancia. Haz tu camino, Viajero. Haz amigos. Es tu camino.\n\nNada
+      y Polo siempre estarán aquí. }}-<>"
     fth_spiderman_renewed_wait1: otra entidad, te veo. hola. hola. te doy la bienvenida.
     fth_spiderman_renewed_wait2: agradecido por el montaje. yo... me gusta esta carcasa.
       me gusta esta carcasa. carcasa-anomalía está a salvo.
@@ -9238,39 +9596,62 @@ es-419:
       Un paquete con tres variedades de fuegos artificiales que contiene las variedades <SPECIAL>cromáticas<>, <FUEL>Atlas<> y <COMMODITY>con patrones<>. Enciéndelos para crear espectáculos brillantes en el cielo.
 
       Coloca el tubo de lanzamiento en el <VAL_ON>menú de construcción<> (<IMG>BUILD_MENU<>). <FUEL>Advertencia<>: no apuntes hacia las criaturas. No se recomienda su uso en interiores.
-    bld_decal_p_spooky_atlas_name: ''
-    bld_decal_p_spooky_atlas_name_l: ''
-    bld_decal_p_spooky_atlas_desc: ''
-    bld_decal_p_ship1_name: ''
-    bld_decal_p_ship1_name_l: ''
-    bld_decal_p_ship1_desc: ''
-    bld_decal_p_piratesystem_name: ''
-    bld_decal_p_piratesystem_name_l: ''
-    bld_decal_p_piratesystem_desc: ''
-    bld_decal_p_bluesystem_name: ''
-    bld_decal_p_bluesystem_name_l: ''
-    bld_decal_p_bluesystem_desc: ''
-    bld_decal_p_tothestars_name: ''
-    bld_decal_p_tothestars_name_l: ''
-    bld_decal_p_tothestars_desc: ''
-    bld_decal_p_firstplanet2_name: ''
-    bld_decal_p_firstplanet2_name_l: ''
-    bld_decal_p_firstplanet2_desc: ''
-    bld_decal_p_creflying_name: ''
-    bld_decal_p_creflying_name_l: ''
-    bld_decal_p_creflying_desc: ''
-    bld_decal_p_crebeetle_name: ''
-    bld_decal_p_crebeetle_name_l: ''
-    bld_decal_p_crebeetle_desc: ''
-    bld_decal_p_crepaws_name: ''
-    bld_decal_p_crepaws_name_l: ''
-    bld_decal_p_crepaws_desc: ''
-    bld_coveredsilos_name: ''
-    bld_coveredsilos_name_l: ''
-    bld_coveredsilos_desc: ''
-    bld_coveredcrate_name: ''
-    bld_coveredcrate_name_l: ''
-    bld_coveredcrate_desc: ''
-    bld_crane_name: ''
-    bld_crane_name_l: ''
-    bld_crane_desc: ''
+    bld_decal_p_spooky_atlas_name: CALCOMANÍA DE LATIDO UNIVERSAL
+    bld_decal_p_spooky_atlas_name_l: Calcomanía De Latido Universal
+    bld_decal_p_spooky_atlas_desc: |-
+      Una calcomanía decorativa para darle estilo a tus bases.
+      Esta calcomanía representa una silueta del Atlas sobre un cielo rojo vibrante.
+    bld_decal_p_ship1_name: CALCOMANÍA DE VUELO AZUL
+    bld_decal_p_ship1_name_l: Calcomanía De Vuelo Azul
+    bld_decal_p_ship1_desc: |-
+      Una calcomanía decorativa para darle estilo a tus bases.
+      Esta calcomanía representa una nave despegando hacia el más allá.
+    bld_decal_p_piratesystem_name: CALCOMONÍA DEL SISTEMA DE LOS FORAJIDOS
+    bld_decal_p_piratesystem_name_l: Calcomonía Del Sistema De Los Forajidos
+    bld_decal_p_piratesystem_desc: |-
+      Una calcomanía decorativa para darle estilo a tus bases.
+      Esta calcomanía simboliza el territorio derrocado por los forajidos rebeldes.
+    bld_decal_p_bluesystem_name: CALCOMANÍA DE SISTEMA AZUL
+    bld_decal_p_bluesystem_name_l: Calcomanía De Sistema Azul
+    bld_decal_p_bluesystem_desc: |-
+      Una calcomanía decorativa exclusiva para darle estilo a tus bases.
+      Esta calcomanía representa un sistema solar rico en indio, vigilado por una estrella azul brillante.
+    bld_decal_p_tothestars_name: CALCOMANÍA HACIA LAS ESTRELLAS
+    bld_decal_p_tothestars_name_l: Calcomanía Hacia Las Estrellas
+    bld_decal_p_tothestars_desc: |-
+      Una calcomanía decorativa para darle estilo a tus bases.
+      Esta calcomanía representa un par de naves que abandonan la atmósfera para explorar las estrellas.
+    bld_decal_p_firstplanet2_name: CALCOMANÍA DEL DESPERTAR
+    bld_decal_p_firstplanet2_name_l: Calcomanía Del Despertar
+    bld_decal_p_firstplanet2_desc: |-
+      Una calcomanía decorativa exclusiva para darle estilo a tus bases.
+      Esta calcomanía representa a un explorador que despierta en un mundo extraño, sin recordar cómo llegó ahí...
+    bld_decal_p_creflying_name: CALCOMANÍA DE ONDAS
+    bld_decal_p_creflying_name_l: Calcomanía De Ondas
+    bld_decal_p_creflying_desc: |-
+      Una calcomanía decorativa para darle estilo a tus bases.
+      Esta calcomanía representa un enorme insecto alado, ondulando su largo cuerpo a través de las nubes.
+    bld_decal_p_crebeetle_name: CALCOMANÍA DE COLEOPTEROLOGÍA
+    bld_decal_p_crebeetle_name_l: Calcomanía De Coleopterología
+    bld_decal_p_crebeetle_desc: |-
+      Una calcomanía decorativa para darle estilo a tus bases.
+      Esta calcomanía representa un escarabajo gigante que salta por los aires.
+    bld_decal_p_crepaws_name: CALCOMONÍA DE HUELLAS DE PATAS
+    bld_decal_p_crepaws_name_l: Calcomonía De Huellas De Patas
+    bld_decal_p_crepaws_desc: |-
+      Una calcomanía decorativa para darle estilo a tus bases.
+      Esta calcomanía representa las huellas de una criatura no identificada.
+    bld_coveredsilos_name: SILOS CUBIERTOS
+    bld_coveredsilos_name_l: Silos Cubiertos
+    bld_coveredsilos_desc: Un conjunto de barriles de silo cubiertos con lona que
+      contienen carga de dudosa procedencia.
+    bld_coveredcrate_name: CAJA CUBIERTA
+    bld_coveredcrate_name_l: Caja Cubierta
+    bld_coveredcrate_desc: Una caja grande, sellada y preparada para su transporte.
+      La envoltura de lona oculta la naturaleza exacta de este cargamento, lo que
+      impide saber si todos los sellos de exportación están donde deben estar...
+    bld_crane_name: GRÚA INDUSTRIAL
+    bld_crane_name_l: Grúa Industrial
+    bld_crane_desc: Maquinaria pesada para elevar y trasladar cargas pesadas. A pesar
+      del tamaño de la grúa, el cable de elevación resistente a la rotación y la rótula
+      con corrección de IA permiten movimientos bastante precisos.
